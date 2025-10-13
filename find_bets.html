@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Bets - Football Stats Explorer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <i class="fas fa-futbol"></i>
+                <span>Football Stats</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">
+                        <i class="fas fa-chart-line"></i>
+                        Team Analysis
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="find_bets.html" class="nav-link active">
+                        <i class="fas fa-search"></i>
+                        Find Bets
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="header">
+            <h1>Find Betting Opportunities</h1>
+            <p>Analyze upcoming fixtures based on teams' recent form and statistical trends</p>
+        </div>
+
+        <div class="card">
+            <div class="card__body">
+                <form id="betFinderForm" class="input-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="fixtureDate" class="form-label">
+                                <i class="fas fa-calendar-alt"></i> Fixture Date
+                            </label>
+                            <input 
+                                type="date" 
+                                id="fixtureDate" 
+                                name="fixtureDate" 
+                                class="form-control" 
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="lastMatches" class="form-label">
+                                <i class="fas fa-history"></i> Last Matches per Team
+                            </label>
+                            <select id="lastMatches" name="lastMatches" class="form-control">
+                                <option value="3">Last 3 matches</option>
+                                <option value="5" selected>Last 5 matches</option>
+                                <option value="8">Last 8 matches</option>
+                                <option value="10">Last 10 matches</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="category" class="form-label">
+                                <i class="fas fa-tag"></i> Category
+                            </label>
+                            <select id="category" name="category" class="form-control" required>
+                                <option value="">Select category</option>
+                                <option value="goals">Goals</option>
+                                <option value="shots">Shots</option>
+                                <option value="corners">Corners</option>
+                                <option value="cards">Cards</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="threshold" class="form-label">
+                                <i class="fas fa-sliders-h"></i> Threshold
+                            </label>
+                            <select id="threshold" name="threshold" class="form-control" required disabled>
+                                <option value="">Select threshold</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="overUnder" class="form-label">
+                                <i class="fas fa-arrows-alt-v"></i> Over/Under
+                            </label>
+                            <select id="overUnder" name="overUnder" class="form-control" required>
+                                <option value="">Select over/under</option>
+                                <option value="over">Over</option>
+                                <option value="under">Under</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="minSuccessRate" class="form-label">
+                                <i class="fas fa-percentage"></i> Min Success Rate
+                            </label>
+                            <input type="number" id="minSuccessRate" name="minSuccessRate" class="form-control" min="0" max="100" step="1" value="85" placeholder="Enter minimum percent" required>
+                        </div>
+
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" id="findBetsBtn" class="btn btn--primary btn--full-width">
+                            <span class="btn-text">
+                                <i class="fas fa-search"></i>
+                                Find Betting Opportunities
+                            </span>
+                            <span class="btn-loading hidden">
+                                <i class="fas fa-spinner fa-spin"></i>
+                                Analyzing Fixtures...
+                            </span>
+                        </button>
+                    </div>
+                </form>
+
+                <div id="errorMessage" class="error-message hidden"></div>
+            </div>
+        </div>
+
+        <div id="loadingStatus" class="loading-status hidden">
+            <div class="loading-content">
+                <i class="fas fa-spinner fa-spin"></i>
+                <span id="loadingText">Loading data...</span>
+            </div>
+        </div>
+
+        <div id="results" class="results hidden">
+            <!-- Results will be populated here by JavaScript -->
+        </div>
+    </div>
+
+    <script src="find_bets.js"></script>
+</body>
+</html>
