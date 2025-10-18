@@ -1,4 +1,3 @@
-
 // Find Builders - Multi-Criteria Bet Builder Analysis
 // Based on find_bets.js but extended for multiple criteria with same visual display
 
@@ -183,8 +182,6 @@ const fixtureDateInput = document.getElementById('fixtureDate');
 const lastMatchesSelect = document.getElementById('lastMatches');
 const minSuccessRateSelect = document.getElementById('minSuccessRate');
 const findBuildersBtn = document.getElementById('findBuildersBtn');
-const historicalSummaryContainer = document.getElementById('historical-summary');
-const resultsContainer           = document.getElementById('results-container');
 const btnText = document.querySelector('.btn-text');
 const btnLoading = document.querySelector('.btn-loading');
 const errorMessage = document.getElementById('errorMessage');
@@ -200,7 +197,6 @@ document.addEventListener('DOMContentLoaded', function () {
   loadAllData();
   setupEventListeners();
   addCriteriaSection(); // Start with one criteria
-  
 });
 
 // Initialize league selection (same as find_bets)
@@ -334,6 +330,46 @@ function addCriteriaSection() {
           <option value="under">Under</option>
         </select>
       </div>
+    </div>
+
+    <!-- NEW: Historical Pattern Analysis -->
+    <div class="historical-analysis">
+      <h4><i class="fas fa-history"></i> Historical Pattern Validation</h4>
+      <p class="historical-description">
+        Analysis of past matches where both teams had 100% success rate with these criteria
+      </p>
+      <div class="historical-stats">
+        <div class="historical-stat-card">
+          <div class="historical-stat-label">Historical Occurrences</div>
+          <div class="historical-stat-value">${opportunity.historicalAnalysis.totalMatches}</div>
+          <div class="historical-stat-sublabel">Times this pattern appeared</div>
+        </div>
+        <div class="historical-stat-card">
+          <div class="historical-stat-label">Successful Outcomes</div>
+          <div class="historical-stat-value success">${opportunity.historicalAnalysis.successfulMatches}</div>
+          <div class="historical-stat-sublabel">Criteria were met</div>
+        </div>
+        <div class="historical-stat-card">
+          <div class="historical-stat-label">Failed Outcomes</div>
+          <div class="historical-stat-value fail">${opportunity.historicalAnalysis.totalMatches - opportunity.historicalAnalysis.successfulMatches}</div>
+          <div class="historical-stat-sublabel">Criteria were not met</div>
+        </div>
+        <div class="historical-stat-card highlight">
+          <div class="historical-stat-label">Historical Success Rate</div>
+          <div class="historical-stat-value ${opportunity.historicalAnalysis.successRate >= 70 ? 'good' : opportunity.historicalAnalysis.successRate >= 50 ? 'average' : 'poor'}">${opportunity.historicalAnalysis.successRate}%</div>
+          <div class="historical-stat-sublabel">When pattern occurred</div>
+        </div>
+      </div>
+      ${opportunity.historicalAnalysis.totalMatches === 0 ? 
+        '<div class="no-historical-data"><i class="fas fa-info-circle"></i> No historical data found for this exact pattern</div>' : 
+        `<div class="historical-confidence">
+          <strong>Confidence Level:</strong> ${
+            opportunity.historicalAnalysis.successRate >= 70 && opportunity.historicalAnalysis.totalMatches >= 10 ? '🟢 High (Strong historical support)' :
+            opportunity.historicalAnalysis.successRate >= 50 && opportunity.historicalAnalysis.totalMatches >= 5 ? '🟡 Medium (Moderate historical support)' :
+            '🔴 Low (Limited historical data)'
+          }
+        </div>`
+      }
     </div>
   `;
 
@@ -522,64 +558,62 @@ async function handleFormSubmit(e) {
     setLoading(false);
   }
 }
-// Finds all historical fixtures where both teams had 100% success
-function findHistoricalPatterns(criteria, lastMatches) {
-  const patterns = [];
-  const byDate = {};
-  allMatchesData.forEach(m => {
-    if (!m.date) return;
-    const d = m.date.toISOString().split('T')[0];
-    (byDate[d]||(byDate[d]=[])).push(m);
-  });
-  Object.values(byDate).forEach(fixtures => {
-    fixtures.forEach(f => {
-      const hHist = getTeamLastMatches(f.homeTeam, lastMatches, f.date);
-      const aHist = getTeamLastMatches(f.awayTeam, lastMatches, f.date);
-      if (hHist.length<3 || aHist.length<3) return;
-      const hA = analyzeTeamMatchesMultiCriteria(hHist, criteria);
-      const aA = analyzeTeamMatchesMultiCriteria(aHist, criteria);
-      if (hA.successRate===100 && aA.successRate===100) {
-        const met = checkIfMatchMeetsCriteria(f, criteria);
-        patterns.push({ fixture:f, fixtureMetCriteria:met });
-      }
-    });
-  });
-  return patterns;
-}
-
-function checkIfMatchMeetsCriteria(match, criteria) {
-  return criteria.every(c => {
-    const key = 'total' + c.category.charAt(0).toUpperCase()+c.category.slice(1);
-    const val = match[key]||0;
-    return c.overUnder==='over'? val>c.threshold : val<c.threshold;
-  });
-}
 
 // Analyze fixtures for a specific date with multiple criteria
 function analyzeFixturesForDate(fixtureDate, lastMatches, criteria, minSuccessRate) {
-  const dateKey = new Date(fixtureDate).toDateString();
-  const fixturesOnDate = allFixturesData.filter(f => new Date(f.date).toDateString()===dateKey);
-  // 1) Run historical analysis ONCE
-  const histPatterns = findHistoricalPatterns(criteria, lastMatches);
-  const total = histPatterns.length;
-  const succ  = histPatterns.filter(p=>p.fixtureMetCriteria).length;
-  const histSummary = {
-    totalMatches: total,
-    successfulMatches: succ,
-    successRate: total?Math.round(succ/total*100):0,
-    criteriaText: criteria.map(c=>c.overUnder+' '+c.threshold+' '+c.category).join(' + ')
-  };
-  // 2) Find today’s qualifying fixtures
-  const opportunities = fixturesOnDate.reduce((arr,f) => {
-    const a = analyzeFixtureMultiCriteria(f, lastMatches, criteria);
-    if (a && a.combinedSuccessRate>=minSuccessRate) {
-      arr.push({ fixture:f, analysis:a });
-    }
-    return arr;
-  }, []);
-  return { opportunities, historicalAnalysis:histSummary };
-}
+  const targetDate = new Date(fixtureDate);
+  const opportunities = [];
 
+  console.log(`🔍 Looking for fixtures on ${fixtureDate} with ${criteria.length} criteria...`);
+
+  const fixturesOnDate = allFixturesData.filter(fixture => {
+    return fixture.date.toDateString() === targetDate.toDateString() &&
+           selectedLeagues.has(fixture.leagueId);
+  });
+
+  console.log(`📅 Found ${fixturesOnDate.length} fixtures for ${fixtureDate}`);
+
+  if (fixturesOnDate.length === 0) {
+    console.warn('No fixtures found for the selected date');
+    return [];
+  }
+
+  fixturesOnDate.forEach(fixture => {
+    try {
+      const analysis = analyzeFixtureMultiCriteria(fixture, lastMatches, criteria);
+
+      if (analysis && analysis.combinedSuccessRate >= minSuccessRate) {
+        // NEW: Find historical patterns for this criteria combination
+        const historicalData = findHistoricalPatterns(criteria, lastMatches);
+        const historicalSuccess = historicalData.filter(h => h.fixtureMetCriteria).length;
+        const historicalTotal = historicalData.length;
+        const historicalSuccessRate = historicalTotal > 0 
+          ? Math.round((historicalSuccess / historicalTotal) * 100) 
+          : 0;
+
+        opportunities.push({
+          fixture: fixture,
+          analysis: analysis,
+          successRate: analysis.combinedSuccessRate,
+          // NEW: Add historical data
+          historicalAnalysis: {
+            totalMatches: historicalTotal,
+            successfulMatches: historicalSuccess,
+            successRate: historicalSuccessRate,
+            patterns: historicalData
+          }
+        });
+        console.log(`✅ ${fixture.homeTeam} vs ${fixture.awayTeam}: ${analysis.combinedSuccessRate}% success rate`);
+      } else if (analysis) {
+        console.log(`❌ ${fixture.homeTeam} vs ${fixture.awayTeam}: ${analysis.combinedSuccessRate}% (below threshold)`);
+      }
+    } catch (error) {
+      console.warn(`Error analyzing fixture ${fixture.homeTeam} vs ${fixture.awayTeam}:`, error);
+    }
+  });
+
+  return opportunities.sort((a, b) => b.successRate - a.successRate);
+}
 
 // Analyze a single fixture with multiple criteria - FIXED to show individual match results
 function analyzeFixtureMultiCriteria(fixture, lastMatches, criteria) {
@@ -615,46 +649,34 @@ function analyzeFixtureMultiCriteria(fixture, lastMatches, criteria) {
   };
 }
 
-// === OPTIMIZED HISTORICAL PATTERN ANALYSIS ===
+
+
+// === NEW FEATURE: Historical Pattern Analysis ===
 // This function finds historical matches where both teams had 100% success rate
-// and checks if those matches also met the criteria - SCANS ALL AVAILABLE DATA
+// and checks if those matches also met the criteria
 function findHistoricalPatterns(criteria, lastMatches) {
-  console.log('🔍 Searching for historical patterns across ALL available data...');
+  console.log('🔍 Searching for historical patterns...');
 
   const historicalPatterns = [];
 
-  // Process ALL matches in the dataset - no date restrictions
-  console.log(`📊 Processing ${allMatchesData.length} total matches for historical analysis`);
-
-  // Group matches by fixture (same date, different matches on same day)
-  const fixturesByDate = {};
+  // Group all matches by date to find fixtures
+  const matchesByDate = {};
   allMatchesData.forEach(match => {
-    if (!match.date) return;
-
     const dateKey = match.date.toISOString().split('T')[0];
-    if (!fixturesByDate[dateKey]) {
-      fixturesByDate[dateKey] = [];
+    if (!matchesByDate[dateKey]) {
+      matchesByDate[dateKey] = [];
     }
-    fixturesByDate[dateKey].push(match);
+    matchesByDate[dateKey].push(match);
   });
 
-  let processedFixtures = 0;
-
   // Analyze each historical fixture
-  Object.entries(fixturesByDate).forEach(([dateKey, matches]) => {
+  Object.entries(matchesByDate).forEach(([dateKey, matches]) => {
     matches.forEach(fixture => {
-      processedFixtures++;
-
-      // Show progress every 1000 fixtures
-      if (processedFixtures % 1000 === 0) {
-        console.log(`📈 Processed ${processedFixtures} fixtures for historical analysis...`);
-      }
-
       // Get last N matches for both teams BEFORE this fixture date
       const homeTeamHistory = getTeamLastMatches(fixture.homeTeam, lastMatches, fixture.date);
       const awayTeamHistory = getTeamLastMatches(fixture.awayTeam, lastMatches, fixture.date);
 
-      // Need minimum matches for both teams (at least 3 matches even if user selected more)
+      // Need minimum matches for both teams
       if (homeTeamHistory.length < Math.min(3, lastMatches) || 
           awayTeamHistory.length < Math.min(3, lastMatches)) {
         return;
@@ -664,7 +686,7 @@ function findHistoricalPatterns(criteria, lastMatches) {
       const homeAnalysis = analyzeTeamMatchesMultiCriteria(homeTeamHistory, criteria);
       const awayAnalysis = analyzeTeamMatchesMultiCriteria(awayTeamHistory, criteria);
 
-      // Check if BOTH teams had 100% success rate (this is the pattern we're looking for)
+      // Check if BOTH teams had 100% success rate
       if (homeAnalysis.successRate === 100 && awayAnalysis.successRate === 100) {
         // Now check if THIS fixture also met the criteria
         const fixtureMetCriteria = checkIfMatchMeetsCriteria(fixture, criteria);
@@ -676,18 +698,15 @@ function findHistoricalPatterns(criteria, lastMatches) {
           league: fixture.league,
           fixtureMetCriteria: fixtureMetCriteria,
           fixtureStats: {
-            goals: fixture.totalGoals || 0,
-            corners: fixture.totalCorners || 0,
-            cards: fixture.totalCards || 0,
-            shots: fixture.totalShots || 0
+            goals: fixture.totalGoals,
+            corners: fixture.totalCorners,
+            cards: fixture.totalCards,
+            shots: fixture.totalShots
           }
         });
       }
     });
   });
-
-  console.log(`✅ Historical analysis complete: Found ${historicalPatterns.length} patterns from ${processedFixtures} total fixtures`);
-  console.log(`📅 Date range: ${Math.min(...allMatchesData.map(m => m.date?.getFullYear() || 9999))} - ${Math.max(...allMatchesData.map(m => m.date?.getFullYear() || 0))}`);
 
   return historicalPatterns;
 }
@@ -701,7 +720,7 @@ function checkIfMatchMeetsCriteria(match, criteria) {
     const dataKey = `total${category.charAt(0).toUpperCase() + category.slice(1)}`;
     const value = match[dataKey];
 
-    if (value === undefined || value === null) {
+    if (value === undefined) {
       allCriteriaMet = false;
       return;
     }
@@ -721,112 +740,6 @@ function checkIfMatchMeetsCriteria(match, criteria) {
   return allCriteriaMet;
 }
 
-function analyzeFixturesForDate(fixtureDate, lastMatches, criteria, minSuccessRate) {
-  const targetDate = new Date(fixtureDate);
-  const opportunities = [];
-
-  console.log(`🔍 Looking for fixtures on ${fixtureDate} with ${criteria.length} criteria...`);
-
-  const fixturesOnDate = allFixturesData.filter(fixture => {
-    const fixtureDate = new Date(fixture.date);
-    return fixtureDate.toDateString() === targetDate.toDateString();
-  });
-
-  console.log(`📅 Found ${fixturesOnDate.length} fixtures on ${fixtureDate}`);
-
-  if (fixturesOnDate.length === 0) {
-    return {
-      opportunities: [],
-      historicalAnalysis: {
-        totalMatches: 0,
-        successfulMatches: 0,
-        successRate: 0,
-        patterns: [],
-        criteriaText: criteria.map(c => `${c.overUnder} ${c.threshold} ${c.category}`).join(' + ')
-      }
-    };
-  }
-
-  // NEW: Run historical analysis ONCE for this criteria combination
-  console.log('🕒 Running historical pattern analysis (this may take a moment)...');
-  const historicalPatterns = findHistoricalPatterns(criteria, lastMatches);
-  const historicalSuccess = historicalPatterns.filter(h => h.fixtureMetCriteria).length;
-  const historicalTotal = historicalPatterns.length;
-  const historicalSuccessRate = historicalTotal > 0 
-    ? Math.round((historicalSuccess / historicalTotal) * 100) 
-    : 0;
-
-  const historicalAnalysis = {
-    totalMatches: historicalTotal,
-    successfulMatches: historicalSuccess,
-    successRate: historicalSuccessRate,
-    patterns: historicalPatterns,
-    criteriaText: criteria.map(c => `${c.overUnder} ${c.threshold} ${c.category}`).join(' + ')
-  };
-
-  console.log(`📊 Historical analysis: ${historicalSuccess}/${historicalTotal} = ${historicalSuccessRate}%`);
-
-  // Now analyze each fixture (without running historical analysis again)
-  fixturesOnDate.forEach(fixture => {
-    try {
-      const analysis = analyzeFixtureMultiCriteria(fixture, lastMatches, criteria);
-      if (analysis && analysis.combinedSuccessRate >= minSuccessRate) {
-        opportunities.push({
-          fixture: fixture,
-          analysis: analysis,
-          successRate: analysis.combinedSuccessRate
-        });
-        console.log(`✅ ${fixture.homeTeam} vs ${fixture.awayTeam}: ${analysis.combinedSuccessRate}% success rate`);
-      } else if (analysis) {
-        console.log(`❌ ${fixture.homeTeam} vs ${fixture.awayTeam}: ${analysis.combinedSuccessRate}% (below threshold)`);
-      }
-    } catch (error) {
-      console.warn(`Error analyzing fixture ${fixture.homeTeam} vs ${fixture.awayTeam}:`, error);
-    }
-  });
-
-  console.log(`🎯 Found ${opportunities.length} qualifying opportunities`);
-
-  return {
-    opportunities: opportunities,
-    historicalAnalysis: historicalAnalysis
-  };
-}
-
-
-// Analyze a single fixture with multiple criteria - FIXED to show individual match results
-function analyzeFixtureMultiCriteria(fixture, lastMatches, criteria) {
-  const homeTeamMatches = getTeamLastMatches(fixture.homeTeam, lastMatches, fixture.date);
-  const awayTeamMatches = getTeamLastMatches(fixture.awayTeam, lastMatches, fixture.date);
-
-  if (homeTeamMatches.length < Math.min(3, lastMatches) || awayTeamMatches.length < Math.min(3, lastMatches)) {
-    console.log(`⚠️ Not enough data for ${fixture.homeTeam} (${homeTeamMatches.length}) vs ${fixture.awayTeam} (${awayTeamMatches.length})`);
-    return null;
-  }
-
-  const combinedMatches = [...homeTeamMatches, ...awayTeamMatches];
-
-  // Analyze home team with ALL criteria
-  const homeAnalysis = analyzeTeamMatchesMultiCriteria(homeTeamMatches, criteria);
-  // Analyze away team with ALL criteria  
-  const awayAnalysis = analyzeTeamMatchesMultiCriteria(awayTeamMatches, criteria);
-  // Analyze combined with ALL criteria
-  const combinedAnalysis = analyzeTeamMatchesMultiCriteria(combinedMatches, criteria);
-
-  return {
-    homeTeam: fixture.homeTeam,
-    awayTeam: fixture.awayTeam,
-    league: fixture.league,
-    homeAnalysis: homeAnalysis,
-    awayAnalysis: awayAnalysis,
-    combinedSuccessRate: combinedAnalysis.successRate,
-    combinedSuccessCount: combinedAnalysis.successCount,
-    totalMatches: combinedMatches.length,
-    homeMatches: homeTeamMatches,
-    awayMatches: awayTeamMatches,
-    criteriaText: criteria.map(c => `${c.category} ${c.overUnder} ${c.threshold}`).join(', ')
-  };
-}
 
 // Analyze team matches with multiple criteria - ALL must pass for success
 function analyzeTeamMatchesMultiCriteria(matches, criteria) {
@@ -896,35 +809,24 @@ function getTeamLastMatches(teamName, numMatches, beforeDate) {
 }
 
 // Render results with individual match cards (like find_bets)
-function renderResults(result, criteria) {
-  const { opportunities, historicalAnalysis } = result;
-  // Clear existing
-  historicalSummaryContainer.innerHTML = '';
-  resultsContainer.innerHTML           = '';
-  // Historical summary
-  historicalSummaryContainer.innerHTML = `
-    <div class="historical-summary-card">
-      <h3>Historical Pattern Validation</h3>
-      <p>Criteria: ${historicalAnalysis.criteriaText}</p>
-      <div class="historical-stats-grid">
-        <div class="stat">📈 ${historicalAnalysis.totalMatches}<br>Patterns</div>
-        <div class="stat success">✅ ${historicalAnalysis.successfulMatches}<br>Successful</div>
-        <div class="stat fail">❌ ${historicalAnalysis.totalMatches-historicalAnalysis.successfulMatches}<br>Failed</div>
-        <div class="stat highlight">${historicalAnalysis.successRate}%<br>Success Rate</div>
-      </div>
-    </div>
-  `;
-  // Separator
-  resultsContainer.innerHTML = `<div class="results-separator">
-    <h3>Today's Opportunities (${opportunities.length})</h3>
-  </div>`;
-  // Individual cards
-  opportunities.forEach(o => {
-    const card = createOpportunityCard(o, criteria);
-    resultsContainer.appendChild(card);
-  });
-}
+function renderResults(opportunities, fixtureDate, lastMatches, criteria, minSuccessRate) {
+  results.innerHTML = '';
+  results.classList.remove('hidden');
 
+  const summaryCard = createSummaryCard(opportunities, fixtureDate, criteria, minSuccessRate);
+  results.appendChild(summaryCard);
+
+  if (opportunities.length > 0) {
+    opportunities.forEach(opportunity => {
+      const card = createOpportunityCard(opportunity, criteria);
+      results.appendChild(card);
+    });
+  }
+
+  setTimeout(() => {
+    results.style.opacity = '1';
+  }, 100);
+}
 
 // Create summary card
 function createSummaryCard(opportunities, fixtureDate, criteria, minSuccessRate) {
@@ -1083,6 +985,46 @@ function createOpportunityCard(opportunity, criteria) {
           <span class="stat-value">${analysis.criteriaText}</span>
         </div>
       </div>
+    </div>
+
+    <!-- NEW: Historical Pattern Analysis -->
+    <div class="historical-analysis">
+      <h4><i class="fas fa-history"></i> Historical Pattern Validation</h4>
+      <p class="historical-description">
+        Analysis of past matches where both teams had 100% success rate with these criteria
+      </p>
+      <div class="historical-stats">
+        <div class="historical-stat-card">
+          <div class="historical-stat-label">Historical Occurrences</div>
+          <div class="historical-stat-value">${opportunity.historicalAnalysis.totalMatches}</div>
+          <div class="historical-stat-sublabel">Times this pattern appeared</div>
+        </div>
+        <div class="historical-stat-card">
+          <div class="historical-stat-label">Successful Outcomes</div>
+          <div class="historical-stat-value success">${opportunity.historicalAnalysis.successfulMatches}</div>
+          <div class="historical-stat-sublabel">Criteria were met</div>
+        </div>
+        <div class="historical-stat-card">
+          <div class="historical-stat-label">Failed Outcomes</div>
+          <div class="historical-stat-value fail">${opportunity.historicalAnalysis.totalMatches - opportunity.historicalAnalysis.successfulMatches}</div>
+          <div class="historical-stat-sublabel">Criteria were not met</div>
+        </div>
+        <div class="historical-stat-card highlight">
+          <div class="historical-stat-label">Historical Success Rate</div>
+          <div class="historical-stat-value ${opportunity.historicalAnalysis.successRate >= 70 ? 'good' : opportunity.historicalAnalysis.successRate >= 50 ? 'average' : 'poor'}">${opportunity.historicalAnalysis.successRate}%</div>
+          <div class="historical-stat-sublabel">When pattern occurred</div>
+        </div>
+      </div>
+      ${opportunity.historicalAnalysis.totalMatches === 0 ? 
+        '<div class="no-historical-data"><i class="fas fa-info-circle"></i> No historical data found for this exact pattern</div>' : 
+        `<div class="historical-confidence">
+          <strong>Confidence Level:</strong> ${
+            opportunity.historicalAnalysis.successRate >= 70 && opportunity.historicalAnalysis.totalMatches >= 10 ? '🟢 High (Strong historical support)' :
+            opportunity.historicalAnalysis.successRate >= 50 && opportunity.historicalAnalysis.totalMatches >= 5 ? '🟡 Medium (Moderate historical support)' :
+            '🔴 Low (Limited historical data)'
+          }
+        </div>`
+      }
     </div>
   `;
 
