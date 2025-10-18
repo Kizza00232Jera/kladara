@@ -2888,3 +2888,195 @@ input[type="date"].form-control::-webkit-calendar-picker-indicator {
 .league-checkbox:hover {
   color: #f3f4f6;
 }
+
+/* ===== Find Builders Fixed Styles ===== */
+
+/* Summary card */
+.card.fade-in {
+  background: var(--color-cream-50);
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  opacity: 0;
+  animation: fadeIn 0.3s forwards;
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+
+/* Fixture card */
+.fixture-card {
+  background: var(--color-cream-50);
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.fixture-card:hover {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  transform: translateY(-2px);
+}
+
+/* Card header */
+.card__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.fixture-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.fixture-teams h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.fixture-info {
+  font-size: 0.85rem;
+  color: var(--color-gray-400);
+  margin-top: 0.25rem;
+}
+
+.fixture-info .fixture-league,
+.fixture-info .fixture-date {
+  margin-right: 1rem;
+}
+
+/* Success badge */
+.success-badge {
+  font-weight: 700;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+.success-badge.excellent { background: rgba(var(--color-teal-500-rgb),0.3); color: var(--color-teal-600); }
+.success-badge.good { background: rgba(var(--color-red-400-rgb),0.3); color: var(--color-red-500); }
+.success-badge.very-good {
+  background: rgba(var(--color-orange-400-rgb),0.3);
+  color: var(--color-orange-500);
+}
+/* Team analysis sections */
+.team-analysis {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.team-section {
+  flex: 1;
+  min-width: 200px;
+}
+
+.team-section h4 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.team-stats .team-success-rate {
+  font-weight: 600;
+}
+
+.team-success-rate.good { color: var(--color-teal-600); }
+.team-success-rate.average { color: var(--color-orange-500); }
+.team-success-rate.poor { color: var(--color-red-500); }
+
+/* Form indicators */
+.form-indicators {
+  margin-top: 0.5rem;
+}
+
+.form-indicator {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 0.25rem;
+  font-size: 0.8rem;
+  cursor: default;
+}
+
+.form-indicator.success {
+  background: var(--color-teal-500);
+  color: white;
+}
+
+.form-indicator.fail {
+  background: var(--color-red-500);
+  color: white;
+}
+
+/* Tooltip */
+.match-tooltip {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: var(--color-charcoal-800);
+  color: white;
+  padding: 0.8rem;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  display: none;
+  font-size: 0.85rem;
+  z-index: 20;
+}
+
+.form-indicator:hover + .match-tooltip,
+.match-tooltip:hover {
+  display: block;
+}
+
+/* Tooltip content */
+.tooltip-header {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.tooltip-stat {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.3rem;
+}
+
+/* Combined analysis */
+.combined-analysis {
+  margin-top: 1rem;
+  border-top: 1px solid var(--color-gray-200);
+  padding-top: 1rem;
+}
+
+.combined-analysis h4 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.combined-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.stat-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .team-analysis {
+    flex-direction: column;
+  }
+}
