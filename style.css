@@ -2812,3 +2812,79 @@ input[type="date"].form-control::-webkit-calendar-picker-indicator {
 .stat-value {
   color: #f3f4f6;
 }
+
+.league-presets {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.preset-btn {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #374151;
+  background: #1f2937;
+  color: #e5e7eb;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.preset-btn:hover {
+  background: #374151;
+}
+
+.preset-btn.active {
+  background: #047857;
+  border-color: #10b981;
+}
+
+.league-details {
+  margin-top: 10px;
+  background: #1f2937;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.league-details summary {
+  cursor: pointer;
+  padding: 10px;
+  font-weight: 600;
+  color: #e5e7eb;
+}
+
+.league-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+  padding: 15px;
+}
+
+.country-group {
+  background: #111827;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.country-label {
+  color: #10b981;
+  margin-bottom: 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #374151;
+}
+
+.league-checkbox {
+  display: flex;
+  align-items: center;
+  padding: 4px 0;
+  cursor: pointer;
+  color: #d1d5db;
+}
+
+.league-checkbox input {
+  margin-right: 8px;
+}
+
+.league-checkbox:hover {
+  color: #f3f4f6;
+}

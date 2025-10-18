@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 </head>
+
 <body>
     <!-- Navigation -->
     <nav class="navbar">
@@ -50,6 +52,30 @@
             <div class="card__body">
                 <form id="betFinderForm" class="input-form">
                     <div class="form-row">
+                        <!-- League Selection Section -->
+                        <div class="form-group">
+                            <label><i class="fas fa-globe"></i> Select Leagues</label>
+
+                            <!-- Quick Presets -->
+                            <div class="league-presets">
+                                <button type="button" class="preset-btn active" data-preset="all">
+                                    <i class="fas fa-check-circle"></i> All Leagues
+                                </button>
+                                <button type="button" class="preset-btn" data-preset="top5">
+                                    <i class="fas fa-star"></i> Top 5
+                                </button>
+                                <button type="button" class="preset-btn" data-preset="croatian">
+                                    <i class="fas fa-flag"></i> Croatian Leagues
+                                </button>
+                            </div>
+
+                            <!-- Country-by-Country Selection -->
+                            <details class="league-details">
+                                <summary>Select Leagues by Country</summary>
+                                <div class="league-grid" id="leagueCheckboxes"></div>
+                            </details>
+                        </div>
+
                         <div class="form-group">
                             <label for="fixtureDate" class="form-label">
                                 <i class="fas fa-calendar-alt"></i>
@@ -113,8 +139,8 @@
                                 <i class="fas fa-percentage"></i>
                                 Min Success Rate (%)
                             </label>
-                            <input type="number" id="minSuccessRate" name="minSuccessRate" class="form-control" 
-                                   min="0" max="100" step="1" value="85" placeholder="Enter minimum percent" required>
+                            <input type="number" id="minSuccessRate" name="minSuccessRate" class="form-control" min="0"
+                                max="100" step="1" value="85" placeholder="Enter minimum percent" required>
                         </div>
                     </div>
 
@@ -150,4 +176,5 @@
 
     <script src="find_bets.js"></script>
 </body>
+
 </html>
