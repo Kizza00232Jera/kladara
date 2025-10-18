@@ -2658,3 +2658,157 @@ input[type="date"].form-control::-webkit-calendar-picker-indicator {
         font-size: var(--font-size-sm);
     }
 }
+
+/* Form indicators styling */
+.form-indicators {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.form-indicator {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: help;
+  transition: transform 0.2s;
+}
+
+.form-indicator:hover {
+  transform: scale(1.15);
+}
+
+.form-indicator.success {
+  background: #10b981;
+  color: white;
+  border: 2px solid #059669;
+}
+
+.form-indicator.fail {
+  background: #ef4444;
+  color: white;
+  border: 2px solid #dc2626;
+}
+
+.team-success-rate {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.team-success-rate.good {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.team-success-rate.average {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.team-success-rate.poor {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.combined-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.stat-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.stat-item:last-child {
+  border-bottom: none;
+}
+
+.stat-label {
+  font-weight: 600;
+  color: #6b7280;
+}
+
+.stat-value {
+  font-weight: 600;
+  color: #111827;
+}
+/* Dark-themed overrides for Team Analysis */
+
+.card {
+  background: #1f2937;   /* dark slate */
+  color: #f3f4f6;        /* light text */
+}
+
+.card__header {
+  background: #111827;   /* darker header */
+  border-color: #374151;
+}
+
+.card__header h3 {
+  color: #e5e7eb;
+}
+
+.fixture-info .fixture-league,
+.fixture-info .fixture-date {
+  background: #374151;
+  color: #e5e7eb;
+}
+
+.success-badge.excellent {
+  background: #047857;
+}
+.success-badge.very-good {
+  background: #1e40af;
+}
+.success-badge.good {
+  background: #a16207;
+}
+
+.team-success-rate.good {
+  background: #064e3b;
+  color: #d1fae5;
+}
+.team-success-rate.average {
+  background: #78350f;
+  color: #fef3c7;
+}
+.team-success-rate.poor {
+  background: #7f1d1d;
+  color: #fee2e2;
+}
+
+.form-indicator.success {
+  background: #047857;
+}
+.form-indicator.fail {
+  background: #7f1d1d;
+}
+
+.combined-analysis {
+  border-top-color: #374151;
+}
+
+.stat-item {
+  background: #111827;
+}
+
+.stat-label {
+  color: #9ca3af;
+}
+
+.stat-value {
+  color: #f3f4f6;
+}

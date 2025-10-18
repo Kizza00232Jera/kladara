@@ -1,46 +1,72 @@
-// Find Bets - Football Stats Explorer JavaScript
+// Updated find_bets.js for APIFootball JSON data
 // Analyzes upcoming fixtures based on teams' recent form
+
+// === Team Name Normalization Helper ===
+
+function normalizeTeamName(name) {
+  if (!name) return '';
+  let s = name.toLowerCase();
+  s = s.normalize('NFD').replace(/[\u0300-\u036f]/g, '');             // remove accents
+  s = s.replace(/[^a-z0-9\s]/g, ' ');                                  // strip punctuation
+  const tokens = ['cf','fc','real','sport','club','sc','ac','uefa','st'];
+  tokens.forEach(t => s = s.replace(new RegExp('\\b'+t+'\\b','g'), ''));
+  s = s.replace(/\s+/g, ' ').trim();                                   // collapse spaces
+  return s;
+}
+
+function buildCanonicalMap(rawNames) {
+  const map = {};
+  rawNames.forEach(raw => {
+    const key = normalizeTeamName(raw);
+    if (!map[key]) map[key] = raw;  // first‐seen raw name wins
+  });
+  return map;
+}
+
 
 // Configuration
 const THRESHOLDS = {
-    goals: [1.5, 2.5, 3.5, 4.5, 5.5],
-    shots: [18.5, 19.5, 20.5, 21.5, 22.5, 23.5, 24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5, 31.5],
-    corners: [5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5],
-    cards: [1.5, 2.5, 3.5, 4.5, 5.5, 6.5]
+  goals: [1.5, 2.5, 3.5, 4.5, 5.5],
+  shots: [18.5, 19.5, 20.5, 21.5, 22.5, 23.5, 24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5, 31.5],
+  corners: [5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5],
+  cards: [1.5, 2.5, 3.5, 4.5, 5.5, 6.5]
 };
 
-// Historical league files based on your uploads
-const HISTORICAL_FILES = [
-    'leagues/main/B1.csv',
-    'leagues/main/D1.csv',
-    'leagues/main/D2.csv',
-    'leagues/main/E0.csv',
-    'leagues/main/E1.csv',
-    'leagues/main/F1.csv',
-    'leagues/main/F2.csv',
-    'leagues/main/G1.csv',
-    'leagues/main/I1.csv',
-    'leagues/main/I2.csv', 
-    'leagues/main/N1.csv',
-    'leagues/main/P1.csv',
-    'leagues/main/SC0.csv',
-    'leagues/main/SP1.csv',
-    'leagues/main/SP2.csv',
-    'leagues/main/T1.csv'
-];
-
-// Fixture files based on your uploads
-const FIXTURE_FILES = [
-    'fixtures/premier_league.csv',
-    'fixtures/ligue_1.csv',
-    'fixtures/bundesliga.csv',
-    'fixtures/serie_a.csv',
-    'fixtures/la_liga.csv',
-    'fixtures/primeira_liga.csv',
-    'fixtures/eredivisie.csv',
-    'fixtures/super_lig.csv',
-    'fixtures/mls.csv'
-];
+// JSON Files Configuration
+const JSON_FILES = {
+  '152': { name: 'Premier League (England)', file: 'leagues/league_152_2025.json' },
+  '153': { name: 'Championship (England)', file: 'leagues/league_153_2025.json' },
+  '175': { name: 'Bundesliga (Germany)', file: 'leagues/league_175_2025.json' },
+  '176': { name: 'Bundesliga 2 (Germany)', file: 'leagues/league_176_2025.json' },
+  '168': { name: 'Ligue 1 (France)', file: 'leagues/league_168_2025.json' },
+  '169': { name: 'Ligue 2 (France)', file: 'leagues/league_169_2025.json' },
+  '207': { name: 'Serie A (Italy)', file: 'leagues/league_207_2025.json' },
+  '208': { name: 'Serie B (Italy)', file: 'leagues/league_208_2025.json' },
+  '302': { name: 'La Liga (Spain)', file: 'leagues/league_302_2025.json' },
+  '301': { name: 'Segunda División (Spain)', file: 'leagues/league_301_2025.json' },
+  '235': { name: 'Super League (Greece)', file: 'leagues/league_235_2025.json' },
+  '266': { name: 'Primeira Liga (Portugal)', file: 'leagues/league_266_2025.json' },
+  '322': { name: 'Süper Lig (Turkey)', file: 'leagues/league_322_2025.json' },
+  '144': { name: 'First Division A (Belgium)', file: 'leagues/league_144_2025.json' },
+  '179': { name: 'Eredivisie (Netherlands)', file: 'leagues/league_179_2025.json' },
+  '245': { name: 'Premiership (Scotland)', file: 'leagues/league_245_2025.json' },
+  '230': { name: 'Primera División (Argentina)', file: 'leagues/league_230_2025.json' },
+  '167': { name: 'Bundesliga (Austria)', file: 'leagues/league_167_2025.json' },
+  '99': { name: 'Série A (Brazil)', file: 'leagues/league_99_2025.json' },
+  '221': { name: 'Super League (China)', file: 'leagues/league_221_2025.json' },
+  '199': { name: 'Superliga (Denmark)', file: 'leagues/league_199_2025.json' },
+  '244': { name: 'Veikkausliiga (Finland)', file: 'leagues/league_244_2025.json' },
+  '238': { name: 'Premier Division (Ireland)', file: 'leagues/league_238_2025.json' },
+  '265': { name: 'J1 League (Japan)', file: 'leagues/league_265_2025.json' },
+  '268': { name: 'Liga MX (Mexico)', file: 'leagues/league_268_2025.json' },
+  '242': { name: 'Eliteserien (Norway)', file: 'leagues/league_242_2025.json' },
+  '243': { name: 'Ekstraklasa (Poland)', file: 'leagues/league_243_2025.json' },
+  '284': { name: 'Liga I (Romania)', file: 'leagues/league_284_2025.json' },
+  '346': { name: 'Premier League (Russia)', file: 'leagues/league_346_2025.json' },
+  '248': { name: 'Allsvenskan (Sweden)', file: 'leagues/league_248_2025.json' },
+  '189': { name: 'Super League (Switzerland)', file: 'leagues/league_189_2025.json' },
+  '253': { name: 'MLS (USA)', file: 'leagues/league_253_2025.json' }
+};
 
 // Global variables
 let allMatchesData = [];
@@ -65,656 +91,483 @@ const results = document.getElementById('results');
 
 // Initialize application
 document.addEventListener('DOMContentLoaded', function() {
-    setDefaultDate();
-    loadAllData();
-    setupEventListeners();
+  setDefaultDate();
+  loadAllData();
+  setupEventListeners();
 });
 
 // Set default date to today
 function setDefaultDate() {
-    const today = new Date();
-    const formattedDate = today.toISOString().split('T')[0];
-    fixtureDateInput.value = formattedDate;
+  const today = new Date();
+  const formattedDate = today.toISOString().split('T')[0];
+  fixtureDateInput.value = formattedDate;
 }
 
 // Event listeners
 function setupEventListeners() {
-    form.addEventListener('submit', handleFormSubmit);
-    categorySelect.addEventListener('change', updateThresholdOptions);
+  form.addEventListener('submit', handleFormSubmit);
+  categorySelect.addEventListener('change', updateThresholdOptions);
 }
 
 // Update threshold dropdown based on selected category
 function updateThresholdOptions() {
-    const selectedCategory = categorySelect.value;
-    thresholdSelect.innerHTML = '<option value="">Select threshold</option>';
-    
-    if (selectedCategory && THRESHOLDS[selectedCategory]) {
-        thresholdSelect.disabled = false;
-        THRESHOLDS[selectedCategory].forEach(threshold => {
-            const option = document.createElement('option');
-            option.value = threshold;
-            option.textContent = threshold;
-            thresholdSelect.appendChild(option);
-        });
-    } else {
-        thresholdSelect.disabled = true;
-    }
+  const selectedCategory = categorySelect.value;
+  thresholdSelect.innerHTML = '<option value="">Select threshold</option>';
+  
+  if (selectedCategory && THRESHOLDS[selectedCategory]) {
+    thresholdSelect.disabled = false;
+    THRESHOLDS[selectedCategory].forEach(threshold => {
+      const option = document.createElement('option');
+      option.value = threshold;
+      option.textContent = threshold;
+      thresholdSelect.appendChild(option);
+    });
+  } else {
+    thresholdSelect.disabled = true;
+  }
 }
 
-// Load all data (historical matches and fixtures)
+// Load all data from JSON files
 async function loadAllData() {
-    try {
-        showLoadingStatus('Loading historical match data...');
-        await loadHistoricalData();
-        
-        showLoadingStatus('Loading fixture data...');
-        await loadFixtureData();
-        
-        hideLoadingStatus();
-        console.log(`✅ Loaded ${allMatchesData.length} historical matches and ${allFixturesData.length} fixtures`);
-        
-        if (allMatchesData.length === 0) {
-            showError('No historical match data loaded. Please check if your CSV files are in the leagues/main/ folder.');
-        }
-        
-        if (allFixturesData.length === 0) {
-            showError('No fixture data loaded. Please check if your CSV files are in the fixtures/ folder.');
-        }
-        
-    } catch (error) {
-        hideLoadingStatus();
-        console.error('Error loading data:', error);
-        showError('Failed to load data. Please ensure CSV files are available.');
-    }
-}
-
-// Load historical match data
-async function loadHistoricalData() {
+  try {
+    showLoadingStatus('Loading match data from JSON files...');
+    
     allMatchesData = [];
-    
-    for (const filename of HISTORICAL_FILES) {
-        try {
-            console.log(`Loading ${filename}...`);
-            const response = await fetch(filename);
-            
-            if (!response.ok) {
-                console.warn(`Could not load ${filename}: ${response.status}`);
-                continue;
-            }
-            
-            const csvText = await response.text();
-            const parsed = Papa.parse(csvText, {
-                header: true,
-                skipEmptyLines: true,
-                transformHeader: header => header.trim()
-            });
-
-            if (parsed.errors.length > 0) {
-                console.warn(`Parsing errors in ${filename}:`, parsed.errors.slice(0, 3));
-            }
-
-            // Process historical matches (E0.csv format)
-            const validRows = parsed.data.filter(row => {
-                return row.Date && row.HomeTeam && row.AwayTeam && 
-                       row.FTHG !== undefined && row.FTAG !== undefined &&
-                       row.HS !== undefined && row.AS !== undefined &&
-                       row.HC !== undefined && row.AC !== undefined &&
-                       row.HY !== undefined && row.AY !== undefined;
-            });
-
-            validRows.forEach(row => {
-                try {
-                    const parsedDate = parseHistoricalDate(row.Date);
-                    if (!parsedDate) return;
-
-                    const matchData = {
-                        date: parsedDate,
-                        dateString: row.Date,
-                        homeTeam: row.HomeTeam,
-                        awayTeam: row.AwayTeam,
-                        fthg: parseInt(row.FTHG) || 0,
-                        ftag: parseInt(row.FTAG) || 0,
-                        hs: parseInt(row.HS) || 0,
-                        as: parseInt(row.AS) || 0,
-                        hc: parseInt(row.HC) || 0,
-                        ac: parseInt(row.AC) || 0,
-                        hy: parseInt(row.HY) || 0,
-                        ay: parseInt(row.AY) || 0,
-                        league: getLeagueName(filename),
-                        sourceFile: filename,
-                        // Calculate totals for betting criteria
-                        totalGoals: (parseInt(row.FTHG) || 0) + (parseInt(row.FTAG) || 0),
-                        totalShots: (parseInt(row.HS) || 0) + (parseInt(row.AS) || 0),
-                        totalCorners: (parseInt(row.HC) || 0) + (parseInt(row.AC) || 0),
-                        totalCards: (parseInt(row.HY) || 0) + (parseInt(row.AY) || 0)
-                    };
-
-                    allMatchesData.push(matchData);
-                } catch (error) {
-                    console.warn(`Error processing row in ${filename}:`, error);
-                }
-            });
-
-            console.log(`✅ Loaded ${validRows.length} matches from ${filename}`);
-
-        } catch (error) {
-            console.warn(`❌ Failed to load ${filename}:`, error.message);
-        }
-    }
-
-    // Sort all matches by date
-    allMatchesData.sort((a, b) => a.date - b.date);
-    console.log(`📊 Total historical matches loaded: ${allMatchesData.length}`);
-}
-
-// Load fixture data
-async function loadFixtureData() {
     allFixturesData = [];
-    
-    for (const filename of FIXTURE_FILES) {
-        try {
-            console.log(`Loading ${filename}...`);
-            const response = await fetch(filename);
-            
-            if (!response.ok) {
-                console.warn(`Could not load ${filename}: ${response.status}`);
-                continue;
-            }
-            
-            const csvText = await response.text();
-            const parsed = Papa.parse(csvText, {
-                header: true,
-                skipEmptyLines: true,
-                transformHeader: header => header.trim()
-            });
 
-            if (parsed.errors.length > 0) {
-                console.warn(`Parsing errors in ${filename}:`, parsed.errors.slice(0, 3));
-            }
-
-            // Process fixture data
-            const validRows = parsed.data.filter(row => {
-                return row.Date && row['Home Team'] && row['Away Team'];
-            });
-
-            validRows.forEach(row => {
-                try {
-                    const parsedDate = parseFixtureDate(row.Date);
-                    if (!parsedDate) return;
-
-                    const fixtureData = {
-                        date: parsedDate,
-                        dateString: row.Date,
-                        homeTeam: row['Home Team'],
-                        awayTeam: row['Away Team'],
-                        league: getLeagueName(filename),
-                        sourceFile: filename,
-                        location: row.Location || '',
-                        matchNumber: row['Match Number'] || '',
-                        result: row.Result || ''
-                    };
-
-                    allFixturesData.push(fixtureData);
-                } catch (error) {
-                    console.warn(`Error processing fixture row in ${filename}:`, error);
-                }
-            });
-
-            console.log(`✅ Loaded ${validRows.length} fixtures from ${filename}`);
-
-        } catch (error) {
-            console.warn(`❌ Failed to load fixture file ${filename}:`, error.message);
+    for (const [leagueId, leagueInfo] of Object.entries(JSON_FILES)) {
+      try {
+        console.log(`Loading ${leagueInfo.name}...`);
+        const response = await fetch(leagueInfo.file);
+        
+        if (!response.ok) {
+          console.warn(`Could not load ${leagueInfo.file}: ${response.status}`);
+          continue;
         }
+
+        const matches = await response.json();
+        
+        matches.forEach(match => {
+          const matchDate = new Date(match.match_date);
+          
+          // Extract statistics
+          const stats = match.statistics || [];
+          const shotsHome = getStatValue(stats, 'Shots Total', 'home');
+          const shotsAway = getStatValue(stats, 'Shots Total', 'away');
+          const cornersHome = getStatValue(stats, 'Corners', 'home');
+          const cornersAway = getStatValue(stats, 'Corners', 'away');
+          const cardsHome = parseInt(getStatValue(stats, 'Yellow Cards', 'home')) + 
+                           (parseInt(getStatValue(stats, 'Red Cards', 'home')) || 0);
+          const cardsAway = parseInt(getStatValue(stats, 'Yellow Cards', 'away')) + 
+                           (parseInt(getStatValue(stats, 'Red Cards', 'away')) || 0);
+
+          const matchData = {
+            date: matchDate,
+            homeTeam: match.match_hometeam_name,
+            awayTeam: match.match_awayteam_name,
+            homeScore: parseInt(match.match_hometeam_score) || 0,
+            awayScore: parseInt(match.match_awayteam_score) || 0,
+            status: match.match_status,
+            league: leagueInfo.name,
+            leagueId: leagueId,
+            // Calculate totals for betting criteria
+            totalGoals: (parseInt(match.match_hometeam_score) || 0) + (parseInt(match.match_awayteam_score) || 0),
+            totalShots: shotsHome + shotsAway,
+            totalCorners: cornersHome + cornersAway,
+            totalCards: cardsHome + cardsAway,
+            matchId: match.match_id
+          };
+
+          if (match.match_status === 'Finished') {
+            allMatchesData.push(matchData);
+          } else if (match.match_status === '' || match.match_status === 'Not Started' || match.match_status === 'Scheduled') {
+            allFixturesData.push(matchData);
+          }
+        });
+
+        console.log(`✅ Loaded ${matches.length} events from ${leagueInfo.name}`);
+      } catch (error) {
+        console.warn(`Failed to load ${leagueInfo.file}:`, error);
+      }
     }
 
-    // Sort fixtures by date
+    // Sort by date
+    allMatchesData.sort((a, b) => a.date - b.date);
     allFixturesData.sort((a, b) => a.date - b.date);
-    console.log(`📅 Total fixtures loaded: ${allFixturesData.length}`);
-}
 
-// Parse historical date (dd/mm/yyyy format)
-function parseHistoricalDate(dateString) {
-    try {
-        if (!dateString) return null;
-        
-        // Handle dd/mm/yyyy format from historical data
-        const dateParts = dateString.split('/');
-        if (dateParts.length === 3) {
-            const day = parseInt(dateParts[0]);
-            const month = parseInt(dateParts[1]) - 1; // JavaScript months are 0-indexed
-            let year = parseInt(dateParts[2]);
-            
-            // Handle 2-digit years
-            if (year < 50) {
-                year += 2000;
-            } else if (year < 100) {
-                year += 1900;
-            }
-            
-            const date = new Date(year, month, day);
-            return isNaN(date.getTime()) ? null : date;
-        }
-        return null;
-    } catch (error) {
-        return null;
+    hideLoadingStatus();
+    console.log(`✅ Loaded ${allMatchesData.length} historical matches and ${allFixturesData.length} fixtures`);
+
+    if (allMatchesData.length === 0) {
+      showError('No historical match data loaded. Please check your JSON files.');
     }
-}
-
-// Parse fixture date (dd/mm/yyyy hh:mm format)
-function parseFixtureDate(dateString) {
-    try {
-        if (!dateString) return null;
-        
-        // Handle "dd/mm/yyyy hh:mm" format from fixture data
-        const dateTimeParts = dateString.split(' ');
-        const datePart = dateTimeParts[0];
-        const dateParts = datePart.split('/');
-        
-        if (dateParts.length === 3) {
-            const day = parseInt(dateParts[0]);
-            const month = parseInt(dateParts[1]) - 1;
-            const year = parseInt(dateParts[2]);
-            
-            const date = new Date(year, month, day);
-            return isNaN(date.getTime()) ? null : date;
-        }
-        return null;
-    } catch (error) {
-        return null;
+    if (allFixturesData.length === 0) {
+      showError('No fixture data loaded. Please check your JSON files.');
     }
+
+  } catch (error) {
+    hideLoadingStatus();
+    console.error('Error loading data:', error);
+    showError('Failed to load data. Please ensure JSON files are available.');
+  }
 }
 
-// Get league name from filename
-function getLeagueName(filename) {
-    const leagueMap = {
-        'E0': 'Premier League',
-        'E1': 'Championship', 
-        'D1': 'Bundesliga',
-        'D2': '2. Bundesliga',
-        'F1': 'Ligue 1',
-        'F2': 'Ligue 2',
-        'B1': 'Belgian Pro League',
-        'G1': 'Super League Greece',
-        'premier_league': 'Premier League',
-        'ligue_1': 'Ligue 1',
-        'bundesliga': 'Bundesliga',
-        'serie_a': 'Serie A',
-        'la_liga': 'La Liga',
-        'primeira_liga': 'Primeira Liga',
-        'eredivisie': 'Eredivisie',
-        'super_lig': 'Süper Lig',
-        'mls': 'MLS'
-    };
-    
-    const key = filename.split('/').pop().replace('.csv', '');
-    return leagueMap[key] || key.toUpperCase();
+// Get statistic value from stats array
+function getStatValue(stats, type, side) {
+  const stat = stats.find(s => s.type === type);
+  if (!stat) return 0;
+  const value = parseInt(stat[side]) || 0;
+  return value;
 }
 
 // Handle form submission
 async function handleFormSubmit(e) {
-    e.preventDefault();
-    
-    if (isLoading) return;
+  e.preventDefault();
+  
+  if (isLoading) return;
 
-    const fixtureDate = fixtureDateInput.value;
-    const lastMatches = parseInt(lastMatchesSelect.value);
-    const category = categorySelect.value;
-    const threshold = parseFloat(thresholdSelect.value);
-    const overUnder = overUnderSelect.value;
-    const minSuccessRate = parseInt(minSuccessRateSelect.value);
+  const fixtureDate = fixtureDateInput.value;
+  const lastMatches = parseInt(lastMatchesSelect.value);
+  const category = categorySelect.value;
+  const threshold = parseFloat(thresholdSelect.value);
+  const overUnder = overUnderSelect.value;
+  const minSuccessRate = parseInt(minSuccessRateSelect.value);
 
-    // Validate inputs
-    if (!fixtureDate || !category || !threshold || !overUnder) {
-        showError('Please fill in all required fields');
-        return;
-    }
+  // Validate inputs
+  if (!fixtureDate || !category || !threshold || !overUnder) {
+    showError('Please fill in all required fields');
+    return;
+  }
 
-    if (allMatchesData.length === 0) {
-        showError('No historical match data available. Please wait for data to load.');
-        return;
-    }
+  if (allMatchesData.length === 0) {
+    showError('No historical match data available. Please wait for data to load.');
+    return;
+  }
 
-    if (allFixturesData.length === 0) {
-        showError('No fixture data available. Please ensure fixture CSV files are in the fixtures folder.');
-        return;
-    }
+  if (allFixturesData.length === 0) {
+    showError('No fixture data available.');
+    return;
+  }
 
-    setLoading(true);
-    hideError();
+  setLoading(true);
+  hideError();
 
-    try {
-        const opportunities = analyzeFixturesForDate(fixtureDate, lastMatches, category, threshold, overUnder, minSuccessRate);
-        renderResults(opportunities, fixtureDate, lastMatches, category, threshold, overUnder, minSuccessRate);
-    } catch (error) {
-        console.error('Analysis error:', error);
-        showError('An error occurred during analysis. Please try again.');
-    } finally {
-        setLoading(false);
-    }
+  try {
+    const opportunities = analyzeFixturesForDate(fixtureDate, lastMatches, category, threshold, overUnder, minSuccessRate);
+    renderResults(opportunities, fixtureDate, lastMatches, category, threshold, overUnder, minSuccessRate);
+  } catch (error) {
+    console.error('Analysis error:', error);
+    showError('An error occurred during analysis. Please try again.');
+  } finally {
+    setLoading(false);
+  }
 }
 
 // Analyze fixtures for a specific date
 function analyzeFixturesForDate(fixtureDate, lastMatches, category, threshold, overUnder, minSuccessRate) {
-    const targetDate = new Date(fixtureDate);
-    const opportunities = [];
+  const targetDate = new Date(fixtureDate);
+  const opportunities = [];
 
-    console.log(`🔍 Looking for fixtures on ${fixtureDate}...`);
+  console.log(`🔍 Looking for fixtures on ${fixtureDate}...`);
 
-    // Find all fixtures for the target date
-    const fixturesOnDate = allFixturesData.filter(fixture => {
-        return fixture.date.toDateString() === targetDate.toDateString();
-    });
+  const fixturesOnDate = allFixturesData.filter(fixture => {
+    return fixture.date.toDateString() === targetDate.toDateString();
+  });
 
-    console.log(`📅 Found ${fixturesOnDate.length} fixtures for ${fixtureDate}`);
+  console.log(`📅 Found ${fixturesOnDate.length} fixtures for ${fixtureDate}`);
 
-    if (fixturesOnDate.length === 0) {
-        console.warn('No fixtures found for the selected date');
-        return [];
+  if (fixturesOnDate.length === 0) {
+    console.warn('No fixtures found for the selected date');
+    return [];
+  }
+
+  fixturesOnDate.forEach(fixture => {
+    try {
+      const analysis = analyzeFixture(fixture, lastMatches, category, threshold, overUnder);
+      
+      if (analysis && analysis.combinedSuccessRate >= minSuccessRate) {
+        opportunities.push({
+          fixture: fixture,
+          analysis: analysis,
+          successRate: analysis.combinedSuccessRate
+        });
+        console.log(`✅ ${fixture.homeTeam} vs ${fixture.awayTeam}: ${analysis.combinedSuccessRate}% success rate`);
+      } else if (analysis) {
+        console.log(`❌ ${fixture.homeTeam} vs ${fixture.awayTeam}: ${analysis.combinedSuccessRate}% (below threshold)`);
+      }
+    } catch (error) {
+      console.warn(`Error analyzing fixture ${fixture.homeTeam} vs ${fixture.awayTeam}:`, error);
     }
+  });
 
-    // Analyze each fixture
-    fixturesOnDate.forEach(fixture => {
-        try {
-            const analysis = analyzeFixture(fixture, lastMatches, category, threshold, overUnder);
-            
-            if (analysis && analysis.combinedSuccessRate >= minSuccessRate) {
-                opportunities.push({
-                    fixture: fixture,
-                    analysis: analysis,
-                    successRate: analysis.combinedSuccessRate
-                });
-                console.log(`✅ ${fixture.homeTeam} vs ${fixture.awayTeam}: ${analysis.combinedSuccessRate}% success rate`);
-            } else if (analysis) {
-                console.log(`❌ ${fixture.homeTeam} vs ${fixture.awayTeam}: ${analysis.combinedSuccessRate}% success rate (below threshold)`);
-            }
-        } catch (error) {
-            console.warn(`Error analyzing fixture ${fixture.homeTeam} vs ${fixture.awayTeam}:`, error);
-        }
-    });
-
-    // Sort by success rate descending
-    return opportunities.sort((a, b) => b.successRate - a.successRate);
+  return opportunities.sort((a, b) => b.successRate - a.successRate);
 }
 
 // Analyze a single fixture
 function analyzeFixture(fixture, lastMatches, category, threshold, overUnder) {
-    // Get last matches for both teams
-    const homeTeamMatches = getTeamLastMatches(fixture.homeTeam, lastMatches, fixture.date);
-    const awayTeamMatches = getTeamLastMatches(fixture.awayTeam, lastMatches, fixture.date);
+  const homeTeamMatches = getTeamLastMatches(fixture.homeTeam, lastMatches, fixture.date);
+  const awayTeamMatches = getTeamLastMatches(fixture.awayTeam, lastMatches, fixture.date);
 
-    if (homeTeamMatches.length < Math.min(3, lastMatches) || awayTeamMatches.length < Math.min(3, lastMatches)) {
-        console.log(`⚠️  Not enough data for ${fixture.homeTeam} (${homeTeamMatches.length}) vs ${fixture.awayTeam} (${awayTeamMatches.length})`);
-        return null; // Not enough data
-    }
+  if (homeTeamMatches.length < Math.min(3, lastMatches) || awayTeamMatches.length < Math.min(3, lastMatches)) {
+    console.log(`⚠️ Not enough data for ${fixture.homeTeam} (${homeTeamMatches.length}) vs ${fixture.awayTeam} (${awayTeamMatches.length})`);
+    return null;
+  }
 
-    // Analyze each team's form
-    const homeAnalysis = analyzeTeamMatches(homeTeamMatches, category, threshold, overUnder);
-    const awayAnalysis = analyzeTeamMatches(awayTeamMatches, category, threshold, overUnder);
+  const homeAnalysis = analyzeTeamMatches(homeTeamMatches, category, threshold, overUnder);
+  const awayAnalysis = analyzeTeamMatches(awayTeamMatches, category, threshold, overUnder);
+  const combinedMatches = [...homeTeamMatches, ...awayTeamMatches];
+  const combinedAnalysis = analyzeTeamMatches(combinedMatches, category, threshold, overUnder);
 
-    // Calculate combined analysis
-    const combinedMatches = [...homeTeamMatches, ...awayTeamMatches];
-    const combinedAnalysis = analyzeTeamMatches(combinedMatches, category, threshold, overUnder);
-
-    return {
-        homeTeam: fixture.homeTeam,
-        awayTeam: fixture.awayTeam,
-        homeAnalysis: homeAnalysis,
-        awayAnalysis: awayAnalysis,
-        combinedSuccessRate: combinedAnalysis.successRate,
-        combinedSuccessCount: combinedAnalysis.successCount,
-        totalMatches: combinedMatches.length,
-        homeMatches: homeTeamMatches,
-        awayMatches: awayTeamMatches
-    };
+  return {
+    homeTeam: fixture.homeTeam,
+    awayTeam: fixture.awayTeam,
+    league: fixture.league,
+    homeAnalysis: homeAnalysis,
+    awayAnalysis: awayAnalysis,
+    combinedSuccessRate: combinedAnalysis.successRate,
+    combinedSuccessCount: combinedAnalysis.successCount,
+    totalMatches: combinedMatches.length,
+    homeMatches: homeTeamMatches,
+    awayMatches: awayTeamMatches
+  };
 }
 
 // Get last N matches for a team before a specific date
 function getTeamLastMatches(teamName, numMatches, beforeDate) {
-    const teamMatches = allMatchesData.filter(match => 
-        (match.homeTeam === teamName || match.awayTeam === teamName) &&
-        match.date < beforeDate
-    );
+  const teamMatches = allMatchesData.filter(match =>
+    (match.homeTeam === teamName || match.awayTeam === teamName) && match.date < beforeDate
+  );
 
-    // Sort by date and get the last N matches
-    return teamMatches
-        .sort((a, b) => a.date - b.date)
-        .slice(-numMatches);
+  return teamMatches.sort((a, b) => a.date - b.date).slice(-numMatches);
 }
 
 // Analyze team matches for criteria
 function analyzeTeamMatches(matches, category, threshold, overUnder) {
-    const dataKey = `total${category.charAt(0).toUpperCase() + category.slice(1)}`;
-    let successCount = 0;
-    const matchResults = [];
+  const dataKey = `total${category.charAt(0).toUpperCase() + category.slice(1)}`;
+  let successCount = 0;
+  const matchResults = [];
 
-    matches.forEach(match => {
-        const value = match[dataKey];
-        let isSuccess = false;
-        
-        if (overUnder === 'over' && value > threshold) {
-            isSuccess = true;
-            successCount++;
-        } else if (overUnder === 'under' && value <= threshold) {
-            isSuccess = true;
-            successCount++;
-        }
+  matches.forEach(match => {
+    const value = match[dataKey];
+    let isSuccess = false;
 
-        matchResults.push({
-            ...match,
-            criteriaValue: value,
-            isSuccess: isSuccess
-        });
+    if (overUnder === 'over' && value > threshold) {
+      isSuccess = true;
+      successCount++;
+    } else if (overUnder === 'under' && value <= threshold) {
+      isSuccess = true;
+      successCount++;
+    }
+
+    matchResults.push({
+      ...match,
+      criteriaValue: value,
+      isSuccess: isSuccess
     });
+  });
 
-    return {
-        successCount: successCount,
-        totalMatches: matches.length,
-        successRate: matches.length > 0 ? Math.round((successCount / matches.length) * 100) : 0,
-        matchResults: matchResults
-    };
+  return {
+    successCount: successCount,
+    totalMatches: matches.length,
+    successRate: matches.length > 0 ? Math.round((successCount / matches.length) * 100) : 0,
+    matchResults: matchResults
+  };
 }
 
 // Render results
 function renderResults(opportunities, fixtureDate, lastMatches, category, threshold, overUnder, minSuccessRate) {
-    results.innerHTML = '';
-    results.classList.remove('hidden');
+  results.innerHTML = '';
+  results.classList.remove('hidden');
 
-    // Summary card
-    const summaryCard = createSummaryCard(opportunities, fixtureDate, lastMatches, category, threshold, overUnder, minSuccessRate);
-    results.appendChild(summaryCard);
+  const summaryCard = createSummaryCard(opportunities, fixtureDate, category, threshold, overUnder, minSuccessRate);
+  results.appendChild(summaryCard);
 
-    // Opportunity cards
-    if (opportunities.length > 0) {
-        opportunities.forEach(opportunity => {
-            const card = createOpportunityCard(opportunity, category, threshold, overUnder);
-            results.appendChild(card);
-        });
-    }
+  if (opportunities.length > 0) {
+    opportunities.forEach(opportunity => {
+      const card = createOpportunityCard(opportunity, category, threshold, overUnder);
+      results.appendChild(card);
+    });
+  }
 
-    // Fade in animation
-    setTimeout(() => {
-        results.style.opacity = '1';
-    }, 100);
+  setTimeout(() => {
+    results.style.opacity = '1';
+  }, 100);
 }
 
 // Create summary card
-function createSummaryCard(opportunities, fixtureDate, lastMatches, category, threshold, overUnder, minSuccessRate) {
-    const card = document.createElement('div');
-    card.className = 'card fade-in';
-
-    const header = document.createElement('div');
-    header.className = 'card__header';
-    header.innerHTML = `
-        <h2><i class="fas fa-calendar-check"></i> Fixture Analysis Results</h2>
-        <p class="card__subtitle">
-            ${fixtureDate} - ${category} ${overUnder} ${threshold} with ${minSuccessRate}%+ success rate
-        </p>
+function createSummaryCard(opportunities, fixtureDate, category, threshold, overUnder, minSuccessRate) {
+  const card = document.createElement('div');
+  card.className = 'card fade-in';
+  
+  const header = document.createElement('div');
+  header.className = 'card__header';
+  header.innerHTML = `
+    <i class="fas fa-chart-line"></i>
+    <h3>Analysis Results</h3>
+  `;
+  
+  const body = document.createElement('div');
+  body.className = 'card__body';
+  
+  if (opportunities.length === 0) {
+    body.innerHTML = `
+      <div class="no-opportunities">
+        <i class="fas fa-info-circle"></i>
+        <p>No fixtures found for ${fixtureDate} that meet your criteria (${category} ${overUnder} ${threshold} with ${minSuccessRate}%+ success rate).</p>
+        <p>Try adjusting your filters or selecting a different date.</p>
+      </div>
     `;
-
-    const body = document.createElement('div');
-    body.className = 'card__body';
-
-    if (opportunities.length === 0) {
-        body.innerHTML = `
-            <div class="no-opportunities">
-                <i class="fas fa-calendar-times"></i>
-                <h3>No Opportunities Found</h3>
-                <p>No fixtures found for ${fixtureDate} that meet your criteria.</p>
-                <div class="suggestions">
-                    <h4>Suggestions:</h4>
-                    <ul>
-                        <li>Try a different date</li>
-                        <li>Lower the minimum success rate</li>
-                        <li>Adjust the threshold or category</li>
-                        <li>Reduce the number of last matches required</li>
-                    </ul>
-                </div>
-            </div>
-        `;
-    } else {
-        body.innerHTML = `
-            <div class="summary-stats">
-                <div class="stat-box">
-                    <div class="stat-number">${opportunities.length}</div>
-                    <div class="stat-label">Qualifying Fixtures</div>
-                </div>
-                <div class="stat-box">
-                    <div class="stat-number">${Math.max(...opportunities.map(o => o.successRate))}%</div>
-                    <div class="stat-label">Best Success Rate</div>
-                </div>
-                <div class="stat-box">
-                    <div class="stat-number">${lastMatches}</div>
-                    <div class="stat-label">Matches per Team</div>
-                </div>
-            </div>
-        `;
-    }
-
-    card.appendChild(header);
-    card.appendChild(body);
-    return card;
+  } else {
+    body.innerHTML = `
+      <div class="summary-stats">
+        <div class="summary-stat">
+          <i class="fas fa-calendar"></i>
+          <div>
+            <div class="stat-label">Date</div>
+            <div class="stat-value">${fixtureDate}</div>
+          </div>
+        </div>
+        <div class="summary-stat">
+          <i class="fas fa-check-circle"></i>
+          <div>
+            <div class="stat-label">Opportunities Found</div>
+            <div class="stat-value">${opportunities.length}</div>
+          </div>
+        </div>
+        <div class="summary-stat">
+          <i class="fas fa-bullseye"></i>
+          <div>
+            <div class="stat-label">Criteria</div>
+            <div class="stat-value">${category.charAt(0).toUpperCase() + category.slice(1)} ${overUnder} ${threshold}</div>
+          </div>
+        </div>
+        <div class="summary-stat">
+          <i class="fas fa-percentage"></i>
+          <div>
+            <div class="stat-label">Min Success Rate</div>
+            <div class="stat-value">${minSuccessRate}%</div>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+  
+  card.appendChild(header);
+  card.appendChild(body);
+  return card;
 }
 
 // Create opportunity card
 function createOpportunityCard(opportunity, category, threshold, overUnder) {
-    const card = document.createElement('div');
-    card.className = 'card fade-in fixture-card';
-
-    const analysis = opportunity.analysis;
-    const fixture = opportunity.fixture;
+  const card = document.createElement('div');
+  card.className = 'card fade-in fixture-card';
+  
+  const analysis = opportunity.analysis;
+  const fixture = opportunity.fixture;
+  const successRateClass = analysis.combinedSuccessRate >= 90 ? 'excellent' : 
+                          analysis.combinedSuccessRate >= 85 ? 'very-good' : 'good';
+  
+  const header = document.createElement('div');
+  header.className = 'card__header';
+  header.innerHTML = `
+    <div class="fixture-header">
+      <div class="fixture-teams">
+        <h3>${fixture.homeTeam} vs ${fixture.awayTeam}</h3>
+        <div class="fixture-info">
+          <span class="fixture-league">${fixture.league}</span>
+          <span class="fixture-date">${fixture.date}</span>
+        </div>
+      </div>
+      <div class="success-badge ${successRateClass}">
+        ${analysis.combinedSuccessRate}%
+      </div>
+    </div>
+  `;
+  
+  const body = document.createElement('div');
+  body.className = 'card__body';
+  body.innerHTML = `
+    <div class="team-analysis">
+      <div class="team-section">
+        <h4><i class="fas fa-home"></i> ${fixture.homeTeam} Form</h4>
+        <div class="team-stats">
+          <span class="team-success-rate ${analysis.homeAnalysis.successRate >= 80 ? 'good' : analysis.homeAnalysis.successRate >= 60 ? 'average' : 'poor'}">
+            ${analysis.homeAnalysis.successCount}/${analysis.homeAnalysis.totalMatches} (${analysis.homeAnalysis.successRate}%)
+          </span>
+        </div>
+        <div class="form-indicators">
+          ${analysis.homeAnalysis.matchResults.map(match => {
+            return `<span class="form-indicator ${match.isSuccess ? 'success' : 'fail'}" title="${match.homeTeam} vs ${match.awayTeam} (${match.date.toLocaleDateString()}): ${match.criteriaValue} ${category}">${match.isSuccess ? '✓' : '✗'}</span>`;
+          }).join('')}
+        </div>
+      </div>
+      
+      <div class="team-section">
+        <h4><i class="fas fa-plane"></i> ${fixture.awayTeam} Form</h4>
+        <div class="team-stats">
+          <span class="team-success-rate ${analysis.awayAnalysis.successRate >= 80 ? 'good' : analysis.awayAnalysis.successRate >= 60 ? 'average' : 'poor'}">
+            ${analysis.awayAnalysis.successCount}/${analysis.awayAnalysis.totalMatches} (${analysis.awayAnalysis.successRate}%)
+          </span>
+        </div>
+        <div class="form-indicators">
+          ${analysis.awayAnalysis.matchResults.map(match => {
+            return `<span class="form-indicator ${match.isSuccess ? 'success' : 'fail'}" title="${match.homeTeam} vs ${match.awayTeam} (${match.date.toLocaleDateString()}): ${match.criteriaValue} ${category}">${match.isSuccess ? '✓' : '✗'}</span>`;
+          }).join('')}
+        </div>
+      </div>
+    </div>
     
-    const successRateClass = analysis.combinedSuccessRate >= 90 ? 'excellent' : 
-                           analysis.combinedSuccessRate >= 85 ? 'very-good' : 'good';
-
-    const header = document.createElement('div');
-    header.className = 'card__header';
-    header.innerHTML = `
-        <div class="fixture-header">
-            <div class="fixture-teams">
-                <h3>${fixture.homeTeam} vs ${fixture.awayTeam}</h3>
-                <div class="fixture-info">
-                    <span class="fixture-league">${fixture.league}</span>
-                    <span class="fixture-date">${fixture.dateString}</span>
-                </div>
-            </div>
-            <div class="success-badge ${successRateClass}">
-                ${analysis.combinedSuccessRate}%
-            </div>
+    <div class="combined-analysis">
+      <h4><i class="fas fa-chart-line"></i> Combined Analysis</h4>
+      <div class="combined-stats">
+        <div class="stat-item">
+          <span class="stat-label">Overall Success Rate:</span>
+          <span class="stat-value">${analysis.combinedSuccessCount}/${analysis.totalMatches} matches (${analysis.combinedSuccessRate}%)</span>
         </div>
-    `;
-
-    const body = document.createElement('div');
-    body.className = 'card__body';
-
-    body.innerHTML = `
-        <div class="team-analysis">
-            <div class="team-section">
-                <h4><i class="fas fa-home"></i> ${fixture.homeTeam} Form</h4>
-                <div class="team-stats">
-                    <span class="team-success-rate ${analysis.homeAnalysis.successRate >= 80 ? 'good' : analysis.homeAnalysis.successRate >= 60 ? 'average' : 'poor'}">
-                        ${analysis.homeAnalysis.successCount}/${analysis.homeAnalysis.totalMatches} (${analysis.homeAnalysis.successRate}%)
-                    </span>
-                </div>
-                <div class="form-indicators">
-                    ${analysis.homeAnalysis.matchResults.map(match => {
-                        return `<span class="form-indicator ${match.isSuccess ? 'success' : 'fail'}" 
-                                      title="${match.homeTeam} vs ${match.awayTeam} (${match.dateString}): ${match.criteriaValue}">
-                                    ${match.isSuccess ? '✓' : '✗'}
-                                </span>`;
-                    }).join('')}
-                </div>
-            </div>
-            
-            <div class="team-section">
-                <h4><i class="fas fa-plane"></i> ${fixture.awayTeam} Form</h4>
-                <div class="team-stats">
-                    <span class="team-success-rate ${analysis.awayAnalysis.successRate >= 80 ? 'good' : analysis.awayAnalysis.successRate >= 60 ? 'average' : 'poor'}">
-                        ${analysis.awayAnalysis.successCount}/${analysis.awayAnalysis.totalMatches} (${analysis.awayAnalysis.successRate}%)
-                    </span>
-                </div>
-                <div class="form-indicators">
-                    ${analysis.awayAnalysis.matchResults.map(match => {
-                        return `<span class="form-indicator ${match.isSuccess ? 'success' : 'fail'}" 
-                                      title="${match.homeTeam} vs ${match.awayTeam} (${match.dateString}): ${match.criteriaValue}">
-                                    ${match.isSuccess ? '✓' : '✗'}
-                                </span>`;
-                    }).join('')}
-                </div>
-            </div>
+        <div class="stat-item">
+          <span class="stat-label">Criteria:</span>
+          <span class="stat-value">${category} ${overUnder} ${threshold}</span>
         </div>
-        
-        <div class="combined-analysis">
-            <h4><i class="fas fa-chart-line"></i> Combined Analysis</h4>
-            <div class="combined-stats">
-                <div class="stat-item">
-                    <span class="stat-label">Overall Success Rate</span>
-                    <span class="stat-value">${analysis.combinedSuccessCount}/${analysis.totalMatches} matches (${analysis.combinedSuccessRate}%)</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-label">Criteria</span>
-                    <span class="stat-value">${category} ${overUnder} ${threshold}</span>
-                </div>
-            </div>
-        </div>
-    `;
-
-    card.appendChild(header);
-    card.appendChild(body);
-    return card;
+      </div>
+    </div>
+  `;
+  
+  card.appendChild(header);
+  card.appendChild(body);
+  return card;
 }
 
-// Utility functions
+
+// Get color based on success rate
+function getSuccessRateColor(rate) {
+  if (rate >= 80) return '#10b981';
+  if (rate >= 70) return '#3b82f6';
+  if (rate >= 60) return '#f59e0b';
+  return '#ef4444';
+}
+
+// Loading and error handling
 function setLoading(loading) {
-    isLoading = loading;
-    if (loading) {
-        findBetsBtn.disabled = true;
-        btnText.style.display = 'none';
-        btnLoading.style.display = 'inline-block';
-    } else {
-        findBetsBtn.disabled = false;
-        btnText.style.display = 'inline-block';
-        btnLoading.style.display = 'none';
-    }
+  isLoading = loading;
+  findBetsBtn.disabled = loading;
+  btnText.style.display = loading ? 'none' : 'inline';
+  btnLoading.style.display = loading ? 'inline-block' : 'none';
 }
 
 function showLoadingStatus(message) {
-    if (loadingText && loadingStatus) {
-        loadingText.textContent = message;
-        loadingStatus.classList.remove('hidden');
-    }
+  loadingStatus.classList.remove('hidden');
+  loadingText.textContent = message;
 }
 
 function hideLoadingStatus() {
-    if (loadingStatus) {
-        loadingStatus.classList.add('hidden');
-    }
+  loadingStatus.classList.add('hidden');
 }
 
 function showError(message) {
-    errorMessage.textContent = message;
-    errorMessage.classList.remove('hidden');
+  errorMessage.textContent = message;
+  errorMessage.classList.remove('hidden');
 }
 
 function hideError() {
-    errorMessage.classList.add('hidden');
+  errorMessage.classList.add('hidden');
 }
