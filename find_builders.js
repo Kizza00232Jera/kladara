@@ -273,6 +273,18 @@ function setupEventListeners() {
   addCriteriaBtn.addEventListener('click', () => addCriteriaSection());
 }
 
+// Delegated event listener for remove criteria buttons
+criteriaContainer.addEventListener('click', (e) => {
+  if (e.target.classList.contains('remove-criteria') || e.target.closest('.remove-criteria')) {
+    const criteriaSection = e.target.closest('.criteria-section');
+    if (criteriaSection) {
+      criteriaSection.remove();
+      criteriaCount--;
+    }
+  }
+});
+
+
 // Add a new criteria section
 function addCriteriaSection() {
   if (criteriaCount >= MAX_CRITERIA) {
@@ -284,7 +296,7 @@ function addCriteriaSection() {
   const criteriaId = `criteria${criteriaCount}`;
 
   const criteriaDiv = document.createElement('div');
-  criteriaDiv.className = 'criteria-section';
+  criteriaDiv.className = 'criteria-section filter-group';
   criteriaDiv.id = criteriaId;
   criteriaDiv.innerHTML = `
     <div class="criteria-header">
@@ -464,6 +476,7 @@ function getStatValue(stats, type, side) {
 // Handle form submission
 async function handleFormSubmit(e) {
   e.preventDefault();
+  findBuildersBtn.classList.add('loading');
   if (isLoading) return;
 
   const fixtureDate = fixtureDateInput.value;
@@ -865,4 +878,5 @@ function showLoadingStatus(message) {
 
 function hideLoadingStatus() {
   loadingStatus.classList.add('hidden');
+  findBuildersBtn.classList.remove('loading');
 }

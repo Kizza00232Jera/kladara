@@ -286,6 +286,18 @@ function setupEventListeners() {
   categorySelect.addEventListener('change', updateThresholdOptions);
 }
 
+// Delegated event listener for remove criteria buttons
+criteriaContainer.addEventListener('click', (e) => {
+  if (e.target.classList.contains('remove-criteria') || e.target.closest('.remove-criteria')) {
+    const criteriaSection = e.target.closest('.criteria-section');
+    if (criteriaSection) {
+      criteriaSection.remove();
+      criteriaCount--;
+    }
+  }
+});
+
+
 // Update threshold dropdown based on selected category
 function updateThresholdOptions() {
   const selectedCategory = categorySelect.value;
@@ -401,6 +413,7 @@ function getStatValue(stats, type, side) {
 // Handle form submission
 async function handleFormSubmit(e) {
   e.preventDefault();
+  findBetsBtn.classList.add('loading');
 
   if (isLoading) return;
 
@@ -741,6 +754,7 @@ function showLoadingStatus(message) {
 
 function hideLoadingStatus() {
   loadingStatus.classList.add('hidden');
+  findBetsBtn.classList.remove('loading');
 }
 
 function showError(message) {
