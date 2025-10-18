@@ -30,6 +30,12 @@
                         Find Bets
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a href="leagues.html" class="nav-link">
+                        <i class="fas fa-trophy"></i>
+                        Leagues
+                    </a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -46,20 +52,15 @@
                     <div class="form-row">
                         <div class="form-group">
                             <label for="fixtureDate" class="form-label">
-                                <i class="fas fa-calendar-alt"></i> Fixture Date
+                                <i class="fas fa-calendar-alt"></i>
+                                Fixture Date
                             </label>
-                            <input 
-                                type="date" 
-                                id="fixtureDate" 
-                                name="fixtureDate" 
-                                class="form-control" 
-                                required
-                            >
+                            <input type="date" id="fixtureDate" name="fixtureDate" class="form-control" required>
                         </div>
-
                         <div class="form-group">
                             <label for="lastMatches" class="form-label">
-                                <i class="fas fa-history"></i> Last Matches per Team
+                                <i class="fas fa-history"></i>
+                                Last Matches per Team
                             </label>
                             <select id="lastMatches" name="lastMatches" class="form-control">
                                 <option value="3">Last 3 matches</option>
@@ -73,7 +74,8 @@
                     <div class="form-row">
                         <div class="form-group">
                             <label for="category" class="form-label">
-                                <i class="fas fa-tag"></i> Category
+                                <i class="fas fa-tag"></i>
+                                Category
                             </label>
                             <select id="category" name="category" class="form-control" required>
                                 <option value="">Select category</option>
@@ -83,10 +85,10 @@
                                 <option value="cards">Cards</option>
                             </select>
                         </div>
-
                         <div class="form-group">
                             <label for="threshold" class="form-label">
-                                <i class="fas fa-sliders-h"></i> Threshold
+                                <i class="fas fa-sliders-h"></i>
+                                Threshold
                             </label>
                             <select id="threshold" name="threshold" class="form-control" required disabled>
                                 <option value="">Select threshold</option>
@@ -97,7 +99,8 @@
                     <div class="form-row">
                         <div class="form-group">
                             <label for="overUnder" class="form-label">
-                                <i class="fas fa-arrows-alt-v"></i> Over/Under
+                                <i class="fas fa-arrows-alt-v"></i>
+                                Over/Under
                             </label>
                             <select id="overUnder" name="overUnder" class="form-control" required>
                                 <option value="">Select over/under</option>
@@ -107,11 +110,12 @@
                         </div>
                         <div class="form-group">
                             <label for="minSuccessRate" class="form-label">
-                                <i class="fas fa-percentage"></i> Min Success Rate
+                                <i class="fas fa-percentage"></i>
+                                Min Success Rate (%)
                             </label>
-                            <input type="number" id="minSuccessRate" name="minSuccessRate" class="form-control" min="0" max="100" step="1" value="85" placeholder="Enter minimum percent" required>
+                            <input type="number" id="minSuccessRate" name="minSuccessRate" class="form-control" 
+                                   min="0" max="100" step="1" value="85" placeholder="Enter minimum percent" required>
                         </div>
-
                     </div>
 
                     <div class="form-group">

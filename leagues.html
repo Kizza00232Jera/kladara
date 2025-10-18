@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leagues - Football Stats Explorer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="leagues_styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <i class="fas fa-futbol"></i>
+                <span>Football Stats</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">
+                        <i class="fas fa-chart-line"></i>
+                        Team Analysis
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="find_bets.html" class="nav-link">
+                        <i class="fas fa-search"></i>
+                        Find Bets
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="leagues.html" class="nav-link active">
+                        <i class="fas fa-trophy"></i>
+                        Leagues
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="header">
+            <h1><i class="fas fa-trophy"></i> Leagues & Teams</h1>
+            <p>Browse all available leagues and their teams</p>
+        </div>
+
+        <!-- Search Section -->
+        <div class="card leagues-search-card">
+            <div class="card__body">
+                <div class="search-container">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" id="league-search" class="league-search-input" 
+                           placeholder="Search leagues or teams...">
+                    <span class="search-count" id="search-count"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Loading Status -->
+        <div id="loading-leagues" class="loading-status">
+            <div class="loading-content">
+                <i class="fas fa-spinner fa-spin"></i>
+                <span>Loading leagues data...</span>
+            </div>
+        </div>
+
+        <!-- Leagues Grid -->
+        <div id="leagues-list" class="leagues-grid hidden">
+            <!-- Leagues will be dynamically loaded here -->
+        </div>
+
+        <!-- No Results Message -->
+        <div id="no-results" class="no-results hidden">
+            <i class="fas fa-search"></i>
+            <h3>No matches found</h3>
+            <p>Try adjusting your search terms</p>
+        </div>
+    </div>
+
+    <script src="leagues.js"></script>
+</body>
+</html>

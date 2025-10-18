@@ -531,6 +531,8 @@ select.form-control {
 
 .form-group {
   margin-bottom: var(--space-16);
+  position: relative;
+  overflow: visible;
 }
 
 /* Card component */
@@ -2578,4 +2580,81 @@ input[type="date"].form-control::-webkit-calendar-picker-indicator {
   border: 4px solid transparent;
   border-top-color: var(--color-charcoal-800);
   z-index: 1000;
+}
+
+.form-group {
+    position: relative;
+}
+
+.autocomplete-items {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    max-height: calc(10 * 2em); /* show up to 10 items of ~2em each */
+    overflow-y: auto;          /* add vertical scrollbar if more */
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-top: none;
+    border-radius: 0 0 var(--radius-base) var(--radius-base);
+    box-shadow: var(--shadow-md);
+    margin-top: -1px;
+}
+
+
+
+.autocomplete-item {
+    padding: var(--space-12) var(--space-16);
+    cursor: pointer;
+    font-size: var(--font-size-base);
+    color: var(--color-text);
+    transition: all var(--duration-fast) var(--ease-standard);
+    border-bottom: 1px solid var(--color-card-border-inner);
+}
+
+.autocomplete-item:last-child {
+    border-bottom: none;
+    border-radius: 0 0 var(--radius-base) var(--radius-base);
+}
+
+.autocomplete-item:hover,
+.autocomplete-item.autocomplete-active {
+    background: var(--color-primary);
+    color: var(--color-btn-primary-text);
+}
+
+.autocomplete-item strong {
+    font-weight: var(--font-weight-semibold);
+}
+
+/* Smooth scrollbar for autocomplete */
+.autocomplete-items::-webkit-scrollbar {
+    width: 8px;
+}
+
+.autocomplete-items::-webkit-scrollbar-track {
+    background: var(--color-background);
+    border-radius: 0 0 var(--radius-base) 0;
+}
+
+.autocomplete-items::-webkit-scrollbar-thumb {
+    background: var(--color-border);
+    border-radius: 4px;
+}
+
+.autocomplete-items::-webkit-scrollbar-thumb:hover {
+    background: var(--color-text-secondary);
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .autocomplete-items {
+        max-height: 200px;
+    }
+
+    .autocomplete-item {
+        padding: var(--space-10) var(--space-12);
+        font-size: var(--font-size-sm);
+    }
 }

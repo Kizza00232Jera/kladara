@@ -66,18 +66,153 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Event listeners
 function setupEventListeners() {
-  form.addEventListener('submit', handleFormSubmit);
+    form.addEventListener('submit', handleFormSubmit);
 
-  // Allow Enter key to trigger analysis
-  [team1Input, team2Input].forEach(input => {
-    input.addEventListener('keypress', function(e) {
-      if (e.key === 'Enter') {
-        e.preventDefault();
-        handleFormSubmit(e);
-      }
-    });
-  });
+    // Setup autocomplete for both team inputs
+    setupAutocomplete(team1Input);
+    setupAutocomplete(team2Input);
 }
+
+// Autocomplete functionality
+function setupAutocomplete(inputElement) {
+    let currentFocus = -1;
+    let autocompleteList = null;
+
+    // Input event - show suggestions
+    inputElement.addEventListener('input', function() {
+        const value = this.value;
+        closeAllLists();
+        currentFocus = -1;
+
+        // Only show suggestions after 3 characters
+        if (!value || value.length < 3) return;
+
+        // Get matching teams (case-insensitive)
+        const matches = getMatchingTeams(value);
+        
+        if (matches.length === 0) return;
+
+        // Create autocomplete container
+        autocompleteList = document.createElement('div');
+        autocompleteList.className = 'autocomplete-items';
+        autocompleteList.id = this.id + '-autocomplete-list';
+        this.parentNode.appendChild(autocompleteList);
+
+        // Add each matching team
+        matches.forEach((team, index) => {
+            const item = document.createElement('div');
+            item.className = 'autocomplete-item';
+            
+            // Highlight matching part
+            const matchIndex = team.toLowerCase().indexOf(value.toLowerCase());
+            const beforeMatch = team.substring(0, matchIndex);
+            const match = team.substring(matchIndex, matchIndex + value.length);
+            const afterMatch = team.substring(matchIndex + value.length);
+            
+            item.innerHTML = `${beforeMatch}<strong>${match}</strong>${afterMatch}`;
+            item.dataset.value = team;
+            
+            // Click event
+            item.addEventListener('click', function() {
+                inputElement.value = this.dataset.value;
+                closeAllLists();
+            });
+            
+            autocompleteList.appendChild(item);
+        });
+    });
+
+    // Keyboard navigation
+    inputElement.addEventListener('keydown', function(e) {
+        let items = document.getElementById(this.id + '-autocomplete-list');
+        if (items) items = items.getElementsByClassName('autocomplete-item');
+        
+        if (e.key === 'ArrowDown') {
+            e.preventDefault();
+            currentFocus++;
+            addActive(items);
+        } else if (e.key === 'ArrowUp') {
+            e.preventDefault();
+            currentFocus--;
+            addActive(items);
+        } else if (e.key === 'Enter') {
+            if (currentFocus > -1 && items) {
+                e.preventDefault();
+                items[currentFocus].click();
+            }
+        } else if (e.key === 'Escape') {
+            closeAllLists();
+        }
+    });
+
+    // Make items active
+    function addActive(items) {
+        if (!items) return false;
+        removeActive(items);
+        if (currentFocus >= items.length) currentFocus = 0;
+        if (currentFocus < 0) currentFocus = items.length - 1;
+        items[currentFocus].classList.add('autocomplete-active');
+        items[currentFocus].scrollIntoView({ block: 'nearest' });
+    }
+
+    // Remove active class
+    function removeActive(items) {
+        for (let i = 0; i < items.length; i++) {
+            items[i].classList.remove('autocomplete-active');
+        }
+    }
+
+    // Close all autocomplete lists
+    function closeAllLists(element) {
+        const items = document.getElementsByClassName('autocomplete-items');
+        for (let i = 0; i < items.length; i++) {
+            if (element !== items[i] && element !== inputElement) {
+                items[i].parentNode.removeChild(items[i]);
+            }
+        }
+        currentFocus = -1;
+    }
+
+    // Close lists when clicking outside
+    document.addEventListener('click', function(e) {
+        if (e.target !== inputElement) {
+            closeAllLists(e.target);
+        }
+    });
+}
+
+// Get matching teams (case-insensitive)
+function getMatchingTeams(searchTerm) {
+    const search = searchTerm.toLowerCase();
+    const teams = Array.from(availableTeams);
+    
+    // Find teams that include the search term
+    const matches = teams.filter(team => 
+        team.toLowerCase().includes(search)
+    );
+    
+    // Sort: exact matches first, then starts with, then contains
+    matches.sort((a, b) => {
+        const aLower = a.toLowerCase();
+        const bLower = b.toLowerCase();
+        
+        // Exact match
+        if (aLower === search) return -1;
+        if (bLower === search) return 1;
+        
+        // Starts with
+        if (aLower.startsWith(search) && !bLower.startsWith(search)) return -1;
+        if (bLower.startsWith(search) && !aLower.startsWith(search)) return 1;
+        
+        // Alphabetical
+        return a.localeCompare(b);
+    });
+    
+    // Return max 10 results
+    return matches.slice(0, 10);
+}
+
+
 
 // Load and parse all CSV data
 async function loadAllCSVData() {
@@ -191,10 +326,15 @@ async function loadAllCSVData() {
 function getTeamLastMatches(teamName, numMatches = 5) {
   if (!teamName) return [];
 
-  // Find all matches where the team played (either home or away)
-  const teamMatches = allMatchesData.filter(match => 
-    match.homeTeam === teamName || match.awayTeam === teamName
-  );
+// Case-insensitive team name matching
+const teamNameLower = teamName.toLowerCase();
+
+// Find all matches where the team played (either home or away)
+const teamMatches = allMatchesData.filter(match => 
+    match.homeTeam.toLowerCase() === teamNameLower || 
+    match.awayTeam.toLowerCase() === teamNameLower
+);
+
 
   if (teamMatches.length === 0) {
     return [];
