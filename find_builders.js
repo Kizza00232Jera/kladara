@@ -31,6 +31,7 @@ const THRESHOLDS = {
   shots: [18.5, 19.5, 20.5, 21.5, 22.5, 23.5, 24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5, 31.5],
   shotsOnGoal:[5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5],
   corners: [0.5, 5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5],
+  cornersht: [0.5, 2.5, 3.5, 4.5, 5.5, 6.5],
   cards: [0.5, 1.5, 2.5, 3.5, 4.5, 5.5, 6.5]
 };
 
@@ -319,6 +320,7 @@ function addCriteriaSection() {
           <option value="goals">Goals</option>
           <option value="goalsht">Goalsht</option>
           <option value="corners">Corners</option>
+          <option value="cornersht">Cornersht</option>
           <option value="cards">Cards</option>
           <option value="shots">Shots</option>
           <option value="shotsOnGoal">Shots On Goal</option>
@@ -419,13 +421,16 @@ async function loadAllData() {
           const matchDate = new Date(match.match_date);
 
           // Extract statistics
-          const stats = match.statistics || match.statistics_1half || [];
+          const stats = match.statistics || [] ;
+          const statsht = match.statistics_1half || [];
           const shotsHome = getStatValue(stats, 'Shots Total', 'home');
           const shotsAway = getStatValue(stats, 'Shots Total', 'away');
           const onGoalHome   = getStatValue(stats, 'Shots On Goal', 'home');
           const onGoalAway   = getStatValue(stats, 'Shots On Goal', 'away');
           const cornersHome = getStatValue(stats, 'Corners', 'home');
           const cornersAway = getStatValue(stats, 'Corners', 'away');
+          const cornersHomeht = getStatValue(statsht, 'Corners', 'home');
+          const cornersAwayht = getStatValue(statsht, 'Corners', 'away');
           const cardsHome = parseInt(getStatValue(stats, 'Yellow Cards', 'home')) + 
                            (parseInt(getStatValue(stats, 'Red Cards', 'home')) || 0);
           const cardsAway = parseInt(getStatValue(stats, 'Yellow Cards', 'away')) + 
@@ -448,6 +453,7 @@ async function loadAllData() {
             totalShots: shotsHome + shotsAway,
             totalShotsOnGoal: onGoalHome + onGoalAway,
             totalCorners: cornersHome + cornersAway,
+            totalCornersht: cornersHomeht + cornersAwayht,
             totalCards: cardsHome + cardsAway,
             matchId: match.match_id
           };
