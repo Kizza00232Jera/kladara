@@ -27,13 +27,18 @@ function buildCanonicalMap(rawNames) {
 // Configuration
 const THRESHOLDS = {
   goals: [0.5, 1.5, 2.5, 3.5, 4.5, 5.5],
-  goalsht: [0.5, 1.5, 2.5, 3.5],
   shots: [18.5, 19.5, 20.5, 21.5, 22.5, 23.5, 24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5, 31.5],
   fouls: [18.5, 19.5, 20.5, 21.5, 22.5, 23.5, 24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5, 31.5],
   shotsOnGoal:[5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5],
   corners: [0.5, 5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5],
+  cards: [0.5, 1.5, 2.5, 3.5, 4.5, 5.5, 6.5],
+  goalsht: [0.5, 1.5, 2.5, 3.5],
   cornersht: [0.5, 2.5, 3.5, 4.5, 5.5, 6.5],
-  cards: [0.5, 1.5, 2.5, 3.5, 4.5, 5.5, 6.5]
+  foulsht: [8.5, 9.5, 10.5, 11.5, 12.5, 13.5, 14.5],
+  cardsht: [0.5, 1.5, 2.5],
+  shotsht: [8.5, 9.5, 10.5, 11.5, 12.5, 13.5, 14.5],
+  shotsOnGoalht: [2.5, 3.5, 4.5, 5.5, 6.5]
+  
 };
 
 // JSON Files Configuration
@@ -319,13 +324,17 @@ function addCriteriaSection() {
         <select class="category-select" data-criteria="${criteriaId}" required>
           <option value="">Select category</option>
           <option value="goals">Goals</option>
-          <option value="goalsht">Goalsht</option>
           <option value="corners">Corners</option>
-          <option value="cornersht">Cornersht</option>
           <option value="cards">Cards</option>
           <option value="shots">Shots</option>
           <option value="shotsOnGoal">Shots On Goal</option>
           <option value="fouls">Fouls</option>
+          <option value="goalsht">Goals HT</option>
+          <option value="cornersht">Corners HT</option>
+          <option value="cardsht">Cards HT</option>
+          <option value="shotsht">Shots HT</option>
+          <option value="shotsOnGoalht">Shots On Goal HT</option>
+          <option value="foulsht">Fouls HT</option>
         </select>
       </div>
       <div class="filter-item">
@@ -433,12 +442,24 @@ async function loadAllData() {
           const onGoalAway   = getStatValue(stats, 'Shots On Goal', 'away');
           const cornersHome = getStatValue(stats, 'Corners', 'home');
           const cornersAway = getStatValue(stats, 'Corners', 'away');
+          const cardsHome = parseInt(getStatValue(stats, 'Yellow Cards', 'home')) + 
+          (parseInt(getStatValue(stats, 'Red Cards', 'home')) || 0);
+          const cardsAway = parseInt(getStatValue(stats, 'Yellow Cards', 'away')) + 
+          (parseInt(getStatValue(stats, 'Red Cards', 'away')) || 0);
+          
+          //HALFTIME
+          const shotsHomeht = getStatValue(statsht, 'Shots Total', 'home');
+          const shotsAwayht = getStatValue(statsht, 'Shots Total', 'away');
           const cornersHomeht = getStatValue(statsht, 'Corners', 'home');
           const cornersAwayht = getStatValue(statsht, 'Corners', 'away');
-          const cardsHome = parseInt(getStatValue(stats, 'Yellow Cards', 'home')) + 
-                           (parseInt(getStatValue(stats, 'Red Cards', 'home')) || 0);
-          const cardsAway = parseInt(getStatValue(stats, 'Yellow Cards', 'away')) + 
-                           (parseInt(getStatValue(stats, 'Red Cards', 'away')) || 0);
+          const foulsHomeht = getStatValue(statsht, 'Fouls', 'home');
+          const foulsAwayht = getStatValue(statsht, 'Fouls', 'away');
+          const onGoalHomeht   = getStatValue(statsht, 'Shots On Goal', 'home');
+          const onGoalAwayht   = getStatValue(statsht, 'Shots On Goal', 'away');
+          const cardsHomeht = parseInt(getStatValue(statsht, 'Yellow Cards', 'home')) + 
+          (parseInt(getStatValue(statsht, 'Red Cards', 'home')) || 0);
+          const cardsAwayht = parseInt(getStatValue(statsht, 'Yellow Cards', 'away')) + 
+          (parseInt(getStatValue(statsht, 'Red Cards', 'away')) || 0);
 
           const matchData = {
             date: matchDate,
@@ -446,21 +467,28 @@ async function loadAllData() {
             awayTeam: match.match_awayteam_name,
             homeScore: parseInt(match.match_hometeam_score) || 0,
             awayScore: parseInt(match.match_awayteam_score) || 0,
-            homeScoreHalfTime: parseInt(match.match_hometeam_halftime_score) || 0,
-            awayScoreHalfTime: parseInt(match.match_awayteam_halftime_score) || 0,
 
             status: match.match_status,
             league: leagueInfo.name,
             leagueId: leagueId,
             totalGoals: (parseInt(match.match_hometeam_score) || 0) + (parseInt(match.match_awayteam_score) || 0),
-            totalGoalsht: (parseInt(match.match_match_hometeam_halftime_score) || 0) + (parseInt(match.match_awayteam_halftime_score) || 0),
             totalShots: shotsHome + shotsAway,
             totalFouls: foulsHome + foulsAway,
             totalShotsOnGoal: onGoalHome + onGoalAway,
             totalCorners: cornersHome + cornersAway,
-            totalCornersht: cornersHomeht + cornersAwayht,
             totalCards: cardsHome + cardsAway,
-            matchId: match.match_id
+            matchId: match.match_id,
+
+            homeScoreHalfTime: parseInt(match.match_hometeam_halftime_score) || 0,
+            awayScoreHalfTime: parseInt(match.match_awayteam_halftime_score) || 0,
+            totalGoalsht: (parseInt(match.match_match_hometeam_halftime_score) || 0) + (parseInt(match.match_awayteam_halftime_score) || 0),
+            totalCornersht: cornersHomeht + cornersAwayht,
+            totalShotsht: shotsHomeht + shotsAwayht,
+            totalFoulsht: foulsHomeht + foulsAwayht,
+            totalShotsOnGoalht: onGoalHomeht + onGoalAwayht,
+            totalCardsht: cardsHomeht + cardsAwayht,
+
+
           };
 
           if (match.match_status === 'Finished') {
