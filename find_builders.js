@@ -28,7 +28,7 @@ function buildCanonicalMap(rawNames) {
 const THRESHOLDS = {
   goals: [0.5, 1.5, 2.5, 3.5, 4.5, 5.5],
   shots: [18.5, 19.5, 20.5, 21.5, 22.5, 23.5, 24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5, 31.5],
-  corners: [5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5],
+  corners: [0.5, 5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5],
   cards: [0.5, 1.5, 2.5, 3.5, 4.5, 5.5, 6.5]
 };
 
@@ -523,7 +523,8 @@ async function handleFormSubmit(e) {
   }
 }
 // Finds all historical fixtures where both teams had 100% success
-function findHistoricalPatterns(criteria, lastMatches) {
+function findHistoricalPatterns(criteria, lastMatches, minSuccessRate) {
+  console.log("🔍 Running historical analysis with minSuccessRate:", minSuccessRate + "%");
   const patterns = [];
   const byDate = {};
   allMatchesData.forEach(m => {
@@ -538,7 +539,7 @@ function findHistoricalPatterns(criteria, lastMatches) {
       if (hHist.length<3 || aHist.length<3) return;
       const hA = analyzeTeamMatchesMultiCriteria(hHist, criteria);
       const aA = analyzeTeamMatchesMultiCriteria(aHist, criteria);
-      if (hA.successRate===100 && aA.successRate===100) {
+      if (hA.successRate>=minSuccessRate && aA.successRate>=minSuccessRate) {
         const met = checkIfMatchMeetsCriteria(f, criteria);
         patterns.push({ fixture:f, fixtureMetCriteria:met });
       }
@@ -560,7 +561,7 @@ function analyzeFixturesForDate(fixtureDate, lastMatches, criteria, minSuccessRa
   const dateKey = new Date(fixtureDate).toDateString();
   const fixturesOnDate = allFixturesData.filter(f => new Date(f.date).toDateString()===dateKey);
   // 1) Run historical analysis ONCE
-  const histPatterns = findHistoricalPatterns(criteria, lastMatches);
+  const histPatterns = findHistoricalPatterns(criteria, lastMatches, minSuccessRate);
   const total = histPatterns.length;
   const succ  = histPatterns.filter(p=>p.fixtureMetCriteria).length;
   const histSummary = {
@@ -615,220 +616,6 @@ function analyzeFixtureMultiCriteria(fixture, lastMatches, criteria) {
   };
 }
 
-// === OPTIMIZED HISTORICAL PATTERN ANALYSIS ===
-// This function finds historical matches where both teams had 100% success rate
-// and checks if those matches also met the criteria - SCANS ALL AVAILABLE DATA
-function findHistoricalPatterns(criteria, lastMatches) {
-  console.log('🔍 Searching for historical patterns across ALL available data...');
-
-  const historicalPatterns = [];
-
-  // Process ALL matches in the dataset - no date restrictions
-  console.log(`📊 Processing ${allMatchesData.length} total matches for historical analysis`);
-
-  // Group matches by fixture (same date, different matches on same day)
-  const fixturesByDate = {};
-  allMatchesData.forEach(match => {
-    if (!match.date) return;
-
-    const dateKey = match.date.toISOString().split('T')[0];
-    if (!fixturesByDate[dateKey]) {
-      fixturesByDate[dateKey] = [];
-    }
-    fixturesByDate[dateKey].push(match);
-  });
-
-  let processedFixtures = 0;
-
-  // Analyze each historical fixture
-  Object.entries(fixturesByDate).forEach(([dateKey, matches]) => {
-    matches.forEach(fixture => {
-      processedFixtures++;
-
-      // Show progress every 1000 fixtures
-      if (processedFixtures % 1000 === 0) {
-        console.log(`📈 Processed ${processedFixtures} fixtures for historical analysis...`);
-      }
-
-      // Get last N matches for both teams BEFORE this fixture date
-      const homeTeamHistory = getTeamLastMatches(fixture.homeTeam, lastMatches, fixture.date);
-      const awayTeamHistory = getTeamLastMatches(fixture.awayTeam, lastMatches, fixture.date);
-
-      // Need minimum matches for both teams (at least 3 matches even if user selected more)
-      if (homeTeamHistory.length < Math.min(3, lastMatches) || 
-          awayTeamHistory.length < Math.min(3, lastMatches)) {
-        return;
-      }
-
-      // Analyze if both teams had 100% success rate in their last matches
-      const homeAnalysis = analyzeTeamMatchesMultiCriteria(homeTeamHistory, criteria);
-      const awayAnalysis = analyzeTeamMatchesMultiCriteria(awayTeamHistory, criteria);
-
-      // Check if BOTH teams had 100% success rate (this is the pattern we're looking for)
-      if (homeAnalysis.successRate === 100 && awayAnalysis.successRate === 100) {
-        // Now check if THIS fixture also met the criteria
-        const fixtureMetCriteria = checkIfMatchMeetsCriteria(fixture, criteria);
-
-        historicalPatterns.push({
-          date: fixture.date,
-          homeTeam: fixture.homeTeam,
-          awayTeam: fixture.awayTeam,
-          league: fixture.league,
-          fixtureMetCriteria: fixtureMetCriteria,
-          fixtureStats: {
-            goals: fixture.totalGoals || 0,
-            corners: fixture.totalCorners || 0,
-            cards: fixture.totalCards || 0,
-            shots: fixture.totalShots || 0
-          }
-        });
-      }
-    });
-  });
-
-  console.log(`✅ Historical analysis complete: Found ${historicalPatterns.length} patterns from ${processedFixtures} total fixtures`);
-  console.log(`📅 Date range: ${Math.min(...allMatchesData.map(m => m.date?.getFullYear() || 9999))} - ${Math.max(...allMatchesData.map(m => m.date?.getFullYear() || 0))}`);
-
-  return historicalPatterns;
-}
-
-// Helper function to check if a single match meets all criteria
-function checkIfMatchMeetsCriteria(match, criteria) {
-  let allCriteriaMet = true;
-
-  criteria.forEach(criterion => {
-    const { category, threshold, overUnder } = criterion;
-    const dataKey = `total${category.charAt(0).toUpperCase() + category.slice(1)}`;
-    const value = match[dataKey];
-
-    if (value === undefined || value === null) {
-      allCriteriaMet = false;
-      return;
-    }
-
-    let criteriaMet = false;
-    if (overUnder === 'over') {
-      criteriaMet = value > threshold;
-    } else if (overUnder === 'under') {
-      criteriaMet = value < threshold;
-    }
-
-    if (!criteriaMet) {
-      allCriteriaMet = false;
-    }
-  });
-
-  return allCriteriaMet;
-}
-
-function analyzeFixturesForDate(fixtureDate, lastMatches, criteria, minSuccessRate) {
-  const targetDate = new Date(fixtureDate);
-  const opportunities = [];
-
-  console.log(`🔍 Looking for fixtures on ${fixtureDate} with ${criteria.length} criteria...`);
-
-  const fixturesOnDate = allFixturesData.filter(fixture => {
-    const fixtureDate = new Date(fixture.date);
-    return fixtureDate.toDateString() === targetDate.toDateString();
-  });
-
-  console.log(`📅 Found ${fixturesOnDate.length} fixtures on ${fixtureDate}`);
-
-  if (fixturesOnDate.length === 0) {
-    return {
-      opportunities: [],
-      historicalAnalysis: {
-        totalMatches: 0,
-        successfulMatches: 0,
-        successRate: 0,
-        patterns: [],
-        criteriaText: criteria.map(c => `${c.overUnder} ${c.threshold} ${c.category}`).join(' + ')
-      }
-    };
-  }
-
-  // NEW: Run historical analysis ONCE for this criteria combination
-  console.log('🕒 Running historical pattern analysis (this may take a moment)...');
-  const historicalPatterns = findHistoricalPatterns(criteria, lastMatches);
-  const historicalSuccess = historicalPatterns.filter(h => h.fixtureMetCriteria).length;
-  const historicalTotal = historicalPatterns.length;
-  const historicalSuccessRate = historicalTotal > 0 
-    ? Math.round((historicalSuccess / historicalTotal) * 100) 
-    : 0;
-
-  const historicalAnalysis = {
-    totalMatches: historicalTotal,
-    successfulMatches: historicalSuccess,
-    successRate: historicalSuccessRate,
-    patterns: historicalPatterns,
-    criteriaText: criteria.map(c => `${c.overUnder} ${c.threshold} ${c.category}`).join(' + ')
-  };
-
-  console.log(`📊 Historical analysis: ${historicalSuccess}/${historicalTotal} = ${historicalSuccessRate}%`);
-
-  // Now analyze each fixture (without running historical analysis again)
-  fixturesOnDate.forEach(fixture => {
-    try {
-      const analysis = analyzeFixtureMultiCriteria(fixture, lastMatches, criteria);
-      if (analysis && analysis.combinedSuccessRate >= minSuccessRate) {
-        opportunities.push({
-          fixture: fixture,
-          analysis: analysis,
-          successRate: analysis.combinedSuccessRate
-        });
-        console.log(`✅ ${fixture.homeTeam} vs ${fixture.awayTeam}: ${analysis.combinedSuccessRate}% success rate`);
-      } else if (analysis) {
-        console.log(`❌ ${fixture.homeTeam} vs ${fixture.awayTeam}: ${analysis.combinedSuccessRate}% (below threshold)`);
-      }
-    } catch (error) {
-      console.warn(`Error analyzing fixture ${fixture.homeTeam} vs ${fixture.awayTeam}:`, error);
-    }
-  });
-
-  console.log(`🎯 Found ${opportunities.length} qualifying opportunities`);
-
-  return {
-    opportunities: opportunities,
-    historicalAnalysis: historicalAnalysis
-  };
-}
-
-
-// Analyze a single fixture with multiple criteria - FIXED to show individual match results
-function analyzeFixtureMultiCriteria(fixture, lastMatches, criteria) {
-  const homeTeamMatches = getTeamLastMatches(fixture.homeTeam, lastMatches, fixture.date);
-  const awayTeamMatches = getTeamLastMatches(fixture.awayTeam, lastMatches, fixture.date);
-
-  if (homeTeamMatches.length < Math.min(3, lastMatches) || awayTeamMatches.length < Math.min(3, lastMatches)) {
-    console.log(`⚠️ Not enough data for ${fixture.homeTeam} (${homeTeamMatches.length}) vs ${fixture.awayTeam} (${awayTeamMatches.length})`);
-    return null;
-  }
-
-  const combinedMatches = [...homeTeamMatches, ...awayTeamMatches];
-
-  // Analyze home team with ALL criteria
-  const homeAnalysis = analyzeTeamMatchesMultiCriteria(homeTeamMatches, criteria);
-  // Analyze away team with ALL criteria  
-  const awayAnalysis = analyzeTeamMatchesMultiCriteria(awayTeamMatches, criteria);
-  // Analyze combined with ALL criteria
-  const combinedAnalysis = analyzeTeamMatchesMultiCriteria(combinedMatches, criteria);
-
-  return {
-    homeTeam: fixture.homeTeam,
-    awayTeam: fixture.awayTeam,
-    league: fixture.league,
-    homeAnalysis: homeAnalysis,
-    awayAnalysis: awayAnalysis,
-    combinedSuccessRate: combinedAnalysis.successRate,
-    combinedSuccessCount: combinedAnalysis.successCount,
-    totalMatches: combinedMatches.length,
-    homeMatches: homeTeamMatches,
-    awayMatches: awayTeamMatches,
-    criteriaText: criteria.map(c => `${c.category} ${c.overUnder} ${c.threshold}`).join(', ')
-  };
-}
-
-// Analyze team matches with multiple criteria - ALL must pass for success
 function analyzeTeamMatchesMultiCriteria(matches, criteria) {
   let successCount = 0;
   const matchResults = matches.map(match => {
