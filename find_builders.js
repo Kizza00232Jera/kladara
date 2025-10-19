@@ -186,7 +186,7 @@ const fixtureDateInput = document.getElementById('fixtureDate');
 const lastMatchesSelect = document.getElementById('lastMatches');
 const minSuccessRateSelect = document.getElementById('minSuccessRate');
 const findBuildersBtn = document.getElementById('findBuildersBtn');
-const historicalSummaryContainer = document.getElementById('historical-summary');
+// const historicalSummaryContainer = document.getElementById('historical-summary');
 const resultsContainer           = document.getElementById('results-container');
 const btnText = document.querySelector('.btn-text');
 const btnLoading = document.querySelector('.btn-loading');
@@ -473,7 +473,7 @@ async function loadAllData() {
     allMatchesData.sort((a, b) => a.date - b.date);
     allFixturesData.sort((a, b) => a.date - b.date);
     hideLoadingStatus();
-    console.log(`✅ Loaded ${allMatchesData.length} historical matches and ${allFixturesData.length} fixtures`);
+    // console.log(`✅ Loaded ${allMatchesData.length} historical matches and ${allFixturesData.length} fixtures`);
 
     if (allMatchesData.length === 0) {
       showError('No historical match data loaded. Please check your JSON files.');
@@ -540,30 +540,30 @@ async function handleFormSubmit(e) {
   }
 }
 // Finds all historical fixtures where both teams had 100% success
-function findHistoricalPatterns(criteria, lastMatches, minSuccessRate) {
-  console.log("🔍 Running historical analysis with minSuccessRate:", minSuccessRate + "%");
-  const patterns = [];
-  const byDate = {};
-  allMatchesData.forEach(m => {
-    if (!m.date) return;
-    const d = m.date.toISOString().split('T')[0];
-    (byDate[d]||(byDate[d]=[])).push(m);
-  });
-  Object.values(byDate).forEach(fixtures => {
-    fixtures.forEach(f => {
-      const hHist = getTeamLastMatches(f.homeTeam, lastMatches, f.date);
-      const aHist = getTeamLastMatches(f.awayTeam, lastMatches, f.date);
-      if (hHist.length<3 || aHist.length<3) return;
-      const hA = analyzeTeamMatchesMultiCriteria(hHist, criteria);
-      const aA = analyzeTeamMatchesMultiCriteria(aHist, criteria);
-      if (hA.successRate>=minSuccessRate && aA.successRate>=minSuccessRate) {
-        const met = checkIfMatchMeetsCriteria(f, criteria);
-        patterns.push({ fixture:f, fixtureMetCriteria:met });
-      }
-    });
-  });
-  return patterns;
-}
+// function findHistoricalPatterns(criteria, lastMatches, minSuccessRate) {
+//   console.log("🔍 Running historical analysis with minSuccessRate:", minSuccessRate + "%");
+//   const patterns = [];
+//   const byDate = {};
+//   allMatchesData.forEach(m => {
+//     if (!m.date) return;
+//     const d = m.date.toISOString().split('T')[0];
+//     (byDate[d]||(byDate[d]=[])).push(m);
+//   });
+//   Object.values(byDate).forEach(fixtures => {
+//     fixtures.forEach(f => {
+//       const hHist = getTeamLastMatches(f.homeTeam, lastMatches, f.date);
+//       const aHist = getTeamLastMatches(f.awayTeam, lastMatches, f.date);
+//       if (hHist.length<3 || aHist.length<3) return;
+//       const hA = analyzeTeamMatchesMultiCriteria(hHist, criteria);
+//       const aA = analyzeTeamMatchesMultiCriteria(aHist, criteria);
+//       if (hA.successRate>=minSuccessRate && aA.successRate>=minSuccessRate) {
+//         const met = checkIfMatchMeetsCriteria(f, criteria);
+//         patterns.push({ fixture:f, fixtureMetCriteria:met });
+//       }
+//     });
+//   });
+//   return patterns;
+// }
 
 function checkIfMatchMeetsCriteria(match, criteria) {
   return criteria.every(c => {
@@ -578,15 +578,15 @@ function analyzeFixturesForDate(fixtureDate, lastMatches, criteria, minSuccessRa
   const dateKey = new Date(fixtureDate).toDateString();
   const fixturesOnDate = allFixturesData.filter(f => new Date(f.date).toDateString()===dateKey);
   // 1) Run historical analysis ONCE
-  const histPatterns = findHistoricalPatterns(criteria, lastMatches, minSuccessRate);
-  const total = histPatterns.length;
-  const succ  = histPatterns.filter(p=>p.fixtureMetCriteria).length;
-  const histSummary = {
-    totalMatches: total,
-    successfulMatches: succ,
-    successRate: total?Math.round(succ/total*100):0,
-    criteriaText: criteria.map(c=>c.overUnder+' '+c.threshold+' '+c.category).join(' + ')
-  };
+  // const histPatterns = findHistoricalPatterns(criteria, lastMatches, minSuccessRate);
+  // const total = histPatterns.length;
+  // const succ  = histPatterns.filter(p=>p.fixtureMetCriteria).length;
+  // const histSummary = {
+  //   totalMatches: total,
+  //   successfulMatches: succ,
+  //   successRate: total?Math.round(succ/total*100):0,
+  //   criteriaText: criteria.map(c=>c.overUnder+' '+c.threshold+' '+c.category).join(' + ')
+  // };
   // 2) Find today’s qualifying fixtures
   const opportunities = fixturesOnDate.reduce((arr,f) => {
     const a = analyzeFixtureMultiCriteria(f, lastMatches, criteria);
@@ -596,7 +596,7 @@ function analyzeFixturesForDate(fixtureDate, lastMatches, criteria, minSuccessRa
     return arr;
   }, []);
   opportunities.sort((x, y) => y.analysis.combinedSuccessRate - x.analysis.combinedSuccessRate);
-  return { opportunities, historicalAnalysis:histSummary };
+  return { opportunities };
 }
 
 
@@ -702,23 +702,23 @@ function getTeamLastMatches(teamName, numMatches, beforeDate) {
 
 // Render results with individual match cards (like find_bets)
 function renderResults(result, criteria) {
-  const { opportunities, historicalAnalysis } = result;
+  const { opportunities } = result;
   // Clear existing
-  historicalSummaryContainer.innerHTML = '';
-  resultsContainer.innerHTML           = '';
+  // historicalSummaryContainer.innerHTML = '';
+  // resultsContainer.innerHTML           = '';
   // Historical summary
-  historicalSummaryContainer.innerHTML = `
-    <div class="historical-summary-card">
-      <h3>Historical Pattern Validation</h3>
-      <p>Criteria: ${historicalAnalysis.criteriaText}</p>
-      <div class="historical-stats-grid">
-        <div class="stat">📈 ${historicalAnalysis.totalMatches}<br>Patterns</div>
-        <div class="stat success">✅ ${historicalAnalysis.successfulMatches}<br>Successful</div>
-        <div class="stat fail">❌ ${historicalAnalysis.totalMatches-historicalAnalysis.successfulMatches}<br>Failed</div>
-        <div class="stat highlight">${historicalAnalysis.successRate}%<br>Success Rate</div>
-      </div>
-    </div>
-  `;
+  // historicalSummaryContainer.innerHTML = `
+  //   <div class="historical-summary-card">
+  //     <h3>Historical Pattern Validation</h3>
+  //     <p>Criteria: ${historicalAnalysis.criteriaText}</p>
+  //     <div class="historical-stats-grid">
+  //       <div class="stat">📈 ${historicalAnalysis.totalMatches}<br>Patterns</div>
+  //       <div class="stat success">✅ ${historicalAnalysis.successfulMatches}<br>Successful</div>
+  //       <div class="stat fail">❌ ${historicalAnalysis.totalMatches-historicalAnalysis.successfulMatches}<br>Failed</div>
+  //       <div class="stat highlight">${historicalAnalysis.successRate}%<br>Success Rate</div>
+  //     </div>
+  //   </div>
+  // `;
   // Separator
   resultsContainer.innerHTML = `<div class="results-separator">
     <h3>Today's Opportunities (${opportunities.length})</h3>
