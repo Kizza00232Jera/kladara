@@ -27,6 +27,7 @@ function buildCanonicalMap(rawNames) {
 // Configuration
 const THRESHOLDS = {
   goals: [0.5, 1.5, 2.5, 3.5, 4.5, 5.5],
+  goalsht: [0.5, 1.5, 2.5, 3.5],
   shots: [18.5, 19.5, 20.5, 21.5, 22.5, 23.5, 24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5, 31.5],
   shotsOnGoal:[5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5],
   corners: [0.5, 5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5],
@@ -316,6 +317,7 @@ function addCriteriaSection() {
         <select class="category-select" data-criteria="${criteriaId}" required>
           <option value="">Select category</option>
           <option value="goals">Goals</option>
+          <option value="goalsht">Goalsht</option>
           <option value="corners">Corners</option>
           <option value="cards">Cards</option>
           <option value="shots">Shots</option>
@@ -417,7 +419,7 @@ async function loadAllData() {
           const matchDate = new Date(match.match_date);
 
           // Extract statistics
-          const stats = match.statistics || match.statistics1half || [];
+          const stats = match.statistics || match.statistics_1half || [];
           const shotsHome = getStatValue(stats, 'Shots Total', 'home');
           const shotsAway = getStatValue(stats, 'Shots Total', 'away');
           const onGoalHome   = getStatValue(stats, 'Shots On Goal', 'home');
@@ -435,10 +437,14 @@ async function loadAllData() {
             awayTeam: match.match_awayteam_name,
             homeScore: parseInt(match.match_hometeam_score) || 0,
             awayScore: parseInt(match.match_awayteam_score) || 0,
+            homeScoreHalfTime: parseInt(match.match_hometeam_halftime_score) || 0,
+            awayScoreHalfTime: parseInt(match.match_awayteam_halftime_score) || 0,
+
             status: match.match_status,
             league: leagueInfo.name,
             leagueId: leagueId,
             totalGoals: (parseInt(match.match_hometeam_score) || 0) + (parseInt(match.match_awayteam_score) || 0),
+            totalGoalsht: (parseInt(match.match_match_hometeam_halftime_score) || 0) + (parseInt(match.match_awayteam_halftime_score) || 0),
             totalShots: shotsHome + shotsAway,
             totalShotsOnGoal: onGoalHome + onGoalAway,
             totalCorners: cornersHome + cornersAway,
