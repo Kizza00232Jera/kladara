@@ -583,6 +583,7 @@ function analyzeFixturesForDate(fixtureDate, lastMatches, criteria, minSuccessRa
     }
     return arr;
   }, []);
+  opportunities.sort((x, y) => y.analysis.combinedSuccessRate - x.analysis.combinedSuccessRate);
   return { opportunities, historicalAnalysis:histSummary };
 }
 
