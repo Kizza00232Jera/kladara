@@ -1496,70 +1496,223 @@ label {
   border: 1px solid rgba(var(--color-info-rgb), var(--status-border-opacity));
 }
 
-/* =============================================================================
+/* ========================================
    NAVIGATION
-   ============================================================================= */
+   ======================================== */
 
 .navbar {
-  background: var(--color-surface);
-  border-bottom: 1px solid var(--color-border);
-  box-shadow: var(--shadow-sm);
-  position: sticky;
-  top: 0;
-  z-index: 100;
+    background: var(--color-surface);
+    border-bottom: 1px solid var(--color-border);
+    box-shadow: var(--shadow-sm);
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .nav-container {
-  max-width: var(--container-xl);
-  margin: 0 auto;
-  padding: 0 var(--space-16);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 64px;
+    max-width: var(--container-xl);
+    margin: 0 auto;
+    padding: 0 var(--space-16);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    position: relative;
 }
 
 .nav-brand {
-  font-size: var(--font-size-xl);
-  font-weight: var(--font-weight-bold);
-  color: var(--color-text);
-  display: flex;
-  align-items: center;
-  gap: var(--space-8);
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text);
+    display: flex;
+    align-items: center;
+    gap: var(--space-8);
+    z-index: 101;
 }
 
 .nav-brand i {
-  color: var(--color-primary);
+    color: var(--color-primary);
+}
+
+/* Hide toggle button on desktop */
+.nav-toggle {
+    display: none;
 }
 
 .nav-menu {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  gap: var(--space-4);
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: var(--space-4);
+}
+
+.nav-item {
+    margin: 0;
 }
 
 .nav-link {
-  padding: var(--space-8) var(--space-16);
-  color: var(--color-text-secondary);
-  border-radius: var(--radius-base);
-  transition: all var(--duration-fast) var(--ease-standard);
-  display: flex;
-  align-items: center;
-  gap: var(--space-8);
-  font-weight: var(--font-weight-medium);
+    padding: var(--space-8) var(--space-16);
+    color: var(--color-text-secondary);
+    border-radius: var(--radius-base);
+    transition: all var(--duration-fast) var(--ease-standard);
+    display: flex;
+    align-items: center;
+    gap: var(--space-8);
+    font-weight: var(--font-weight-medium);
+    white-space: nowrap;
 }
 
 .nav-link:hover {
-  background: var(--color-secondary);
-  color: var(--color-text);
+    background: var(--color-secondary);
+    color: var(--color-text);
 }
 
 .nav-link.active {
-  background: var(--color-primary);
-  color: var(--color-btn-primary-text);
+    background: var(--color-primary);
+    color: var(--color-btn-primary-text);
 }
+
+/* ========================================
+   MOBILE NAVIGATION (DROPDOWN)
+   ======================================== */
+
+@media (max-width: 768px) {
+    .nav-container {
+        height: 56px;
+    }
+    
+    .nav-brand {
+        font-size: var(--font-size-base);
+    }
+    
+    .nav-brand span {
+        font-size: var(--font-size-base);
+    }
+    
+    /* Show hamburger menu button */
+    .nav-toggle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        z-index: 101;
+        position: relative;
+    }
+    
+    /* Hamburger icon */
+    .hamburger,
+    .hamburger::before,
+    .hamburger::after {
+        width: 24px;
+        height: 2px;
+        background: var(--color-text);
+        border-radius: 2px;
+        transition: all 0.3s ease;
+        position: relative;
+    }
+    
+    .hamburger::before,
+    .hamburger::after {
+        content: '';
+        position: absolute;
+        left: 0;
+    }
+    
+    .hamburger::before {
+        top: -7px;
+    }
+    
+    .hamburger::after {
+        bottom: -7px;
+    }
+    
+    /* Hamburger animation when menu is open */
+    .nav-toggle.active .hamburger {
+        background: transparent;
+    }
+    
+    .nav-toggle.active .hamburger::before {
+        transform: rotate(45deg);
+        top: 0;
+    }
+    
+    .nav-toggle.active .hamburger::after {
+        transform: rotate(-45deg);
+        bottom: 0;
+    }
+    
+    /* Dropdown menu */
+    .nav-menu {
+        position: absolute;
+        top: 56px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        background: var(--color-surface);
+        border-bottom: 1px solid var(--color-border);
+        box-shadow: var(--shadow-md);
+        padding: var(--space-8) 0;
+        gap: 0;
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        transition: all 0.3s ease;
+    }
+    
+    .nav-menu.active {
+        max-height: 400px;
+        opacity: 1;
+    }
+    
+    .nav-item {
+        width: 100%;
+    }
+    
+    .nav-link {
+        width: 100%;
+        padding: var(--space-12) var(--space-16);
+        border-radius: 0;
+        justify-content: flex-start;
+    }
+    
+    .nav-link:hover {
+        background: var(--color-secondary);
+    }
+    
+    .nav-link.active {
+        background: var(--color-primary);
+        color: var(--color-btn-primary-text);
+        border-left: 4px solid var(--color-primary-active);
+    }
+}
+
+/* Extra small phones */
+@media (max-width: 480px) {
+    .nav-container {
+        padding: 0 var(--space-12);
+        height: 52px;
+    }
+    
+    .nav-menu {
+        top: 52px;
+    }
+    
+    .nav-brand {
+        font-size: var(--font-size-sm);
+    }
+    
+    .nav-brand span {
+        display: none; /* Hide "Football Stats" text on very small screens */
+    }
+}
+
 
 /* =============================================================================
    CONTAINER & LAYOUT
@@ -2391,10 +2544,3 @@ label {
     font-size: 1.3rem;
   }
 }
-.historical-summary-card { /* purple gradient, padding, border‐radius */ }
-.historical-stats-grid { display:grid;grid-template-columns:repeat(4,1fr);gap:12px; }
-.stat { text-align:center;padding:12px;background:rgba(255,255,255,0.1);border-radius:8px; }
-.stat.success { border:2px solid #4ade80; }
-.stat.fail    { border:2px solid #fb7185; }
-.stat.highlight { background:rgba(255,255,255,0.2);border:2px solid white; }
-.results-separator { text-align:center;margin:20px 0; }

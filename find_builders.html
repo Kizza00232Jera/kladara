@@ -11,36 +11,44 @@
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-brand">
-                <i class="fas fa-futbol"></i>
-                <span>Football Stats</span>
-            </div>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="find_builders.html" class="nav-link active">
-                        <i class="fas fa-layer-group"></i> Find Builders
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">
-                        <i class="fas fa-chart-line"></i> Team Analysis
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="find_bets.html" class="nav-link">
-                        <i class="fas fa-search"></i> Find Bets
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="leagues.html" class="nav-link">
-                        <i class="fas fa-trophy"></i> Leagues
-                    </a>
-                </li>
-            </ul>
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="nav-brand">
+            <i class="fas fa-futbol"></i>
+            <span>Football Stats</span>
         </div>
-    </nav>
+        
+        <!-- Mobile menu toggle button -->
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        
+        <ul class="nav-menu" id="navMenu">
+            <li class="nav-item">
+                <a href="find_builders.html" class="nav-link">
+                    <i class="fas fa-layer-group"></i> Find Builders
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">
+                    <i class="fas fa-chart-line"></i> Team Analysis
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="find_bets.html" class="nav-link">
+                    <i class="fas fa-search"></i> Find Bets
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="leagues.html" class="nav-link">
+                    <i class="fas fa-trophy"></i> Leagues
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
 
     <div class="container">
         <div class="header">
@@ -125,6 +133,7 @@
         <div id="results" class="results hidden"></div>
     </div>
 
+    <script src="navigation.js"></script>
     <script src="find_builders.js"></script>
 </body>
 </html>
