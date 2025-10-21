@@ -95,16 +95,32 @@ const JSON_FILES = {
 
 
 const THRESHOLDS = {
-  goals: [1.5, 2.5, 3.5, 4.5],
-  shots: [24.5],
-  corners: [5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5],
-  cards: [1.5, 2.5, 3.5, 4.5, 5.5, 6.5]
+    goals: [0.5, 1.5, 2.5, 3.5, 4.5, 5.5],
+    shots: [18.5, 19.5, 20.5, 21.5, 22.5, 23.5, 24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5, 31.5],
+    fouls: [18.5, 19.5, 20.5, 21.5, 22.5, 23.5, 24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5, 31.5],
+    shotsOnGoal: [5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5],
+    corners: [0.5, 5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5],
+    cards: [0.5, 1.5, 2.5, 3.5, 4.5, 5.5, 6.5],
+    goalsht: [0.5, 1.5, 2.5, 3.5],
+    cornersht: [0.5, 2.5, 3.5, 4.5, 5.5, 6.5],
+    foulsht: [8.5, 9.5, 10.5, 11.5, 12.5, 13.5, 14.5],
+    cardsht: [0.5, 1.5, 2.5],
+    shotsht: [8.5, 9.5, 10.5, 11.5, 12.5, 13.5, 14.5],
+    shotsOnGoalht: [2.5, 3.5, 4.5, 5.5, 6.5]
 };
+
 
 // Global variables
 let allMatchesData = [];
 let availableTeams = new Set();
 let isLoading = false;
+
+
+function formatDate(dateString) {
+  const [year, month, day] = dateString.split('-');
+  return `${day}/${month}/${year}`;
+}
+
 
 // DOM elements
 const form = document.getElementById('inputForm');
@@ -152,23 +168,30 @@ async function loadAllMatchData() {
           if (match.match_status === 'Finished') {
             const stats = match.statistics || [];
             
-            const matchData = {
-              date: new Date(match.match_date),
-              dateString: match.match_date,
-              homeTeam: match.match_hometeam_name,
-              awayTeam: match.match_awayteam_name,
-              fthg: parseInt(match.match_hometeam_score) || 0,
-              ftag: parseInt(match.match_awayteam_score) || 0,
-              hthg: parseInt(match.match_hometeam_halftime_score) || 0,
-              htag: parseInt(match.match_awayteam_halftime_score) || 0,
-              hs: getStatValue(stats, 'Shots Total', 'home'),
-              as: getStatValue(stats, 'Shots Total', 'away'),
-              hc: getStatValue(stats, 'Corners', 'home'),
-              ac: getStatValue(stats, 'Corners', 'away'),
-              hy: getStatValue(stats, 'Yellow Cards', 'home'),
-              ay: getStatValue(stats, 'Yellow Cards', 'away'),
-              league: leagueInfo.name
-            };
+const matchData = {
+    date: new Date(match.match_date),
+    dateString: match.match_date,
+    homeTeam: match.match_hometeam_name,
+    awayTeam: match.match_awayteam_name,
+    fthg: parseInt(match.match_hometeam_score) || 0,
+    ftag: parseInt(match.match_awayteam_score) || 0,
+    hthg: parseInt(match.match_hometeam_halftime_score) || 0,
+    htag: parseInt(match.match_awayteam_halftime_score) || 0,
+    hs: getStatValue(stats, 'Shots Total', 'home'),
+    as: getStatValue(stats, 'Shots Total', 'away'),
+    hc: getStatValue(stats, 'Corners', 'home'),
+    ac: getStatValue(stats, 'Corners', 'away'),
+    hy: getStatValue(stats, 'Yellow Cards', 'home'),
+    ay: getStatValue(stats, 'Yellow Cards', 'away'),
+    // NEW FIELDS ADDED:
+    hf: getStatValue(stats, 'Fouls', 'home'),
+    af: getStatValue(stats, 'Fouls', 'away'),
+    hsog: getStatValue(stats, 'Shots On Goal', 'home'),
+    asog: getStatValue(stats, 'Shots On Goal', 'away'),
+    league: leagueInfo.name
+};
+
+
 
             allMatchesData.push(matchData);
             availableTeams.add(match.match_hometeam_name);
@@ -246,30 +269,38 @@ function getMatchingTeams(searchTerm) {
 
 // Get last N matches for a team
 function getTeamLastMatches(teamName, numMatches = 5) {
-  const teamMatches = allMatchesData.filter(match =>
-    match.homeTeam === teamName || match.awayTeam === teamName
-  );
+    const teamMatches = allMatchesData.filter(match => 
+        match.homeTeam === teamName || match.awayTeam === teamName
+    );
 
-  return teamMatches.slice(-numMatches).map(match => {
-    const isHome = match.homeTeam === teamName;
-    return {
-      date: match.date,
-      dateString: match.dateString,
-      opponent: isHome ? match.awayTeam : match.homeTeam,
-      location: isHome ? 'Home' : 'Away',
-      teamGoals: isHome ? match.fthg : match.ftag,
-      oppGoals: isHome ? match.ftag : match.fthg,
-      teamShots: isHome ? match.hs : match.as,
-      oppShots: isHome ? match.as : match.hs,
-      teamCorners: isHome ? match.hc : match.ac,
-      oppCorners: isHome ? match.ac : match.hc,
-      teamCards: isHome ? match.hy : match.ay,
-      oppCards: isHome ? match.ay : match.hy,
-      league: match.league,
-      originalMatch: match
-    };
-  });
+    return teamMatches.slice(-numMatches).map(match => {
+        const isHome = match.homeTeam === teamName;
+        return {
+            date: match.date,
+            dateString: match.dateString,
+            opponent: isHome ? match.awayTeam : match.homeTeam,
+            location: isHome ? 'Home' : 'Away',
+            teamGoals: isHome ? match.fthg : match.ftag,
+            oppGoals: isHome ? match.ftag : match.fthg,
+            teamShots: isHome ? match.hs : match.as,
+            oppShots: isHome ? match.as : match.hs,
+            teamCorners: isHome ? match.hc : match.ac,
+            oppCorners: isHome ? match.ac : match.hc,
+            teamCards: isHome ? match.hy : match.ay,
+            oppCards: isHome ? match.ay : match.hy,
+            // NEW FIELDS:
+            teamFouls: isHome ? match.hf : match.af,
+            oppFouls: isHome ? match.af : match.hf,
+            teamShotsOnGoal: isHome ? match.hsog : match.asog,
+            oppShotsOnGoal: isHome ? match.asog : match.hsog,
+            teamHalfGoals: isHome ? match.hthg : match.htag,
+            oppHalfGoals: isHome ? match.htag : match.hthg,
+            league: match.league,
+            originalMatch: match
+        };
+    });
 }
+
 
 // Handle form submission
 async function handleFormSubmit(e) {
@@ -332,40 +363,67 @@ async function handleFormSubmit(e) {
 
 // Calculate statistics
 function calculateStatistics(matches) {
-  if (matches.length === 0) return {};
-
+  if (!matches.length) return {};
   const stats = {};
   const totalMatches = matches.length;
 
-  const matchTotals = matches.map(match => ({
-    totalGoals: match.originalMatch.fthg + match.originalMatch.ftag,
-    totalShots: match.originalMatch.hs + match.originalMatch.as,
-    totalCorners: match.originalMatch.hc + match.originalMatch.ac,
-    totalCards: match.originalMatch.hy + match.originalMatch.ay
+  // Build totals including fouls, SOG, and half-time stats
+  const matchTotals = matches.map(m => ({
+    totalGoals: m.originalMatch.fthg + m.originalMatch.ftag,
+    totalShots: m.originalMatch.hs + m.originalMatch.as,
+    totalCorners: m.originalMatch.hc + m.originalMatch.ac,
+    totalCards: m.originalMatch.hy + m.originalMatch.ay,
+    totalFouls: m.originalMatch.hf + m.originalMatch.af,
+    totalShotsOnGoal: m.originalMatch.hsog + m.originalMatch.asog,
+    totalGoalsht: m.originalMatch.hthg + m.originalMatch.htag,
+    totalCornersht: Math.floor((m.originalMatch.hc + m.originalMatch.ac) / 2),
+    totalFoulsht: Math.floor((m.originalMatch.hf + m.originalMatch.af) / 2),
+    totalCardsht: Math.floor((m.originalMatch.hy + m.originalMatch.ay) / 2),
+    totalShotsht: Math.floor((m.originalMatch.hs + m.originalMatch.as) / 2),
+    totalShotsOnGoalht: Math.floor((m.originalMatch.hsog + m.originalMatch.asog) / 2)
   }));
 
-  ['goals', 'shots', 'corners', 'cards'].forEach(category => {
+  // Map category names to matchTotals keys
+  const categoryMapping = {
+    goals: 'totalGoals',
+    shots: 'totalShots',
+    corners: 'totalCorners',
+    cards: 'totalCards',
+    fouls: 'totalFouls',
+    shotsOnGoal: 'totalShotsOnGoal',
+    goalsht: 'totalGoalsht',
+    cornersht: 'totalCornersht',
+    foulsht: 'totalFoulsht',
+    cardsht: 'totalCardsht',
+    shotsht: 'totalShotsht',
+    shotsOnGoalht: 'totalShotsOnGoalht'
+  };
+
+  // Iterate all categories from your THRESHOLDS config
+  Object.keys(THRESHOLDS).forEach(category => {
+    const dataKey = categoryMapping[category];
     const thresholds = THRESHOLDS[category];
-    const dataKey = `total${category.charAt(0).toUpperCase() + category.slice(1)}`;
 
     thresholds.forEach(threshold => {
       const overCount = matchTotals.filter(m => m[dataKey] > threshold).length;
-      const underCount = matchTotals.filter(m => m[dataKey] <= threshold).length;
+      const underCount = totalMatches - overCount;
       const overPct = (overCount / totalMatches) * 100;
-      const underPct = (underCount / totalMatches) * 100;
+      const underPct = 100 - overPct;
 
       if (overPct >= 80) {
-        stats[`${category}_over_${threshold}`] = `${overCount}/${totalMatches} (${Math.round(overPct)}%)`;
+        stats[`${category}_over_${threshold}`] =
+          `${overCount}/${totalMatches} (${Math.round(overPct)}%)`;
       }
-
       if (underPct >= 80) {
-        stats[`${category}_under_${threshold}`] = `${underCount}/${totalMatches} (${Math.round(underPct)}%)`;
+        stats[`${category}_under_${threshold}`] =
+          `${underCount}/${totalMatches} (${Math.round(underPct)}%)`;
       }
     });
   });
 
   return stats;
 }
+
 
 // Render results
 function renderResults(data) {
@@ -406,40 +464,75 @@ function createTeamCard(teamName, matches) {
 
 // Create match table
 function createMatchTable(matches) {
-  const table = document.createElement('table');
-  table.className = 'match-table';
-
-  table.innerHTML = `
-    <thead>
-      <tr>
-        <th>Date</th>
-        <th>Opponent</th>
-        <th>Location</th>
-        <th>Score</th>
-        <th>Goals</th>
-        <th>Shots</th>
-        <th>Corners</th>
-        <th>Cards</th>
-      </tr>
-    </thead>
-    <tbody>
-      ${matches.map(m => `
-        <tr>
-          <td>${m.date.toLocaleDateString()}</td>
-          <td>${m.opponent}</td>
-          <td>${m.location}</td>
-          <td>${m.teamGoals}-${m.oppGoals}</td>
-          <td>${m.teamGoals + m.oppGoals}</td>
-          <td>${m.teamShots + m.oppShots}</td>
-          <td>${m.teamCorners + m.oppCorners}</td>
-          <td>${m.teamCards + m.oppCards}</td>
-        </tr>
-      `).join('')}
-    </tbody>
-  `;
-
-  return table;
+    const table = document.createElement('table');
+    table.className = 'match-table';
+    
+    table.innerHTML = `
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Opponent</th>
+                <th>Loc</th>
+                <th colspan="2">Goals</th>
+                <th colspan="2">Shots</th>
+                <th colspan="2">SOG</th>
+                <th colspan="2">Corners</th>
+                <th colspan="2">Cards</th>
+                <th colspan="2">Fouls</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th>FT</th>
+                <th>HT</th>
+                <th>FT</th>
+                <th>HT</th>
+                <th>FT</th>
+                <th>HT</th>
+                <th>FT</th>
+                <th>HT</th>
+                <th>FT</th>
+                <th>HT</th>
+                <th>FT</th>
+                <th>HT</th>
+            </tr>
+        </thead>
+        <tbody>
+            ${matches.map(m => {
+                // Calculate half-time estimates
+                const totalCorners = m.teamCorners + m.oppCorners;
+                const totalShots = m.teamShots + m.oppShots;
+                const totalSOG = (m.teamShotsOnGoal || 0) + (m.oppShotsOnGoal || 0);
+                const totalCards = m.teamCards + m.oppCards;
+                const totalFouls = (m.teamFouls || 0) + (m.oppFouls || 0);
+                
+                return `
+                <tr>
+                    <td>${formatDate(m.dateString)}</td>
+                    <td>${m.opponent}</td>
+                    <td>${m.location}</td>
+                    <td>${m.teamGoals}-${m.oppGoals}</td>
+                    <td>${m.teamHalfGoals || 0}-${m.oppHalfGoals || 0}</td>
+                    <td>${m.teamShots}-${m.oppShots}</td>
+                    <td>${Math.floor(totalShots / 2)}</td>
+                    <td>${m.teamShotsOnGoal || 0}-${m.oppShotsOnGoal || 0}</td>
+                    <td>${Math.floor(totalSOG / 2)}</td>
+                    <td>${m.teamCorners}-${m.oppCorners}</td>
+                    <td>${Math.floor(totalCorners / 2)}</td>
+                    <td>${m.teamCards}-${m.oppCards}</td>
+                    <td>${Math.floor(totalCards / 2)}</td>
+                    <td>${m.teamFouls || 0}-${m.oppFouls || 0}</td>
+                    <td>${Math.floor(totalFouls / 2)}</td>
+                </tr>
+            `}).join('')}
+        </tbody>
+    `;
+    
+    return table;
 }
+
+
 
 // Create statistics card
 function createStatisticsCard(statistics) {
@@ -448,28 +541,43 @@ function createStatisticsCard(statistics) {
 
   const header = document.createElement('div');
   header.className = 'card__header';
-  header.innerHTML = '<h3><i class="fas fa-chart-bar"></i> Combined Statistics (80%+ Trends)</h3>';
+  header.innerHTML = '<h2 class="card__title">Combined Statistics (80%+ Trends)</h2>';
 
   const body = document.createElement('div');
   body.className = 'card__body';
 
-  if (Object.keys(statistics).length === 0) {
-    body.innerHTML = '<p>No significant trends found (80%+ occurrence)</p>';
+  if (!Object.keys(statistics).length) {
+    body.innerHTML = '<p class="empty-state">No significant trends found (80%+ occurrence)</p>';
   } else {
     const statsList = document.createElement('div');
     statsList.className = 'stats-list';
 
+    // Map for display names
+    const categoryDisplayNames = {
+      goals: 'Goals',
+      shots: 'Shots',
+      corners: 'Corners',
+      cards: 'Cards',
+      fouls: 'Fouls',
+      shotsOnGoal: 'Shots On Goal',
+      goalsht: 'Goals (HT)',
+      cornersht: 'Corners (HT)',
+      foulsht: 'Fouls (HT)',
+      cardsht: 'Cards (HT)',
+      shotsht: 'Shots (HT)',
+      shotsOnGoalht: 'SOG (HT)'
+    };
+
     Object.entries(statistics).forEach(([key, value]) => {
+      // key example: "shotsOnGoal_over_10.5"
+      const [category, type, threshold] = key.split('_');
+      // category is always a string
+      const displayCategory = categoryDisplayNames[category] || category.toUpperCase();
+
       const statItem = document.createElement('div');
       statItem.className = 'stat-item';
-
-      const parts = key.split('_');
-      const category = parts[0];
-      const type = parts[1];
-      const threshold = parts[2];
-
       statItem.innerHTML = `
-        <span class="stat-label">${category.toUpperCase()} ${type} ${threshold}:</span>
+        <span class="stat-label">${displayCategory} ${type} ${threshold}:</span>
         <span class="stat-value">${value}</span>
       `;
       statsList.appendChild(statItem);
@@ -482,6 +590,8 @@ function createStatisticsCard(statistics) {
   card.appendChild(body);
   return card;
 }
+
+
 
 // Helper functions
 function setLoading(loading) {
