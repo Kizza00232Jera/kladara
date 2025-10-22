@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Today's Football Matches - Team Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="today-matches.css">
+</head>
+<body>
+ <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <i class="fas fa-futbol"></i>
+                <span>Football Stats</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="find_builders.html" class="nav-link active">
+                        <i class="fas fa-layer-group"></i> Find Builders
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">
+                        <i class="fas fa-chart-line"></i> Team Analysis
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="find_bets.html" class="nav-link">
+                        <i class="fas fa-search"></i> Find Bets
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="leagues.html" class="nav-link">
+                        <i class="fas fa-trophy"></i> Leagues
+                    </a>
+                </li>
+                 <li class="nav-item">
+                    <a href="today-matches.html" class="nav-link">
+                        <i class="fas fa-futbol"></i> Today Matches
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="header">
+            <h1>⚽ Today's Football Matches</h1>
+            <div class="date" id="currentDate"></div>
+        </div>
+
+        <div id="errorContainer"></div>
+        
+        <div id="loadingScreen" class="loading-screen">
+            <div class="spinner"></div>
+            <p>Loading today's matches...</p>
+        </div>
+
+        <div id="matchesContainer" style="display: none;"></div>
+
+        <div id="noMatches" class="no-matches" style="display: none;">
+            <h2>No Matches Today</h2>
+            <p>There are no scheduled matches for today. Check back tomorrow!</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="today-matches.js"></script>
+</body>
+</html>
