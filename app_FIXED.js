@@ -2,90 +2,111 @@
 
 // JSON Files Configuration
 const JSON_FILES = {
-  '3':   { name: 'UEFA Champions League',     file: 'leagues/league_3_2025.json' },
-  '4':   { name: 'UEFA Europa League',       file: 'leagues/league_4_2025.json' },
-  '53':  { name: '2. Liga',                  file: 'leagues/league_53_2025.json' },
-  '56':  { name: 'Bundesliga',               file: 'leagues/league_56_2025.json' },
-  '63':  { name: 'First Division A',         file: 'leagues/league_63_2025.json' },
-  '65':  { name: 'Challenger Pro League',    file: 'leagues/league_65_2025.json' },
-  '70':  { name: 'Premijer Liga',            file: 'leagues/league_70_2025.json' },
-  '71':  { name: '1st League',               file: 'leagues/league_71_2025.json' },
-  '111': { name: 'First League',             file: 'leagues/league_111_2025.json' },
-  '124': { name: 'HNL',                      file: 'leagues/league_124_2025.json' },
-  '126': { name: 'Third NL',                 file: 'leagues/league_126_2025.json' },
-  '127': { name: 'First NL',                 file: 'leagues/league_127_2025.json' },
-  '130': { name: '1. Division',              file: 'leagues/league_130_2025.json' },
-  '134': { name: 'Czech Liga',               file: 'leagues/league_134_2025.json' },
-  '135': { name: 'Superliga',                file: 'leagues/league_135_2025.json' },
-  '138': { name: '1. Division',              file: 'leagues/league_138_2025.json' },
-  '145': { name: 'League Two',               file: 'leagues/league_145_2025.json' },
-  '146': { name: 'FA Cup',                   file: 'leagues/league_146_2025.json' },
-  '152': { name: 'Premier League',           file: 'leagues/league_152_2025.json' },
-  '153': { name: 'Championship',             file: 'leagues/league_153_2025.json' },
-  '154': { name: 'League One',               file: 'leagues/league_154_2025.json' },
-  '164': { name: 'Ligue 2',                  file: 'leagues/league_164_2025.json' },
-  '168': { name: 'Ligue 1',                  file: 'leagues/league_168_2025.json' },
-  '171': { name: '2. Bundesliga',            file: 'leagues/league_171_2025.json' },
-  '175': { name: 'Bundesliga',               file: 'leagues/league_175_2025.json' },
-  '176': { name: '3. Liga',                  file: 'leagues/league_176_2025.json' },
-  '178': { name: 'Super League 1',           file: 'leagues/league_178_2025.json' },
-  '191': { name: 'NB I',                     file: 'leagues/league_191_2025.json' },
-  '205': { name: 'Coppa Italia',             file: 'leagues/league_205_2025.json' },
-  '206': { name: 'Serie B',                  file: 'leagues/league_206_2025.json' },
-  '207': { name: 'Serie A',                  file: 'leagues/league_207_2025.json' },
-  '230': { name: 'First League',             file: 'leagues/league_230_2025.json' },
-  '244': { name: 'Eredivisie',               file: 'leagues/league_244_2025.json' },
-  '245': { name: 'Eerste Divisie',           file: 'leagues/league_245_2025.json' },
-  '250': { name: 'Championship',             file: 'leagues/league_250_2025.json' },
-  '251': { name: 'Premiership',              file: 'leagues/league_251_2025.json' },
-  '259': { name: 'Ekstraklasa',              file: 'leagues/league_259_2025.json' },
-  '263': { name: 'I Liga',                   file: 'leagues/league_263_2025.json' },
-  '266': { name: 'Primeira Liga',            file: 'leagues/league_266_2025.json' },
-  '267': { name: 'Segunda Liga',             file: 'leagues/league_267_2025.json' },
-  '271': { name: 'Liga II',                  file: 'leagues/league_271_2025.json' },
-  '272': { name: 'Liga I',                   file: 'leagues/league_272_2025.json' },
-  '274': { name: 'First League',             file: 'leagues/league_274_2025.json' },
-  '278': { name: 'Saudi League',             file: 'leagues/league_278_2025.json' },
-  '279': { name: 'Premiership',              file: 'leagues/league_279_2025.json' },
-  '282': { name: 'Championship',             file: 'leagues/league_282_2025.json' },
-  '287': { name: 'Prva Liga',                file: 'leagues/league_287_2025.json' },
-  '288': { name: 'Super Liga',               file: 'leagues/league_288_2025.json' },
-  '293': { name: '1. liga',                  file: 'leagues/league_293_2025.json' },
-  '294': { name: '2. SNL',                   file: 'leagues/league_294_2025.json' },
-  '296': { name: '1. SNL',                   file: 'leagues/league_296_2025.json' },
-  '300': { name: 'Copa del Rey',             file: 'leagues/league_300_2025.json' },
-  '301': { name: 'Segunda División',         file: 'leagues/league_301_2025.json' },
-  '302': { name: 'La Liga',                  file: 'leagues/league_302_2025.json' },
-  '308': { name: 'Super League',             file: 'leagues/league_308_2025.json' },
-  '319': { name: '1. Lig',                   file: 'leagues/league_319_2025.json' },
-  '322': { name: 'Süper Lig',                file: 'leagues/league_322_2025.json' },
-  '325': { name: 'Premier League',           file: 'leagues/league_325_2025.json' },
-  '328': { name: 'Pro League',               file: 'leagues/league_328_2025.json' },
-  '341': { name: 'Premier League',           file: 'leagues/league_341_2025.json' },
-  '344': { name: 'Premier League',           file: 'leagues/league_344_2025.json' },
-  '399': { name: 'Srpska Liga',              file: 'leagues/league_399_2025.json' },
-  '437': { name: 'Liga Premier Serie A',     file: 'leagues/league_437_2025.json' },
-  '439': { name: 'Super League 2',           file: 'leagues/league_439_2025.json' },
-  '683': { name: 'UEFA Conference League',   file: 'leagues/league_683_2025.json' },
-  '7961':{ name: 'Second NL',                file: 'leagues/league_7961_2025.json' },
-  '8102':{ name: 'USL Super League',         file: 'leagues/league_8102_2025.json' },
+  '3':   { name: 'UEFA Champions League',               file: 'leagues/league_3_2025.json'   },
+  '4':   { name: 'UEFA Europa League',                  file: 'leagues/league_4_2025.json'   },
+  '32':  { name: '1st Division (Albania)',              file: 'leagues/league_32_2025.json'  },
+  '34':  { name: 'Ligue 1 (Algeria)',                   file: 'leagues/league_34_2025.json'  },
+  '35':  { name: 'Ligue 2 (Algeria)',                   file: 'leagues/league_35_2025.json'  },
+  '37':  { name: '1a Divisió (Andorra)',                file: 'leagues/league_37_2025.json'  },
+  '38':  { name: 'Girabola (Angola)',                   file: 'leagues/league_38_2025.json'  },
+  '45':  { name: 'Premier League (Armenia)',            file: 'leagues/league_45_2025.json'  },
+  '46':  { name: 'First League (Armenia)',              file: 'leagues/league_46_2025.json'  },
+  '49':  { name: 'A-League Men (Australia)',            file: 'leagues/league_49_2025.json'  },
+  '53':  { name: '2. Liga (Austria)',                   file: 'leagues/league_53_2025.json'  },
+  '56':  { name: 'Bundesliga (Austria)',                file: 'leagues/league_56_2025.json'  },
+  '57':  { name: 'Premyer Liqa (Azerbaijan)',           file: 'leagues/league_57_2025.json'  },
+  '58':  { name: 'Birinci Dasta (Azerbaijan)',          file: 'leagues/league_58_2025.json'  },
+  '63':  { name: 'First Division A (Belgium)',          file: 'leagues/league_63_2025.json'  },
+  '65':  { name: 'Challenger Pro League (Belgium)',     file: 'leagues/league_65_2025.json'  },
+  '71':  { name: '1st League (Bosnia)',                 file: 'leagues/league_71_2025.json'  },
+  '70':  { name: 'Premijer Liga (Bosnia)',              file: 'leagues/league_70_2025.json'  },
+  '111': { name: 'First League (Bulgaria)',             file: 'leagues/league_111_2025.json' },
+  '124': { name: 'HNL (Croatia)',                        file: 'leagues/league_124_2025.json' },
+  '126': { name: 'Third NL (Croatia)',                   file: 'leagues/league_126_2025.json' },
+  '127': { name: 'First NL (Croatia)',                   file: 'leagues/league_127_2025.json' },
+  '130': { name: '1. Division (Cyprus)',                 file: 'leagues/league_130_2025.json' },
+  '134': { name: 'Czech Liga',                           file: 'leagues/league_134_2025.json' },
+  '135': { name: 'Superliga (Denmark)',                  file: 'leagues/league_135_2025.json' },
+  '138': { name: '1. Division (Denmark)',                file: 'leagues/league_138_2025.json' },
+  '141': { name: 'Premier League (Egypt)',               file: 'leagues/league_141_2025.json' },
+  '145': { name: 'League Two (England)',                 file: 'leagues/league_145_2025.json' },
+  '146': { name: 'FA Cup (England)',                     file: 'leagues/league_146_2025.json' },
+  '152': { name: 'Premier League (England)',             file: 'leagues/league_152_2025.json' },
+  '153': { name: 'Championship (England)',               file: 'leagues/league_153_2025.json' },
+  '154': { name: 'League One (England)',                 file: 'leagues/league_154_2025.json' },
+  '160': { name: 'UEFA Conference League',               file: 'leagues/league_683_2025.json' },
+  '164': { name: 'Ligue 2 (France)',                     file: 'leagues/league_164_2025.json' },
+  '168': { name: 'Ligue 1 (France)',                     file: 'leagues/league_168_2025.json' },
+  '171': { name: '2. Bundesliga (Germany)',              file: 'leagues/league_171_2025.json' },
+  '175': { name: 'Bundesliga (Germany)',                 file: 'leagues/league_175_2025.json' },
+  '176': { name: '3. Liga (Germany)',                    file: 'leagues/league_176_2025.json' },
+  '178': { name: 'Super League 1 (Greece)',              file: 'leagues/league_178_2025.json' },
+  '186': { name: 'Premier League (Hong Kong)',           file: 'leagues/league_186_2025.json' },
+  '188': { name: 'NB II (Hungary)',                      file: 'leagues/league_188_2025.json' },
+  '191': { name: 'NB I (Hungary)',                       file: 'leagues/league_191_2025.json' },
+  '199': { name: 'Superliga (Denmark)',                  file: 'leagues/league_199_2025.json' },
+  '205': { name: 'Coppa Italia',                         file: 'leagues/league_205_2025.json' },
+  '206': { name: 'Serie B (Italy)',                      file: 'leagues/league_206_2025.json' },
+  '207': { name: 'Serie A (Italy)',                      file: 'leagues/league_207_2025.json' },
+  '221': { name: 'Super League (China)',                 file: 'leagues/league_221_2025.json' },
+  '230': { name: 'First League (North Macedonia)',       file: 'leagues/league_230_2025.json' },
+  '242': { name: 'Eliteserien (Norway)',                 file: 'leagues/league_242_2025.json' },
+  '243': { name: 'Ekstraklasa (Poland)',                 file: 'leagues/league_243_2025.json' },
+  '244': { name: 'Veikkausliiga (Finland)',              file: 'leagues/league_244_2025.json' },
+  '245': { name: 'Eerste Divisie (Netherlands)',         file: 'leagues/league_245_2025.json' },
+  '250': { name: 'Championship (Northern Ireland)',      file: 'leagues/league_250_2025.json' },
+  '251': { name: 'Premiership (Northern Ireland)',       file: 'leagues/league_251_2025.json' },
+  '259': { name: 'Ekstraklasa (Poland)',                 file: 'leagues/league_259_2025.json' },
+  '263': { name: 'I Liga (Poland)',                      file: 'leagues/league_263_2025.json' },
+  '266': { name: 'Primeira Liga (Portugal)',             file: 'leagues/league_266_2025.json' },
+  '267': { name: 'Segunda Liga (Portugal)',              file: 'leagues/league_267_2025.json' },
+  '271': { name: 'Liga II (Romania)',                    file: 'leagues/league_271_2025.json' },
+  '272': { name: 'Liga I (Romania)',                     file: 'leagues/league_272_2025.json' },
+  '274': { name: 'First League (Russia)',                file: 'leagues/league_274_2025.json' },
+  '278': { name: 'Saudi League',                         file: 'leagues/league_278_2025.json' },
+  '279': { name: 'Premiership (Scotland)',               file: 'leagues/league_279_2025.json' },
+  '282': { name: 'Championship (Scotland)',              file: 'leagues/league_282_2025.json' },
+  '287': { name: 'Prva Liga (Serbia)',                   file: 'leagues/league_287_2025.json' },
+  '288': { name: 'Super Liga (Serbia)',                  file: 'leagues/league_288_2025.json' },
+  '293': { name: '1. liga (Slovakia)',                   file: 'leagues/league_293_2025.json' },
+  '294': { name: '2. SNL (Slovenia)',                    file: 'leagues/league_294_2025.json' },
+  '296': { name: '1. SNL (Slovenia)',                    file: 'leagues/league_296_2025.json' },
+  '300': { name: 'Copa del Rey (Spain)',                 file: 'leagues/league_300_2025.json' },
+  '301': { name: 'Segunda División (Spain)',             file: 'leagues/league_301_2025.json' },
+  '302': { name: 'La Liga (Spain)',                      file: 'leagues/league_302_2025.json' },
+  '308': { name: 'Super League (Switzerland)',           file: 'leagues/league_308_2025.json' },
+  '311': { name: '1. Liga Classic (Switzerland)',        file: 'leagues/league_311_2025.json' },
+  '312': { name: 'Challenge League (Switzerland)',       file: 'leagues/league_312_2025.json' },
+  '319': { name: '1. Lig (Turkey)',                      file: 'leagues/league_319_2025.json' },
+  '322': { name: 'Süper Lig (Turkey)',                   file: 'leagues/league_322_2025.json' },
+  '325': { name: 'Premier League (Ukraine)',             file: 'leagues/league_325_2025.json' },
+  '328': { name: 'Pro League (UAE)',                     file: 'leagues/league_328_2025.json' },
+  '341': { name: 'Premier League (Wales)',               file: 'leagues/league_341_2025.json' },
+  '344': { name: 'Premier League (Russia)',              file: 'leagues/league_344_2025.json' },
+  '399': { name: 'Srpska Liga (Serbia)',                 file: 'leagues/league_399_2025.json' },
+  '523': { name: '1. Liga Promotion (Switzerland)',      file: 'leagues/league_523_2025.json' },
+  '574': { name: 'Super League (Belgium)',               file: 'leagues/league_574_2025.json' },
+  '683': { name: 'UEFA Conference League',               file: 'leagues/league_683_2025.json' },
+  '694': { name: 'Liga Premier Serie B (Mexico)',        file: 'leagues/league_694_2025.json' },
+  '7961':{ name: 'Second NL (Croatia)',                 file: 'leagues/league_7961_2025.json' },
+  '8003':{ name: 'Copa Costa Rica',                     file: 'leagues/league_8003_2025.json' },
+  '8102':{ name: 'USL Super League (USA)',              file: 'leagues/league_8102_2025.json' }
 };
 
 
-
 const THRESHOLDS = {
-  goals: [0.5, 1.5, 2.5, 3.5, 4.5, 5.5],
-  shots: [18.5, 19.5, 20.5, 21.5, 22.5, 23.5, 24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5, 31.5],
-  fouls: [18.5, 19.5, 20.5, 21.5, 22.5, 23.5, 24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5, 31.5],
-  shotsOnGoal: [5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5],
-  corners: [0.5, 5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5],
-  cards: [0.5, 1.5, 2.5, 3.5, 4.5, 5.5, 6.5],
-  goalsht: [0.5, 1.5, 2.5, 3.5],
-  cornersht: [0.5, 2.5, 3.5, 4.5, 5.5, 6.5],
-  foulsht: [8.5, 9.5, 10.5, 11.5, 12.5, 13.5, 14.5],
-  cardsht: [0.5, 1.5, 2.5],
-  shotsht: [8.5, 9.5, 10.5, 11.5, 12.5, 13.5, 14.5],
-  shotsOnGoalht: [2.5, 3.5, 4.5, 5.5, 6.5]
+    goals: [0.5, 1.5, 2.5, 3.5, 4.5, 5.5],
+    shots: [18.5, 19.5, 20.5, 21.5, 22.5, 23.5, 24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5, 31.5],
+    fouls: [18.5, 19.5, 20.5, 21.5, 22.5, 23.5, 24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5, 31.5],
+    shotsOnGoal: [5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5],
+    corners: [0.5, 5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5],
+    cards: [0.5, 1.5, 2.5, 3.5, 4.5, 5.5, 6.5],
+    goalsht: [0.5, 1.5, 2.5, 3.5],
+    cornersht: [0.5, 2.5, 3.5, 4.5, 5.5, 6.5],
+    foulsht: [8.5, 9.5, 10.5, 11.5, 12.5, 13.5, 14.5],
+    cardsht: [0.5, 1.5, 2.5],
+    shotsht: [8.5, 9.5, 10.5, 11.5, 12.5, 13.5, 14.5],
+    shotsOnGoalht: [2.5, 3.5, 4.5, 5.5, 6.5]
 };
 
 
@@ -112,7 +133,7 @@ const errorMessage = document.getElementById('errorMessage');
 const results = document.getElementById('results');
 
 // Initialize
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function() {
   loadAllMatchData();
   setupEventListeners();
 });
@@ -147,33 +168,31 @@ async function loadAllMatchData() {
           if (match.match_status === 'Finished') {
             const stats = match.statistics || [];
 
-            const matchData = {
-              date: new Date(match.match_date),
-              dateString: match.match_date,
-              homeTeam: match.match_hometeam_name,
-              awayTeam: match.match_awayteam_name,
-              fthg: parseInt(match.match_hometeam_score) || 0,
-              ftag: parseInt(match.match_awayteam_score) || 0,
-              hthg: parseInt(match.match_hometeam_halftime_score) || 0,
-              htag: parseInt(match.match_awayteam_halftime_score) || 0,
-              hs: getStatValue(stats, 'Shots Total', 'home'),
-              as: getStatValue(stats, 'Shots Total', 'away'),
-              hc: getStatValue(stats, 'Corners', 'home'),
-              ac: getStatValue(stats, 'Corners', 'away'),
-              hy: getStatValue(stats, 'Yellow Cards', 'home'),
-              ay: getStatValue(stats, 'Yellow Cards', 'away'),
-              // NEW FIELDS ADDED:
-              hf: getStatValue(stats, 'Fouls', 'home'),
-              af: getStatValue(stats, 'Fouls', 'away'),
-              hsog: getStatValue(stats, 'Shots On Goal', 'home'),
-              asog: getStatValue(stats, 'Shots On Goal', 'away'),
-              league: leagueInfo.name
-            };
-
-
+const matchData = {
+    date: new Date(match.match_date),
+    dateString: match.match_date,
+    homeTeam: match.match_hometeam_name,
+    awayTeam: match.match_awayteam_name,
+    fthg: parseInt(match.match_hometeam_score) || 0,
+    ftag: parseInt(match.match_awayteam_score) || 0,
+    hthg: parseInt(match.match_hometeam_halftime_score) || 0,
+    htag: parseInt(match.match_awayteam_halftime_score) || 0,
+    hs: getStatValue(stats, 'Shots Total', 'home'),
+    as: getStatValue(stats, 'Shots Total', 'away'),
+    hc: getStatValue(stats, 'Corners', 'home'),
+    ac: getStatValue(stats, 'Corners', 'away'),
+    hy: getStatValue(stats, 'Yellow Cards', 'home'),
+    ay: getStatValue(stats, 'Yellow Cards', 'away'),
+    // NEW FIELDS ADDED:
+    hf: getStatValue(stats, 'Fouls', 'home'),
+    af: getStatValue(stats, 'Fouls', 'away'),
+    hsog: getStatValue(stats, 'Shots On Goal', 'home'),
+    asog: getStatValue(stats, 'Shots On Goal', 'away'),
+    league: leagueInfo.name
+};
 
             // ===== FIX: Check for duplicates before adding =====
-            const isDuplicate = allMatchesData.some(existing =>
+            const isDuplicate = allMatchesData.some(existing => 
               existing.homeTeam === matchData.homeTeam &&
               existing.awayTeam === matchData.awayTeam &&
               existing.dateString === matchData.dateString
@@ -187,7 +206,6 @@ async function loadAllMatchData() {
               console.log(`⚠️ Duplicate match skipped: ${matchData.homeTeam} vs ${matchData.awayTeam} on ${matchData.dateString}`);
             }
             // ===== END FIX =====
-
           }
         });
 
@@ -207,6 +225,8 @@ async function loadAllMatchData() {
   }
 }
 
+}
+
 // Get statistic value from stats array
 function getStatValue(stats, type, side) {
   const stat = stats.find(s => s.type === type);
@@ -218,7 +238,7 @@ function getStatValue(stats, type, side) {
 function setupAutocomplete(inputElement) {
   let currentFocus = -1;
 
-  inputElement.addEventListener('input', function () {
+  inputElement.addEventListener('input', function() {
     const value = this.value;
     closeAllLists();
     currentFocus = -1;
@@ -237,7 +257,7 @@ function setupAutocomplete(inputElement) {
       const item = document.createElement('div');
       item.className = 'autocomplete-item';
       item.textContent = team;
-      item.addEventListener('click', function () {
+      item.addEventListener('click', function() {
         inputElement.value = team;
         closeAllLists();
       });
@@ -261,36 +281,36 @@ function getMatchingTeams(searchTerm) {
 
 // Get last N matches for a team
 function getTeamLastMatches(teamName, numMatches = 5) {
-  const teamMatches = allMatchesData.filter(match =>
-    match.homeTeam === teamName || match.awayTeam === teamName
-  );
+    const teamMatches = allMatchesData.filter(match => 
+        match.homeTeam === teamName || match.awayTeam === teamName
+    );
 
-  return teamMatches.slice(-numMatches).map(match => {
-    const isHome = match.homeTeam === teamName;
-    return {
-      date: match.date,
-      dateString: match.dateString,
-      opponent: isHome ? match.awayTeam : match.homeTeam,
-      location: isHome ? 'Home' : 'Away',
-      teamGoals: isHome ? match.fthg : match.ftag,
-      oppGoals: isHome ? match.ftag : match.fthg,
-      teamShots: isHome ? match.hs : match.as,
-      oppShots: isHome ? match.as : match.hs,
-      teamCorners: isHome ? match.hc : match.ac,
-      oppCorners: isHome ? match.ac : match.hc,
-      teamCards: isHome ? match.hy : match.ay,
-      oppCards: isHome ? match.ay : match.hy,
-      // NEW FIELDS:
-      teamFouls: isHome ? match.hf : match.af,
-      oppFouls: isHome ? match.af : match.hf,
-      teamShotsOnGoal: isHome ? match.hsog : match.asog,
-      oppShotsOnGoal: isHome ? match.asog : match.hsog,
-      teamHalfGoals: isHome ? match.hthg : match.htag,
-      oppHalfGoals: isHome ? match.htag : match.hthg,
-      league: match.league,
-      originalMatch: match
-    };
-  });
+    return teamMatches.slice(-numMatches).map(match => {
+        const isHome = match.homeTeam === teamName;
+        return {
+            date: match.date,
+            dateString: match.dateString,
+            opponent: isHome ? match.awayTeam : match.homeTeam,
+            location: isHome ? 'Home' : 'Away',
+            teamGoals: isHome ? match.fthg : match.ftag,
+            oppGoals: isHome ? match.ftag : match.fthg,
+            teamShots: isHome ? match.hs : match.as,
+            oppShots: isHome ? match.as : match.hs,
+            teamCorners: isHome ? match.hc : match.ac,
+            oppCorners: isHome ? match.ac : match.hc,
+            teamCards: isHome ? match.hy : match.ay,
+            oppCards: isHome ? match.ay : match.hy,
+            // NEW FIELDS:
+            teamFouls: isHome ? match.hf : match.af,
+            oppFouls: isHome ? match.af : match.hf,
+            teamShotsOnGoal: isHome ? match.hsog : match.asog,
+            oppShotsOnGoal: isHome ? match.asog : match.hsog,
+            teamHalfGoals: isHome ? match.hthg : match.htag,
+            oppHalfGoals: isHome ? match.htag : match.hthg,
+            league: match.league,
+            originalMatch: match
+        };
+    });
 }
 
 
@@ -456,10 +476,10 @@ function createTeamCard(teamName, matches) {
 
 // Create match table
 function createMatchTable(matches) {
-  const table = document.createElement('table');
-  table.className = 'match-table';
-
-  table.innerHTML = `
+    const table = document.createElement('table');
+    table.className = 'match-table';
+    
+    table.innerHTML = `
         <thead>
             <tr>
                 <th>Date</th>
@@ -492,14 +512,14 @@ function createMatchTable(matches) {
         </thead>
         <tbody>
             ${matches.map(m => {
-    // Calculate half-time estimates
-    const totalCorners = m.teamCorners + m.oppCorners;
-    const totalShots = m.teamShots + m.oppShots;
-    const totalSOG = (m.teamShotsOnGoal || 0) + (m.oppShotsOnGoal || 0);
-    const totalCards = m.teamCards + m.oppCards;
-    const totalFouls = (m.teamFouls || 0) + (m.oppFouls || 0);
-
-    return `
+                // Calculate half-time estimates
+                const totalCorners = m.teamCorners + m.oppCorners;
+                const totalShots = m.teamShots + m.oppShots;
+                const totalSOG = (m.teamShotsOnGoal || 0) + (m.oppShotsOnGoal || 0);
+                const totalCards = m.teamCards + m.oppCards;
+                const totalFouls = (m.teamFouls || 0) + (m.oppFouls || 0);
+                
+                return `
                 <tr>
                     <td>${formatDate(m.dateString)}</td>
                     <td>${m.opponent}</td>
@@ -520,8 +540,8 @@ function createMatchTable(matches) {
             `}).join('')}
         </tbody>
     `;
-
-  return table;
+    
+    return table;
 }
 
 

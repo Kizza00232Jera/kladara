@@ -1,15 +1,19 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Today's Football Matches - Team Analyzer</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="today-matches.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 </head>
+
 <body>
- <nav class="navbar">
+    <nav class="navbar">
         <div class="nav-container">
             <div class="nav-brand">
                 <i class="fas fa-futbol"></i>
@@ -17,7 +21,7 @@
             </div>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="find_builders.html" class="nav-link active">
+                    <a href="find_builders.html" class="nav-link">
                         <i class="fas fa-layer-group"></i> Find Builders
                     </a>
                 </li>
@@ -36,7 +40,7 @@
                         <i class="fas fa-trophy"></i> Leagues
                     </a>
                 </li>
-                 <li class="nav-item">
+                <li class="nav-item">
                     <a href="today-matches.html" class="nav-link">
                         <i class="fas fa-futbol"></i> Today Matches
                     </a>
@@ -47,11 +51,18 @@
     <div class="container">
         <div class="header">
             <h1>⚽ Today's Football Matches</h1>
+            <div class="date-picker-container">
+                <label for="datePicker" style="font-size: 1rem; color: var(--text-secondary);">
+                    Select Date:
+                </label>
+                <input type="date" id="datePicker">
+            </div>
             <div class="date" id="currentDate"></div>
+
         </div>
 
         <div id="errorContainer"></div>
-        
+
         <div id="loadingScreen" class="loading-screen">
             <div class="spinner"></div>
             <p>Loading today's matches...</p>
@@ -64,8 +75,9 @@
             <p>There are no scheduled matches for today. Check back tomorrow!</p>
         </div>
     </div>
-
+    <script src="navigation.js"></script>
     <script src="app.js"></script>
     <script src="today-matches.js"></script>
 </body>
+
 </html>

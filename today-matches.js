@@ -17,20 +17,20 @@ function getTodayDateStr() {
 async function loadAllMatches() {
     const matches = [];
     const leagueMap = {};
-    
+
     try {
         for (const [leagueId, leagueInfo] of Object.entries(JSON_FILES)) {
             try {
                 leagueMap[leagueId] = leagueInfo.name;
                 const response = await fetch(leagueInfo.file);
-                
+
                 if (!response.ok) {
                     console.warn(`Could not load ${leagueInfo.file}: ${response.status}`);
                     continue;
                 }
-                
+
                 const leagueMatches = await response.json();
-                
+
                 leagueMatches.forEach(match => {
                     const stats = match.statistics || [];
                     const matchData = {
@@ -56,9 +56,22 @@ async function loadAllMatches() {
                         hsog: getStatValue(stats, 'Shots On Goal', 'home'),
                         asog: getStatValue(stats, 'Shots On Goal', 'away')
                     };
-                    matches.push(matchData);
+                    // ===== FIX: Check for duplicates before adding =====
+                    const isDuplicate = matches.some(existing =>
+                        existing.homeTeam === matchData.homeTeam &&
+                        existing.awayTeam === matchData.awayTeam &&
+                        existing.dateString === matchData.dateString
+                    );
+
+                    if (!isDuplicate) {
+                        matches.push(matchData);
+                    } else {
+                        console.log(`⚠️ Duplicate today's match skipped: ${matchData.homeTeam} vs ${matchData.awayTeam} on ${matchData.dateString}`);
+                    }
+                    // ===== END FIX =====
+
                 });
-                
+
                 console.log(`✅ Loaded ${leagueMatches.length} matches from ${leagueInfo.name}`);
             } catch (error) {
                 console.warn(`Failed to load ${leagueInfo.file}:`, error);
@@ -83,20 +96,25 @@ function filterTodayMatches(allMatches) {
     return allMatches.filter(m => m.dateString === today);
 }
 
+function filterMatchesByDate(allMatches, date) {
+  return allMatches.filter(m => m.dateString === date);
+}
+
+
 function groupMatchesByLeague(matches) {
     const leagueGroups = {};
-    
+
     matches.forEach(match => {
         if (!leagueGroups[match.league]) {
             leagueGroups[match.league] = [];
         }
         leagueGroups[match.league].push(match);
     });
-    
-    const sortedLeagueNames = Object.keys(leagueGroups).sort((a, b) => 
+
+    const sortedLeagueNames = Object.keys(leagueGroups).sort((a, b) =>
         a.localeCompare(b)
     );
-    
+
     return sortedLeagueNames.map(league => ({
         league,
         matches: leagueGroups[league]
@@ -109,9 +127,9 @@ function createMatchCard(match, leagueGroup, onClickHandler) {
     card.dataset.homeTeam = match.homeTeam;
     card.dataset.awayTeam = match.awayTeam;
     card.dataset.league = match.league;
-    
+
     const timeStr = match.matchTime !== 'TBA' ? match.matchTime : 'Time TBA';
-    
+
     card.innerHTML = `
         <div class="match-time">${formatDate(match.dateString)} - ${timeStr}</div>
         <div class="match-teams">
@@ -122,7 +140,7 @@ function createMatchCard(match, leagueGroup, onClickHandler) {
         <div class="match-status ${match.match_status === 'Live' ? 'live' : ''}">${match.match_status}</div>
         <div class="analysis-section"></div>
     `;
-    
+
     card.addEventListener('click', () => onClickHandler(card, match));
     return card;
 }
@@ -149,17 +167,17 @@ function wait(ms) {
 }
 
 async function loadTeamAnalysis(match) {
-    if (typeof window.getTeamLastMatches !== 'function' || 
+    if (typeof window.getTeamLastMatches !== 'function' ||
         typeof window.calculateStatistics !== 'function') {
         throw new Error('Team analysis functions not available. Ensure app.js is loaded.');
     }
-    
+
     await wait(300);
-    
+
     const homeLast = window.getTeamLastMatches(match.homeTeam, 5);
     const awayLast = window.getTeamLastMatches(match.awayTeam, 5);
     const combinedStats = window.calculateStatistics([...homeLast, ...awayLast]);
-    
+
     return {
         homeLast,
         awayLast,
@@ -171,11 +189,11 @@ function renderMatchHistoryTable(matches, teamName) {
     if (!matches || matches.length === 0) {
         return '<div style="padding: 15px; color: var(--color-text-secondary);">No match history available.</div>';
     }
-    
+
     let html = '<table class="match-history-table"><thead><tr>';
     html += '<th>Date</th><th>Opponent</th><th>Loc</th><th>Goals</th><th>Shots</th>';
     html += '<th>SOG</th><th>Corners</th><th>Cards</th><th>Fouls</th><th>FT</th><th>HT</th></tr></thead><tbody>';
-    
+
     matches.forEach(m => {
         const ftScore = `${m.teamGoals}-${m.oppGoals}`;
         const htScore = `${m.teamHalfGoals}-${m.oppHalfGoals}`;
@@ -184,7 +202,7 @@ function renderMatchHistoryTable(matches, teamName) {
         const corners = `${m.teamCorners}-${m.oppCorners}`;
         const cards = `${m.teamCards}-${m.oppCards}`;
         const fouls = `${m.teamFouls}-${m.oppFouls}`;
-        
+
         html += `<tr>
             <td>${formatDate(m.dateString)}</td>
             <td>${m.opponent}</td>
@@ -199,7 +217,7 @@ function renderMatchHistoryTable(matches, teamName) {
             <td>${htScore}</td>
         </tr>`;
     });
-    
+
     html += '</tbody></table>';
     return html;
 }
@@ -209,30 +227,30 @@ function filterAndGroupStatistics(combinedStats) {
     // Format: "goals_over_0.5" -> value: "9/10 (90%)"
     const overs = {}; // category -> threshold -> { threshold, percentage, value }
     const unders = {}; // category -> threshold -> { threshold, percentage, value }
-    
+
     console.log('Raw combined stats:', combinedStats);
-    
+
     // Parse all statistics
     for (const [key, value] of Object.entries(combinedStats)) {
         // Format: "category_over/under_threshold"
         // Example: "goals_over_0.5" or "shots_under_26.5"
         const parts = key.split('_');
-        
+
         if (parts.length < 3) {
             console.warn(`Skipping stat with unexpected format: ${key}`);
             continue;
         }
-        
+
         const category = parts[0].toUpperCase(); // "GOALS", "SHOTS", etc.
         const type = parts[parts.length - 2].toUpperCase(); // "OVER" or "UNDER"
         const threshold = parseFloat(parts[parts.length - 1]); // threshold value
-        
+
         // Extract percentage from value: "9/10 (90%)"
         const percentMatch = value.toString().match(/\((\d+)%\)/);
         const percentage = percentMatch ? parseInt(percentMatch[1]) : 0;
-        
+
         console.log(`Parsed: ${category} ${type} ${threshold} - ${percentage}%`);
-        
+
         const statData = {
             threshold: threshold,
             percentage: percentage,
@@ -241,7 +259,7 @@ function filterAndGroupStatistics(combinedStats) {
             type: type,
             key: key
         };
-        
+
         if (type === 'OVER') {
             if (!overs[category]) overs[category] = {};
             overs[category][threshold] = statData;
@@ -250,19 +268,19 @@ function filterAndGroupStatistics(combinedStats) {
             unders[category][threshold] = statData;
         }
     }
-    
+
     console.log('Organized overs:', overs);
     console.log('Organized unders:', unders);
-    
+
     // Filter smart results
     const bestOvers = {};
     const bestUnders = {};
-    
+
     // For OVERS: Get best threshold for each percentage level
     // Skip lower thresholds if higher ones exist at same percentage
     for (const category in overs) {
         bestOvers[category] = {};
-        
+
         // Group by percentage
         const byPercent = {};
         for (const threshold in overs[category]) {
@@ -270,7 +288,7 @@ function filterAndGroupStatistics(combinedStats) {
             if (!byPercent[stat.percentage]) byPercent[stat.percentage] = [];
             byPercent[stat.percentage].push(stat);
         }
-        
+
         // For each percentage, get the HIGHEST threshold
         for (const percentage of [100, 90, 80]) {
             if (byPercent[percentage]) {
@@ -279,12 +297,12 @@ function filterAndGroupStatistics(combinedStats) {
             }
         }
     }
-    
+
     // For UNDERS: Get best threshold for each percentage level
     // Skip higher thresholds if lower ones exist at same percentage
     for (const category in unders) {
         bestUnders[category] = {};
-        
+
         // Group by percentage
         const byPercent = {};
         for (const threshold in unders[category]) {
@@ -292,7 +310,7 @@ function filterAndGroupStatistics(combinedStats) {
             if (!byPercent[stat.percentage]) byPercent[stat.percentage] = [];
             byPercent[stat.percentage].push(stat);
         }
-        
+
         // For each percentage, get the LOWEST threshold
         for (const percentage of [100, 90, 80]) {
             if (byPercent[percentage]) {
@@ -301,24 +319,24 @@ function filterAndGroupStatistics(combinedStats) {
             }
         }
     }
-    
+
     console.log('Best overs:', bestOvers);
     console.log('Best unders:', bestUnders);
-    
+
     return { bestOvers, bestUnders };
 }
 
 // RENDER SMART STATISTICS WITH TWO-COLUMN LAYOUT
 function renderSmartStatistics(combinedStats) {
     const { bestOvers, bestUnders } = filterAndGroupStatistics(combinedStats);
-    
+
     let html = `<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; width: 100%;">`;
-    
+
     // LEFT COLUMN: OVERS
     html += `<div style="display: block; width: 100%;">
         <h4 style="color: var(--color-btn-primary-text); margin-bottom: 15px; border-bottom: 2px solid rgba(255,255,255,0.3); padding-bottom: 10px;">⬆️ OVER TRENDS</h4>
         <div style="display: flex; flex-direction: column; gap: 10px;">`;
-    
+
     let oversCount = 0;
     for (const category in bestOvers) {
         for (const percentage of [100, 90, 80]) {
@@ -333,18 +351,18 @@ function renderSmartStatistics(combinedStats) {
             }
         }
     }
-    
+
     if (oversCount === 0) {
         html += `<div style="padding: 15px; color: rgba(255,255,255,0.6); text-align: center;">No OVER trends found</div>`;
     }
-    
+
     html += `</div></div>`;
-    
+
     // RIGHT COLUMN: UNDERS
     html += `<div style="display: block; width: 100%;">
         <h4 style="color: var(--color-btn-primary-text); margin-bottom: 15px; border-bottom: 2px solid rgba(255,255,255,0.3); padding-bottom: 10px;">⬇️ UNDER TRENDS</h4>
         <div style="display: flex; flex-direction: column; gap: 10px;">`;
-    
+
     let undersCount = 0;
     for (const category in bestUnders) {
         for (const percentage of [100, 90, 80]) {
@@ -359,22 +377,22 @@ function renderSmartStatistics(combinedStats) {
             }
         }
     }
-    
+
     if (undersCount === 0) {
         html += `<div style="padding: 15px; color: rgba(255,255,255,0.6); text-align: center;">No UNDER trends found</div>`;
     }
-    
+
     html += `</div></div></div>`;
-    
+
     return html;
 }
 
 function renderAnalysis(card, match, analysis) {
     const { homeLast, awayLast, combinedStats } = analysis;
-    
+
     const analysisSection = card.querySelector('.analysis-section');
     let html = '';
-    
+
     // Home team analysis
     html += `
         <div class="team-analysis" style="display: block; width: 100%; margin-bottom: 40px;">
@@ -384,7 +402,7 @@ function renderAnalysis(card, match, analysis) {
             </div>
         </div>
     `;
-    
+
     // Away team analysis
     html += `
         <div class="team-analysis" style="display: block; width: 100%; margin-bottom: 40px;">
@@ -394,7 +412,7 @@ function renderAnalysis(card, match, analysis) {
             </div>
         </div>
     `;
-    
+
     // Smart combined statistics
     html += `
         <div class="combined-stats" style="display: block; width: 100%; margin-top: 30px;">
@@ -402,7 +420,7 @@ function renderAnalysis(card, match, analysis) {
             ${renderSmartStatistics(combinedStats)}
         </div>
     `;
-    
+
     analysisSection.innerHTML = html;
     analysisSection.classList.add('expanded');
     card.classList.add('expanded');
@@ -410,7 +428,7 @@ function renderAnalysis(card, match, analysis) {
 
 async function handleMatchCardClick(card, match) {
     const isExpanded = card.classList.contains('expanded');
-    
+
     if (isExpanded) {
         card.classList.remove('expanded');
         const analysisSection = card.querySelector('.analysis-section');
@@ -421,7 +439,7 @@ async function handleMatchCardClick(card, match) {
     } else {
         card.classList.add('expanded');
         showLoadingSpinner(card);
-        
+
         try {
             const analysis = await loadTeamAnalysis(match);
             hideLoadingSpinner(card);
@@ -434,61 +452,66 @@ async function handleMatchCardClick(card, match) {
     }
 }
 
-async function initializeTodaysMatches() {
+async function renderMatchesForDate(dateStr) {
     const currentDate = document.getElementById('currentDate');
     const loadingScreen = document.getElementById('loadingScreen');
     const matchesContainer = document.getElementById('matchesContainer');
     const noMatches = document.getElementById('noMatches');
     const errorContainer = document.getElementById('errorContainer');
-    
+
     try {
-        const today = new Date();
-        currentDate.textContent = formatDate(getTodayDateStr());
-        
+        loadingScreen.style.display = 'block';
+        matchesContainer.style.display = 'none';
+        noMatches.style.display = 'none';
+        errorContainer.innerHTML = '';
+
+        // Update the displayed date
+        currentDate.textContent = formatDate(dateStr);
+
         const allMatches = await loadAllMatches();
-        const todayMatches = filterTodayMatches(allMatches);
-        const groupedLeagues = groupMatchesByLeague(todayMatches);
-        
+        const selectedDateMatches = filterMatchesByDate(allMatches, dateStr);
+        const groupedLeagues = groupMatchesByLeague(selectedDateMatches);
+
         loadingScreen.style.display = 'none';
-        
-        if (groupedLeagues.length === 0 || todayMatches.length === 0) {
+
+        if (groupedLeagues.length === 0 || selectedDateMatches.length === 0) {
             matchesContainer.style.display = 'none';
             noMatches.style.display = 'block';
             return;
         }
-        
+
         matchesContainer.innerHTML = '';
-        
+
         groupedLeagues.forEach(({ league, matches }) => {
             const section = document.createElement('div');
             section.className = 'league-section';
-            
+
             const header = document.createElement('div');
             header.className = 'league-header';
             header.textContent = league;
             section.appendChild(header);
-            
+
             const grid = document.createElement('div');
             grid.className = 'matches-grid';
-            
+
             matches.forEach(match => {
                 const card = createMatchCard(match, league, handleMatchCardClick);
                 grid.appendChild(card);
             });
-            
+
             section.appendChild(grid);
             matchesContainer.appendChild(section);
         });
-        
+
         matchesContainer.style.display = 'block';
         noMatches.style.display = 'none';
-        
+
     } catch (error) {
-        console.error('Error initializing today\'s matches:', error);
+        console.error('Error rendering matches:', error);
         loadingScreen.style.display = 'none';
         matchesContainer.style.display = 'none';
         noMatches.style.display = 'none';
-        
+
         const errorMsg = document.createElement('div');
         errorMsg.className = 'error-message';
         errorMsg.textContent = `Error loading matches: ${error.message}`;
@@ -496,4 +519,23 @@ async function initializeTodaysMatches() {
     }
 }
 
-document.addEventListener('DOMContentLoaded', initializeTodaysMatches);
+
+document.addEventListener('DOMContentLoaded', () => {
+    const datePicker = document.getElementById('datePicker');
+    
+    // Set default to today
+    const today = getTodayDateStr();
+    datePicker.value = today;
+    
+    // Load today's matches initially
+    renderMatchesForDate(today);
+    
+    // When user changes the date, reload matches
+    datePicker.addEventListener('change', (e) => {
+        const selectedDate = e.target.value;
+        if (selectedDate) {
+            renderMatchesForDate(selectedDate);
+        }
+    });
+});
+

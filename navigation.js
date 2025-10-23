@@ -18,6 +18,7 @@ function initializeNavigation() {
     
     if (!navToggle || !navMenu) {
         console.warn('Navigation elements not found');
+        setActivePage();
         return;
     }
     

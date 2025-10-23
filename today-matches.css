@@ -1344,3 +1344,88 @@ select.form-control {
         padding: 100px var(--space-16);
     }
 }
+
+/* ========================================
+   DATE PICKER STYLES
+   ======================================== */
+
+/* Date picker container */
+.date-picker-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-12);
+    margin-top: var(--space-16);
+}
+
+/* Style the date input */
+#datePicker {
+    padding: var(--space-10) var(--space-16);
+    font-size: var(--font-size-base);
+    font-family: inherit;
+    border: 2px solid var(--border-color);
+    border-radius: var(--radius-md);
+    background-color: var(--bg-card);
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 160px;
+}
+
+#datePicker:hover {
+    border-color: var(--primary-color);
+}
+
+#datePicker:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+/* Style the calendar icon (webkit browsers) */
+#datePicker::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    filter: invert(0.5);
+    transition: filter 0.3s ease;
+}
+
+#datePicker:hover::-webkit-calendar-picker-indicator {
+    filter: invert(0.3);
+}
+
+/* Dark mode support for date picker */
+@media (prefers-color-scheme: dark) {
+    #datePicker {
+        background-color: var(--bg-secondary);
+        border-color: var(--border-dark);
+        color: var(--text-light);
+    }
+
+    #datePicker::-webkit-calendar-picker-indicator {
+        filter: invert(1);
+    }
+
+    #datePicker:hover::-webkit-calendar-picker-indicator {
+        filter: invert(0.8);
+    }
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .date-picker-container {
+        flex-direction: column;
+        gap: var(--space-8);
+    }
+
+    #datePicker {
+        width: 100%;
+        max-width: 280px;
+    }
+}
+
+@media (max-width: 480px) {
+    #datePicker {
+        font-size: var(--font-size-sm);
+        padding: var(--space-8) var(--space-12);
+    }
+}
