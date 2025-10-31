@@ -33055,22 +33055,22 @@
     "league_id": "127",
     "league_name": "First NL",
     "match_date": "2025-10-24",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "15:00",
     "match_hometeam_id": "2428",
     "match_hometeam_name": "Orijent",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Dugopolje",
     "match_awayteam_id": "2424",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "1",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -33084,9 +33084,150 @@
     "league_year": "2025/2026",
     "fk_stage_key": "847",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "18",
+        "home_scorer": "J. Bilajac",
+        "home_scorer_id": "2318513518",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "44",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "D. Balic",
+        "away_scorer_id": "3067895774",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "106",
+        "away": "87"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "87",
+        "away": "56"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "6"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "53%",
+        "away": "47%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "50",
+        "away": "49"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "45",
+        "away": "33"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "49%",
+        "away": "51%"
+      }
+    ]
   },
   {
     "match_id": "625387",
@@ -33095,13 +33236,987 @@
     "league_id": "127",
     "league_name": "First NL",
     "match_date": "2025-10-24",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "15:00",
     "match_hometeam_id": "2350",
     "match_hometeam_name": "Cibalia",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Hrvace",
     "match_awayteam_id": "2359",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "1",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "2",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "12",
+    "match_stadium": "Stadion HNK Cibalia",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/2350_cibalia.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/2359_hrvace.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/127_first-nl.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/37_croatia.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "847",
+    "stage_name": "Current",
+    "goalscorer": [
+      {
+        "time": "9",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "R. Zilic",
+        "away_scorer_id": "102434629",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "36",
+        "home_scorer": "G. Boban",
+        "home_scorer_id": "2170856359",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "51",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 2",
+        "away_scorer": "D. Ramadani",
+        "away_scorer_id": "151184704",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "72",
+        "home_scorer": "S. Sopic",
+        "home_scorer_id": "3333451658",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 2",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "139",
+        "away": "143"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "85",
+        "away": "62"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "6"
+      },
+      {
+        "type": "Off Target",
+        "home": "14",
+        "away": "8"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "63",
+        "away": "75"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "36",
+        "away": "29"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      }
+    ]
+  },
+  {
+    "match_id": "625390",
+    "country_id": "37",
+    "country_name": "Croatia",
+    "league_id": "127",
+    "league_name": "First NL",
+    "match_date": "2025-10-24",
+    "match_status": "Finished",
+    "match_time": "15:00",
+    "match_hometeam_id": "2345",
+    "match_hometeam_name": "Sesvete",
+    "match_hometeam_score": "0",
+    "match_awayteam_name": "Rudes",
+    "match_awayteam_id": "2347",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "1",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "12",
+    "match_stadium": "",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/2345_sesvete.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/2347_rude.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/127_first-nl.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/37_croatia.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "847",
+    "stage_name": "Current",
+    "goalscorer": [
+      {
+        "time": "13",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "D. Korac",
+        "away_scorer_id": "2557299826",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "7"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Attacks",
+        "home": "104",
+        "away": "97"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "47",
+        "away": "43"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "54",
+        "away": "57"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "22",
+        "away": "24"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "47%",
+        "away": "53%"
+      }
+    ]
+  },
+  {
+    "match_id": "625389",
+    "country_id": "37",
+    "country_name": "Croatia",
+    "league_id": "127",
+    "league_name": "First NL",
+    "match_date": "2025-10-25",
+    "match_status": "Finished",
+    "match_time": "15:00",
+    "match_hometeam_id": "2383",
+    "match_hometeam_name": "Jarun",
+    "match_hometeam_score": "3",
+    "match_awayteam_name": "Karlovac",
+    "match_awayteam_id": "2393",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "3",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "12",
+    "match_stadium": "",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/2383_jarun.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/2393_karlovac-1919.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/127_first-nl.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/37_croatia.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "847",
+    "stage_name": "Current",
+    "goalscorer": [
+      {
+        "time": "32",
+        "home_scorer": "K. Luetic",
+        "home_scorer_id": "3946075836",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "48",
+        "home_scorer": "N. Ocvirek",
+        "home_scorer_id": "918045382",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "59",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 1",
+        "away_scorer": "M. Gaspar",
+        "away_scorer_id": "2072726317",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "78",
+        "home_scorer": "K. Luetic",
+        "home_scorer_id": "3946075836",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "90",
+        "away": "97"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "40",
+        "away": "48"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "6",
+        "away": "6"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "42%",
+        "away": "58%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Attacks",
+        "home": "47",
+        "away": "52"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "16",
+        "away": "20"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "0",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "44%",
+        "away": "56%"
+      }
+    ]
+  },
+  {
+    "match_id": "625388",
+    "country_id": "37",
+    "country_name": "Croatia",
+    "league_id": "127",
+    "league_name": "First NL",
+    "match_date": "2025-10-26",
+    "match_status": "Finished",
+    "match_time": "13:00",
+    "match_hometeam_id": "2340",
+    "match_hometeam_name": "Croatia Zmijavci",
+    "match_hometeam_score": "0",
+    "match_awayteam_name": "Dubrava",
+    "match_awayteam_id": "2429",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "1",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "12",
+    "match_stadium": "",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/2340_croatia-zmijavci.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/2429_dubrava-zagreb.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/127_first-nl.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/37_croatia.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "847",
+    "stage_name": "Current",
+    "goalscorer": [
+      {
+        "time": "30",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "I. Milicevic",
+        "away_scorer_id": "2740607220",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "110",
+        "away": "111"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "67",
+        "away": "71"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "8"
+      },
+      {
+        "type": "Off Target",
+        "home": "6",
+        "away": "7"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "58",
+        "away": "55"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "42",
+        "away": "33"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "6"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      }
+    ]
+  },
+  {
+    "match_id": "625394",
+    "country_id": "37",
+    "country_name": "Croatia",
+    "league_id": "127",
+    "league_name": "First NL",
+    "match_date": "2025-10-31",
+    "match_status": "37",
+    "match_time": "14:00",
+    "match_hometeam_id": "2423",
+    "match_hometeam_name": "Opatija",
+    "match_hometeam_score": "1",
+    "match_awayteam_name": "Croatia Zmijavci",
+    "match_awayteam_id": "2340",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "1",
+    "match_round": "13",
+    "match_stadium": "Stadion Kantrida",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/2423_opatija.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/2340_croatia-zmijavci.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/127_first-nl.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/37_croatia.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "847",
+    "stage_name": "Current",
+    "goalscorer": [
+      {
+        "time": "23",
+        "home_scorer": "M. Mrsic",
+        "home_scorer_id": "2033795753",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "54",
+        "away": "35"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "39",
+        "away": "16"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "53%",
+        "away": "47%"
+      }
+    ],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "625395",
+    "country_id": "37",
+    "country_name": "Croatia",
+    "league_id": "127",
+    "league_name": "First NL",
+    "match_date": "2025-10-31",
+    "match_status": "37",
+    "match_time": "14:00",
+    "match_hometeam_id": "2424",
+    "match_hometeam_name": "Dugopolje",
+    "match_hometeam_score": "0",
+    "match_awayteam_name": "Jarun",
+    "match_awayteam_id": "2383",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "1",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "1",
+    "match_round": "13",
+    "match_stadium": "Stadion Hrvatski vitezovi",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/2424_dugopolje.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/2383_jarun.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/127_first-nl.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/37_croatia.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "847",
+    "stage_name": "Current",
+    "goalscorer": [
+      {
+        "time": "6",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "away",
+        "score_info_time": "1st Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "47",
+        "away": "40"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "25",
+        "away": "22"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "56%",
+        "away": "44%"
+      }
+    ],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "625396",
+    "country_id": "37",
+    "country_name": "Croatia",
+    "league_id": "127",
+    "league_name": "First NL",
+    "match_date": "2025-10-31",
+    "match_status": "",
+    "match_time": "17:00",
+    "match_hometeam_id": "2393",
+    "match_hometeam_name": "Karlovac",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Dubrava",
+    "match_awayteam_id": "2429",
     "match_awayteam_score": "",
     "match_hometeam_halftime_score": "",
     "match_awayteam_halftime_score": "",
@@ -33114,11 +34229,11 @@
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
-    "match_round": "12",
-    "match_stadium": "Stadion Cibalia",
+    "match_round": "13",
+    "match_stadium": "Stadion Branko Čavlović-Čavlek",
     "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/2350_cibalia.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/2359_hrvace.jpg",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/2393_karlovac-1919.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/2429_dubrava-zagreb.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/127_first-nl.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/37_croatia.png",
     "league_year": "2025/2026",
@@ -33129,19 +34244,19 @@
     "statistics_1half": []
   },
   {
-    "match_id": "625390",
+    "match_id": "625391",
     "country_id": "37",
     "country_name": "Croatia",
     "league_id": "127",
     "league_name": "First NL",
-    "match_date": "2025-10-24",
+    "match_date": "2025-11-01",
     "match_status": "",
-    "match_time": "15:00",
-    "match_hometeam_id": "2345",
-    "match_hometeam_name": "Sesvete",
+    "match_time": "13:00",
+    "match_hometeam_id": "2359",
+    "match_hometeam_name": "Hrvace",
     "match_hometeam_score": "",
-    "match_awayteam_name": "Rudes",
-    "match_awayteam_id": "2347",
+    "match_awayteam_name": "Orijent",
+    "match_awayteam_id": "2428",
     "match_awayteam_score": "",
     "match_hometeam_halftime_score": "",
     "match_awayteam_halftime_score": "",
@@ -33154,11 +34269,91 @@
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
-    "match_round": "12",
-    "match_stadium": "Stadion sv. Josip Radnik",
+    "match_round": "13",
+    "match_stadium": "Gradski stadion",
     "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/2345_sesvete.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/2347_rude.jpg",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/2359_hrvace.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/2428_orijent-1919.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/127_first-nl.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/37_croatia.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "847",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "625393",
+    "country_id": "37",
+    "country_name": "Croatia",
+    "league_id": "127",
+    "league_name": "First NL",
+    "match_date": "2025-11-01",
+    "match_status": "",
+    "match_time": "14:00",
+    "match_hometeam_id": "2425",
+    "match_hometeam_name": "Bijelo Brdo",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Sesvete",
+    "match_awayteam_id": "2345",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "13",
+    "match_stadium": "Stadion BSK",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/2425_bijelo-brdo.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/2345_sesvete.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/127_first-nl.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/37_croatia.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "847",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "625392",
+    "country_id": "37",
+    "country_name": "Croatia",
+    "league_id": "127",
+    "league_name": "First NL",
+    "match_date": "2025-11-02",
+    "match_status": "",
+    "match_time": "13:45",
+    "match_hometeam_id": "2347",
+    "match_hometeam_name": "Rudes",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Cibalia",
+    "match_awayteam_id": "2350",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "13",
+    "match_stadium": "Igralište NK Rudeš",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/2347_rude.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/2350_cibalia.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/127_first-nl.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/37_croatia.png",
     "league_year": "2025/2026",
@@ -33174,9 +34369,9 @@
     "country_name": "Croatia",
     "league_id": "127",
     "league_name": "First NL",
-    "match_date": "2025-10-25",
+    "match_date": "2025-11-05",
     "match_status": "",
-    "match_time": "13:30",
+    "match_time": "14:00",
     "match_hometeam_id": "2423",
     "match_hometeam_name": "Opatija",
     "match_hometeam_score": "",
@@ -33209,333 +34404,13 @@
     "statistics_1half": []
   },
   {
-    "match_id": "625389",
-    "country_id": "37",
-    "country_name": "Croatia",
-    "league_id": "127",
-    "league_name": "First NL",
-    "match_date": "2025-10-25",
-    "match_status": "",
-    "match_time": "15:00",
-    "match_hometeam_id": "2383",
-    "match_hometeam_name": "Jarun",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Karlovac",
-    "match_awayteam_id": "2393",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "12",
-    "match_stadium": "Igralište Nogometni Klub Jarun",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/2383_jarun.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/2393_karlovac-1919.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/127_first-nl.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/37_croatia.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "847",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "625388",
-    "country_id": "37",
-    "country_name": "Croatia",
-    "league_id": "127",
-    "league_name": "First NL",
-    "match_date": "2025-10-26",
-    "match_status": "",
-    "match_time": "13:00",
-    "match_hometeam_id": "2340",
-    "match_hometeam_name": "Croatia Zmijavci",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Dubrava",
-    "match_awayteam_id": "2429",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "12",
-    "match_stadium": "Stadion ŠRC Marijan Šuto Mrma",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/2340_croatia-zmijavci.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/2429_dubrava-zagreb.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/127_first-nl.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/37_croatia.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "847",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "625394",
-    "country_id": "37",
-    "country_name": "Croatia",
-    "league_id": "127",
-    "league_name": "First NL",
-    "match_date": "2025-10-31",
-    "match_status": "Not Started",
-    "match_time": "14:00",
-    "match_hometeam_id": "2423",
-    "match_hometeam_name": "Opatija",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Croatia Zmijavci",
-    "match_awayteam_id": "2340",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "13",
-    "match_stadium": "Stadion Kantrida",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/2423_opatija.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/2340_croatia-zmijavci.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/127_first-nl.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/37_croatia.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "847",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "625396",
-    "country_id": "37",
-    "country_name": "Croatia",
-    "league_id": "127",
-    "league_name": "First NL",
-    "match_date": "2025-10-31",
-    "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "2393",
-    "match_hometeam_name": "Karlovac",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Dubrava",
-    "match_awayteam_id": "2429",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "13",
-    "match_stadium": "Stadion Branko Cavlovic-Cavlek",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/2393_karlovac-1919.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/2429_dubrava-zagreb.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/127_first-nl.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/37_croatia.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "847",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "625391",
-    "country_id": "37",
-    "country_name": "Croatia",
-    "league_id": "127",
-    "league_name": "First NL",
-    "match_date": "2025-11-01",
-    "match_status": "Not Started",
-    "match_time": "13:00",
-    "match_hometeam_id": "2359",
-    "match_hometeam_name": "Hrvace",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Orijent",
-    "match_awayteam_id": "2428",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "13",
-    "match_stadium": "Gradski stadion Hrvace",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/2359_hrvace.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/2428_orijent-1919.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/127_first-nl.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/37_croatia.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "847",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "625393",
-    "country_id": "37",
-    "country_name": "Croatia",
-    "league_id": "127",
-    "league_name": "First NL",
-    "match_date": "2025-11-01",
-    "match_status": "Not Started",
-    "match_time": "14:00",
-    "match_hometeam_id": "2425",
-    "match_hometeam_name": "Bijelo Brdo",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Sesvete",
-    "match_awayteam_id": "2345",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "13",
-    "match_stadium": "",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/2425_bijelo-brdo.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/2345_sesvete.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/127_first-nl.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/37_croatia.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "847",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "625395",
-    "country_id": "37",
-    "country_name": "Croatia",
-    "league_id": "127",
-    "league_name": "First NL",
-    "match_date": "2025-11-01",
-    "match_status": "Not Started",
-    "match_time": "14:00",
-    "match_hometeam_id": "2424",
-    "match_hometeam_name": "Dugopolje",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Jarun",
-    "match_awayteam_id": "2383",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "13",
-    "match_stadium": "Stadion Hrvatski Vitezovi",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/2424_dugopolje.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/2383_jarun.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/127_first-nl.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/37_croatia.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "847",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "625392",
-    "country_id": "37",
-    "country_name": "Croatia",
-    "league_id": "127",
-    "league_name": "First NL",
-    "match_date": "2025-11-02",
-    "match_status": "Not Started",
-    "match_time": "13:45",
-    "match_hometeam_id": "2347",
-    "match_hometeam_name": "Rudes",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Cibalia",
-    "match_awayteam_id": "2350",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "13",
-    "match_stadium": "SC Rudes",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/2347_rude.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/2350_cibalia.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/127_first-nl.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/37_croatia.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "847",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
     "match_id": "690662",
     "country_id": "37",
     "country_name": "Croatia",
     "league_id": "127",
     "league_name": "First NL",
     "match_date": "2025-11-07",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "14:00",
     "match_hometeam_id": "2428",
     "match_hometeam_name": "Orijent",
@@ -33955,7 +34830,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "15",
-    "match_stadium": "",
+    "match_stadium": "Gradski stadion Hrvace",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/2359_hrvace.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/2429_dubrava-zagreb.jpg",

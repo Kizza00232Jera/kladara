@@ -17370,7 +17370,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "1",
-    "match_stadium": "Estádio Nacional de OMBAKA",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/875_wiliete.jpg",
     "team_away_badge": "",
@@ -17502,27 +17502,27 @@
     "league_id": "38",
     "league_name": "Girabola",
     "match_date": "2025-10-24",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "17:00",
     "match_hometeam_id": "12698",
     "match_hometeam_name": "Kabuscorp",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "CD Lunda Sul",
     "match_awayteam_id": "23045",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "1",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "5",
-    "match_stadium": "Estádio Municipal dos Coqueiros",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/12698_kabuscorp.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/23045_desportivo-lunda-sul.jpg",
@@ -17542,27 +17542,27 @@
     "league_id": "38",
     "league_name": "Girabola",
     "match_date": "2025-10-24",
-    "match_status": "",
-    "match_time": "17:00",
+    "match_status": "Finished",
+    "match_time": "16:30",
     "match_hometeam_id": "867",
     "match_hometeam_name": "Primeiro de Agosto",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Desportivo Huila",
     "match_awayteam_id": "873",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "2",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "5",
-    "match_stadium": "Estádio 11 de Novembro",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/867_1o-de-agosto.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/873_desportivo-huila.jpg",
@@ -17572,8 +17572,120 @@
     "fk_stage_key": "496",
     "stage_name": "Current",
     "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "8",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "173",
+        "away": "104"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "60",
+        "away": "20"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Attacks",
+        "home": "78",
+        "away": "56"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "19",
+        "away": "11"
+      },
+      {
+        "type": "On Target",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      }
+    ]
   },
   {
     "match_id": "680542",
@@ -17582,27 +17694,27 @@
     "league_id": "38",
     "league_name": "Girabola",
     "match_date": "2025-10-25",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "17:00",
     "match_hometeam_id": "865",
     "match_hometeam_name": "Interclube",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Guelson",
     "match_awayteam_id": "40941",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "1",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "5",
-    "match_stadium": "Estádio Joaquim Dinis",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/865_interclube.jpg",
     "team_away_badge": "",
@@ -17612,48 +17724,120 @@
     "fk_stage_key": "496",
     "stage_name": "Current",
     "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "680547",
-    "country_id": "13",
-    "country_name": "Angola",
-    "league_id": "38",
-    "league_name": "Girabola",
-    "match_date": "2025-10-25",
-    "match_status": "",
-    "match_time": "17:00",
-    "match_hometeam_id": "875",
-    "match_hometeam_name": "Wiliete",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Sagrada",
-    "match_awayteam_id": "866",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "5",
-    "match_stadium": "Estádio Nacional de OMBAKA",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/875_wiliete.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/866_sagrada-esperanca.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/38_girabola.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/13_angola.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "496",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Attacks",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "On Target",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Off Target",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "On Target",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Off Target",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      }
+    ]
   },
   {
     "match_id": "680536",
@@ -17662,27 +17846,27 @@
     "league_id": "38",
     "league_name": "Girabola",
     "match_date": "2025-10-26",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "15:00",
     "match_hometeam_id": "877",
     "match_hometeam_name": "C.R.D. Libolo",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Primeiro de Maio",
     "match_awayteam_id": "12699",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "0",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "5",
-    "match_stadium": "Estádio Mário Álvaro Pacheco",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/877_recreativo-do-libolo.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/12699_1o-de-maio.jpg",
@@ -17702,22 +17886,22 @@
     "league_id": "38",
     "league_name": "Girabola",
     "match_date": "2025-10-26",
-    "match_status": "",
-    "match_time": "17:00",
+    "match_status": "Finished",
+    "match_time": "16:00",
     "match_hometeam_id": "37604",
     "match_hometeam_name": "Luanda City",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Redonda",
     "match_awayteam_id": "40940",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "0",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -17732,7 +17916,63 @@
     "fk_stage_key": "496",
     "stage_name": "Current",
     "goalscorer": [],
-    "statistics": [],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "149",
+        "away": "109"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "33",
+        "away": "23"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      }
+    ],
     "statistics_1half": []
   },
   {
@@ -17742,30 +17982,182 @@
     "league_id": "38",
     "league_name": "Girabola",
     "match_date": "2025-10-26",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "16:00",
     "match_hometeam_id": "871",
     "match_hometeam_name": "Academica",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Bravos do Maquis",
     "match_awayteam_id": "863",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "0",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "5",
-    "match_stadium": "Estádio do Buraco",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/871_academica-do-lobito.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/863_bravos-do-maquis-fc.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/38_girabola.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/13_angola.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "496",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "On Target",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Off Target",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "On Target",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Off Target",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      }
+    ]
+  },
+  {
+    "match_id": "680547",
+    "country_id": "13",
+    "country_name": "Angola",
+    "league_id": "38",
+    "league_name": "Girabola",
+    "match_date": "2025-10-26",
+    "match_status": "Finished",
+    "match_time": "17:00",
+    "match_hometeam_id": "875",
+    "match_hometeam_name": "Wiliete",
+    "match_hometeam_score": "3",
+    "match_awayteam_name": "Sagrada",
+    "match_awayteam_id": "866",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "1",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "3",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "5",
+    "match_stadium": "",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/875_wiliete.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/866_sagrada-esperanca.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/38_girabola.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/13_angola.png",
     "league_year": "2025/2026",
@@ -17782,22 +18174,22 @@
     "league_id": "38",
     "league_name": "Girabola",
     "match_date": "2025-10-28",
-    "match_status": "",
-    "match_time": "16:00",
+    "match_status": "Finished",
+    "match_time": "15:30",
     "match_hometeam_id": "867",
     "match_hometeam_name": "Primeiro de Agosto",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "CD Lunda Sul",
     "match_awayteam_id": "23045",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "1",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -17812,8 +18204,120 @@
     "fk_stage_key": "496",
     "stage_name": "Current",
     "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "2",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "85",
+        "away": "81"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "71",
+        "away": "64"
+      },
+      {
+        "type": "On Target",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "12",
+        "away": "7"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "On Target",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Off Target",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      }
+    ]
   },
   {
     "match_id": "680543",
@@ -17822,22 +18326,22 @@
     "league_id": "38",
     "league_name": "Girabola",
     "match_date": "2025-10-29",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "15:00",
     "match_hometeam_id": "33138",
     "match_hometeam_name": "Sao Salvador",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Petro Atletico",
     "match_awayteam_id": "864",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "1",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -18182,7 +18686,7 @@
     "league_id": "38",
     "league_name": "Girabola",
     "match_date": "2025-11-01",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "16:00",
     "match_hometeam_id": "40941",
     "match_hometeam_name": "Guelson",
@@ -18202,7 +18706,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "6",
-    "match_stadium": "",
+    "match_stadium": "Estádio Municipal dos Coqueiros",
     "match_referee": "",
     "team_home_badge": "",
     "team_away_badge": "https://apiv3.apifootball.com/badges/12698_kabuscorp.jpg",
@@ -18222,7 +18726,7 @@
     "league_id": "38",
     "league_name": "Girabola",
     "match_date": "2025-11-01",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "15:00",
     "match_hometeam_id": "863",
     "match_hometeam_name": "Bravos do Maquis",
@@ -18242,7 +18746,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "6",
-    "match_stadium": "",
+    "match_stadium": "Estádio Comandante Jones Kufuna Yembe",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/863_bravos-do-maquis-fc.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/875_wiliete.jpg",
@@ -18262,7 +18766,7 @@
     "league_id": "38",
     "league_name": "Girabola",
     "match_date": "2025-11-01",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "15:00",
     "match_hometeam_id": "866",
     "match_hometeam_name": "Sagrada",
@@ -18282,7 +18786,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "6",
-    "match_stadium": "",
+    "match_stadium": "Estádio Quintalão",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/866_sagrada-esperanca.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/867_1o-de-agosto.jpg",
@@ -18302,7 +18806,7 @@
     "league_id": "38",
     "league_name": "Girabola",
     "match_date": "2025-11-01",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "15:30",
     "match_hometeam_id": "40940",
     "match_hometeam_name": "Redonda",
@@ -18342,7 +18846,7 @@
     "league_id": "38",
     "league_name": "Girabola",
     "match_date": "2025-11-02",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "15:00",
     "match_hometeam_id": "23045",
     "match_hometeam_name": "CD Lunda Sul",
@@ -18362,7 +18866,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "6",
-    "match_stadium": "",
+    "match_stadium": "Estádio Quintalão",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/23045_desportivo-lunda-sul.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/37604_luanda-city.jpg",
@@ -18382,7 +18886,7 @@
     "league_id": "38",
     "league_name": "Girabola",
     "match_date": "2025-11-02",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "16:00",
     "match_hometeam_id": "12699",
     "match_hometeam_name": "Primeiro de Maio",
@@ -18402,7 +18906,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "6",
-    "match_stadium": "",
+    "match_stadium": "Estádio Municipal Edelfride Palhares da Costa",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/12699_1o-de-maio.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/865_interclube.jpg",
@@ -18422,7 +18926,7 @@
     "league_id": "38",
     "league_name": "Girabola",
     "match_date": "2025-11-02",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "16:00",
     "match_hometeam_id": "864",
     "match_hometeam_name": "Petro Atletico",
@@ -18462,7 +18966,7 @@
     "league_id": "38",
     "league_name": "Girabola",
     "match_date": "2025-11-02",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "15:30",
     "match_hometeam_id": "873",
     "match_hometeam_name": "Desportivo Huila",
@@ -18502,7 +19006,7 @@
     "league_id": "38",
     "league_name": "Girabola",
     "match_date": "2025-11-04",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "16:00",
     "match_hometeam_id": "864",
     "match_hometeam_name": "Petro Atletico",
@@ -18542,7 +19046,7 @@
     "league_id": "38",
     "league_name": "Girabola",
     "match_date": "2025-11-05",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "16:00",
     "match_hometeam_id": "867",
     "match_hometeam_name": "Primeiro de Agosto",
@@ -18582,7 +19086,7 @@
     "league_id": "38",
     "league_name": "Girabola",
     "match_date": "2025-11-07",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "16:00",
     "match_hometeam_id": "37604",
     "match_hometeam_name": "Luanda City",

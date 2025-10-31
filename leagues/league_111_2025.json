@@ -27262,20 +27262,6 @@
         "score_info_time": "2nd Half"
       },
       {
-        "time": "90+2",
-        "home_scorer": "A. Shinyashiki",
-        "home_scorer_id": "4108528605",
-        "home_assist": "C. Offor",
-        "home_assist_id": "1027650197",
-        "score": "1 - 1",
-        "away_scorer": "",
-        "away_scorer_id": "",
-        "away_assist": "",
-        "away_assist_id": "",
-        "info": "",
-        "score_info_time": "2nd Half"
-      },
-      {
         "time": "1",
         "home_scorer": "C. Offor (pen.)",
         "home_scorer_id": "1027650197",
@@ -27288,6 +27274,20 @@
         "away_assist_id": "",
         "info": "Penalty",
         "score_info_time": "Penalty"
+      },
+      {
+        "time": "90+2",
+        "home_scorer": "A. Shinyashiki",
+        "home_scorer_id": "4108528605",
+        "home_assist": "C. Offor",
+        "home_assist_id": "1027650197",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
       },
       {
         "time": "1",
@@ -47957,24 +47957,24 @@
     "league_id": "111",
     "league_name": "First League",
     "match_date": "2025-10-24",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "16:30",
     "match_hometeam_id": "2108",
     "match_hometeam_name": "Spartak Varna",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "3",
     "match_awayteam_name": "Botev Plovdiv",
     "match_awayteam_id": "2166",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "3",
+    "match_awayteam_ft_score": "2",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "4-1-4-1",
     "match_live": "0",
     "match_round": "13",
     "match_stadium": "Stadion Spartak",
@@ -47986,9 +47986,192 @@
     "league_year": "2025/2026",
     "fk_stage_key": "766",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "14",
+        "home_scorer": "G. Stojanovski",
+        "home_scorer_id": "3023011559",
+        "home_assist": "Berna",
+        "home_assist_id": "1136120188",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "42",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "S. Tsonov",
+        "away_scorer_id": "902345312",
+        "away_assist": "N. Minkov",
+        "away_assist_id": "1424051855",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "50",
+        "home_scorer": "Berna",
+        "home_scorer_id": "1136120188",
+        "home_assist": "G. Stojanovski",
+        "home_assist_id": "3023011559",
+        "score": "2 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "68",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 2",
+        "away_scorer": "A. Okoflex",
+        "away_scorer_id": "353305094",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "77",
+        "home_scorer": "Berna",
+        "home_scorer_id": "1136120188",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 2",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "76",
+        "away": "85"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "46",
+        "away": "62"
+      },
+      {
+        "type": "On Target",
+        "home": "7",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "6"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "42",
+        "away": "45"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "18",
+        "away": "30"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "45%",
+        "away": "55%"
+      }
+    ]
   },
   {
     "match_id": "659696",
@@ -47997,27 +48180,27 @@
     "league_id": "111",
     "league_name": "First League",
     "match_date": "2025-10-24",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "14:00",
     "match_hometeam_id": "2167",
     "match_hometeam_name": "Montana",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Arda",
     "match_awayteam_id": "2160",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "4-3-1-2",
+    "match_awayteam_system": "4-3-3",
     "match_live": "0",
     "match_round": "13",
-    "match_stadium": "Stadion Ogosta",
+    "match_stadium": "Ogosta Stadium",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/2167_montana-1921.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/2160_arda-kardzhali.jpg",
@@ -48026,9 +48209,150 @@
     "league_year": "2025/2026",
     "fk_stage_key": "766",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "7",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "I. Popov",
+        "away_scorer_id": "763943961",
+        "away_assist": "L. Kotev",
+        "away_assist_id": "1192132883",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "45+1",
+        "home_scorer": "A. Gospodinov (o.g.)",
+        "home_scorer_id": "198536178",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "70",
+        "away": "75"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "53",
+        "away": "53"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "7",
+        "away": "6"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "45%",
+        "away": "55%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "34",
+        "away": "34"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "37",
+        "away": "15"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "52%",
+        "away": "48%"
+      }
+    ]
   },
   {
     "match_id": "659698",
@@ -48037,24 +48361,24 @@
     "league_id": "111",
     "league_name": "First League",
     "match_date": "2025-10-24",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "19:00",
     "match_hometeam_id": "2074",
     "match_hometeam_name": "Lok. Sofia",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Lok. Plovdiv",
     "match_awayteam_id": "211",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "2",
+    "match_hometeam_system": "3-1-4-2",
+    "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "13",
     "match_stadium": "Stadion Lokomotiv",
@@ -48066,9 +48390,178 @@
     "league_year": "2025/2026",
     "fk_stage_key": "766",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "23",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "Lucas Ryan",
+        "away_scorer_id": "3084857752",
+        "away_assist": "I. Ivanov",
+        "away_assist_id": "3291467187",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "68",
+        "home_scorer": "A. Aralica",
+        "home_scorer_id": "1590857580",
+        "home_assist": "S. Delev",
+        "home_assist_id": "843034855",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "77",
+        "home_scorer": "Caue Caruzo",
+        "home_scorer_id": "73783690",
+        "home_assist": "D. Ali",
+        "home_assist_id": "2234989358",
+        "score": "2 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "90+9",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 2",
+        "away_scorer": "A. Cova",
+        "away_scorer_id": "3284627475",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "84",
+        "away": "86"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "53",
+        "away": "61"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "9"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "53%",
+        "away": "47%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "38",
+        "away": "38"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "27",
+        "away": "27"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "62%",
+        "away": "38%"
+      }
+    ]
   },
   {
     "match_id": "659692",
@@ -48077,24 +48570,24 @@
     "league_id": "111",
     "league_name": "First League",
     "match_date": "2025-10-25",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "14:30",
     "match_hometeam_id": "2168",
     "match_hometeam_name": "Slavia Sofia",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "0",
     "match_awayteam_name": "Cherno More",
     "match_awayteam_id": "2163",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "13",
     "match_stadium": "Stadion Aleksandar Shalamanov",
@@ -48107,8 +48600,120 @@
     "fk_stage_key": "766",
     "stage_name": "Current",
     "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "7",
+        "away": "6"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "76",
+        "away": "81"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "71",
+        "away": "60"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "10",
+        "away": "8"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "48%",
+        "away": "52%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "40",
+        "away": "42"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "33",
+        "away": "34"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "47%",
+        "away": "53%"
+      }
+    ]
   },
   {
     "match_id": "659694",
@@ -48117,27 +48722,27 @@
     "league_id": "111",
     "league_name": "First League",
     "match_date": "2025-10-25",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "12:00",
     "match_hometeam_id": "2169",
     "match_hometeam_name": "Botev Vratsa",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Septemvri Sofia",
     "match_awayteam_id": "2079",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "13",
-    "match_stadium": "Stadion Hristo Botev",
+    "match_stadium": "Hristo Botev Stadium",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/2169_botev-vratsa.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/2079_septemvri-sofia.jpg",
@@ -48146,9 +48751,164 @@
     "league_year": "2025/2026",
     "fk_stage_key": "766",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "52",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "S. Stoichkov",
+        "away_scorer_id": "4009926256",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "82",
+        "home_scorer": "R. Tsonev",
+        "home_scorer_id": "2298025248",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "85",
+        "home_scorer": "D. Genov",
+        "home_scorer_id": "2699127216",
+        "home_assist": "A. Kabashi",
+        "home_assist_id": "1038161388",
+        "score": "2 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Attacks",
+        "home": "73",
+        "away": "81"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "45",
+        "away": "59"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "44%",
+        "away": "56%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "46",
+        "away": "45"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "23",
+        "away": "27"
+      },
+      {
+        "type": "On Target",
+        "home": "0",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "46%",
+        "away": "54%"
+      }
+    ]
   },
   {
     "match_id": "659697",
@@ -48157,27 +48917,27 @@
     "league_id": "111",
     "league_name": "First League",
     "match_date": "2025-10-25",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "17:00",
     "match_hometeam_id": "2164",
     "match_hometeam_name": "Levski Sofia",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "3",
     "match_awayteam_name": "Dobrudzha",
     "match_awayteam_id": "2083",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "2",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "3",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "13",
-    "match_stadium": "Stadion Georgi Asparuhov",
+    "match_stadium": "Vivacom Arena Georgi Asparuhov",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/2164_levski-sofia.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/2083_dobrudzha-1919.jpg",
@@ -48186,9 +48946,164 @@
     "league_year": "2025/2026",
     "fk_stage_key": "766",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "13",
+        "home_scorer": "Everton Bala",
+        "home_scorer_id": "2180035750",
+        "home_assist": "A. Mitkov",
+        "home_assist_id": "1223359509",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "27",
+        "home_scorer": "Everton Bala",
+        "home_scorer_id": "2180035750",
+        "home_assist": "O. Kamdem",
+        "home_assist_id": "1746521084",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "73",
+        "home_scorer": "M. Petkov",
+        "home_scorer_id": "2955696416",
+        "home_assist": "Maicon",
+        "home_assist_id": "701579779",
+        "score": "3 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "107",
+        "away": "72"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "68",
+        "away": "42"
+      },
+      {
+        "type": "On Target",
+        "home": "6",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "7",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "69%",
+        "away": "31%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "64",
+        "away": "35"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "34",
+        "away": "17"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "70%",
+        "away": "30%"
+      }
+    ]
   },
   {
     "match_id": "659691",
@@ -48197,27 +49112,27 @@
     "league_id": "111",
     "league_name": "First League",
     "match_date": "2025-10-26",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "16:15",
     "match_hometeam_id": "140",
     "match_hometeam_name": "CSKA Sofia",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "5",
     "match_awayteam_name": "Beroe",
     "match_awayteam_id": "2161",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "2",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "5",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "13",
-    "match_stadium": "Stadion Vasil Levski",
+    "match_stadium": "National Stadium Vasil Levski",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/140_cska-sofia.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/2161_beroe-stara-zagora.jpg",
@@ -48226,9 +49141,206 @@
     "league_year": "2025/2026",
     "fk_stage_key": "766",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "39",
+        "home_scorer": "P. Panayotov",
+        "home_scorer_id": "3298096384",
+        "home_assist": "Pastor",
+        "home_assist_id": "2710900107",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "45",
+        "home_scorer": "I. Pittas",
+        "home_scorer_id": "2412058517",
+        "home_assist": "J. Eto'o",
+        "home_assist_id": "2766685270",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "48",
+        "home_scorer": "I. Iliev",
+        "home_scorer_id": "3106655858",
+        "home_assist": "Pastor",
+        "home_assist_id": "2710900107",
+        "score": "3 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "52",
+        "home_scorer": "I. Pittas",
+        "home_scorer_id": "2412058517",
+        "home_assist": "P. Panayotov",
+        "home_assist_id": "3298096384",
+        "score": "4 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "59",
+        "home_scorer": "L. Godoy",
+        "home_scorer_id": "2065255241",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "5 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "87",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "5 - 1",
+        "away_scorer": "I. Ferrer",
+        "away_scorer_id": "2695332611",
+        "away_assist": "Nene",
+        "away_assist_id": "766234795",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "9",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "77",
+        "away": "53"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "77",
+        "away": "37"
+      },
+      {
+        "type": "On Target",
+        "home": "12",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "9",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "59%",
+        "away": "41%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "40",
+        "away": "27"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "43",
+        "away": "18"
+      },
+      {
+        "type": "On Target",
+        "home": "8",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "57%",
+        "away": "43%"
+      }
+    ]
   },
   {
     "match_id": "659695",
@@ -48237,27 +49349,27 @@
     "league_id": "111",
     "league_name": "First League",
     "match_date": "2025-10-27",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "16:30",
     "match_hometeam_id": "2162",
     "match_hometeam_name": "CSKA 1948 Sofia",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "5",
     "match_awayteam_name": "Ludogorets",
     "match_awayteam_id": "119",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "4",
+    "match_hometeam_halftime_score": "3",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "5",
+    "match_awayteam_ft_score": "4",
+    "match_hometeam_system": "4-4-2",
+    "match_awayteam_system": "3-4-1-2",
     "match_live": "0",
     "match_round": "13",
-    "match_stadium": "Stadion Vitosha",
+    "match_stadium": "Bistritsa Stadium",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/2162_cska-1948-sofia.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/119_ludogorets-razgrad.jpg",
@@ -48266,9 +49378,248 @@
     "league_year": "2025/2026",
     "fk_stage_key": "766",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "3",
+        "home_scorer": "M. Diallo",
+        "home_scorer_id": "3789100610",
+        "home_assist": "O. Gasevic",
+        "home_assist_id": "2286199883",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "10",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "B. Tekpetey",
+        "away_scorer_id": "86204504",
+        "away_assist": "D. Duarte",
+        "away_assist_id": "2463099756",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "16",
+        "home_scorer": "E. Franco",
+        "home_scorer_id": "306558013",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "40",
+        "home_scorer": "B. Sobrero",
+        "home_scorer_id": "2593239400",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "52",
+        "home_scorer": "O. Verdon (o.g.)",
+        "home_scorer_id": "2499541730",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "4 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "71",
+        "home_scorer": "B. Tsonev",
+        "home_scorer_id": "300958874",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "5 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "82",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "5 - 2",
+        "away_scorer": "A. Hoffmann (o.g.)",
+        "away_scorer_id": "2245359915",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "90",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "5 - 3",
+        "away_scorer": "I. Chochev",
+        "away_scorer_id": "4019024531",
+        "away_assist": "P. Stanic",
+        "away_assist_id": "1955002987",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "90+8",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "5 - 4",
+        "away_scorer": "I. Chochev",
+        "away_scorer_id": "4019024531",
+        "away_assist": "Son",
+        "away_assist_id": "3343467289",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "6"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "80",
+        "away": "102"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "43",
+        "away": "69"
+      },
+      {
+        "type": "On Target",
+        "home": "7",
+        "away": "9"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "6"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "38%",
+        "away": "62%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "48",
+        "away": "50"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "23",
+        "away": "23"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "39%",
+        "away": "61%"
+      }
+    ]
   },
   {
     "match_id": "659699",
@@ -48277,7 +49628,7 @@
     "league_id": "111",
     "league_name": "First League",
     "match_date": "2025-11-01",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "16:30",
     "match_hometeam_id": "2079",
     "match_hometeam_name": "Septemvri Sofia",
@@ -48297,7 +49648,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "14",
-    "match_stadium": "National Stadium Vasil Levski",
+    "match_stadium": "Stadion Lokomotiv",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/2079_septemvri-sofia.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/2168_slavia-sofia.jpg",
@@ -48317,7 +49668,7 @@
     "league_id": "111",
     "league_name": "First League",
     "match_date": "2025-11-01",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "11:00",
     "match_hometeam_id": "2083",
     "match_hometeam_name": "Dobrudzha",
@@ -48337,7 +49688,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "14",
-    "match_stadium": "Druzhba",
+    "match_stadium": "Stadion Spartak",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/2083_dobrudzha-1919.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/2108_spartak-varna.jpg",
@@ -48357,7 +49708,7 @@
     "league_id": "111",
     "league_name": "First League",
     "match_date": "2025-11-01",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "13:45",
     "match_hometeam_id": "211",
     "match_hometeam_name": "Lok. Plovdiv",
@@ -48397,7 +49748,7 @@
     "league_id": "111",
     "league_name": "First League",
     "match_date": "2025-11-02",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "11:45",
     "match_hometeam_id": "140",
     "match_hometeam_name": "CSKA Sofia",
@@ -48417,7 +49768,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "14",
-    "match_stadium": "National Stadium Vasil Levski",
+    "match_stadium": "Stadion Vasil Levski",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/140_cska-sofia.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/2167_montana-1921.jpg",
@@ -48437,7 +49788,7 @@
     "league_id": "111",
     "league_name": "First League",
     "match_date": "2025-11-02",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "14:15",
     "match_hometeam_id": "2160",
     "match_hometeam_name": "Arda",
@@ -48477,7 +49828,7 @@
     "league_id": "111",
     "league_name": "First League",
     "match_date": "2025-11-02",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "16:45",
     "match_hometeam_id": "2163",
     "match_hometeam_name": "Cherno More",
@@ -48497,7 +49848,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "14",
-    "match_stadium": "Ticha",
+    "match_stadium": "Stadion Ticha",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/2163_cherno-more-varna.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/119_ludogorets-razgrad.jpg",
@@ -48517,7 +49868,7 @@
     "league_id": "111",
     "league_name": "First League",
     "match_date": "2025-11-03",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "15:00",
     "match_hometeam_id": "2161",
     "match_hometeam_name": "Beroe",
@@ -48557,7 +49908,7 @@
     "league_id": "111",
     "league_name": "First League",
     "match_date": "2025-11-03",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "17:15",
     "match_hometeam_id": "2169",
     "match_hometeam_name": "Botev Vratsa",
@@ -48577,7 +49928,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "14",
-    "match_stadium": "Hristo Botev Stadium",
+    "match_stadium": "Stadion Hristo Botev",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/2169_botev-vratsa.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/2162_cska-1948-sofia.jpg",
@@ -48597,7 +49948,7 @@
     "league_id": "111",
     "league_name": "First League",
     "match_date": "2025-11-07",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "14:00",
     "match_hometeam_id": "2108",
     "match_hometeam_name": "Spartak Varna",
@@ -48637,7 +49988,7 @@
     "league_id": "111",
     "league_name": "First League",
     "match_date": "2025-11-07",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "16:30",
     "match_hometeam_id": "2166",
     "match_hometeam_name": "Botev Plovdiv",

@@ -47989,7 +47989,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "7",
-    "match_stadium": "Wyre Stadium at Firhill",
+    "match_stadium": "Firhill Stadium",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/6348_partick-thistle.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6352_ayr-united.jpg",
@@ -48017,8 +48017,8 @@
         "time": "46",
         "home_scorer": "T. Letsosa",
         "home_scorer_id": "3202204043",
-        "home_assist": "L. Chalmers",
-        "home_assist_id": "2929741974",
+        "home_assist": "T. Watt",
+        "home_assist_id": "3339605282",
         "score": "1 - 1",
         "away_scorer": "",
         "away_scorer_id": "",
@@ -48213,8 +48213,8 @@
         "score": "0 - 1",
         "away_scorer": "A. Tod",
         "away_scorer_id": "3342216565",
-        "away_assist": "",
-        "away_assist_id": "",
+        "away_assist": "K. Bray",
+        "away_assist_id": "4022591549",
         "info": "",
         "score_info_time": "1st Half"
       },
@@ -48255,8 +48255,8 @@
         "score": "0 - 4",
         "away_scorer": "C. Kane",
         "away_scorer_id": "880042832",
-        "away_assist": "",
-        "away_assist_id": "",
+        "away_assist": "N. Abdulai",
+        "away_assist_id": "2305468325",
         "info": "",
         "score_info_time": "2nd Half"
       }
@@ -48383,27 +48383,27 @@
     "league_id": "282",
     "league_name": "Championship",
     "match_date": "2025-10-25",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "16:00",
     "match_hometeam_id": "6359",
     "match_hometeam_name": "Raith",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Partick Thistle",
     "match_awayteam_id": "6348",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "0",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "12",
-    "match_stadium": "Stark&apos;s Park",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/6359_raith-rovers.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6348_partick-thistle.jpg",
@@ -48412,9 +48412,150 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1547",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "55",
+        "home_scorer": "D. Easton",
+        "home_scorer_id": "2966857166",
+        "home_assist": "S. Brown",
+        "home_assist_id": "1505034491",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "67",
+        "home_scorer": "P. Hanlon",
+        "home_scorer_id": "205987895",
+        "home_assist": "J. Mullin",
+        "home_assist_id": "939993384",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "9",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "87",
+        "away": "121"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "51",
+        "away": "51"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "42",
+        "away": "66"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "31",
+        "away": "23"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      }
+    ]
   },
   {
     "match_id": "612106",
@@ -48423,22 +48564,22 @@
     "league_id": "282",
     "league_name": "Championship",
     "match_date": "2025-10-25",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "16:00",
     "match_hometeam_id": "6351",
     "match_hometeam_name": "Morton",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "0",
     "match_awayteam_name": "St Johnstone",
     "match_awayteam_id": "6340",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "4",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "4",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "4",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -48452,9 +48593,178 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1547",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "5",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "C. Diabate",
+        "away_scorer_id": "2527453841",
+        "away_assist": "J. Gullan",
+        "away_assist_id": "3972973499",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "12",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 2",
+        "away_scorer": "J. Gullan",
+        "away_scorer_id": "3972973499",
+        "away_assist": "R. McAlear",
+        "away_assist_id": "1853525447",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "26",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 3",
+        "away_scorer": "J. McPake",
+        "away_scorer_id": "2626067057",
+        "away_assist": "R. McAlear",
+        "away_assist_id": "1853525447",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "34",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 4",
+        "away_scorer": "J. Gullan",
+        "away_scorer_id": "3972973499",
+        "away_assist": "J. Svedberg",
+        "away_assist_id": "2049019225",
+        "info": "",
+        "score_info_time": "1st Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "6"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "81",
+        "away": "69"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "26",
+        "away": "47"
+      },
+      {
+        "type": "On Target",
+        "home": "0",
+        "away": "7"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "8"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "6"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "39",
+        "away": "32"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "15",
+        "away": "27"
+      },
+      {
+        "type": "On Target",
+        "home": "0",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      }
+    ]
   },
   {
     "match_id": "612107",
@@ -48463,22 +48773,22 @@
     "league_id": "282",
     "league_name": "Championship",
     "match_date": "2025-10-25",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "16:00",
     "match_hometeam_id": "6343",
     "match_hometeam_name": "Ross County",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "3",
     "match_awayteam_name": "Dunfermline",
     "match_awayteam_id": "6423",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "2",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "3",
+    "match_awayteam_ft_score": "2",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -48492,9 +48802,192 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1547",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "2",
+        "home_scorer": "S. Fraser",
+        "home_scorer_id": "1439291825",
+        "home_assist": "A. Wright",
+        "home_assist_id": "3035225274",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "3",
+        "home_scorer": "J. White",
+        "home_scorer_id": "956136600",
+        "home_assist": "R. Hale",
+        "home_assist_id": "131680135",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "45+1",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 1",
+        "away_scorer": "A. Tod",
+        "away_scorer_id": "3342216565",
+        "away_assist": "S. Kearney",
+        "away_assist_id": "1781639779",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "53",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 2",
+        "away_scorer": "C. Randall (o.g.)",
+        "away_scorer_id": "808081174",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "67",
+        "home_scorer": "R. Hale",
+        "home_scorer_id": "131680135",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 2",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "49",
+        "away": "62"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "40",
+        "away": "39"
+      },
+      {
+        "type": "On Target",
+        "home": "9",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "7",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "30",
+        "away": "40"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "17",
+        "away": "17"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      }
+    ]
   },
   {
     "match_id": "612108",
@@ -48503,22 +48996,22 @@
     "league_id": "282",
     "league_name": "Championship",
     "match_date": "2025-10-25",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "16:00",
     "match_hometeam_id": "6369",
     "match_hometeam_name": "Airdrieonians",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Arbroath",
     "match_awayteam_id": "6372",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "0",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -48532,9 +49025,136 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1547",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "14",
+        "home_scorer": "E. Henderson",
+        "home_scorer_id": "1217936486",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "1st Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "6"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "96",
+        "away": "84"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "34",
+        "away": "60"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "8"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "50",
+        "away": "46"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "15",
+        "away": "27"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "0",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      }
+    ]
   },
   {
     "match_id": "612109",
@@ -48543,22 +49163,22 @@
     "league_id": "282",
     "league_name": "Championship",
     "match_date": "2025-10-25",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "16:00",
     "match_hometeam_id": "6366",
     "match_hometeam_name": "Queen's Park",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "0",
     "match_awayteam_name": "Ayr",
     "match_awayteam_id": "6352",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "0",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -48573,8 +49193,120 @@
     "fk_stage_key": "1547",
     "stage_name": "Current",
     "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "17"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "63",
+        "away": "106"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "25",
+        "away": "107"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "6"
+      },
+      {
+        "type": "Off Target",
+        "home": "0",
+        "away": "16"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "12"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "39",
+        "away": "48"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "14",
+        "away": "54"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "0",
+        "away": "9"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      }
+    ]
   },
   {
     "match_id": "612111",
@@ -48583,7 +49315,7 @@
     "league_id": "282",
     "league_name": "Championship",
     "match_date": "2025-10-31",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "20:45",
     "match_hometeam_id": "6352",
     "match_hometeam_name": "Ayr",
@@ -48623,7 +49355,7 @@
     "league_id": "282",
     "league_name": "Championship",
     "match_date": "2025-11-01",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "16:00",
     "match_hometeam_id": "6348",
     "match_hometeam_name": "Partick Thistle",
@@ -48643,7 +49375,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "13",
-    "match_stadium": "Firhill Stadium",
+    "match_stadium": "Wyre Stadium at Firhill",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/6348_partick-thistle.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6366_queens-park.jpg",
@@ -48663,7 +49395,7 @@
     "league_id": "282",
     "league_name": "Championship",
     "match_date": "2025-11-01",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "16:00",
     "match_hometeam_id": "6372",
     "match_hometeam_name": "Arbroath",
@@ -48683,7 +49415,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "13",
-    "match_stadium": "Gayfield Park",
+    "match_stadium": "The Greenversity Stadium at Gayfield",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/6372_arbroath.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6343_ross-county.jpg",
@@ -48703,7 +49435,7 @@
     "league_id": "282",
     "league_name": "Championship",
     "match_date": "2025-11-01",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "16:00",
     "match_hometeam_id": "6359",
     "match_hometeam_name": "Raith",
@@ -48723,7 +49455,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "13",
-    "match_stadium": "",
+    "match_stadium": "Stark&apos;s Park",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/6359_raith-rovers.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6351_greenock-morton.jpg",
@@ -48743,7 +49475,7 @@
     "league_id": "282",
     "league_name": "Championship",
     "match_date": "2025-11-01",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "16:00",
     "match_hometeam_id": "6340",
     "match_hometeam_name": "St Johnstone",
@@ -48783,7 +49515,7 @@
     "league_id": "282",
     "league_name": "Championship",
     "match_date": "2025-11-07",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "20:45",
     "match_hometeam_id": "6369",
     "match_hometeam_name": "Airdrieonians",
@@ -49377,6 +50109,46 @@
     "statistics_1half": []
   },
   {
+    "match_id": "612131",
+    "country_id": "98",
+    "country_name": "Scotland",
+    "league_id": "282",
+    "league_name": "Championship",
+    "match_date": "2025-12-05",
+    "match_status": "Not Started",
+    "match_time": "20:45",
+    "match_hometeam_id": "6351",
+    "match_hometeam_name": "Morton",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Queen's Park",
+    "match_awayteam_id": "6366",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "17",
+    "match_stadium": "Cappielow Park",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/6351_greenock-morton.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/6366_queens-park.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/282_championship.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/98_scotland.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "1547",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
     "match_id": "612130",
     "country_id": "98",
     "country_name": "Scotland",
@@ -49407,46 +50179,6 @@
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/6343_ross-county.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6369_airdrieonians.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/282_championship.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/98_scotland.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "1547",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "612131",
-    "country_id": "98",
-    "country_name": "Scotland",
-    "league_id": "282",
-    "league_name": "Championship",
-    "match_date": "2025-12-06",
-    "match_status": "Not Started",
-    "match_time": "16:00",
-    "match_hometeam_id": "6351",
-    "match_hometeam_name": "Morton",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Queen's Park",
-    "match_awayteam_id": "6366",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "17",
-    "match_stadium": "Cappielow Park",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/6351_greenock-morton.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/6366_queens-park.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/282_championship.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/98_scotland.png",
     "league_year": "2025/2026",
@@ -49567,6 +50299,46 @@
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/6340_st.-johnstone.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6359_raith-rovers.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/282_championship.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/98_scotland.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "1547",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "612139",
+    "country_id": "98",
+    "country_name": "Scotland",
+    "league_id": "282",
+    "league_name": "Championship",
+    "match_date": "2025-12-12",
+    "match_status": "Not Started",
+    "match_time": "20:45",
+    "match_hometeam_id": "6352",
+    "match_hometeam_name": "Ayr",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "St Johnstone",
+    "match_awayteam_id": "6340",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "18",
+    "match_stadium": "Somerset Park",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/6352_ayr-united.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/6340_st.-johnstone.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/282_championship.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/98_scotland.png",
     "league_year": "2025/2026",
@@ -49727,46 +50499,6 @@
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/6351_greenock-morton.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6369_airdrieonians.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/282_championship.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/98_scotland.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "1547",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "612139",
-    "country_id": "98",
-    "country_name": "Scotland",
-    "league_id": "282",
-    "league_name": "Championship",
-    "match_date": "2025-12-13",
-    "match_status": "Not Started",
-    "match_time": "16:00",
-    "match_hometeam_id": "6352",
-    "match_hometeam_name": "Ayr",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "St Johnstone",
-    "match_awayteam_id": "6340",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "18",
-    "match_stadium": "Somerset Park",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/6352_ayr-united.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/6340_st.-johnstone.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/282_championship.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/98_scotland.png",
     "league_year": "2025/2026",

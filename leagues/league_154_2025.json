@@ -107924,20 +107924,6 @@
         "score_info_time": "1st Half"
       },
       {
-        "time": "74",
-        "home_scorer": "I. Olaofe",
-        "home_scorer_id": "3728152116",
-        "home_assist": "J. Diamond",
-        "home_assist_id": "716309623",
-        "score": "1 - 1",
-        "away_scorer": "",
-        "away_scorer_id": "",
-        "away_assist": "",
-        "away_assist_id": "",
-        "info": "",
-        "score_info_time": "2nd Half"
-      },
-      {
         "time": "1",
         "home_scorer": "",
         "home_scorer_id": "",
@@ -107950,6 +107936,20 @@
         "away_assist_id": "",
         "info": "Penalty",
         "score_info_time": "Penalty"
+      },
+      {
+        "time": "74",
+        "home_scorer": "I. Olaofe",
+        "home_scorer_id": "3728152116",
+        "home_assist": "J. Diamond",
+        "home_assist_id": "716309623",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
       },
       {
         "time": "2",
@@ -168355,11 +168355,11 @@
     "league_id": "154",
     "league_name": "League One",
     "match_date": "2025-10-23",
-    "match_status": "38",
+    "match_status": "Finished",
     "match_time": "21:00",
     "match_hometeam_id": "3054",
     "match_hometeam_name": "Exeter",
-    "match_hometeam_score": "1",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Plymouth",
     "match_awayteam_id": "3102",
     "match_awayteam_score": "0",
@@ -168369,13 +168369,13 @@
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "0",
     "match_hometeam_system": "3-4-2-1",
     "match_awayteam_system": "3-1-4-2",
-    "match_live": "1",
+    "match_live": "0",
     "match_round": "14",
-    "match_stadium": "",
+    "match_stadium": "St James Park",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/3054_exeter-city.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/3102_plymouth-argyle.jpg",
@@ -168398,12 +168398,3621 @@
         "away_assist_id": "",
         "info": "",
         "score_info_time": "1st Half"
+      },
+      {
+        "time": "58",
+        "home_scorer": "A. Higgins",
+        "home_scorer_id": "3358601442",
+        "home_assist": "E. Brierley",
+        "home_assist_id": "2666689297",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
       }
     ],
     "statistics": [
       {
         "type": "Corners",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "76",
+        "away": "97"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "37",
+        "away": "34"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "8",
+        "away": "6"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "13",
+        "away": "9"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Shots Blocked",
         "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "7",
+        "away": "4"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "6",
+        "away": "5"
+      },
+      {
+        "type": "Fouls",
+        "home": "20",
+        "away": "12"
+      },
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Offsides",
+        "home": "7",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "40%",
+        "away": "60%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "283",
+        "away": "425"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "173",
+        "away": "310"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "31",
+        "away": "46"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "19",
+        "away": "25"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "39%",
+        "away": "61%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "6",
+        "away": "4"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Fouls",
+        "home": "10",
+        "away": "5"
+      },
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "39%",
+        "away": "61%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "129",
+        "away": "204"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "83",
+        "away": "160"
+      }
+    ]
+  },
+  {
+    "match_id": "618523",
+    "country_id": "44",
+    "country_name": "England",
+    "league_id": "154",
+    "league_name": "League One",
+    "match_date": "2025-10-25",
+    "match_status": "Finished",
+    "match_time": "16:00",
+    "match_hometeam_id": "3431",
+    "match_hometeam_name": "Northampton",
+    "match_hometeam_score": "0",
+    "match_awayteam_name": "Luton",
+    "match_awayteam_id": "3091",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "3-4-3",
+    "match_awayteam_system": "4-1-4-1",
+    "match_live": "0",
+    "match_round": "14",
+    "match_stadium": "Sixfields Stadium",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/3431_northampton-town.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/3091_luton-town.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/154_league-one.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "966",
+    "stage_name": "Current",
+    "goalscorer": [
+      {
+        "time": "77",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "L. Dabo",
+        "away_scorer_id": "1417532532",
+        "away_assist": "I. Jones",
+        "away_assist_id": "2809735768",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "10"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "69",
+        "away": "91"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "39",
+        "away": "54"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "7",
+        "away": "10"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "45%",
+        "away": "55%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "11",
+        "away": "14"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "7",
+        "away": "8"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "4",
+        "away": "6"
+      },
+      {
+        "type": "Fouls",
+        "home": "10",
+        "away": "12"
+      },
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "10"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "45%",
+        "away": "55%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Passes Total",
+        "home": "226",
+        "away": "282"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "138",
+        "away": "209"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "33",
+        "away": "49"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "13",
+        "away": "33"
+      },
+      {
+        "type": "On Target",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "7"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "34%",
+        "away": "66%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "3",
+        "away": "9"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "7",
+        "away": "3"
+      },
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "34%",
+        "away": "66%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Passes Total",
+        "home": "95",
+        "away": "180"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "61",
+        "away": "136"
+      }
+    ]
+  },
+  {
+    "match_id": "618524",
+    "country_id": "44",
+    "country_name": "England",
+    "league_id": "154",
+    "league_name": "League One",
+    "match_date": "2025-10-25",
+    "match_status": "Finished",
+    "match_time": "16:00",
+    "match_hometeam_id": "3092",
+    "match_hometeam_name": "Reading",
+    "match_hometeam_score": "1",
+    "match_awayteam_name": "Doncaster",
+    "match_awayteam_id": "3082",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "4-3-3",
+    "match_awayteam_system": "4-2-3-1",
+    "match_live": "0",
+    "match_round": "14",
+    "match_stadium": "Select Car Leasing Stadium",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/3092_reading.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/3082_doncaster-rovers.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/154_league-one.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "966",
+    "stage_name": "Current",
+    "goalscorer": [
+      {
+        "time": "61",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "B. Sharp",
+        "away_scorer_id": "1793710150",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "68",
+        "home_scorer": "K. Doyle",
+        "home_scorer_id": "4152954733",
+        "home_assist": "L. Wing",
+        "home_assist_id": "4005609305",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "6"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "141",
+        "away": "88"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "59",
+        "away": "41"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "6"
+      },
+      {
+        "type": "Off Target",
+        "home": "10",
+        "away": "7"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "74%",
+        "away": "26%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "15",
+        "away": "13"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "4",
+        "away": "7"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "8",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "5",
+        "away": "9"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "10",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "9",
+        "away": "9"
+      },
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "6"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "56%",
+        "away": "44%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "439",
+        "away": "338"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "322",
+        "away": "222"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "61",
+        "away": "51"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "30",
+        "away": "23"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "6"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "47%",
+        "away": "53%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "6",
+        "away": "7"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "1",
+        "away": "6"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Fouls",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "47%",
+        "away": "53%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "179",
+        "away": "206"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "126",
+        "away": "142"
+      }
+    ]
+  },
+  {
+    "match_id": "618525",
+    "country_id": "44",
+    "country_name": "England",
+    "league_id": "154",
+    "league_name": "League One",
+    "match_date": "2025-10-25",
+    "match_status": "Finished",
+    "match_time": "16:00",
+    "match_hometeam_id": "3087",
+    "match_hometeam_name": "Wycombe",
+    "match_hometeam_score": "3",
+    "match_awayteam_name": "Huddersfield",
+    "match_awayteam_id": "3101",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "3",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "4-2-3-1",
+    "match_live": "0",
+    "match_round": "14",
+    "match_stadium": "Adams Park",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/3087_wycombe-wanderers.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/3101_huddersfield-town.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/154_league-one.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "966",
+    "stage_name": "Current",
+    "goalscorer": [
+      {
+        "time": "38",
+        "home_scorer": "C. Woodrow",
+        "home_scorer_id": "468119017",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "75",
+        "home_scorer": "F. Onyedinma",
+        "home_scorer_id": "1585582960",
+        "home_assist": "E. Henderson",
+        "home_assist_id": "2861333111",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "80",
+        "home_scorer": "D. Vost (o.g.)",
+        "home_scorer_id": "4274563221",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "8",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "128",
+        "away": "68"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "76",
+        "away": "18"
+      },
+      {
+        "type": "On Target",
+        "home": "10",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "14",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "24%",
+        "away": "76%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "22",
+        "away": "5"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "10",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "7",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "12",
+        "away": "2"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "10",
+        "away": "3"
+      },
+      {
+        "type": "Fouls",
+        "home": "6",
+        "away": "9"
+      },
+      {
+        "type": "Corners",
+        "home": "8",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "69%",
+        "away": "31%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "8"
+      },
+      {
+        "type": "Passes Total",
+        "home": "659",
+        "away": "303"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "579",
+        "away": "201"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "54",
+        "away": "45"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "36",
+        "away": "15"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "59%",
+        "away": "41%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "9",
+        "away": "5"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "59%",
+        "away": "41%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "266",
+        "away": "190"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "216",
+        "away": "135"
+      }
+    ]
+  },
+  {
+    "match_id": "618526",
+    "country_id": "44",
+    "country_name": "England",
+    "league_id": "154",
+    "league_name": "League One",
+    "match_date": "2025-10-25",
+    "match_status": "Finished",
+    "match_time": "13:30",
+    "match_hometeam_id": "3051",
+    "match_hometeam_name": "Bolton",
+    "match_hometeam_score": "1",
+    "match_awayteam_name": "Cardiff",
+    "match_awayteam_id": "3090",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "4-4-2",
+    "match_awayteam_system": "4-2-3-1",
+    "match_live": "0",
+    "match_round": "14",
+    "match_stadium": "Toughsheet Community Stadium",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/3051_bolton-wanderers.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/3090_cardiff-city.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/154_league-one.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "966",
+    "stage_name": "Current",
+    "goalscorer": [
+      {
+        "time": "90+4",
+        "home_scorer": "A. Cozier-Duberry",
+        "home_scorer_id": "1323543868",
+        "home_assist": "J. Dacres-Cogley",
+        "home_assist_id": "3851061100",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "7",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "73",
+        "away": "108"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "41",
+        "away": "56"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "13",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "17",
+        "away": "4"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "8",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "8",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "11",
+        "away": "1"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Fouls",
+        "home": "13",
+        "away": "11"
+      },
+      {
+        "type": "Corners",
+        "home": "7",
+        "away": "3"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "38%",
+        "away": "62%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "308",
+        "away": "526"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "243",
+        "away": "438"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "35",
+        "away": "54"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "20",
+        "away": "23"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "7",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "39%",
+        "away": "61%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "7",
+        "away": "3"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "6",
+        "away": "1"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Fouls",
+        "home": "8",
+        "away": "7"
+      },
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "39%",
+        "away": "61%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "158",
+        "away": "255"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "124",
+        "away": "212"
+      }
+    ]
+  },
+  {
+    "match_id": "618527",
+    "country_id": "44",
+    "country_name": "England",
+    "league_id": "154",
+    "league_name": "League One",
+    "match_date": "2025-10-25",
+    "match_status": "Finished",
+    "match_time": "16:00",
+    "match_hometeam_id": "3106",
+    "match_hometeam_name": "Peterborough",
+    "match_hometeam_score": "1",
+    "match_awayteam_name": "Blackpool",
+    "match_awayteam_id": "3080",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "1",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "2",
+    "match_hometeam_system": "3-5-2",
+    "match_awayteam_system": "4-4-2",
+    "match_live": "0",
+    "match_round": "14",
+    "match_stadium": "Weston Homes Stadium",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/3106_peterborough-united.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/3080_blackpool.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/154_league-one.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "966",
+    "stage_name": "Current",
+    "goalscorer": [
+      {
+        "time": "35",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "P. Kioso (o.g.)",
+        "away_scorer_id": "2494086748",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "44",
+        "home_scorer": "M. Garbett",
+        "home_scorer_id": "1732610857",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "85",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 2",
+        "away_scorer": "S. Banks",
+        "away_scorer_id": "1034811310",
+        "away_assist": "J. Brown",
+        "away_assist_id": "3321656531",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "9",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Attacks",
+        "home": "86",
+        "away": "112"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "44",
+        "away": "41"
+      },
+      {
+        "type": "On Target",
+        "home": "7",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "20",
+        "away": "7"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "25%",
+        "away": "75%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "26",
+        "away": "9"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "9",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "11",
+        "away": "4"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "16",
+        "away": "7"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "10",
+        "away": "2"
+      },
+      {
+        "type": "Fouls",
+        "home": "15",
+        "away": "17"
+      },
+      {
+        "type": "Corners",
+        "home": "9",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "55%",
+        "away": "45%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Passes Total",
+        "home": "383",
+        "away": "328"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "291",
+        "away": "226"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "42",
+        "away": "52"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "22",
+        "away": "23"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "15",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "52%",
+        "away": "48%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "18",
+        "away": "4"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "5",
+        "away": "0"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "10",
+        "away": "3"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "12",
+        "away": "3"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "6",
+        "away": "1"
+      },
+      {
+        "type": "Fouls",
+        "home": "7",
+        "away": "7"
+      },
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "52%",
+        "away": "48%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "174",
+        "away": "163"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "133",
+        "away": "117"
+      }
+    ]
+  },
+  {
+    "match_id": "618528",
+    "country_id": "44",
+    "country_name": "England",
+    "league_id": "154",
+    "league_name": "League One",
+    "match_date": "2025-10-25",
+    "match_status": "Finished",
+    "match_time": "13:30",
+    "match_hometeam_id": "3064",
+    "match_hometeam_name": "Mansfield",
+    "match_hometeam_score": "1",
+    "match_awayteam_name": "Wigan",
+    "match_awayteam_id": "3123",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "3-4-2-1",
+    "match_live": "0",
+    "match_round": "14",
+    "match_stadium": "One Call Stadium",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/3064_mansfield-town.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/3123_wigan-athletic.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/154_league-one.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "966",
+    "stage_name": "Current",
+    "goalscorer": [
+      {
+        "time": "32",
+        "home_scorer": "W. Evans",
+        "home_scorer_id": "4066558661",
+        "home_assist": "N. Moriah-Welsh",
+        "home_assist_id": "1966764261",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "59",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "O. Cooper",
+        "away_scorer_id": "3399902487",
+        "away_assist": "M. Fox",
+        "away_assist_id": "3964742580",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "10",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Attacks",
+        "home": "123",
+        "away": "77"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "70",
+        "away": "47"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "15",
+        "away": "6"
+      },
+      {
+        "type": "Shots Total",
+        "home": "12",
+        "away": "7"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "7",
+        "away": "4"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "6",
+        "away": "4"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Fouls",
+        "home": "13",
+        "away": "12"
+      },
+      {
+        "type": "Corners",
+        "home": "10",
+        "away": "3"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "64%",
+        "away": "36%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Saves",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "572",
+        "away": "323"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "482",
+        "away": "240"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "63",
+        "away": "42"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "20",
+        "away": "20"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "63%",
+        "away": "37%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Fouls",
+        "home": "7",
+        "away": "6"
+      },
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "63%",
+        "away": "37%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "302",
+        "away": "174"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "248",
+        "away": "128"
+      }
+    ]
+  },
+  {
+    "match_id": "618529",
+    "country_id": "44",
+    "country_name": "England",
+    "league_id": "154",
+    "league_name": "League One",
+    "match_date": "2025-10-25",
+    "match_status": "Finished",
+    "match_time": "16:00",
+    "match_hometeam_id": "3057",
+    "match_hometeam_name": "Leyton Orient",
+    "match_hometeam_score": "1",
+    "match_awayteam_name": "Lincoln",
+    "match_awayteam_id": "3122",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "4-1-4-1",
+    "match_awayteam_system": "4-2-3-1",
+    "match_live": "0",
+    "match_round": "14",
+    "match_stadium": "Brisbane Road",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/3057_leyton-orient.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/3122_lincoln-city.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/154_league-one.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "966",
+    "stage_name": "Current",
+    "goalscorer": [
+      {
+        "time": "62",
+        "home_scorer": "I. El Mizouni",
+        "home_scorer_id": "3030805329",
+        "home_assist": "M. Craig",
+        "home_assist_id": "690516774",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "111",
+        "away": "67"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "32",
+        "away": "44"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "7",
+        "away": "8"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "56%",
+        "away": "44%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "11",
+        "away": "9"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "4",
+        "away": "0"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "6",
+        "away": "4"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "6",
+        "away": "7"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Fouls",
+        "home": "14",
+        "away": "17"
+      },
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "6"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "67%",
+        "away": "33%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "0",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "489",
+        "away": "238"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "369",
+        "away": "135"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "50",
+        "away": "28"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "17",
+        "away": "18"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "74%",
+        "away": "26%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Fouls",
+        "home": "6",
+        "away": "11"
+      },
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "72%",
+        "away": "28%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "258",
+        "away": "101"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "202",
+        "away": "55"
+      }
+    ]
+  },
+  {
+    "match_id": "618530",
+    "country_id": "44",
+    "country_name": "England",
+    "league_id": "154",
+    "league_name": "League One",
+    "match_date": "2025-10-25",
+    "match_status": "Finished",
+    "match_time": "16:00",
+    "match_hometeam_id": "3061",
+    "match_hometeam_name": "Stevenage",
+    "match_hometeam_score": "1",
+    "match_awayteam_name": "Bradford City",
+    "match_awayteam_id": "3060",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "1",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "3-4-2-1",
+    "match_live": "0",
+    "match_round": "14",
+    "match_stadium": "Lamex Stadium",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/3061_stevenage.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/3060_bradford-city.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/154_league-one.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "966",
+    "stage_name": "Current",
+    "goalscorer": [
+      {
+        "time": "3",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "N. Byrne",
+        "away_scorer_id": "573400910",
+        "away_assist": "I. Touray",
+        "away_assist_id": "1495666993",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "18",
+        "home_scorer": "H. White",
+        "home_scorer_id": "2613708215",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Attacks",
+        "home": "80",
+        "away": "109"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "39",
+        "away": "61"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "9",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "25%",
+        "away": "75%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "11",
+        "away": "4"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "8",
+        "away": "3"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Fouls",
+        "home": "12",
+        "away": "17"
+      },
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "44%",
+        "away": "56%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "250",
+        "away": "315"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "151",
+        "away": "201"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "39",
+        "away": "41"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "24",
+        "away": "20"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "6",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "47%",
+        "away": "53%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "10",
+        "away": "1"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "6",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "7",
+        "away": "1"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Fouls",
+        "home": "6",
+        "away": "10"
+      },
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "48%",
+        "away": "52%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "136",
+        "away": "157"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "89",
+        "away": "104"
+      }
+    ]
+  },
+  {
+    "match_id": "618531",
+    "country_id": "44",
+    "country_name": "England",
+    "league_id": "154",
+    "league_name": "League One",
+    "match_date": "2025-10-25",
+    "match_status": "Finished",
+    "match_time": "16:00",
+    "match_hometeam_id": "3078",
+    "match_hometeam_name": "Barnsley",
+    "match_hometeam_score": "0",
+    "match_awayteam_name": "Rotherham",
+    "match_awayteam_id": "3430",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "3-5-1-1",
+    "match_live": "0",
+    "match_round": "14",
+    "match_stadium": "Oakwell",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/3078_barnsley.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/3430_rotherham-united.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/154_league-one.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "966",
+    "stage_name": "Current",
+    "goalscorer": [
+      {
+        "time": "64",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "K. Spence",
+        "away_scorer_id": "2840017766",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "11",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "90",
+        "away": "73"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "54",
+        "away": "27"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "13",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "67%",
+        "away": "33%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "19",
+        "away": "4"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "7",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "7",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "11",
+        "away": "1"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "8",
+        "away": "3"
+      },
+      {
+        "type": "Fouls",
+        "home": "15",
+        "away": "11"
+      },
+      {
+        "type": "Corners",
+        "home": "11",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "67%",
+        "away": "33%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "4",
+        "away": "0"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Passes Total",
+        "home": "450",
+        "away": "224"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "373",
+        "away": "145"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "7",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "40",
+        "away": "36"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "32",
+        "away": "9"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "8",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "69%",
+        "away": "31%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "12",
+        "away": "1"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "6",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "7",
+        "away": "0"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Fouls",
+        "home": "7",
+        "away": "4"
+      },
+      {
+        "type": "Corners",
+        "home": "7",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "69%",
+        "away": "31%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Saves",
+        "home": "0",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "231",
+        "away": "108"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "192",
+        "away": "73"
+      }
+    ]
+  },
+  {
+    "match_id": "618532",
+    "country_id": "44",
+    "country_name": "England",
+    "league_id": "154",
+    "league_name": "League One",
+    "match_date": "2025-10-25",
+    "match_status": "Finished",
+    "match_time": "16:00",
+    "match_hometeam_id": "3107",
+    "match_hometeam_name": "AFC Wimbledon",
+    "match_hometeam_score": "0",
+    "match_awayteam_name": "Burton",
+    "match_awayteam_id": "3428",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "3-4-2-1",
+    "match_awayteam_system": "3-5-2",
+    "match_live": "0",
+    "match_round": "14",
+    "match_stadium": "The Cherry Red Records Stadium",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/3107_afc-wimbledon.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/3428_burton-albion.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/154_league-one.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "966",
+    "stage_name": "Current",
+    "goalscorer": [
+      {
+        "time": "51",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "A. Hartridge",
+        "away_scorer_id": "3207655816",
+        "away_assist": "C. Webster",
+        "away_assist_id": "4210604638",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "9",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Attacks",
+        "home": "110",
+        "away": "99"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "50",
+        "away": "36"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "13",
+        "away": "9"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "31%",
+        "away": "69%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "13",
+        "away": "10"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "7",
+        "away": "4"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "8",
+        "away": "9"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Fouls",
+        "home": "10",
+        "away": "13"
+      },
+      {
+        "type": "Corners",
+        "home": "9",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "60%",
+        "away": "40%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "422",
+        "away": "292"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "311",
+        "away": "172"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "54",
+        "away": "58"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "14",
+        "away": "20"
+      },
+      {
+        "type": "On Target",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "56%",
+        "away": "44%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Fouls",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "56%",
+        "away": "44%"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "207",
+        "away": "158"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "146",
+        "away": "99"
+      }
+    ]
+  },
+  {
+    "match_id": "618522",
+    "country_id": "44",
+    "country_name": "England",
+    "league_id": "154",
+    "league_name": "League One",
+    "match_date": "2025-10-27",
+    "match_status": "Finished",
+    "match_time": "21:00",
+    "match_hometeam_id": "3065",
+    "match_hometeam_name": "Port Vale",
+    "match_hometeam_score": "0",
+    "match_awayteam_name": "Stockport County",
+    "match_awayteam_id": "2938",
+    "match_awayteam_score": "3",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "3",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "3",
+    "match_hometeam_system": "5-3-2",
+    "match_awayteam_system": "3-4-2-1",
+    "match_live": "0",
+    "match_round": "14",
+    "match_stadium": "Vale Park",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/3065_port-vale.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/2938_stockport-county.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/154_league-one.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "966",
+    "stage_name": "Current",
+    "goalscorer": [
+      {
+        "time": "13",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "N. Lowe",
+        "away_scorer_id": "3531679671",
+        "away_assist": "T. Onyango",
+        "away_assist_id": "1747120505",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "23",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 2",
+        "away_scorer": "K. Wootton",
+        "away_scorer_id": "48524535",
+        "away_assist": "J. Diamond",
+        "away_assist_id": "716309623",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "29",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 3",
+        "away_scorer": "J. Diamond",
+        "away_scorer_id": "716309623",
+        "away_assist": "B. Osborn",
+        "away_assist_id": "4115419875",
+        "info": "",
+        "score_info_time": "1st Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Attacks",
+        "home": "125",
+        "away": "95"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "49",
+        "away": "43"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "8",
+        "away": "11"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "70%",
+        "away": "30%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "9",
+        "away": "15"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "6"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "6",
+        "away": "11"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "8",
+        "away": "8"
+      },
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "48%",
+        "away": "52%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "387",
+        "away": "427"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "287",
+        "away": "335"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
         "away": "0"
       },
       {
@@ -168433,83 +172042,83 @@
       },
       {
         "type": "Attacks",
-        "home": "27",
-        "away": "36"
+        "home": "62",
+        "away": "40"
       },
       {
         "type": "Dangerous Attacks",
-        "home": "18",
-        "away": "17"
+        "home": "21",
+        "away": "16"
       },
       {
         "type": "On Target",
-        "home": "2",
-        "away": "1"
+        "home": "1",
+        "away": "4"
       },
       {
         "type": "Off Target",
-        "home": "3",
-        "away": "0"
+        "home": "4",
+        "away": "1"
       },
       {
         "type": "Ball Possession",
-        "home": "50%",
-        "away": "50%"
+        "home": "52%",
+        "away": "48%"
       },
       {
         "type": "Shots Total",
         "home": "5",
-        "away": "1"
+        "away": "5"
       },
       {
         "type": "Shots On Goal",
-        "home": "2",
-        "away": "1"
+        "home": "1",
+        "away": "4"
       },
       {
         "type": "Shots Off Goal",
-        "home": "2",
+        "home": "3",
         "away": "0"
       },
       {
         "type": "Shots Blocked",
         "home": "1",
-        "away": "0"
-      },
-      {
-        "type": "Shots Inside Box",
-        "home": "2",
         "away": "1"
       },
       {
-        "type": "Shots Outside Box",
-        "home": "3",
-        "away": "0"
+        "type": "Shots Inside Box",
+        "home": "4",
+        "away": "2"
       },
       {
-        "type": "Fouls",
-        "home": "8",
+        "type": "Shots Outside Box",
+        "home": "1",
         "away": "3"
       },
       {
-        "type": "Corners",
+        "type": "Fouls",
         "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Corners",
+        "home": "2",
         "away": "0"
       },
       {
         "type": "Offsides",
-        "home": "0",
+        "home": "1",
         "away": "1"
       },
       {
         "type": "Ball Possession",
-        "home": "41%",
-        "away": "59%"
+        "home": "52%",
+        "away": "48%"
       },
       {
         "type": "Yellow Cards",
-        "home": "1",
-        "away": "0"
+        "home": "0",
+        "away": "1"
       },
       {
         "type": "Saves",
@@ -168518,456 +172127,15 @@
       },
       {
         "type": "Passes Total",
-        "home": "107",
-        "away": "158"
+        "home": "205",
+        "away": "195"
       },
       {
         "type": "Passes Accurate",
-        "home": "73",
-        "away": "127"
+        "home": "157",
+        "away": "147"
       }
-    ],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "618523",
-    "country_id": "44",
-    "country_name": "England",
-    "league_id": "154",
-    "league_name": "League One",
-    "match_date": "2025-10-25",
-    "match_status": "",
-    "match_time": "16:00",
-    "match_hometeam_id": "3431",
-    "match_hometeam_name": "Northampton",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Luton",
-    "match_awayteam_id": "3091",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "14",
-    "match_stadium": "Sixfields Stadium",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/3431_northampton-town.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/3091_luton-town.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/154_league-one.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "966",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "618524",
-    "country_id": "44",
-    "country_name": "England",
-    "league_id": "154",
-    "league_name": "League One",
-    "match_date": "2025-10-25",
-    "match_status": "",
-    "match_time": "16:00",
-    "match_hometeam_id": "3092",
-    "match_hometeam_name": "Reading",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Doncaster",
-    "match_awayteam_id": "3082",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "14",
-    "match_stadium": "Select Car Leasing Stadium",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/3092_reading.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/3082_doncaster-rovers.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/154_league-one.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "966",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "618525",
-    "country_id": "44",
-    "country_name": "England",
-    "league_id": "154",
-    "league_name": "League One",
-    "match_date": "2025-10-25",
-    "match_status": "",
-    "match_time": "16:00",
-    "match_hometeam_id": "3087",
-    "match_hometeam_name": "Wycombe",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Huddersfield",
-    "match_awayteam_id": "3101",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "14",
-    "match_stadium": "Adams Park",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/3087_wycombe-wanderers.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/3101_huddersfield-town.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/154_league-one.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "966",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "618526",
-    "country_id": "44",
-    "country_name": "England",
-    "league_id": "154",
-    "league_name": "League One",
-    "match_date": "2025-10-25",
-    "match_status": "",
-    "match_time": "13:30",
-    "match_hometeam_id": "3051",
-    "match_hometeam_name": "Bolton",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Cardiff",
-    "match_awayteam_id": "3090",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "14",
-    "match_stadium": "Toughsheet Community Stadium",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/3051_bolton-wanderers.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/3090_cardiff-city.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/154_league-one.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "966",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "618527",
-    "country_id": "44",
-    "country_name": "England",
-    "league_id": "154",
-    "league_name": "League One",
-    "match_date": "2025-10-25",
-    "match_status": "",
-    "match_time": "16:00",
-    "match_hometeam_id": "3106",
-    "match_hometeam_name": "Peterborough",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Blackpool",
-    "match_awayteam_id": "3080",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "14",
-    "match_stadium": "Weston Homes Stadium",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/3106_peterborough-united.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/3080_blackpool.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/154_league-one.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "966",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "618528",
-    "country_id": "44",
-    "country_name": "England",
-    "league_id": "154",
-    "league_name": "League One",
-    "match_date": "2025-10-25",
-    "match_status": "",
-    "match_time": "13:30",
-    "match_hometeam_id": "3064",
-    "match_hometeam_name": "Mansfield",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Wigan",
-    "match_awayteam_id": "3123",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "14",
-    "match_stadium": "One Call Stadium",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/3064_mansfield-town.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/3123_wigan-athletic.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/154_league-one.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "966",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "618529",
-    "country_id": "44",
-    "country_name": "England",
-    "league_id": "154",
-    "league_name": "League One",
-    "match_date": "2025-10-25",
-    "match_status": "",
-    "match_time": "16:00",
-    "match_hometeam_id": "3057",
-    "match_hometeam_name": "Leyton Orient",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Lincoln",
-    "match_awayteam_id": "3122",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "14",
-    "match_stadium": "BetWright Stadium",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/3057_leyton-orient.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/3122_lincoln-city.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/154_league-one.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "966",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "618530",
-    "country_id": "44",
-    "country_name": "England",
-    "league_id": "154",
-    "league_name": "League One",
-    "match_date": "2025-10-25",
-    "match_status": "",
-    "match_time": "16:00",
-    "match_hometeam_id": "3061",
-    "match_hometeam_name": "Stevenage",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Bradford City",
-    "match_awayteam_id": "3060",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "14",
-    "match_stadium": "Lamex Stadium",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/3061_stevenage.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/3060_bradford-city.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/154_league-one.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "966",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "618531",
-    "country_id": "44",
-    "country_name": "England",
-    "league_id": "154",
-    "league_name": "League One",
-    "match_date": "2025-10-25",
-    "match_status": "",
-    "match_time": "16:00",
-    "match_hometeam_id": "3078",
-    "match_hometeam_name": "Barnsley",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Rotherham",
-    "match_awayteam_id": "3430",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "14",
-    "match_stadium": "Oakwell",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/3078_barnsley.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/3430_rotherham-united.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/154_league-one.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "966",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "618532",
-    "country_id": "44",
-    "country_name": "England",
-    "league_id": "154",
-    "league_name": "League One",
-    "match_date": "2025-10-25",
-    "match_status": "",
-    "match_time": "16:00",
-    "match_hometeam_id": "3107",
-    "match_hometeam_name": "AFC Wimbledon",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Burton",
-    "match_awayteam_id": "3428",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "14",
-    "match_stadium": "The Cherry Red Records Stadium",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/3107_afc-wimbledon.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/3428_burton-albion.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/154_league-one.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "966",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "618522",
-    "country_id": "44",
-    "country_name": "England",
-    "league_id": "154",
-    "league_name": "League One",
-    "match_date": "2025-10-27",
-    "match_status": "",
-    "match_time": "21:00",
-    "match_hometeam_id": "3065",
-    "match_hometeam_name": "Port Vale",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Stockport County",
-    "match_awayteam_id": "2938",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "14",
-    "match_stadium": "Vale Park",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/3065_port-vale.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/2938_stockport-county.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/154_league-one.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "966",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    ]
   },
   {
     "match_id": "618504",
@@ -168976,24 +172144,24 @@
     "league_id": "154",
     "league_name": "League One",
     "match_date": "2025-10-28",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "20:45",
     "match_hometeam_id": "3060",
     "match_hometeam_name": "Bradford City",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "0",
     "match_awayteam_name": "Lincoln",
     "match_awayteam_id": "3122",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "3-4-2-1",
+    "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "12",
     "match_stadium": "University of Bradford Stadium",
@@ -169006,8 +172174,245 @@
     "fk_stage_key": "966",
     "stage_name": "Current",
     "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Attacks",
+        "home": "35",
+        "away": "33"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "13",
+        "away": "8"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "40%",
+        "away": "60%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "16",
+        "away": "15"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "8",
+        "away": "9"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "9",
+        "away": "9"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "7",
+        "away": "6"
+      },
+      {
+        "type": "Fouls",
+        "home": "14",
+        "away": "15"
+      },
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "51%",
+        "away": "49%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Saves",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "399",
+        "away": "393"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "272",
+        "away": "275"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "15",
+        "away": "15"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "On Target",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Shots Total",
+        "home": "6",
+        "away": "7"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "8",
+        "away": "8"
+      },
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "42%",
+        "away": "58%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Passes Total",
+        "home": "165",
+        "away": "226"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "101",
+        "away": "165"
+      }
+    ]
   },
   {
     "match_id": "618506",
@@ -169016,24 +172421,24 @@
     "league_id": "154",
     "league_name": "League One",
     "match_date": "2025-10-28",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "20:45",
     "match_hometeam_id": "3064",
     "match_hometeam_name": "Mansfield",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Plymouth",
     "match_awayteam_id": "3102",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "3-5-2",
     "match_live": "0",
     "match_round": "12",
     "match_stadium": "One Call Stadium",
@@ -169045,9 +172450,285 @@
     "league_year": "2025/2026",
     "fk_stage_key": "966",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "6",
+        "home_scorer": "W. Evans",
+        "home_scorer_id": "4066558661",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "84",
+        "home_scorer": "J. Bowery",
+        "home_scorer_id": "3126416879",
+        "home_assist": "N. Moriah-Welsh",
+        "home_assist_id": "1966764261",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "7",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "107",
+        "away": "128"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "36",
+        "away": "33"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "8"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "71%",
+        "away": "29%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "12",
+        "away": "14"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "9",
+        "away": "10"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "13",
+        "away": "5"
+      },
+      {
+        "type": "Corners",
+        "home": "7",
+        "away": "4"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "49%",
+        "away": "51%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "331",
+        "away": "359"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "211",
+        "away": "250"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "48",
+        "away": "64"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "19",
+        "away": "20"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Shots Total",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Fouls",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "54%",
+        "away": "46%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Passes Total",
+        "home": "175",
+        "away": "154"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "119",
+        "away": "98"
+      }
+    ]
   },
   {
     "match_id": "618402",
@@ -169056,7 +172737,7 @@
     "league_id": "154",
     "league_name": "League One",
     "match_date": "2025-11-04",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "20:45",
     "match_hometeam_id": "3430",
     "match_hometeam_name": "Rotherham",
@@ -169076,7 +172757,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "4",
-    "match_stadium": "Aesseal New York Stadium",
+    "match_stadium": "AESSEAL New York Stadium",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/3430_rotherham-united.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/3428_burton-albion.jpg",
@@ -169096,7 +172777,7 @@
     "league_id": "154",
     "league_name": "League One",
     "match_date": "2025-11-06",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "21:00",
     "match_hometeam_id": "3092",
     "match_hometeam_name": "Reading",

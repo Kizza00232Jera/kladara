@@ -17826,7 +17826,7 @@
     "league_id": "8102",
     "league_name": "USL Super League - Group Stage",
     "match_date": "2025-10-31",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "23:00",
     "match_hometeam_id": "37336",
     "match_hometeam_name": "Lexington W",
@@ -17846,7 +17846,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "",
-    "match_stadium": "Toyota Stadium",
+    "match_stadium": "Lexington SC Stadium",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/37336_lexington-w.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/39255_sporting-jax-w.jpg",
@@ -17866,22 +17866,22 @@
     "league_id": "8102",
     "league_name": "USL Super League - Group Stage",
     "match_date": "2025-10-31",
-    "match_status": "Not Started",
+    "match_status": "Finished",
     "match_time": "02:00",
     "match_hometeam_id": "37216",
     "match_hometeam_name": "Spokane Zephyr W",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Carolina Ascent W",
     "match_awayteam_id": "37191",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "2",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -17895,9 +17895,164 @@
     "league_year": "2025/2026",
     "fk_stage_key": "20102",
     "stage_name": "Group Stage",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "59",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "R. Baisden",
+        "away_scorer_id": "2303691912",
+        "away_assist": "A. Harding",
+        "away_assist_id": "1732373924",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "68",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 2",
+        "away_scorer": "R. Baisden",
+        "away_scorer_id": "2303691912",
+        "away_assist": "M. George",
+        "away_assist_id": "238037098",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "81",
+        "home_scorer": "A. Cook",
+        "home_scorer_id": "3341535317",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 2",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "8"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Attacks",
+        "home": "84",
+        "away": "80"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "32",
+        "away": "63"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "8"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "7"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "57%",
+        "away": "43%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "7"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "31",
+        "away": "36"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "9",
+        "away": "39"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "1",
+        "away": "6"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "63%",
+        "away": "37%"
+      }
+    ]
   },
   {
     "match_id": "651945",
@@ -17906,7 +18061,7 @@
     "league_id": "8102",
     "league_name": "USL Super League - Group Stage",
     "match_date": "2025-11-02",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "00:30",
     "match_hometeam_id": "37763",
     "match_hometeam_name": "Fort Lauderdale W",
@@ -17926,7 +18081,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "",
-    "match_stadium": "FTL UTD Stadium",
+    "match_stadium": "Beyond Bancard Field",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/37763_fort-lauderdale-united-w.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/37449_brooklyn-w.jpg",
@@ -17986,7 +18141,7 @@
     "league_id": "8102",
     "league_name": "USL Super League - Group Stage",
     "match_date": "2025-11-02",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "23:00",
     "match_hometeam_id": "37219",
     "match_hometeam_name": "Dallas Trinity W",
@@ -18186,12 +18341,12 @@
     "league_id": "8102",
     "league_name": "USL Super League - Group Stage",
     "match_date": "2025-11-13",
-    "match_status": "",
+    "match_status": "Not Started",
     "match_time": "01:00",
     "match_hometeam_id": "37192",
     "match_hometeam_name": "DC Power W",
     "match_hometeam_score": "",
-    "match_awayteam_name": "FL United W",
+    "match_awayteam_name": "Fort Lauderdale W",
     "match_awayteam_id": "37763",
     "match_awayteam_score": "",
     "match_hometeam_halftime_score": "",
@@ -18206,7 +18361,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "",
-    "match_stadium": "Audi Field (Washington, District of Columbia)",
+    "match_stadium": "Audi Field",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/37192_dc-power-w.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/37763_fort-lauderdale-united-w.jpg",
@@ -18226,7 +18381,7 @@
     "league_id": "8102",
     "league_name": "USL Super League - Group Stage",
     "match_date": "2025-11-15",
-    "match_status": "",
+    "match_status": "Not Started",
     "match_time": "21:00",
     "match_hometeam_id": "37449",
     "match_hometeam_name": "Brooklyn W",
@@ -18246,7 +18401,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "",
-    "match_stadium": "Maimonides Park (New York, New York)",
+    "match_stadium": "Maimonides Park",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/37449_brooklyn-w.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/37336_lexington-w.jpg",
@@ -18266,12 +18421,12 @@
     "league_id": "8102",
     "league_name": "USL Super League - Group Stage",
     "match_date": "2025-11-16",
-    "match_status": "",
+    "match_status": "Not Started",
     "match_time": "01:30",
     "match_hometeam_id": "37763",
-    "match_hometeam_name": "FL United W",
+    "match_hometeam_name": "Fort Lauderdale W",
     "match_hometeam_score": "",
-    "match_awayteam_name": "Tampa Bay W",
+    "match_awayteam_name": "Tampa Bay Sun W",
     "match_awayteam_id": "37218",
     "match_awayteam_score": "",
     "match_hometeam_halftime_score": "",
@@ -18286,7 +18441,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "",
-    "match_stadium": "Beyond Bancard Field (Davie, Florida)",
+    "match_stadium": "FTL UTD Stadium",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/37763_fort-lauderdale-united-w.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/37218_tampa-bay-sun-w.jpg",
@@ -18306,12 +18461,12 @@
     "league_id": "8102",
     "league_name": "USL Super League - Group Stage",
     "match_date": "2025-11-16",
-    "match_status": "",
+    "match_status": "Not Started",
     "match_time": "03:00",
     "match_hometeam_id": "37216",
-    "match_hometeam_name": "Zephyr W",
+    "match_hometeam_name": "Spokane Zephyr W",
     "match_hometeam_score": "",
-    "match_awayteam_name": "Trinity W",
+    "match_awayteam_name": "Dallas Trinity W",
     "match_awayteam_id": "37219",
     "match_awayteam_score": "",
     "match_hometeam_halftime_score": "",
@@ -18326,7 +18481,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "",
-    "match_stadium": "One Spokane Stadium (Spokane, Washington)",
+    "match_stadium": "One Spokane Stadium",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/37216_spokane-zephyr-w.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/37219_dallas-trinity-w.jpg",

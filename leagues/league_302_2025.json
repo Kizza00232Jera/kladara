@@ -99751,7 +99751,7 @@
     "match_awayteam_system": "4-4-2",
     "match_live": "0",
     "match_round": "9",
-    "match_stadium": "Estadio de Mendizorroza",
+    "match_stadium": "Estadio Mendizorrotza",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/7275_alaves.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/7272_valencia.jpg",
@@ -100023,24 +100023,24 @@
     "league_id": "302",
     "league_name": "La Liga",
     "match_date": "2025-10-24",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "21:00",
     "match_hometeam_id": "153",
     "match_hometeam_name": "Real Sociedad",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Sevilla",
     "match_awayteam_id": "89",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "2",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "10",
     "match_stadium": "Reale Arena",
@@ -100052,9 +100052,304 @@
     "league_year": "2025/2026",
     "fk_stage_key": "402",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "19",
+        "home_scorer": "M. Oyarzabal",
+        "home_scorer_id": "3111173085",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "30",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "N. Gudelj",
+        "away_scorer_id": "1604529197",
+        "away_assist": "G. Suazo",
+        "away_assist_id": "1310163521",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "36",
+        "home_scorer": "M. Oyarzabal",
+        "home_scorer_id": "3111173085",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "9"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Attacks",
+        "home": "85",
+        "away": "102"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "37",
+        "away": "39"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "45%",
+        "away": "55%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "19",
+        "away": "14"
+      },
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "9"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "40%",
+        "away": "60%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Saves",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "303",
+        "away": "461"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "209",
+        "away": "357"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "6"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "49",
+        "away": "36"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "22",
+        "away": "14"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Fouls",
+        "home": "7",
+        "away": "7"
+      },
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "5"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "178",
+        "away": "181"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "136",
+        "away": "127"
+      }
+    ]
   },
   {
     "match_id": "610709",
@@ -100063,24 +100358,24 @@
     "league_id": "302",
     "league_name": "La Liga",
     "match_date": "2025-10-25",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "21:00",
     "match_hometeam_id": "7272",
     "match_hometeam_name": "Valencia",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "0",
     "match_awayteam_name": "Villarreal",
     "match_awayteam_id": "162",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "2",
+    "match_hometeam_system": "4-4-2",
+    "match_awayteam_system": "4-4-2",
     "match_live": "0",
     "match_round": "10",
     "match_stadium": "Estadio de Mestalla",
@@ -100092,9 +100387,290 @@
     "league_year": "2025/2026",
     "fk_stage_key": "402",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "45",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "G. Moreno",
+        "away_scorer_id": "387294631",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "57",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 2",
+        "away_scorer": "S. Comesana",
+        "away_scorer_id": "2075887057",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "7",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "120",
+        "away": "67"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "42",
+        "away": "35"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "12",
+        "away": "7"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "0%",
+        "away": "0%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "15",
+        "away": "12"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "6",
+        "away": "4"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "7",
+        "away": "11"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "8",
+        "away": "1"
+      },
+      {
+        "type": "Fouls",
+        "home": "13",
+        "away": "14"
+      },
+      {
+        "type": "Corners",
+        "home": "7",
+        "away": "5"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "57%",
+        "away": "43%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Saves",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "538",
+        "away": "412"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "461",
+        "away": "358"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "43",
+        "away": "36"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "15",
+        "away": "14"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "8",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "9",
+        "away": "3"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "4",
+        "away": "0"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "7",
+        "away": "0"
+      },
+      {
+        "type": "Fouls",
+        "home": "8",
+        "away": "5"
+      },
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "214",
+        "away": "222"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "183",
+        "away": "195"
+      }
+    ]
   },
   {
     "match_id": "610711",
@@ -100103,27 +100679,27 @@
     "league_id": "302",
     "league_name": "La Liga",
     "match_date": "2025-10-25",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "18:30",
     "match_hometeam_id": "7258",
     "match_hometeam_name": "Ath Bilbao",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "0",
     "match_awayteam_name": "Getafe",
     "match_awayteam_id": "7288",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "10",
-    "match_stadium": "Estadio de San Mamés",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/7258_athletic-club.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/7288_getafe.jpg",
@@ -100132,9 +100708,276 @@
     "league_year": "2025/2026",
     "fk_stage_key": "402",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "75",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "B. Mayoral",
+        "away_scorer_id": "1526373288",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Attacks",
+        "home": "112",
+        "away": "112"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "28",
+        "away": "53"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "0%",
+        "away": "0%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "7",
+        "away": "8"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Fouls",
+        "home": "15",
+        "away": "14"
+      },
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Offsides",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "57%",
+        "away": "43%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Saves",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Passes Total",
+        "home": "438",
+        "away": "317"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "339",
+        "away": "196"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "45",
+        "away": "55"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "10",
+        "away": "38"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "57%",
+        "away": "43%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Fouls",
+        "home": "9",
+        "away": "4"
+      },
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "3"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "56%",
+        "away": "44%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "210",
+        "away": "151"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "167",
+        "away": "101"
+      }
+    ]
   },
   {
     "match_id": "610713",
@@ -100143,27 +100986,27 @@
     "league_id": "302",
     "league_name": "La Liga",
     "match_date": "2025-10-25",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "14:00",
     "match_hometeam_id": "7263",
     "match_hometeam_name": "Girona",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "3",
     "match_awayteam_name": "R. Oviedo",
     "match_awayteam_id": "7282",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "3",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "3",
+    "match_awayteam_ft_score": "3",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "4-3-3",
     "match_live": "0",
     "match_round": "10",
-    "match_stadium": "Estadi Municipal de Montilivi",
+    "match_stadium": "Estadio Municipal de Montilivi",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/7263_girona.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/7282_real-oviedo.jpg",
@@ -100172,9 +101015,346 @@
     "league_year": "2025/2026",
     "fk_stage_key": "402",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "38",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "F. Vinas",
+        "away_scorer_id": "4113799863",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "57",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 2",
+        "away_scorer": "S. Rondon",
+        "away_scorer_id": "1541199022",
+        "away_assist": "S. Colombatto",
+        "away_assist_id": "1430004860",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "64",
+        "home_scorer": "C. Stuani",
+        "home_scorer_id": "778431279",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 2",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "83",
+        "home_scorer": "A. Ounahi",
+        "home_scorer_id": "97876351",
+        "home_assist": "T. Lemar",
+        "home_assist_id": "2831500922",
+        "score": "2 - 2",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "90",
+        "home_scorer": "C. Stuani",
+        "home_scorer_id": "778431279",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 2",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "90+7",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 3",
+        "away_scorer": "D. Carmo",
+        "away_scorer_id": "2995528637",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "11",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "110",
+        "away": "73"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "67",
+        "away": "25"
+      },
+      {
+        "type": "On Target",
+        "home": "6",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "59%",
+        "away": "41%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "8",
+        "away": "10"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "6",
+        "away": "5"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "4",
+        "away": "8"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Fouls",
+        "home": "13",
+        "away": "16"
+      },
+      {
+        "type": "Corners",
+        "home": "11",
+        "away": "4"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "65%",
+        "away": "35%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Saves",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "548",
+        "away": "293"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "487",
+        "away": "233"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "53",
+        "away": "38"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "29",
+        "away": "15"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "60%",
+        "away": "40%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "3",
+        "away": "7"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Fouls",
+        "home": "8",
+        "away": "7"
+      },
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "61%",
+        "away": "39%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "294",
+        "away": "191"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "261",
+        "away": "161"
+      }
+    ]
   },
   {
     "match_id": "610715",
@@ -100183,24 +101363,24 @@
     "league_id": "302",
     "league_name": "La Liga",
     "match_date": "2025-10-25",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "16:15",
     "match_hometeam_id": "7268",
     "match_hometeam_name": "Espanyol",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Elche",
     "match_awayteam_id": "7274",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "4-1-4-1",
     "match_live": "0",
     "match_round": "10",
     "match_stadium": "RCDE Stadium",
@@ -100212,9 +101392,271 @@
     "league_year": "2025/2026",
     "fk_stage_key": "402",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "47",
+        "home_scorer": "C. Romero",
+        "home_scorer_id": "475030049",
+        "home_assist": "Exposito",
+        "home_assist_id": "1769122008",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "78",
+        "away": "99"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "35",
+        "away": "46"
+      },
+      {
+        "type": "On Target",
+        "home": "7",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "9",
+        "away": "9"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "0%",
+        "away": "0%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "16",
+        "away": "13"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "7",
+        "away": "4"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "8",
+        "away": "4"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "10",
+        "away": "8"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "6",
+        "away": "5"
+      },
+      {
+        "type": "Fouls",
+        "home": "14",
+        "away": "15"
+      },
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "32%",
+        "away": "68%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "4",
+        "away": "6"
+      },
+      {
+        "type": "Passes Total",
+        "home": "266",
+        "away": "595"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "201",
+        "away": "518"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "38",
+        "away": "40"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "23",
+        "away": "19"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "35%",
+        "away": "65%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "8",
+        "away": "4"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Fouls",
+        "home": "5",
+        "away": "7"
+      },
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "35%",
+        "away": "65%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Passes Total",
+        "home": "138",
+        "away": "272"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "116",
+        "away": "241"
+      }
+    ]
   },
   {
     "match_id": "610708",
@@ -100223,24 +101665,24 @@
     "league_id": "302",
     "league_name": "La Liga",
     "match_date": "2025-10-26",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "18:30",
     "match_hometeam_id": "7269",
     "match_hometeam_name": "Osasuna",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Celta Vigo",
     "match_awayteam_id": "7290",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "3",
+    "match_hometeam_halftime_score": "2",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "3",
+    "match_hometeam_system": "3-4-3",
+    "match_awayteam_system": "3-4-3",
     "match_live": "0",
     "match_round": "10",
     "match_stadium": "Estadio El Sadar",
@@ -100252,9 +101694,332 @@
     "league_year": "2025/2026",
     "fk_stage_key": "402",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "26",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "F. Jutgla",
+        "away_scorer_id": "791473901",
+        "away_assist": "B. Iglesias",
+        "away_assist_id": "2461543274",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "37",
+        "home_scorer": "A. Budimir",
+        "home_scorer_id": "1306374671",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "45+1",
+        "home_scorer": "A. Budimir",
+        "home_scorer_id": "1306374671",
+        "home_assist": "R. Garcia",
+        "home_assist_id": "3989602825",
+        "score": "2 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "69",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 2",
+        "away_scorer": "F. Jutgla",
+        "away_scorer_id": "791473901",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "87",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 3",
+        "away_scorer": "P. Duran",
+        "away_scorer_id": "2008443828",
+        "away_assist": "I. Aspas",
+        "away_assist_id": "187516187",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "136",
+        "away": "58"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "81",
+        "away": "24"
+      },
+      {
+        "type": "On Target",
+        "home": "7",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "10",
+        "away": "6"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "38%",
+        "away": "62%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "17",
+        "away": "11"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "7",
+        "away": "5"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "7",
+        "away": "4"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "10",
+        "away": "5"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "7",
+        "away": "6"
+      },
+      {
+        "type": "Fouls",
+        "home": "10",
+        "away": "13"
+      },
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "61%",
+        "away": "39%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Saves",
+        "home": "2",
+        "away": "5"
+      },
+      {
+        "type": "Passes Total",
+        "home": "550",
+        "away": "357"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "466",
+        "away": "292"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "67",
+        "away": "28"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "43",
+        "away": "6"
+      },
+      {
+        "type": "On Target",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "6",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "64%",
+        "away": "36%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "12",
+        "away": "6"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "6",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "64%",
+        "away": "36%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Passes Total",
+        "home": "309",
+        "away": "177"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "270",
+        "away": "145"
+      }
+    ]
   },
   {
     "match_id": "610710",
@@ -100263,27 +102028,27 @@
     "league_id": "302",
     "league_name": "La Liga",
     "match_date": "2025-10-26",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "21:00",
     "match_hometeam_id": "7264",
     "match_hometeam_name": "Rayo Vallecano",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Alaves",
     "match_awayteam_id": "7275",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "4-3-3",
+    "match_awayteam_system": "4-4-2",
     "match_live": "0",
     "match_round": "10",
-    "match_stadium": "Estadio de Vallecas",
+    "match_stadium": "Campo de Futbol de Vallecas",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/7264_rayo-vallecano.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/7275_alaves.jpg",
@@ -100292,9 +102057,276 @@
     "league_year": "2025/2026",
     "fk_stage_key": "402",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "90+1",
+        "home_scorer": "Alemao",
+        "home_scorer_id": "3593366009",
+        "home_assist": "P. Chavarria",
+        "home_assist_id": "2348036217",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "7",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "103",
+        "away": "93"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "61",
+        "away": "44"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "10",
+        "away": "10"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "35%",
+        "away": "65%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "15",
+        "away": "12"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "8",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "7"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "8",
+        "away": "6"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "7",
+        "away": "6"
+      },
+      {
+        "type": "Fouls",
+        "home": "13",
+        "away": "11"
+      },
+      {
+        "type": "Corners",
+        "home": "7",
+        "away": "5"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "53%",
+        "away": "47%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Saves",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Passes Total",
+        "home": "411",
+        "away": "362"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "335",
+        "away": "269"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "58",
+        "away": "38"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "27",
+        "away": "18"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "56%",
+        "away": "44%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "7",
+        "away": "5"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Fouls",
+        "home": "8",
+        "away": "7"
+      },
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "56%",
+        "away": "44%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "0",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "210",
+        "away": "164"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "175",
+        "away": "115"
+      }
+    ]
   },
   {
     "match_id": "610712",
@@ -100303,24 +102335,24 @@
     "league_id": "302",
     "league_name": "La Liga",
     "match_date": "2025-10-26",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "14:00",
     "match_hometeam_id": "7285",
     "match_hometeam_name": "Mallorca",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Levante",
     "match_awayteam_id": "7259",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "4-4-2",
     "match_live": "0",
     "match_round": "10",
     "match_stadium": "Estadi Mallorca Son Moix",
@@ -100332,9 +102364,290 @@
     "league_year": "2025/2026",
     "fk_stage_key": "402",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "22",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "Etta Eyong",
+        "away_scorer_id": "410646158",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "79",
+        "home_scorer": "P. Maffeo",
+        "home_scorer_id": "2450329826",
+        "home_assist": "J. Mojica",
+        "home_assist_id": "2557803817",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "122",
+        "away": "100"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "54",
+        "away": "41"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "16",
+        "away": "8"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "39%",
+        "away": "61%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "20",
+        "away": "13"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "11",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "13",
+        "away": "10"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "7",
+        "away": "3"
+      },
+      {
+        "type": "Fouls",
+        "home": "8",
+        "away": "13"
+      },
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Offsides",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "63%",
+        "away": "37%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Passes Total",
+        "home": "551",
+        "away": "329"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "471",
+        "away": "233"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "71",
+        "away": "44"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "30",
+        "away": "9"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "10",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "68%",
+        "away": "32%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "10",
+        "away": "4"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Fouls",
+        "home": "6",
+        "away": "6"
+      },
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "69%",
+        "away": "31%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "310",
+        "away": "141"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "267",
+        "away": "98"
+      }
+    ]
   },
   {
     "match_id": "610716",
@@ -100343,27 +102656,27 @@
     "league_id": "302",
     "league_name": "La Liga",
     "match_date": "2025-10-26",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "16:15",
     "match_hometeam_id": "76",
     "match_hometeam_name": "Real Madrid",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Barcelona",
     "match_awayteam_id": "97",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "2",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "4-1-4-1",
+    "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "10",
-    "match_stadium": "Estadio Santiago Bernabéu",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/76_real-madrid.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/97_barcelona.jpg",
@@ -100372,9 +102685,309 @@
     "league_year": "2025/2026",
     "fk_stage_key": "402",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "22",
+        "home_scorer": "K. Mbappe",
+        "home_scorer_id": "2354545782",
+        "home_assist": "J. Bellingham",
+        "home_assist_id": "3537658166",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "38",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "F. Lopez",
+        "away_scorer_id": "1790385112",
+        "away_assist": "M. Rashford",
+        "away_assist_id": "2661454570",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "43",
+        "home_scorer": "J. Bellingham",
+        "home_scorer_id": "3537658166",
+        "home_assist": "Eder Militao",
+        "home_assist_id": "4028176136",
+        "score": "2 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "12",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "11",
+        "away": "21"
+      },
+      {
+        "type": "Free Kick",
+        "home": "9",
+        "away": "16"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "6",
+        "away": "8"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "82",
+        "away": "121"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "50",
+        "away": "59"
+      },
+      {
+        "type": "On Target",
+        "home": "10",
+        "away": "6"
+      },
+      {
+        "type": "Off Target",
+        "home": "13",
+        "away": "9"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "23",
+        "away": "15"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "10",
+        "away": "6"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "6",
+        "away": "5"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "7",
+        "away": "4"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "17",
+        "away": "6"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "6",
+        "away": "9"
+      },
+      {
+        "type": "Fouls",
+        "home": "12",
+        "away": "9"
+      },
+      {
+        "type": "Corners",
+        "home": "12",
+        "away": "4"
+      },
+      {
+        "type": "Offsides",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "31%",
+        "away": "69%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "4",
+        "away": "9"
+      },
+      {
+        "type": "Passes Total",
+        "home": "273",
+        "away": "637"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "222",
+        "away": "571"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "8",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "6",
+        "away": "11"
+      },
+      {
+        "type": "Free Kick",
+        "home": "6",
+        "away": "7"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "45",
+        "away": "59"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "26",
+        "away": "23"
+      },
+      {
+        "type": "On Target",
+        "home": "7",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "36%",
+        "away": "64%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "12",
+        "away": "8"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "7",
+        "away": "5"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "9",
+        "away": "4"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Corners",
+        "home": "8",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "36%",
+        "away": "64%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Passes Total",
+        "home": "169",
+        "away": "329"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "142",
+        "away": "295"
+      }
+    ]
   },
   {
     "match_id": "610714",
@@ -100383,27 +102996,27 @@
     "league_id": "302",
     "league_name": "La Liga",
     "match_date": "2025-10-27",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "21:00",
     "match_hometeam_id": "7261",
     "match_hometeam_name": "Betis",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "0",
     "match_awayteam_name": "Atl. Madrid",
     "match_awayteam_id": "73",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "2",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "2",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "4-3-3",
     "match_live": "0",
     "match_round": "10",
-    "match_stadium": "Estadio La Cartuja de Sevilla",
+    "match_stadium": "Estadio de La Cartuja",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/7261_real-betis.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/73_atletico-de-madrid.jpg",
@@ -100412,9 +103025,285 @@
     "league_year": "2025/2026",
     "fk_stage_key": "402",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "3",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "G. Simeone",
+        "away_scorer_id": "1240274000",
+        "away_assist": "Koke",
+        "away_assist_id": "2826825315",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "45+1",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 2",
+        "away_scorer": "A. Baena",
+        "away_scorer_id": "2029535118",
+        "away_assist": "J. Alvarez",
+        "away_assist_id": "1560441904",
+        "info": "",
+        "score_info_time": "1st Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "145",
+        "away": "67"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "89",
+        "away": "31"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "12",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "17",
+        "away": "9"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "7",
+        "away": "4"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "7",
+        "away": "5"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "10",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "9",
+        "away": "18"
+      },
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "5"
+      },
+      {
+        "type": "Offsides",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "57%",
+        "away": "43%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "2",
+        "away": "5"
+      },
+      {
+        "type": "Passes Total",
+        "home": "546",
+        "away": "420"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "474",
+        "away": "341"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "71",
+        "away": "26"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "46",
+        "away": "11"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "57%",
+        "away": "43%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "5",
+        "away": "9"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "2",
+        "away": "5"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "5",
+        "away": "7"
+      },
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "57%",
+        "away": "43%"
+      },
+      {
+        "type": "Saves",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "280",
+        "away": "215"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "244",
+        "away": "182"
+      }
+    ]
   },
   {
     "match_id": "610722",
@@ -100423,7 +103312,7 @@
     "league_id": "302",
     "league_name": "La Liga",
     "match_date": "2025-10-31",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "21:00",
     "match_hometeam_id": "7288",
     "match_hometeam_name": "Getafe",
@@ -100443,8 +103332,8 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "11",
-    "match_stadium": "Coliseum",
-    "match_referee": "",
+    "match_stadium": "",
+    "match_referee": "José María Sánchez Martínez, Spain",
     "team_home_badge": "https://apiv3.apifootball.com/badges/7288_getafe.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/7263_girona.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/302_la-liga.png",
@@ -100463,7 +103352,7 @@
     "league_id": "302",
     "league_name": "La Liga",
     "match_date": "2025-11-01",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "21:00",
     "match_hometeam_id": "76",
     "match_hometeam_name": "Real Madrid",
@@ -100483,7 +103372,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "11",
-    "match_stadium": "",
+    "match_stadium": "Estadio Santiago Bernabéu",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/76_real-madrid.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/7272_valencia.jpg",
@@ -100503,7 +103392,7 @@
     "league_id": "302",
     "league_name": "La Liga",
     "match_date": "2025-11-01",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "18:30",
     "match_hometeam_id": "153",
     "match_hometeam_name": "Real Sociedad",
@@ -100543,7 +103432,7 @@
     "league_id": "302",
     "league_name": "La Liga",
     "match_date": "2025-11-01",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "16:15",
     "match_hometeam_id": "73",
     "match_hometeam_name": "Atl. Madrid",
@@ -100563,7 +103452,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "11",
-    "match_stadium": "Metropolitano Stadium",
+    "match_stadium": "Riyadh Air Metropolitano",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/73_atletico-de-madrid.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/89_sevilla.jpg",
@@ -100583,7 +103472,7 @@
     "league_id": "302",
     "league_name": "La Liga",
     "match_date": "2025-11-01",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "14:00",
     "match_hometeam_id": "162",
     "match_hometeam_name": "Villarreal",
@@ -100603,7 +103492,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "11",
-    "match_stadium": "Estadio de la Ceramica",
+    "match_stadium": "Estadio de la Cerámica",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/162_villarreal.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/7264_rayo-vallecano.jpg",
@@ -100623,7 +103512,7 @@
     "league_id": "302",
     "league_name": "La Liga",
     "match_date": "2025-11-02",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "14:00",
     "match_hometeam_id": "7259",
     "match_hometeam_name": "Levante",
@@ -100643,7 +103532,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "11",
-    "match_stadium": "",
+    "match_stadium": "Estadio Ciudad de Valencia",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/7259_levante.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/7290_celta-de-vigo.jpg",
@@ -100663,7 +103552,7 @@
     "league_id": "302",
     "league_name": "La Liga",
     "match_date": "2025-11-02",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "16:15",
     "match_hometeam_id": "7275",
     "match_hometeam_name": "Alaves",
@@ -100683,7 +103572,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "11",
-    "match_stadium": "Estadio Mendizorrotza",
+    "match_stadium": "Estadio de Mendizorroza",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/7275_alaves.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/7268_espanyol.jpg",
@@ -100703,7 +103592,7 @@
     "league_id": "302",
     "league_name": "La Liga",
     "match_date": "2025-11-02",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "18:30",
     "match_hometeam_id": "97",
     "match_hometeam_name": "Barcelona",
@@ -100723,7 +103612,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "11",
-    "match_stadium": "",
+    "match_stadium": "Spotify Camp Nou",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/97_barcelona.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/7274_elche.jpg",
@@ -100743,7 +103632,7 @@
     "league_id": "302",
     "league_name": "La Liga",
     "match_date": "2025-11-02",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "21:00",
     "match_hometeam_id": "7261",
     "match_hometeam_name": "Betis",
@@ -100763,7 +103652,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "11",
-    "match_stadium": "Estadio de La Cartuja",
+    "match_stadium": "Estadio La Cartuja de Sevilla",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/7261_real-betis.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/7285_mallorca.jpg",
@@ -100783,7 +103672,7 @@
     "league_id": "302",
     "league_name": "La Liga",
     "match_date": "2025-11-03",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "21:00",
     "match_hometeam_id": "7282",
     "match_hometeam_name": "R. Oviedo",
@@ -100803,7 +103692,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "11",
-    "match_stadium": "Estadio Nuevo Carlos Tartiere",
+    "match_stadium": "Estadio Municipal Carlos Tartiere",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/7282_real-oviedo.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/7269_osasuna.jpg",
@@ -100823,7 +103712,7 @@
     "league_id": "302",
     "league_name": "La Liga",
     "match_date": "2025-11-07",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "21:00",
     "match_hometeam_id": "7274",
     "match_hometeam_name": "Elche",
@@ -100843,7 +103732,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "12",
-    "match_stadium": "",
+    "match_stadium": "Estadio Manuel Martínez Valero",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/7274_elche.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/153_real-sociedad.jpg",
@@ -101617,14 +104506,54 @@
     "statistics_1half": []
   },
   {
+    "match_id": "610753",
+    "country_id": "6",
+    "country_name": "Spain",
+    "league_id": "302",
+    "league_name": "La Liga",
+    "match_date": "2025-11-28",
+    "match_status": "Not Started",
+    "match_time": "21:00",
+    "match_hometeam_id": "7288",
+    "match_hometeam_name": "Getafe",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Elche",
+    "match_awayteam_id": "7274",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "14",
+    "match_stadium": "Coliseum",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/7288_getafe.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/7274_elche.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/302_la-liga.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/6_spain.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "402",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
     "match_id": "610748",
     "country_id": "6",
     "country_name": "Spain",
     "league_id": "302",
     "league_name": "La Liga",
-    "match_date": "2025-11-30",
+    "match_date": "2025-11-29",
     "match_status": "Not Started",
-    "match_time": "18:00",
+    "match_time": "18:30",
     "match_hometeam_id": "7259",
     "match_hometeam_name": "Levante",
     "match_hometeam_score": "",
@@ -101657,54 +104586,14 @@
     "statistics_1half": []
   },
   {
-    "match_id": "610749",
-    "country_id": "6",
-    "country_name": "Spain",
-    "league_id": "302",
-    "league_name": "La Liga",
-    "match_date": "2025-11-30",
-    "match_status": "Not Started",
-    "match_time": "18:00",
-    "match_hometeam_id": "153",
-    "match_hometeam_name": "Real Sociedad",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Villarreal",
-    "match_awayteam_id": "162",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "14",
-    "match_stadium": "Reale Arena",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/153_real-sociedad.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/162_villarreal.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/302_la-liga.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/6_spain.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "402",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
     "match_id": "610750",
     "country_id": "6",
     "country_name": "Spain",
     "league_id": "302",
     "league_name": "La Liga",
-    "match_date": "2025-11-30",
+    "match_date": "2025-11-29",
     "match_status": "Not Started",
-    "match_time": "18:00",
+    "match_time": "14:00",
     "match_hometeam_id": "7285",
     "match_hometeam_name": "Mallorca",
     "match_hometeam_score": "",
@@ -101742,9 +104631,9 @@
     "country_name": "Spain",
     "league_id": "302",
     "league_name": "La Liga",
-    "match_date": "2025-11-30",
+    "match_date": "2025-11-29",
     "match_status": "Not Started",
-    "match_time": "18:00",
+    "match_time": "21:00",
     "match_hometeam_id": "73",
     "match_hometeam_name": "Atl. Madrid",
     "match_hometeam_score": "",
@@ -101782,9 +104671,9 @@
     "country_name": "Spain",
     "league_id": "302",
     "league_name": "La Liga",
-    "match_date": "2025-11-30",
+    "match_date": "2025-11-29",
     "match_status": "Not Started",
-    "match_time": "18:00",
+    "match_time": "16:15",
     "match_hometeam_id": "97",
     "match_hometeam_name": "Barcelona",
     "match_hometeam_score": "",
@@ -101817,19 +104706,19 @@
     "statistics_1half": []
   },
   {
-    "match_id": "610753",
+    "match_id": "610749",
     "country_id": "6",
     "country_name": "Spain",
     "league_id": "302",
     "league_name": "La Liga",
     "match_date": "2025-11-30",
     "match_status": "Not Started",
-    "match_time": "18:00",
-    "match_hometeam_id": "7288",
-    "match_hometeam_name": "Getafe",
+    "match_time": "14:00",
+    "match_hometeam_id": "153",
+    "match_hometeam_name": "Real Sociedad",
     "match_hometeam_score": "",
-    "match_awayteam_name": "Elche",
-    "match_awayteam_id": "7274",
+    "match_awayteam_name": "Villarreal",
+    "match_awayteam_id": "162",
     "match_awayteam_score": "",
     "match_hometeam_halftime_score": "",
     "match_awayteam_halftime_score": "",
@@ -101843,50 +104732,10 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "14",
-    "match_stadium": "Coliseum",
+    "match_stadium": "Reale Arena",
     "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/7288_getafe.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/7274_elche.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/302_la-liga.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/6_spain.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "402",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "610754",
-    "country_id": "6",
-    "country_name": "Spain",
-    "league_id": "302",
-    "league_name": "La Liga",
-    "match_date": "2025-11-30",
-    "match_status": "Not Started",
-    "match_time": "18:00",
-    "match_hometeam_id": "7264",
-    "match_hometeam_name": "Rayo Vallecano",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Valencia",
-    "match_awayteam_id": "7272",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "14",
-    "match_stadium": "Campo de Futbol de Vallecas",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/7264_rayo-vallecano.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/7272_valencia.jpg",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/153_real-sociedad.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/162_villarreal.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/302_la-liga.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/6_spain.png",
     "league_year": "2025/2026",
@@ -101904,7 +104753,7 @@
     "league_name": "La Liga",
     "match_date": "2025-11-30",
     "match_status": "Not Started",
-    "match_time": "18:00",
+    "match_time": "21:00",
     "match_hometeam_id": "7263",
     "match_hometeam_name": "Girona",
     "match_hometeam_score": "",
@@ -101944,7 +104793,7 @@
     "league_name": "La Liga",
     "match_date": "2025-11-30",
     "match_status": "Not Started",
-    "match_time": "18:00",
+    "match_time": "18:30",
     "match_hometeam_id": "7290",
     "match_hometeam_name": "Celta Vigo",
     "match_hometeam_score": "",
@@ -101984,7 +104833,7 @@
     "league_name": "La Liga",
     "match_date": "2025-11-30",
     "match_status": "Not Started",
-    "match_time": "18:00",
+    "match_time": "16:15",
     "match_hometeam_id": "89",
     "match_hometeam_name": "Sevilla",
     "match_hometeam_score": "",
@@ -102007,6 +104856,126 @@
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/89_sevilla.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/7261_real-betis.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/302_la-liga.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/6_spain.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "402",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "610754",
+    "country_id": "6",
+    "country_name": "Spain",
+    "league_id": "302",
+    "league_name": "La Liga",
+    "match_date": "2025-12-01",
+    "match_status": "Not Started",
+    "match_time": "21:00",
+    "match_hometeam_id": "7264",
+    "match_hometeam_name": "Rayo Vallecano",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Valencia",
+    "match_awayteam_id": "7272",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "14",
+    "match_stadium": "Campo de Futbol de Vallecas",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/7264_rayo-vallecano.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/7272_valencia.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/302_la-liga.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/6_spain.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "402",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "610806",
+    "country_id": "6",
+    "country_name": "Spain",
+    "league_id": "302",
+    "league_name": "La Liga",
+    "match_date": "2025-12-02",
+    "match_status": "Not Started",
+    "match_time": "21:00",
+    "match_hometeam_id": "97",
+    "match_hometeam_name": "Barcelona",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Atl. Madrid",
+    "match_awayteam_id": "73",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "19",
+    "match_stadium": "Camp Nou",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/97_barcelona.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/73_atletico-de-madrid.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/302_la-liga.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/6_spain.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "402",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "610802",
+    "country_id": "6",
+    "country_name": "Spain",
+    "league_id": "302",
+    "league_name": "La Liga",
+    "match_date": "2025-12-03",
+    "match_status": "Not Started",
+    "match_time": "19:00",
+    "match_hometeam_id": "7258",
+    "match_hometeam_name": "Ath Bilbao",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Real Madrid",
+    "match_awayteam_id": "76",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "19",
+    "match_stadium": "",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/7258_athletic-club.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/76_real-madrid.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/302_la-liga.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/6_spain.png",
     "league_year": "2025/2026",
@@ -103777,46 +106746,6 @@
     "statistics_1half": []
   },
   {
-    "match_id": "610802",
-    "country_id": "6",
-    "country_name": "Spain",
-    "league_id": "302",
-    "league_name": "La Liga",
-    "match_date": "2026-01-11",
-    "match_status": "Not Started",
-    "match_time": "18:00",
-    "match_hometeam_id": "7258",
-    "match_hometeam_name": "Ath Bilbao",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Real Madrid",
-    "match_awayteam_id": "76",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "19",
-    "match_stadium": "",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/7258_athletic-club.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/76_real-madrid.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/302_la-liga.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/6_spain.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "402",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
     "match_id": "610803",
     "country_id": "6",
     "country_name": "Spain",
@@ -103927,46 +106856,6 @@
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/7263_girona.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/7269_osasuna.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/302_la-liga.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/6_spain.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "402",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "610806",
-    "country_id": "6",
-    "country_name": "Spain",
-    "league_id": "302",
-    "league_name": "La Liga",
-    "match_date": "2026-01-11",
-    "match_status": "Not Started",
-    "match_time": "18:00",
-    "match_hometeam_id": "97",
-    "match_hometeam_name": "Barcelona",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Atl. Madrid",
-    "match_awayteam_id": "73",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "19",
-    "match_stadium": "Camp Nou",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/97_barcelona.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/73_atletico-de-madrid.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/302_la-liga.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/6_spain.png",
     "league_year": "2025/2026",

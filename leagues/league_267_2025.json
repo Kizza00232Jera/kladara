@@ -64894,27 +64894,27 @@
     "league_id": "267",
     "league_name": "Segunda Liga",
     "match_date": "2025-10-24",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "19:45",
     "match_hometeam_id": "5934",
     "match_hometeam_name": "Torreense",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "3",
     "match_awayteam_name": "Oliveirense",
     "match_awayteam_id": "6013",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "3",
+    "match_awayteam_ft_score": "2",
+    "match_hometeam_system": "4-4-2",
+    "match_awayteam_system": "3-5-2",
     "match_live": "0",
     "match_round": "8",
-    "match_stadium": "Campo Manuel Marques",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/5934_torreense.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6013_oliveirense.jpg",
@@ -64923,9 +64923,272 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1455",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "17",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "J. Silva",
+        "away_scorer_id": "1880046475",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "53",
+        "home_scorer": "J. Vazquez",
+        "home_scorer_id": "328794626",
+        "home_assist": "M. Pozo",
+        "home_assist_id": "2760165206",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "81",
+        "home_scorer": "A. Casas",
+        "home_scorer_id": "810992977",
+        "home_assist": "J. Vazquez",
+        "home_assist_id": "328794626",
+        "score": "2 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "90+1",
+        "home_scorer": "Pite",
+        "home_scorer_id": "1144194279",
+        "home_assist": "M. Pozo",
+        "home_assist_id": "2760165206",
+        "score": "3 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "90+5",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 2",
+        "away_scorer": "Joanderson",
+        "away_scorer_id": "1947918189",
+        "away_assist": "P. Martelo",
+        "away_assist_id": "2486294608",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "79",
+        "away": "71"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "66",
+        "away": "56"
+      },
+      {
+        "type": "On Target",
+        "home": "9",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "11",
+        "away": "7"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "13%",
+        "away": "87%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "0"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "45",
+        "away": "34"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "32",
+        "away": "26"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "6",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "0"
+      }
+    ]
   },
   {
     "match_id": "624882",
@@ -64934,27 +65197,27 @@
     "league_id": "267",
     "league_name": "Segunda Liga",
     "match_date": "2025-10-24",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "21:45",
     "match_hometeam_id": "6014",
     "match_hometeam_name": "Vizela",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Felgueiras",
     "match_awayteam_id": "5973",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "2",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "4-3-3",
     "match_live": "0",
     "match_round": "8",
-    "match_stadium": "Estádio Do Vizela",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/6014_vizela.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/5973_felgueiras-1932.jpg",
@@ -64963,9 +65226,258 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1455",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "52",
+        "home_scorer": "Moha Moukhliss",
+        "home_scorer_id": "1532883219",
+        "home_assist": "M. Tavares",
+        "home_assist_id": "2481339939",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "77",
+        "home_scorer": "Manu",
+        "home_scorer_id": "580656073",
+        "home_assist": "Italo Henrique",
+        "home_assist_id": "2233465528",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "85",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 1",
+        "away_scorer": "Lucas Duarte",
+        "away_scorer_id": "1810742719",
+        "away_assist": "M. Rivas",
+        "away_assist_id": "3269524511",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "89",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 2",
+        "away_scorer": "P. Rosas",
+        "away_scorer_id": "3376929641",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "78",
+        "away": "89"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "47",
+        "away": "60"
+      },
+      {
+        "type": "On Target",
+        "home": "6",
+        "away": "6"
+      },
+      {
+        "type": "Off Target",
+        "home": "10",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "100%",
+        "away": "0%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "1"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "46",
+        "away": "43"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "34",
+        "away": "27"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "8",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "60%",
+        "away": "40%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "0"
+      }
+    ]
   },
   {
     "match_id": "624879",
@@ -64974,27 +65486,27 @@
     "league_id": "267",
     "league_name": "Segunda Liga",
     "match_date": "2025-10-25",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "16:30",
     "match_hometeam_id": "6001",
     "match_hometeam_name": "Academico Viseu",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Chaves",
     "match_awayteam_id": "6053",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "3-4-3",
+    "match_awayteam_system": "3-4-3",
     "match_live": "0",
     "match_round": "8",
-    "match_stadium": "Estádio Municipal do Fontelo",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/6001_academico-viseu.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6053_chaves.jpg",
@@ -65003,9 +65515,211 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1455",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "90+2",
+        "home_scorer": "Andre Clovis",
+        "home_scorer_id": "4172174633",
+        "home_assist": "L. Gohi",
+        "home_assist_id": "451498889",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "103",
+        "away": "98"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "47",
+        "away": "53"
+      },
+      {
+        "type": "On Target",
+        "home": "7",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "7",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "0"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Attacks",
+        "home": "45",
+        "away": "59"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "17",
+        "away": "33"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Shots Total",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "0"
+      }
+    ]
   },
   {
     "match_id": "624880",
@@ -65014,27 +65728,27 @@
     "league_id": "267",
     "league_name": "Segunda Liga",
     "match_date": "2025-10-25",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "12:00",
     "match_hometeam_id": "5947",
     "match_hometeam_name": "Sporting CP B",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "4",
     "match_awayteam_name": "Lusitania FC",
     "match_awayteam_id": "5982",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "2",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "4",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "4-4-2",
+    "match_awayteam_system": "4-3-3",
     "match_live": "0",
     "match_round": "8",
-    "match_stadium": "CGD Stadium Aurélio Pereira",
+    "match_stadium": "CGD Stadium Aurelio Pereira",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/5947_sporting-cp-ii.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/5982_lusitania-lourosa.jpg",
@@ -65043,9 +65757,258 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1455",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "41",
+        "home_scorer": "F. Goncalves",
+        "home_scorer_id": "3363242836",
+        "home_assist": "R. Dias",
+        "home_assist_id": "3838002108",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "45+9",
+        "home_scorer": "R. Nel",
+        "home_scorer_id": "3794468286",
+        "home_assist": "J. Silva",
+        "home_assist_id": "681196121",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "54",
+        "home_scorer": "J. Silva",
+        "home_scorer_id": "681196121",
+        "home_assist": "P. Cardoso",
+        "home_assist_id": "2512690138",
+        "score": "3 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "66",
+        "home_scorer": "G. Silva",
+        "home_scorer_id": "189356171",
+        "home_assist": "M. Mendonca",
+        "home_assist_id": "2658860315",
+        "score": "4 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "76",
+        "away": "51"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "70",
+        "away": "25"
+      },
+      {
+        "type": "On Target",
+        "home": "9",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "8",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "82%",
+        "away": "18%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "2"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Attacks",
+        "home": "40",
+        "away": "27"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "32",
+        "away": "7"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "69%",
+        "away": "31%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "2"
+      }
+    ]
   },
   {
     "match_id": "624881",
@@ -65054,27 +66017,27 @@
     "league_id": "267",
     "league_name": "Segunda Liga",
     "match_date": "2025-10-25",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "15:00",
     "match_hometeam_id": "6003",
     "match_hometeam_name": "Pacos Ferreira",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "4",
     "match_awayteam_name": "Portimonense",
     "match_awayteam_id": "6051",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "4",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "3-4-3",
+    "match_awayteam_system": "3-4-3",
     "match_live": "0",
     "match_round": "8",
-    "match_stadium": "Estádio da Capital do Móvel",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/6003_pacos-de-ferreira.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6051_portimonense.jpg",
@@ -65083,9 +66046,272 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1455",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "19",
+        "home_scorer": "Costinha",
+        "home_scorer_id": "2977669556",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "68",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "T. Monteiro",
+        "away_scorer_id": "209327898",
+        "away_assist": "Joao Reis",
+        "away_assist_id": "1949943464",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "81",
+        "home_scorer": "R. Lumungo",
+        "home_scorer_id": "213077225",
+        "home_assist": "Mota",
+        "home_assist_id": "1465840736",
+        "score": "2 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "88",
+        "home_scorer": "R. Lumungo",
+        "home_scorer_id": "213077225",
+        "home_assist": "N. Cunha",
+        "home_assist_id": "3828600917",
+        "score": "3 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "90+6",
+        "home_scorer": "N. Cunha",
+        "home_scorer_id": "3828600917",
+        "home_assist": "Diego Fernandes",
+        "home_assist_id": "1819331273",
+        "score": "4 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "8"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "69",
+        "away": "78"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "50",
+        "away": "54"
+      },
+      {
+        "type": "On Target",
+        "home": "9",
+        "away": "8"
+      },
+      {
+        "type": "Off Target",
+        "home": "8",
+        "away": "10"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "0"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "3"
+      },
+      {
+        "type": "Attacks",
+        "home": "34",
+        "away": "41"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "16",
+        "away": "25"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "0"
+      }
+    ]
   },
   {
     "match_id": "624883",
@@ -65094,27 +66320,27 @@
     "league_id": "267",
     "league_name": "Segunda Liga",
     "match_date": "2025-10-25",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "16:30",
     "match_hometeam_id": "6006",
     "match_hometeam_name": "Feirense",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "0",
     "match_awayteam_name": "Benfica B",
     "match_awayteam_id": "6054",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "2",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "4-3-3",
     "match_live": "0",
     "match_round": "8",
-    "match_stadium": "Estádio Marcolino de Castro",
+    "match_stadium": "Estadio Marcolino de Castro",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/6006_feirense.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6054_benfica-ii.jpg",
@@ -65123,9 +66349,230 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1455",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "67",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "J. Trevisan",
+        "away_scorer_id": "3797587432",
+        "away_assist": "R. Rego",
+        "away_assist_id": "483114350",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "83",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 2",
+        "away_scorer": "P. Edokpolor",
+        "away_scorer_id": "2573917897",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "93",
+        "away": "69"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "64",
+        "away": "44"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "9",
+        "away": "7"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "78%",
+        "away": "22%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "0"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "37",
+        "away": "42"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "25",
+        "away": "31"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "43%",
+        "away": "57%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "0"
+      }
+    ]
   },
   {
     "match_id": "624885",
@@ -65134,27 +66581,27 @@
     "league_id": "267",
     "league_name": "Segunda Liga",
     "match_date": "2025-10-25",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "12:00",
     "match_hometeam_id": "5922",
     "match_hometeam_name": "Leiria",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Leixoes",
     "match_awayteam_id": "6007",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "3",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "3",
+    "match_hometeam_system": "4-4-2",
+    "match_awayteam_system": "3-4-3",
     "match_live": "0",
     "match_round": "8",
-    "match_stadium": "Estádio Dr. Magalhães Pessoa",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/5922_uniao-de-leiria.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6007_leixoes.jpg",
@@ -65163,9 +66610,258 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1455",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "20",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "S. Agra",
+        "away_scorer_id": "39207967",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "60",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 2",
+        "away_scorer": "Bica",
+        "away_scorer_id": "3475851184",
+        "away_assist": "Werton",
+        "away_assist_id": "2754418928",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "63",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 3",
+        "away_scorer": "Werton",
+        "away_scorer_id": "2754418928",
+        "away_assist": "S. Agra",
+        "away_assist_id": "39207967",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "71",
+        "home_scorer": "P. Fernandez",
+        "home_scorer_id": "4230766768",
+        "home_assist": "Jair da Silva",
+        "home_assist_id": "2334871590",
+        "score": "1 - 3",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "10",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "73",
+        "away": "72"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "74",
+        "away": "43"
+      },
+      {
+        "type": "On Target",
+        "home": "7",
+        "away": "6"
+      },
+      {
+        "type": "Off Target",
+        "home": "12",
+        "away": "8"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "68%",
+        "away": "32%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "6"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "0"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "7",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "37",
+        "away": "35"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "35",
+        "away": "17"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "61%",
+        "away": "39%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "0"
+      }
+    ]
   },
   {
     "match_id": "624884",
@@ -65174,27 +66870,27 @@
     "league_id": "267",
     "league_name": "Segunda Liga",
     "match_date": "2025-10-26",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "12:00",
     "match_hometeam_id": "6052",
     "match_hometeam_name": "SC Farense",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "0",
     "match_awayteam_name": "Penafiel",
     "match_awayteam_id": "6017",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "4-3-3",
+    "match_awayteam_system": "4-3-3",
     "match_live": "0",
     "match_round": "8",
-    "match_stadium": "Estádio de São Lúis",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/6052_farense.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6017_penafiel.jpg",
@@ -65204,8 +66900,200 @@
     "fk_stage_key": "1455",
     "stage_name": "Current",
     "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "92",
+        "away": "80"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "67",
+        "away": "49"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "6"
+      },
+      {
+        "type": "Off Target",
+        "home": "14",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "1"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "37",
+        "away": "43"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "27",
+        "away": "29"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "0"
+      }
+    ]
   },
   {
     "match_id": "624891",
@@ -65214,24 +67102,24 @@
     "league_id": "267",
     "league_name": "Segunda Liga",
     "match_date": "2025-10-29",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "18:15",
     "match_hometeam_id": "5982",
     "match_hometeam_name": "Lusitania FC",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Vizela",
     "match_awayteam_id": "6014",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "4-3-3",
+    "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "9",
     "match_stadium": "Estádio do Lusitânia FC",
@@ -65243,9 +67131,230 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1455",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "35",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "H. Morschel",
+        "away_scorer_id": "3214103682",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "55",
+        "home_scorer": "D. Collard",
+        "home_scorer_id": "2453585032",
+        "home_assist": "J. Silva",
+        "home_assist_id": "3553510751",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Attacks",
+        "home": "83",
+        "away": "71"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "58",
+        "away": "40"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "9",
+        "away": "6"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "61%",
+        "away": "39%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "0"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "41",
+        "away": "32"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "27",
+        "away": "17"
+      },
+      {
+        "type": "On Target",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "49%",
+        "away": "51%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "0"
+      }
+    ]
   },
   {
     "match_id": "624893",
@@ -65254,24 +67363,24 @@
     "league_id": "267",
     "league_name": "Segunda Liga",
     "match_date": "2025-10-29",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "20:15",
     "match_hometeam_id": "6013",
     "match_hometeam_name": "Oliveirense",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "FC Porto B",
     "match_awayteam_id": "6056",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "3-5-2",
+    "match_awayteam_system": "4-3-3",
     "match_live": "0",
     "match_round": "9",
     "match_stadium": "Estádio Carlos Osório",
@@ -65283,9 +67392,216 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1455",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "44",
+        "home_scorer": "J. Silva",
+        "home_scorer_id": "1880046475",
+        "home_assist": "T. Takahashi",
+        "home_assist_id": "555188567",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "8"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "74",
+        "away": "94"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "51",
+        "away": "77"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "9%",
+        "away": "91%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Red Cards",
+        "home": "1",
+        "away": "0"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "40",
+        "away": "40"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "27",
+        "away": "35"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "40%",
+        "away": "60%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "0"
+      }
+    ]
   },
   {
     "match_id": "624888",
@@ -65294,24 +67610,24 @@
     "league_id": "267",
     "league_name": "Segunda Liga",
     "match_date": "2025-10-30",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "19:00",
     "match_hometeam_id": "6054",
     "match_hometeam_name": "Benfica B",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Pacos Ferreira",
     "match_awayteam_id": "6003",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "2",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "3-5-2",
+    "match_awayteam_system": "3-4-3",
     "match_live": "0",
     "match_round": "9",
     "match_stadium": "Caixa Futebol Campus",
@@ -65323,9 +67639,244 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1455",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "27",
+        "home_scorer": "D. Prioste",
+        "home_scorer_id": "2683878032",
+        "home_assist": "T. Freitas",
+        "home_assist_id": "3816315384",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "45+3",
+        "home_scorer": "J. Fonseca",
+        "home_scorer_id": "318819724",
+        "home_assist": "D. Prioste",
+        "home_assist_id": "2683878032",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "57",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 1",
+        "away_scorer": "Fernandinho",
+        "away_scorer_id": "3563142009",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "11",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "117",
+        "away": "89"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "61",
+        "away": "39"
+      },
+      {
+        "type": "On Target",
+        "home": "7",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "8",
+        "away": "7"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "64%",
+        "away": "36%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "0"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Attacks",
+        "home": "66",
+        "away": "35"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "33",
+        "away": "17"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "67%",
+        "away": "33%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "0"
+      }
+    ]
   },
   {
     "match_id": "624889",
@@ -65334,24 +67885,24 @@
     "league_id": "267",
     "league_name": "Segunda Liga",
     "match_date": "2025-10-30",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "21:15",
     "match_hometeam_id": "6007",
     "match_hometeam_name": "Leixoes",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Academico Viseu",
     "match_awayteam_id": "6001",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "5",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "2",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "5",
+    "match_hometeam_system": "4-4-2",
+    "match_awayteam_system": "3-4-3",
     "match_live": "0",
     "match_round": "9",
     "match_stadium": "Estádio do Mar",
@@ -65363,9 +67914,286 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1455",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "7",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "Andre Clovis",
+        "away_scorer_id": "4172174633",
+        "away_assist": "A. Zamora",
+        "away_assist_id": "4239044156",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "25",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 2",
+        "away_scorer": "Andre Clovis",
+        "away_scorer_id": "4172174633",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "50",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 3",
+        "away_scorer": "Andre Clovis",
+        "away_scorer_id": "4172174633",
+        "away_assist": "C. Kahraman",
+        "away_assist_id": "2005249938",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "66",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 4",
+        "away_scorer": "Joao Guilherme",
+        "away_scorer_id": "810223598",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "73",
+        "home_scorer": "B. Rochez",
+        "home_scorer_id": "2592460549",
+        "home_assist": "B. Kanuric",
+        "home_assist_id": "3224568960",
+        "score": "1 - 4",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "90+3",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 5",
+        "away_scorer": "I. Milioransa",
+        "away_scorer_id": "2764500864",
+        "away_assist": "B. Silva",
+        "away_assist_id": "282054495",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "7"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "78",
+        "away": "102"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "45",
+        "away": "59"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "12"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "66%",
+        "away": "34%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Red Cards",
+        "home": "1",
+        "away": "0"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "42",
+        "away": "46"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "26",
+        "away": "22"
+      },
+      {
+        "type": "On Target",
+        "home": "0",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "45%",
+        "away": "55%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Red Cards",
+        "home": "1",
+        "away": "0"
+      }
+    ]
   },
   {
     "match_id": "624892",
@@ -65374,24 +68202,24 @@
     "league_id": "267",
     "league_name": "Segunda Liga",
     "match_date": "2025-10-30",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "21:15",
     "match_hometeam_id": "5995",
     "match_hometeam_name": "Maritimo",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Leiria",
     "match_awayteam_id": "5922",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "3",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "3",
+    "match_hometeam_system": "4-4-2",
+    "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "9",
     "match_stadium": "",
@@ -65403,9 +68231,258 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1455",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "11",
+        "home_scorer": "S. Bouzaidi",
+        "home_scorer_id": "154092113",
+        "home_assist": "Xavi Grande",
+        "home_assist_id": "1516416885",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "72",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "Daniel Borges",
+        "away_scorer_id": "3999985289",
+        "away_assist": "Jair da Silva",
+        "away_assist_id": "2334871590",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "76",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 2",
+        "away_scorer": "J. Munoz",
+        "away_scorer_id": "1928857727",
+        "away_assist": "J. van der Gaag",
+        "away_assist_id": "4260528680",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "88",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 3",
+        "away_scorer": "Maga",
+        "away_scorer_id": "1074351636",
+        "away_assist": "J. van der Gaag",
+        "away_assist_id": "4260528680",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "115",
+        "away": "121"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "63",
+        "away": "45"
+      },
+      {
+        "type": "On Target",
+        "home": "7",
+        "away": "6"
+      },
+      {
+        "type": "Off Target",
+        "home": "10",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "59%",
+        "away": "41%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "0"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Attacks",
+        "home": "59",
+        "away": "51"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "29",
+        "away": "16"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "57%",
+        "away": "43%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "0"
+      }
+    ]
   },
   {
     "match_id": "624894",
@@ -65414,24 +68491,24 @@
     "league_id": "267",
     "league_name": "Segunda Liga",
     "match_date": "2025-10-30",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "19:00",
     "match_hometeam_id": "6051",
     "match_hometeam_name": "Portimonense",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "0",
     "match_awayteam_name": "Torreense",
     "match_awayteam_id": "5934",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "3-4-3",
+    "match_awayteam_system": "4-3-3",
     "match_live": "0",
     "match_round": "9",
     "match_stadium": "Estádio Municipal de Portimão",
@@ -65443,289 +68520,216 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1455",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "624895",
-    "country_id": "92",
-    "country_name": "Portugal",
-    "league_id": "267",
-    "league_name": "Segunda Liga",
-    "match_date": "2025-11-02",
-    "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "6001",
-    "match_hometeam_name": "Academico Viseu",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Lusitania FC",
-    "match_awayteam_id": "5982",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "10",
-    "match_stadium": "",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/6001_academico-viseu.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/5982_lusitania-lourosa.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/267_segunda-liga.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/92_portugal.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "1455",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "624896",
-    "country_id": "92",
-    "country_name": "Portugal",
-    "league_id": "267",
-    "league_name": "Segunda Liga",
-    "match_date": "2025-11-02",
-    "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "6014",
-    "match_hometeam_name": "Vizela",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Penafiel",
-    "match_awayteam_id": "6017",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "10",
-    "match_stadium": "",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/6014_vizela.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/6017_penafiel.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/267_segunda-liga.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/92_portugal.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "1455",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "624897",
-    "country_id": "92",
-    "country_name": "Portugal",
-    "league_id": "267",
-    "league_name": "Segunda Liga",
-    "match_date": "2025-11-02",
-    "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "5922",
-    "match_hometeam_name": "Leiria",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Chaves",
-    "match_awayteam_id": "6053",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "10",
-    "match_stadium": "",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/5922_uniao-de-leiria.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/6053_chaves.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/267_segunda-liga.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/92_portugal.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "1455",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "624898",
-    "country_id": "92",
-    "country_name": "Portugal",
-    "league_id": "267",
-    "league_name": "Segunda Liga",
-    "match_date": "2025-11-02",
-    "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "6052",
-    "match_hometeam_name": "SC Farense",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Benfica B",
-    "match_awayteam_id": "6054",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "10",
-    "match_stadium": "",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/6052_farense.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/6054_benfica-ii.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/267_segunda-liga.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/92_portugal.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "1455",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "624899",
-    "country_id": "92",
-    "country_name": "Portugal",
-    "league_id": "267",
-    "league_name": "Segunda Liga",
-    "match_date": "2025-11-02",
-    "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "6056",
-    "match_hometeam_name": "FC Porto B",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Portimonense",
-    "match_awayteam_id": "6051",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "10",
-    "match_stadium": "Estadio Luis Filipe Menezes",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/6056_porto-ii.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/6051_portimonense.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/267_segunda-liga.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/92_portugal.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "1455",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "624900",
-    "country_id": "92",
-    "country_name": "Portugal",
-    "league_id": "267",
-    "league_name": "Segunda Liga",
-    "match_date": "2025-11-02",
-    "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "5934",
-    "match_hometeam_name": "Torreense",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Felgueiras",
-    "match_awayteam_id": "5973",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "10",
-    "match_stadium": "",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/5934_torreense.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/5973_felgueiras-1932.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/267_segunda-liga.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/92_portugal.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "1455",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "624901",
-    "country_id": "92",
-    "country_name": "Portugal",
-    "league_id": "267",
-    "league_name": "Segunda Liga",
-    "match_date": "2025-11-02",
-    "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "6013",
-    "match_hometeam_name": "Oliveirense",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Maritimo",
-    "match_awayteam_id": "5995",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "10",
-    "match_stadium": "Estadio Carlos Osorio",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/6013_oliveirense.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/5995_maritimo.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/267_segunda-liga.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/92_portugal.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "1455",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "74",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "I. Seydi",
+        "away_scorer_id": "259571069",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "67",
+        "away": "69"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "25",
+        "away": "50"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "1",
+        "away": "7"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "72%",
+        "away": "28%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Red Cards",
+        "home": "1",
+        "away": "0"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "34",
+        "away": "39"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "10",
+        "away": "24"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "57%",
+        "away": "43%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "",
+        "away": ""
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "0"
+      }
+    ]
   },
   {
     "match_id": "624902",
@@ -65733,9 +68737,9 @@
     "country_name": "Portugal",
     "league_id": "267",
     "league_name": "Segunda Liga",
-    "match_date": "2025-11-02",
-    "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_date": "2025-11-01",
+    "match_status": "",
+    "match_time": "12:00",
     "match_hometeam_id": "5947",
     "match_hometeam_name": "Sporting CP B",
     "match_hometeam_score": "",
@@ -65754,10 +68758,170 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "10",
-    "match_stadium": "CGD Stadium Aurelio Pereira",
+    "match_stadium": "CGD Stadium Aurélio Pereira",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/5947_sporting-cp-ii.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6006_feirense.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/267_segunda-liga.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/92_portugal.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "1455",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "624896",
+    "country_id": "92",
+    "country_name": "Portugal",
+    "league_id": "267",
+    "league_name": "Segunda Liga",
+    "match_date": "2025-11-02",
+    "match_status": "",
+    "match_time": "12:00",
+    "match_hometeam_id": "6014",
+    "match_hometeam_name": "Vizela",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Penafiel",
+    "match_awayteam_id": "6017",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "10",
+    "match_stadium": "",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/6014_vizela.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/6017_penafiel.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/267_segunda-liga.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/92_portugal.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "1455",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "624898",
+    "country_id": "92",
+    "country_name": "Portugal",
+    "league_id": "267",
+    "league_name": "Segunda Liga",
+    "match_date": "2025-11-02",
+    "match_status": "",
+    "match_time": "16:30",
+    "match_hometeam_id": "6052",
+    "match_hometeam_name": "SC Farense",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Benfica B",
+    "match_awayteam_id": "6054",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "10",
+    "match_stadium": "Estádio de São Lúis",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/6052_farense.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/6054_benfica-ii.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/267_segunda-liga.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/92_portugal.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "1455",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "624897",
+    "country_id": "92",
+    "country_name": "Portugal",
+    "league_id": "267",
+    "league_name": "Segunda Liga",
+    "match_date": "2025-11-03",
+    "match_status": "",
+    "match_time": "21:00",
+    "match_hometeam_id": "5922",
+    "match_hometeam_name": "Leiria",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Chaves",
+    "match_awayteam_id": "6053",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "10",
+    "match_stadium": "Estádio Dr. Magalhães Pessoa",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/5922_uniao-de-leiria.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/6053_chaves.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/267_segunda-liga.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/92_portugal.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "1455",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "624901",
+    "country_id": "92",
+    "country_name": "Portugal",
+    "league_id": "267",
+    "league_name": "Segunda Liga",
+    "match_date": "2025-11-03",
+    "match_status": "",
+    "match_time": "19:00",
+    "match_hometeam_id": "6013",
+    "match_hometeam_name": "Oliveirense",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Maritimo",
+    "match_awayteam_id": "5995",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "10",
+    "match_stadium": "Estádio Carlos Osório",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/6013_oliveirense.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/5995_maritimo.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/267_segunda-liga.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/92_portugal.png",
     "league_year": "2025/2026",
@@ -65773,9 +68937,9 @@
     "country_name": "Portugal",
     "league_id": "267",
     "league_name": "Segunda Liga",
-    "match_date": "2025-11-02",
-    "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_date": "2025-11-03",
+    "match_status": "",
+    "match_time": "19:00",
     "match_hometeam_id": "6003",
     "match_hometeam_name": "Pacos Ferreira",
     "match_hometeam_score": "",
@@ -65794,10 +68958,130 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "10",
-    "match_stadium": "",
+    "match_stadium": "Estádio da Capital do Móvel",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/6003_pacos-de-ferreira.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6007_leixoes.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/267_segunda-liga.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/92_portugal.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "1455",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "624895",
+    "country_id": "92",
+    "country_name": "Portugal",
+    "league_id": "267",
+    "league_name": "Segunda Liga",
+    "match_date": "2025-11-04",
+    "match_status": "",
+    "match_time": "19:00",
+    "match_hometeam_id": "6001",
+    "match_hometeam_name": "Academico Viseu",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Lusitania FC",
+    "match_awayteam_id": "5982",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "10",
+    "match_stadium": "Estádio Municipal do Fontelo",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/6001_academico-viseu.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/5982_lusitania-lourosa.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/267_segunda-liga.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/92_portugal.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "1455",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "624900",
+    "country_id": "92",
+    "country_name": "Portugal",
+    "league_id": "267",
+    "league_name": "Segunda Liga",
+    "match_date": "2025-11-04",
+    "match_status": "",
+    "match_time": "17:00",
+    "match_hometeam_id": "5934",
+    "match_hometeam_name": "Torreense",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Felgueiras",
+    "match_awayteam_id": "5973",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "10",
+    "match_stadium": "Campo Manuel Marques",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/5934_torreense.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/5973_felgueiras-1932.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/267_segunda-liga.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/92_portugal.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "1455",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "624908",
+    "country_id": "92",
+    "country_name": "Portugal",
+    "league_id": "267",
+    "league_name": "Segunda Liga",
+    "match_date": "2025-11-07",
+    "match_status": "",
+    "match_time": "19:00",
+    "match_hometeam_id": "6006",
+    "match_hometeam_name": "Feirense",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "SC Farense",
+    "match_awayteam_id": "6052",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "11",
+    "match_stadium": "Estádio Marcolino de Castro",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/6006_feirense.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/6052_farense.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/267_segunda-liga.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/92_portugal.png",
     "league_year": "2025/2026",
@@ -65813,9 +69097,9 @@
     "country_name": "Portugal",
     "league_id": "267",
     "league_name": "Segunda Liga",
-    "match_date": "2025-11-09",
+    "match_date": "2025-11-08",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "15:00",
     "match_hometeam_id": "6051",
     "match_hometeam_name": "Portimonense",
     "match_hometeam_score": "",
@@ -65848,6 +69132,126 @@
     "statistics_1half": []
   },
   {
+    "match_id": "624907",
+    "country_id": "92",
+    "country_name": "Portugal",
+    "league_id": "267",
+    "league_name": "Segunda Liga",
+    "match_date": "2025-11-08",
+    "match_status": "Not Started",
+    "match_time": "12:00",
+    "match_hometeam_id": "6017",
+    "match_hometeam_name": "Penafiel",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Sporting CP B",
+    "match_awayteam_id": "5947",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "11",
+    "match_stadium": "Estadio Municipal 25 de Abril",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/6017_penafiel.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/5947_sporting-cp-ii.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/267_segunda-liga.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/92_portugal.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "1455",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "624910",
+    "country_id": "92",
+    "country_name": "Portugal",
+    "league_id": "267",
+    "league_name": "Segunda Liga",
+    "match_date": "2025-11-08",
+    "match_status": "Not Started",
+    "match_time": "19:00",
+    "match_hometeam_id": "6053",
+    "match_hometeam_name": "Chaves",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "FC Porto B",
+    "match_awayteam_id": "6056",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "11",
+    "match_stadium": "Estadio Municipal de Chaves",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/6053_chaves.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/6056_porto-ii.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/267_segunda-liga.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/92_portugal.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "1455",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "624912",
+    "country_id": "92",
+    "country_name": "Portugal",
+    "league_id": "267",
+    "league_name": "Segunda Liga",
+    "match_date": "2025-11-08",
+    "match_status": "Not Started",
+    "match_time": "19:00",
+    "match_hometeam_id": "6054",
+    "match_hometeam_name": "Benfica B",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Vizela",
+    "match_awayteam_id": "6014",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "11",
+    "match_stadium": "Benfica Campus",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/6054_benfica-ii.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/6014_vizela.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/267_segunda-liga.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/92_portugal.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "1455",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
     "match_id": "624905",
     "country_id": "92",
     "country_name": "Portugal",
@@ -65855,7 +69259,7 @@
     "league_name": "Segunda Liga",
     "match_date": "2025-11-09",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "16:30",
     "match_hometeam_id": "5995",
     "match_hometeam_name": "Maritimo",
     "match_hometeam_score": "",
@@ -65895,7 +69299,7 @@
     "league_name": "Segunda Liga",
     "match_date": "2025-11-09",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "15:00",
     "match_hometeam_id": "5973",
     "match_hometeam_name": "Felgueiras",
     "match_hometeam_score": "",
@@ -65928,86 +69332,6 @@
     "statistics_1half": []
   },
   {
-    "match_id": "624907",
-    "country_id": "92",
-    "country_name": "Portugal",
-    "league_id": "267",
-    "league_name": "Segunda Liga",
-    "match_date": "2025-11-09",
-    "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "6017",
-    "match_hometeam_name": "Penafiel",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Sporting CP B",
-    "match_awayteam_id": "5947",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "11",
-    "match_stadium": "Estadio Municipal 25 de Abril",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/6017_penafiel.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/5947_sporting-cp-ii.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/267_segunda-liga.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/92_portugal.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "1455",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "624908",
-    "country_id": "92",
-    "country_name": "Portugal",
-    "league_id": "267",
-    "league_name": "Segunda Liga",
-    "match_date": "2025-11-09",
-    "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "6006",
-    "match_hometeam_name": "Feirense",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "SC Farense",
-    "match_awayteam_id": "6052",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "11",
-    "match_stadium": "Estadio Marcolino de Castro",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/6006_feirense.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/6052_farense.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/267_segunda-liga.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/92_portugal.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "1455",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
     "match_id": "624909",
     "country_id": "92",
     "country_name": "Portugal",
@@ -66015,7 +69339,7 @@
     "league_name": "Segunda Liga",
     "match_date": "2025-11-09",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "12:00",
     "match_hometeam_id": "6007",
     "match_hometeam_name": "Leixoes",
     "match_hometeam_score": "",
@@ -66048,46 +69372,6 @@
     "statistics_1half": []
   },
   {
-    "match_id": "624910",
-    "country_id": "92",
-    "country_name": "Portugal",
-    "league_id": "267",
-    "league_name": "Segunda Liga",
-    "match_date": "2025-11-09",
-    "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "6053",
-    "match_hometeam_name": "Chaves",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "FC Porto B",
-    "match_awayteam_id": "6056",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "11",
-    "match_stadium": "Estadio Municipal de Chaves",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/6053_chaves.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/6056_porto-ii.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/267_segunda-liga.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/92_portugal.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "1455",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
     "match_id": "624911",
     "country_id": "92",
     "country_name": "Portugal",
@@ -66095,7 +69379,7 @@
     "league_name": "Segunda Liga",
     "match_date": "2025-11-09",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "21:30",
     "match_hometeam_id": "5982",
     "match_hometeam_name": "Lusitania FC",
     "match_hometeam_score": "",
@@ -66118,46 +69402,6 @@
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/5982_lusitania-lourosa.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/5922_uniao-de-leiria.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/267_segunda-liga.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/92_portugal.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "1455",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "624912",
-    "country_id": "92",
-    "country_name": "Portugal",
-    "league_id": "267",
-    "league_name": "Segunda Liga",
-    "match_date": "2025-11-09",
-    "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "6054",
-    "match_hometeam_name": "Benfica B",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Vizela",
-    "match_awayteam_id": "6014",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "11",
-    "match_stadium": "Benfica Campus",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/6054_benfica-ii.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/6014_vizela.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/267_segunda-liga.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/92_portugal.png",
     "league_year": "2025/2026",
@@ -66238,6 +69482,46 @@
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/6053_chaves.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/5947_sporting-cp-ii.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/267_segunda-liga.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/92_portugal.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "1455",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "624899",
+    "country_id": "92",
+    "country_name": "Portugal",
+    "league_id": "267",
+    "league_name": "Segunda Liga",
+    "match_date": "2025-11-23",
+    "match_status": "Not Started",
+    "match_time": "12:00",
+    "match_hometeam_id": "6056",
+    "match_hometeam_name": "FC Porto B",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Portimonense",
+    "match_awayteam_id": "6051",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "10",
+    "match_stadium": "Estadio Luis Filipe Menezes",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/6056_porto-ii.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/6051_portimonense.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/267_segunda-liga.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/92_portugal.png",
     "league_year": "2025/2026",
