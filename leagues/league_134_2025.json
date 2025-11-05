@@ -81793,24 +81793,24 @@
     "league_id": "134",
     "league_name": "Czech Liga",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "15:00",
     "match_hometeam_id": "239",
     "match_hometeam_name": "Jablonec",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Zlin",
     "match_awayteam_id": "2640",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "3",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "3",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "3",
+    "match_hometeam_system": "3-4-1-2",
+    "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "14",
     "match_stadium": "Stadion Strelnice",
@@ -81822,9 +81822,313 @@
     "league_year": "2025/2026",
     "fk_stage_key": "868",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "6",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "S. Kanu",
+        "away_scorer_id": "1242693515",
+        "away_assist": "J. Didiba",
+        "away_assist_id": "4134438620",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "40",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 2",
+        "away_scorer": "L. Bartosak",
+        "away_scorer_id": "1667592686",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "43",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 3",
+        "away_scorer": "S. Kanu",
+        "away_scorer_id": "1242693515",
+        "away_assist": "T. Ulbrich",
+        "away_assist_id": "2183052643",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "76",
+        "home_scorer": "D. Puskac",
+        "home_scorer_id": "3779136865",
+        "home_assist": "R. Sedlacek",
+        "home_assist_id": "1449328689",
+        "score": "1 - 3",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "12",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "6",
+        "away": "6"
+      },
+      {
+        "type": "Attacks",
+        "home": "94",
+        "away": "65"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "75",
+        "away": "16"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "10",
+        "away": "1"
+      },
+      {
+        "type": "Shots Total",
+        "home": "16",
+        "away": "7"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "6",
+        "away": "5"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "4",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "11",
+        "away": "3"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "12",
+        "away": "11"
+      },
+      {
+        "type": "Corners",
+        "home": "12",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "69%",
+        "away": "31%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Saves",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Passes Total",
+        "home": "519",
+        "away": "253"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "434",
+        "away": "168"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Attacks",
+        "home": "49",
+        "away": "31"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "32",
+        "away": "9"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "6",
+        "away": "7"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "2",
+        "away": "5"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "61%",
+        "away": "39%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "230",
+        "away": "156"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "190",
+        "away": "113"
+      }
+    ]
   },
   {
     "match_id": "590133",
@@ -81833,24 +82137,24 @@
     "league_id": "134",
     "league_name": "Czech Liga",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "15:00",
     "match_hometeam_id": "2637",
     "match_hometeam_name": "FK Pardubice",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Dukla Prague",
     "match_awayteam_id": "2627",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "4-1-4-1",
+    "match_awayteam_system": "3-4-3",
     "match_live": "0",
     "match_round": "14",
     "match_stadium": "CFIG Arena",
@@ -81862,9 +82166,295 @@
     "league_year": "2025/2026",
     "fk_stage_key": "868",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "34",
+        "home_scorer": "L. Krobot",
+        "home_scorer_id": "246523941",
+        "home_assist": "A. Tanko",
+        "home_assist_id": "3104816187",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "60",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "S. Bammens (o.g.)",
+        "away_scorer_id": "1936469492",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "78",
+        "away": "87"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "62",
+        "away": "60"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "11",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "16",
+        "away": "9"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "8",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "12",
+        "away": "8"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Fouls",
+        "home": "12",
+        "away": "9"
+      },
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "54%",
+        "away": "46%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Red Cards",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "392",
+        "away": "342"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "309",
+        "away": "249"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "44",
+        "away": "35"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "34",
+        "away": "23"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "6",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "10",
+        "away": "0"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "4",
+        "away": "0"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "4",
+        "away": "0"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "8",
+        "away": "0"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Fouls",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "0"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "55%",
+        "away": "45%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "0",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "207",
+        "away": "177"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "167",
+        "away": "132"
+      }
+    ]
   },
   {
     "match_id": "590135",
@@ -81873,24 +82463,24 @@
     "league_id": "134",
     "league_name": "Czech Liga",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "18:00",
     "match_hometeam_id": "104",
     "match_hometeam_name": "Slavia Prague",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Ostrava",
     "match_awayteam_id": "2635",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "3-4-1-2",
+    "match_awayteam_system": "4-3-1-2",
     "match_live": "0",
     "match_round": "14",
     "match_stadium": "Fortuna Arena",
@@ -81902,9 +82492,285 @@
     "league_year": "2025/2026",
     "fk_stage_key": "868",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "55",
+        "home_scorer": "T. Vlcek",
+        "home_scorer_id": "2393098462",
+        "home_assist": "T. Chory",
+        "home_assist_id": "3386352793",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "62",
+        "home_scorer": "M. Chytil",
+        "home_scorer_id": "1101248834",
+        "home_assist": "M. Sadilek",
+        "home_assist_id": "3290413677",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "12"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "125",
+        "away": "97"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "76",
+        "away": "83"
+      },
+      {
+        "type": "On Target",
+        "home": "8",
+        "away": "6"
+      },
+      {
+        "type": "Off Target",
+        "home": "7",
+        "away": "8"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "17",
+        "away": "15"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "8",
+        "away": "5"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "9",
+        "away": "4"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "0",
+        "away": "6"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "15",
+        "away": "7"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "2",
+        "away": "8"
+      },
+      {
+        "type": "Fouls",
+        "home": "8",
+        "away": "17"
+      },
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "12"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "49%",
+        "away": "51%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "0",
+        "away": "4"
+      },
+      {
+        "type": "Saves",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Passes Total",
+        "home": "350",
+        "away": "362"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "267",
+        "away": "279"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "66",
+        "away": "52"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "45",
+        "away": "31"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "6",
+        "away": "6"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Fouls",
+        "home": "2",
+        "away": "10"
+      },
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "59%",
+        "away": "41%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "0",
+        "away": "4"
+      },
+      {
+        "type": "Passes Total",
+        "home": "216",
+        "away": "151"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "174",
+        "away": "112"
+      }
+    ]
   },
   {
     "match_id": "590136",
@@ -81913,24 +82779,24 @@
     "league_id": "134",
     "league_name": "Czech Liga",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "15:00",
     "match_hometeam_id": "2634",
     "match_hometeam_name": "Slovacko",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "0",
     "match_awayteam_name": "Liberec",
     "match_awayteam_id": "171",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "3",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "3",
+    "match_hometeam_system": "3-4-1-2",
+    "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "14",
     "match_stadium": "Mestský fotbalový stadion Miroslava Valenty",
@@ -81942,9 +82808,304 @@
     "league_year": "2025/2026",
     "fk_stage_key": "868",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "15",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "R. Krollis",
+        "away_scorer_id": "238534006",
+        "away_assist": "V. Stransky",
+        "away_assist_id": "3000640521",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "68",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 2",
+        "away_scorer": "E. Mahmic",
+        "away_scorer_id": "4101782367",
+        "away_assist": "R. Krollis",
+        "away_assist_id": "238534006",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "77",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 3",
+        "away_scorer": "L. Letenay",
+        "away_scorer_id": "2263923583",
+        "away_assist": "P. Hodous",
+        "away_assist_id": "2908597502",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "79",
+        "away": "58"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "49",
+        "away": "39"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "12"
+      },
+      {
+        "type": "Off Target",
+        "home": "10",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "16",
+        "away": "15"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "2",
+        "away": "7"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "8",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "6",
+        "away": "5"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "7",
+        "away": "10"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "9",
+        "away": "5"
+      },
+      {
+        "type": "Fouls",
+        "home": "13",
+        "away": "9"
+      },
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "4"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "53%",
+        "away": "47%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Saves",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "326",
+        "away": "299"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "230",
+        "away": "210"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "30",
+        "away": "23"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "18",
+        "away": "12"
+      },
+      {
+        "type": "On Target",
+        "home": "0",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "7",
+        "away": "9"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "46%",
+        "away": "54%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "146",
+        "away": "182"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "107",
+        "away": "141"
+      }
+    ]
   },
   {
     "match_id": "590130",
@@ -81953,24 +83114,24 @@
     "league_id": "134",
     "league_name": "Czech Liga",
     "match_date": "2025-11-02",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "15:30",
     "match_hometeam_id": "2641",
     "match_hometeam_name": "Karvina",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Sparta Prague",
     "match_awayteam_id": "161",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "3-4-3",
     "match_live": "0",
     "match_round": "14",
     "match_stadium": "Mestský Stadión",
@@ -81982,9 +83143,304 @@
     "league_year": "2025/2026",
     "fk_stage_key": "868",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "63",
+        "home_scorer": "A. Traore",
+        "home_scorer_id": "2178470606",
+        "home_assist": "D. Krcik",
+        "home_assist_id": "404413483",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "72",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "J. Mercado",
+        "away_scorer_id": "2688163065",
+        "away_assist": "V. Birmancevic",
+        "away_assist_id": "894405832",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "78",
+        "home_scorer": "A. Gning",
+        "home_scorer_id": "2191335559",
+        "home_assist": "A. Labik",
+        "home_assist_id": "2406387680",
+        "score": "2 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "76",
+        "away": "77"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "55",
+        "away": "56"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "11",
+        "away": "9"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "20",
+        "away": "12"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "7",
+        "away": "2"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "7",
+        "away": "6"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "6",
+        "away": "4"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "10",
+        "away": "8"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "10",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "10",
+        "away": "12"
+      },
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Offsides",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Passes Total",
+        "home": "319",
+        "away": "317"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "239",
+        "away": "230"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "36",
+        "away": "37"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "24",
+        "away": "32"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "6",
+        "away": "8"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "11",
+        "away": "10"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "4",
+        "away": "6"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "7",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "3",
+        "away": "6"
+      },
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "49%",
+        "away": "51%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "169",
+        "away": "169"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "130",
+        "away": "129"
+      }
+    ]
   },
   {
     "match_id": "590131",
@@ -81993,24 +83449,24 @@
     "league_id": "134",
     "league_name": "Czech Liga",
     "match_date": "2025-11-02",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "13:00",
     "match_hometeam_id": "2643",
     "match_hometeam_name": "Mlada Boleslav",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Sigma Olomouc",
     "match_awayteam_id": "2636",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "4",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "2",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "4",
+    "match_hometeam_system": "3-4-3",
+    "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "14",
     "match_stadium": "Lokotrans Aréna",
@@ -82022,9 +83478,332 @@
     "league_year": "2025/2026",
     "fk_stage_key": "868",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "13",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "J. Sip",
+        "away_scorer_id": "307915067",
+        "away_assist": "M. Beran",
+        "away_assist_id": "1419644365",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "45+2",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 2",
+        "away_scorer": "D. Vasulin",
+        "away_scorer_id": "318264969",
+        "away_assist": "M. Hadas",
+        "away_assist_id": "2655919206",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "74",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 3",
+        "away_scorer": "S. Langer",
+        "away_scorer_id": "2725939597",
+        "away_assist": "A. Dolznikov",
+        "away_assist_id": "3816497535",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "80",
+        "home_scorer": "J. Kolarik",
+        "home_scorer_id": "1655316054",
+        "home_assist": "D. Donat",
+        "home_assist_id": "4204594160",
+        "score": "1 - 3",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "87",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 4",
+        "away_scorer": "D. Vasulin",
+        "away_scorer_id": "318264969",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "58",
+        "away": "45"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "54",
+        "away": "29"
+      },
+      {
+        "type": "On Target",
+        "home": "7",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "12",
+        "away": "6"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "21",
+        "away": "9"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "6",
+        "away": "5"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "10",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "12",
+        "away": "7"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "9",
+        "away": "2"
+      },
+      {
+        "type": "Fouls",
+        "home": "9",
+        "away": "14"
+      },
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "61%",
+        "away": "39%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Passes Total",
+        "home": "453",
+        "away": "279"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "361",
+        "away": "186"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Attacks",
+        "home": "24",
+        "away": "17"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "19",
+        "away": "16"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "6",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "10",
+        "away": "5"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "7",
+        "away": "5"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Fouls",
+        "home": "4",
+        "away": "9"
+      },
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "53%",
+        "away": "47%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "191",
+        "away": "170"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "145",
+        "away": "123"
+      }
+    ]
   },
   {
     "match_id": "590132",
@@ -82033,24 +83812,24 @@
     "league_id": "134",
     "league_name": "Czech Liga",
     "match_date": "2025-11-02",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "15:30",
     "match_hometeam_id": "2639",
     "match_hometeam_name": "Bohemians",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Hradec Kralove",
     "match_awayteam_id": "2622",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "2",
+    "match_hometeam_system": "4-1-4-1",
+    "match_awayteam_system": "3-4-3",
     "match_live": "0",
     "match_round": "14",
     "match_stadium": "Stadion Dolícek",
@@ -82062,9 +83841,294 @@
     "league_year": "2025/2026",
     "fk_stage_key": "868",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "55",
+        "home_scorer": "N. Okeke",
+        "home_scorer_id": "3271259069",
+        "home_assist": "V. Sinyavskiy",
+        "home_assist_id": "3338026461",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "59",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "A. Vlkanova",
+        "away_scorer_id": "1640357654",
+        "away_assist": "J. Kucera",
+        "away_assist_id": "3377134966",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "66",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 2",
+        "away_scorer": "V. Darida",
+        "away_scorer_id": "3709660696",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "109",
+        "away": "83"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "65",
+        "away": "35"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "11",
+        "away": "2"
+      },
+      {
+        "type": "Shots Total",
+        "home": "19",
+        "away": "10"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "6",
+        "away": "5"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "8",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "14",
+        "away": "6"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "12",
+        "away": "10"
+      },
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "57%",
+        "away": "43%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Passes Total",
+        "home": "420",
+        "away": "324"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "324",
+        "away": "234"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "53",
+        "away": "51"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "29",
+        "away": "24"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "8",
+        "away": "4"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Fouls",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "46%",
+        "away": "54%"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "175",
+        "away": "204"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "124",
+        "away": "156"
+      }
+    ]
   },
   {
     "match_id": "590134",
@@ -82073,24 +84137,24 @@
     "league_id": "134",
     "league_name": "Czech Liga",
     "match_date": "2025-11-02",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "18:30",
     "match_hometeam_id": "2642",
     "match_hometeam_name": "Teplice",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Plzen",
     "match_awayteam_id": "114",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "2",
+    "match_hometeam_system": "3-4-1-2",
+    "match_awayteam_system": "4-4-1-1",
     "match_live": "0",
     "match_round": "14",
     "match_stadium": "AGC Aréna Na Stínadlech",
@@ -82102,9 +84166,299 @@
     "league_year": "2025/2026",
     "fk_stage_key": "868",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "34",
+        "home_scorer": "J. Auta",
+        "home_scorer_id": "3656360635",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "63",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "P. Adu",
+        "away_scorer_id": "1253336028",
+        "away_assist": "C. Souare",
+        "away_assist_id": "1381741354",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "90+8",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 2",
+        "away_scorer": "V. Jemelka",
+        "away_scorer_id": "264284763",
+        "away_assist": "C. Souare",
+        "away_assist_id": "1381741354",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Attacks",
+        "home": "61",
+        "away": "59"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "38",
+        "away": "57"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "8",
+        "away": "10"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "4",
+        "away": "6"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "4",
+        "away": "9"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Fouls",
+        "home": "13",
+        "away": "18"
+      },
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "32%",
+        "away": "68%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "0",
+        "away": "5"
+      },
+      {
+        "type": "Saves",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "225",
+        "away": "477"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "137",
+        "away": "392"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "29",
+        "away": "27"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "13",
+        "away": "26"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Fouls",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "33%",
+        "away": "67%"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "118",
+        "away": "233"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "71",
+        "away": "190"
+      }
+    ]
   },
   {
     "match_id": "590137",
@@ -82113,7 +84467,7 @@
     "league_id": "134",
     "league_name": "Czech Liga",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "18:00",
     "match_hometeam_id": "2635",
     "match_hometeam_name": "Ostrava",
@@ -82133,7 +84487,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "15",
-    "match_stadium": "Mestsky stadion v Ostrave-Vitkovicich",
+    "match_stadium": "Mestský stadion - Vítkovice Aréna",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/2635_banik-ostrava.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/239_jablonec.jpg",
@@ -82153,7 +84507,7 @@
     "league_id": "134",
     "league_name": "Czech Liga",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "15:00",
     "match_hometeam_id": "2627",
     "match_hometeam_name": "Dukla Prague",
@@ -82193,7 +84547,7 @@
     "league_id": "134",
     "league_name": "Czech Liga",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "15:00",
     "match_hometeam_id": "2640",
     "match_hometeam_name": "Zlin",
@@ -82213,7 +84567,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "15",
-    "match_stadium": "Stadion Letna",
+    "match_stadium": "Stadion Letná",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/2640_zlin.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/2639_bohemians-1905.jpg",
@@ -82233,7 +84587,7 @@
     "league_id": "134",
     "league_name": "Czech Liga",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "15:00",
     "match_hometeam_id": "2622",
     "match_hometeam_name": "Hradec Kralove",
@@ -82253,7 +84607,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "15",
-    "match_stadium": "Malsovicka arena",
+    "match_stadium": "Malšovická Aréna",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/2622_hradec-kralove.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/2634_slovacko.jpg",
@@ -82273,7 +84627,7 @@
     "league_id": "134",
     "league_name": "Czech Liga",
     "match_date": "2025-11-09",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "15:30",
     "match_hometeam_id": "161",
     "match_hometeam_name": "Sparta Prague",
@@ -82313,7 +84667,7 @@
     "league_id": "134",
     "league_name": "Czech Liga",
     "match_date": "2025-11-09",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "18:30",
     "match_hometeam_id": "114",
     "match_hometeam_name": "Plzen",
@@ -82333,7 +84687,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "15",
-    "match_stadium": "Doosan Arena",
+    "match_stadium": "Doosan Aréna",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/114_viktoria-plze.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/104_slavia-praha.jpg",
@@ -82353,7 +84707,7 @@
     "league_id": "134",
     "league_name": "Czech Liga",
     "match_date": "2025-11-09",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "13:00",
     "match_hometeam_id": "171",
     "match_hometeam_name": "Liberec",
@@ -82373,7 +84727,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "15",
-    "match_stadium": "Stadion U Nisy",
+    "match_stadium": "Stadion u Nisy",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/171_slovan-liberec.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/2641_karvina.jpg",
@@ -82393,7 +84747,7 @@
     "league_id": "134",
     "league_name": "Czech Liga",
     "match_date": "2025-11-09",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "15:30",
     "match_hometeam_id": "2636",
     "match_hometeam_name": "Sigma Olomouc",
@@ -83714,7 +86068,7 @@
     "league_name": "Czech Liga",
     "match_date": "2026-01-31",
     "match_status": "Not Started",
-    "match_time": "15:00",
+    "match_time": "18:00",
     "match_hometeam_id": "2627",
     "match_hometeam_name": "Dukla Prague",
     "match_hometeam_score": "",
@@ -83737,126 +86091,6 @@
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/2627_dukla-praha.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/161_sparta-praha.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/134_czech-liga.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/39_czech-republic.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "868",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "590178",
-    "country_id": "39",
-    "country_name": "Czech Republic",
-    "league_id": "134",
-    "league_name": "Czech Liga",
-    "match_date": "2026-01-31",
-    "match_status": "Not Started",
-    "match_time": "15:00",
-    "match_hometeam_id": "2634",
-    "match_hometeam_name": "Slovacko",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Ostrava",
-    "match_awayteam_id": "2635",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "20",
-    "match_stadium": "Mestsky stadion Miroslava Valenty",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/2634_slovacko.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/2635_banik-ostrava.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/134_czech-liga.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/39_czech-republic.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "868",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "590179",
-    "country_id": "39",
-    "country_name": "Czech Republic",
-    "league_id": "134",
-    "league_name": "Czech Liga",
-    "match_date": "2026-01-31",
-    "match_status": "Not Started",
-    "match_time": "15:00",
-    "match_hometeam_id": "171",
-    "match_hometeam_name": "Liberec",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Zlin",
-    "match_awayteam_id": "2640",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "20",
-    "match_stadium": "Stadion U Nisy",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/171_slovan-liberec.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/2640_zlin.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/134_czech-liga.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/39_czech-republic.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "868",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "590180",
-    "country_id": "39",
-    "country_name": "Czech Republic",
-    "league_id": "134",
-    "league_name": "Czech Liga",
-    "match_date": "2026-01-31",
-    "match_status": "Not Started",
-    "match_time": "15:00",
-    "match_hometeam_id": "2641",
-    "match_hometeam_name": "Karvina",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Plzen",
-    "match_awayteam_id": "114",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "20",
-    "match_stadium": "Town Stadium Karvina",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/2641_karvina.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/114_viktoria-plze.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/134_czech-liga.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/39_czech-republic.png",
     "league_year": "2025/2026",
@@ -83987,14 +86221,134 @@
     "statistics_1half": []
   },
   {
+    "match_id": "590178",
+    "country_id": "39",
+    "country_name": "Czech Republic",
+    "league_id": "134",
+    "league_name": "Czech Liga",
+    "match_date": "2026-02-01",
+    "match_status": "Not Started",
+    "match_time": "13:00",
+    "match_hometeam_id": "2634",
+    "match_hometeam_name": "Slovacko",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Ostrava",
+    "match_awayteam_id": "2635",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "20",
+    "match_stadium": "Mestsky stadion Miroslava Valenty",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/2634_slovacko.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/2635_banik-ostrava.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/134_czech-liga.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/39_czech-republic.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "868",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "590179",
+    "country_id": "39",
+    "country_name": "Czech Republic",
+    "league_id": "134",
+    "league_name": "Czech Liga",
+    "match_date": "2026-02-01",
+    "match_status": "Not Started",
+    "match_time": "15:30",
+    "match_hometeam_id": "171",
+    "match_hometeam_name": "Liberec",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Zlin",
+    "match_awayteam_id": "2640",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "20",
+    "match_stadium": "Stadion U Nisy",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/171_slovan-liberec.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/2640_zlin.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/134_czech-liga.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/39_czech-republic.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "868",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "590180",
+    "country_id": "39",
+    "country_name": "Czech Republic",
+    "league_id": "134",
+    "league_name": "Czech Liga",
+    "match_date": "2026-02-01",
+    "match_status": "Not Started",
+    "match_time": "15:30",
+    "match_hometeam_id": "2641",
+    "match_hometeam_name": "Karvina",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Plzen",
+    "match_awayteam_id": "114",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "20",
+    "match_stadium": "Town Stadium Karvina",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/2641_karvina.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/114_viktoria-plze.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/134_czech-liga.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/39_czech-republic.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "868",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
     "match_id": "590184",
     "country_id": "39",
     "country_name": "Czech Republic",
     "league_id": "134",
     "league_name": "Czech Liga",
-    "match_date": "2026-01-31",
+    "match_date": "2026-02-01",
     "match_status": "Not Started",
-    "match_time": "15:00",
+    "match_time": "18:30",
     "match_hometeam_id": "2637",
     "match_hometeam_name": "FK Pardubice",
     "match_hometeam_score": "",

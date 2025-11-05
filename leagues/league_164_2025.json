@@ -86528,7 +86528,7 @@
     "match_awayteam_system": "4-1-4-1",
     "match_live": "0",
     "match_round": "12",
-    "match_stadium": "Stade de la Libération",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/3832_boulogne.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/182_reims.jpg",
@@ -86933,7 +86933,7 @@
     "match_awayteam_system": "3-1-4-2",
     "match_live": "0",
     "match_round": "12",
-    "match_stadium": "Stade Marcel-Tribut",
+    "match_stadium": "Stade Marcel Tribut",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/3808_dunkerque.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/3833_red-star.jpg",
@@ -87555,7 +87555,7 @@
     "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "12",
-    "match_stadium": "Stade Gabriel-Montpied",
+    "match_stadium": "Stade Gabriel Montpied",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/3793_clermont.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/3819_montpellier.jpg",
@@ -87866,7 +87866,7 @@
     "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "12",
-    "match_stadium": "Stade de l&apos;Aube",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/3792_troyes.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/3800_amiens-sc.jpg",
@@ -88531,7 +88531,7 @@
     "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "12",
-    "match_stadium": "Stade Marcel-Picot",
+    "match_stadium": "Stade Marcel Picot",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/3799_nancy.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/3886_bastia.jpg",
@@ -88847,7 +88847,7 @@
     "match_awayteam_system": "3-4-3",
     "match_live": "0",
     "match_round": "12",
-    "match_stadium": "Stade Paul Lignon",
+    "match_stadium": "Stade Paul-Lignon",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/3801_rodez.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/3828_annecy.jpg",
@@ -89584,27 +89584,27 @@
     "league_id": "164",
     "league_name": "Ligue 2",
     "match_date": "2025-10-31",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "20:00",
     "match_hometeam_id": "3886",
     "match_hometeam_name": "Bastia",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Clermont",
     "match_awayteam_id": "3793",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "5-4-1",
+    "match_awayteam_system": "4-1-4-1",
     "match_live": "0",
     "match_round": "13",
-    "match_stadium": "",
+    "match_stadium": "Stade Armand Cesari",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/3886_bastia.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/3793_clermont.jpg",
@@ -89613,9 +89613,276 @@
     "league_year": "2025/2026",
     "fk_stage_key": "263",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "84",
+        "home_scorer": "D. Guidi",
+        "home_scorer_id": "757640156",
+        "home_assist": "M. Petrignani",
+        "home_assist_id": "3609592556",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "6"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "94",
+        "away": "78"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "42",
+        "away": "28"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "9",
+        "away": "7"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "0%",
+        "away": "0%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "13",
+        "away": "8"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "6",
+        "away": "4"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "8",
+        "away": "4"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "17",
+        "away": "11"
+      },
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "6"
+      },
+      {
+        "type": "Offsides",
+        "home": "4",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "53%",
+        "away": "47%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "388",
+        "away": "338"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "325",
+        "away": "258"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "48",
+        "away": "46"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "22",
+        "away": "14"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "56%",
+        "away": "44%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "0",
+        "away": "3"
+      },
+      {
+        "type": "Fouls",
+        "home": "7",
+        "away": "5"
+      },
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "56%",
+        "away": "44%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "0",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "214",
+        "away": "173"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "182",
+        "away": "130"
+      }
+    ]
   },
   {
     "match_id": "618148",
@@ -89624,27 +89891,27 @@
     "league_id": "164",
     "league_name": "Ligue 2",
     "match_date": "2025-10-31",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "20:00",
     "match_hometeam_id": "3809",
     "match_hometeam_name": "Guingamp",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Laval",
     "match_awayteam_id": "3882",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "2",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "4-4-2",
+    "match_awayteam_system": "5-4-1",
     "match_live": "0",
     "match_round": "13",
-    "match_stadium": "",
+    "match_stadium": "Stade de Roudourou",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/3809_guingamp.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/3882_laval.jpg",
@@ -89653,9 +89920,290 @@
     "league_year": "2025/2026",
     "fk_stage_key": "263",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "32",
+        "home_scorer": "A. Sagna",
+        "home_scorer_id": "2578532192",
+        "home_assist": "K. Sidibe",
+        "home_assist_id": "839734090",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "38",
+        "home_scorer": "K. Sidibe",
+        "home_scorer_id": "839734090",
+        "home_assist": "D. Ourega",
+        "home_assist_id": "3365010435",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "107",
+        "away": "95"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "45",
+        "away": "46"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "7",
+        "away": "11"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "24%",
+        "away": "76%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "11",
+        "away": "13"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "5",
+        "away": "8"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "6",
+        "away": "7"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Fouls",
+        "home": "11",
+        "away": "21"
+      },
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "454",
+        "away": "443"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "366",
+        "away": "362"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "60",
+        "away": "39"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "25",
+        "away": "16"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "56%",
+        "away": "44%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "8",
+        "away": "4"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Fouls",
+        "home": "5",
+        "away": "7"
+      },
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "56%",
+        "away": "44%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "262",
+        "away": "208"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "218",
+        "away": "166"
+      }
+    ]
   },
   {
     "match_id": "618150",
@@ -89664,27 +90212,27 @@
     "league_id": "164",
     "league_name": "Ligue 2",
     "match_date": "2025-10-31",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "20:00",
     "match_hometeam_id": "3884",
     "match_hometeam_name": "Le Mans",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Nancy",
     "match_awayteam_id": "3799",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "4-4-2",
+    "match_awayteam_system": "3-1-4-2",
     "match_live": "0",
     "match_round": "13",
-    "match_stadium": "",
+    "match_stadium": "Stade Marie-Marvingt",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/3884_le-mans.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/3799_nancy.jpg",
@@ -89693,9 +90241,271 @@
     "league_year": "2025/2026",
     "fk_stage_key": "263",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "65",
+        "home_scorer": "W. Harhouz",
+        "home_scorer_id": "3647043009",
+        "home_assist": "E. Colas",
+        "home_assist_id": "3333756629",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "7",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "74",
+        "away": "110"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "44",
+        "away": "36"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "10",
+        "away": "7"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "7",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "7",
+        "away": "1"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "3",
+        "away": "6"
+      },
+      {
+        "type": "Fouls",
+        "home": "12",
+        "away": "11"
+      },
+      {
+        "type": "Corners",
+        "home": "7",
+        "away": "3"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "49%",
+        "away": "51%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "391",
+        "away": "416"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "302",
+        "away": "319"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "34",
+        "away": "57"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "28",
+        "away": "11"
+      },
+      {
+        "type": "On Target",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "45%",
+        "away": "55%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Fouls",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "45%",
+        "away": "55%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Passes Total",
+        "home": "186",
+        "away": "233"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "150",
+        "away": "186"
+      }
+    ]
   },
   {
     "match_id": "618152",
@@ -89704,27 +90514,27 @@
     "league_id": "164",
     "league_name": "Ligue 2",
     "match_date": "2025-10-31",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "20:00",
     "match_hometeam_id": "3819",
     "match_hometeam_name": "Montpellier",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Rodez",
     "match_awayteam_id": "3801",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "5-3-2",
     "match_live": "0",
     "match_round": "13",
-    "match_stadium": "",
+    "match_stadium": "Stade de la Mosson",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/3819_montpellier.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/3801_rodez.jpg",
@@ -89733,9 +90543,300 @@
     "league_year": "2025/2026",
     "fk_stage_key": "263",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "58",
+        "home_scorer": "T. Savanier",
+        "home_scorer_id": "1848364999",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "60",
+        "home_scorer": "A. Mendy",
+        "home_scorer_id": "1679799069",
+        "home_assist": "T. Savanier",
+        "home_assist_id": "1848364999",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "8",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "6",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "117",
+        "away": "68"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "56",
+        "away": "38"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "21",
+        "away": "6"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "24",
+        "away": "9"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "12",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "7",
+        "away": "3"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "17",
+        "away": "5"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "7",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "6",
+        "away": "9"
+      },
+      {
+        "type": "Corners",
+        "home": "8",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "70%",
+        "away": "30%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "571",
+        "away": "228"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "511",
+        "away": "152"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "68",
+        "away": "39"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "29",
+        "away": "19"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "8",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "70%",
+        "away": "30%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "9",
+        "away": "5"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "8",
+        "away": "3"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Fouls",
+        "home": "5",
+        "away": "9"
+      },
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "70%",
+        "away": "30%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "297",
+        "away": "129"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "259",
+        "away": "88"
+      }
+    ]
   },
   {
     "match_id": "650082",
@@ -89744,27 +90845,27 @@
     "league_id": "164",
     "league_name": "Ligue 2",
     "match_date": "2025-10-31",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "20:00",
     "match_hometeam_id": "3828",
     "match_hometeam_name": "Annecy",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Boulogne",
     "match_awayteam_id": "3832",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "3-4-3",
+    "match_awayteam_system": "4-4-2",
     "match_live": "0",
     "match_round": "13",
-    "match_stadium": "",
+    "match_stadium": "Parc des Sports",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/3828_annecy.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/3832_boulogne.jpg",
@@ -89773,9 +90874,295 @@
     "league_year": "2025/2026",
     "fk_stage_key": "263",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "5",
+        "home_scorer": "J. Tiendrebeogo",
+        "home_scorer_id": "2698690592",
+        "home_assist": "A. Larose",
+        "home_assist_id": "1996154591",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "67",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "C. Fatou",
+        "away_scorer_id": "1646013718",
+        "away_assist": "A. Platret",
+        "away_assist_id": "3538648690",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "89",
+        "away": "96"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "64",
+        "away": "50"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "46%",
+        "away": "54%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "8",
+        "away": "10"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "6",
+        "away": "5"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "2",
+        "away": "5"
+      },
+      {
+        "type": "Fouls",
+        "home": "17",
+        "away": "15"
+      },
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "46%",
+        "away": "54%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "346",
+        "away": "415"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "218",
+        "away": "259"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "43",
+        "away": "53"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "37",
+        "away": "25"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "40%",
+        "away": "60%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Fouls",
+        "home": "9",
+        "away": "5"
+      },
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "41%",
+        "away": "59%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Passes Total",
+        "home": "156",
+        "away": "236"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "102",
+        "away": "167"
+      }
+    ]
   },
   {
     "match_id": "618145",
@@ -89784,24 +91171,24 @@
     "league_id": "164",
     "league_name": "Ligue 2",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "20:00",
     "match_hometeam_id": "3833",
     "match_hometeam_name": "Red Star",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "St Etienne",
     "match_awayteam_id": "3826",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "2",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "3-4-1-2",
+    "match_awayteam_system": "4-3-3",
     "match_live": "0",
     "match_round": "13",
     "match_stadium": "Stade de Paris",
@@ -89813,9 +91200,304 @@
     "league_year": "2025/2026",
     "fk_stage_key": "263",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "1",
+        "home_scorer": "D. Durand",
+        "home_scorer_id": "2979729394",
+        "home_assist": "S. E. Khaoui",
+        "home_assist_id": "2527219160",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "31",
+        "home_scorer": "D. Durand",
+        "home_scorer_id": "2979729394",
+        "home_assist": "D. Sylla",
+        "home_assist_id": "2630807880",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "72",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 1",
+        "away_scorer": "Z. Davitashvili",
+        "away_scorer_id": "398207454",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Attacks",
+        "home": "51",
+        "away": "112"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "23",
+        "away": "39"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "7",
+        "away": "7"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "11",
+        "away": "14"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "6"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "6",
+        "away": "4"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "7",
+        "away": "8"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "4",
+        "away": "6"
+      },
+      {
+        "type": "Fouls",
+        "home": "15",
+        "away": "16"
+      },
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "5"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "35%",
+        "away": "65%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "334",
+        "away": "622"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "254",
+        "away": "538"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "25",
+        "away": "45"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "10",
+        "away": "12"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "34%",
+        "away": "66%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Fouls",
+        "home": "7",
+        "away": "7"
+      },
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "3"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "35%",
+        "away": "65%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Saves",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "187",
+        "away": "357"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "150",
+        "away": "319"
+      }
+    ]
   },
   {
     "match_id": "618149",
@@ -89824,24 +91506,24 @@
     "league_id": "164",
     "league_name": "Ligue 2",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "14:00",
     "match_hometeam_id": "182",
     "match_hometeam_name": "Reims",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Dunkerque",
     "match_awayteam_id": "3808",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "2",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "4-1-4-1",
     "match_live": "0",
     "match_round": "13",
     "match_stadium": "Stade Auguste-Delaune",
@@ -89853,9 +91535,304 @@
     "league_year": "2025/2026",
     "fk_stage_key": "263",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "25",
+        "home_scorer": "M. Niflore (o.g.)",
+        "home_scorer_id": "1464552960",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "39",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "M. Essimi",
+        "away_scorer_id": "1740551114",
+        "away_assist": "E. Bardeli",
+        "away_assist_id": "176172586",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "48",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 2",
+        "away_scorer": "T. Robinet",
+        "away_scorer_id": "681420320",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "94",
+        "away": "92"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "50",
+        "away": "20"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "6",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "10",
+        "away": "5"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "6",
+        "away": "4"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Fouls",
+        "home": "20",
+        "away": "10"
+      },
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "54%",
+        "away": "46%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Passes Total",
+        "home": "487",
+        "away": "422"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "427",
+        "away": "361"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Attacks",
+        "home": "44",
+        "away": "55"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "16",
+        "away": "16"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "43%",
+        "away": "57%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Fouls",
+        "home": "7",
+        "away": "5"
+      },
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "43%",
+        "away": "57%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "214",
+        "away": "284"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "184",
+        "away": "253"
+      }
+    ]
   },
   {
     "match_id": "618151",
@@ -89864,24 +91841,24 @@
     "league_id": "164",
     "league_name": "Ligue 2",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "14:00",
     "match_hometeam_id": "3800",
     "match_hometeam_name": "Amiens",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Grenoble",
     "match_awayteam_id": "3795",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "3",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "2",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "3",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "5-3-2",
     "match_live": "0",
     "match_round": "13",
     "match_stadium": "Stade Crédit Agricole de la Licorne",
@@ -89893,9 +91870,322 @@
     "league_year": "2025/2026",
     "fk_stage_key": "263",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "17",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "M. Xantippe",
+        "away_scorer_id": "386793782",
+        "away_assist": "S. Diba",
+        "away_assist_id": "3382648090",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "33",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 2",
+        "away_scorer": "N. Elphege",
+        "away_scorer_id": "861456768",
+        "away_assist": "J. Benet",
+        "away_assist_id": "690837020",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "59",
+        "home_scorer": "S. Bakayoko",
+        "home_scorer_id": "130361287",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 2",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "62",
+        "home_scorer": "R. Lutin",
+        "home_scorer_id": "2122062469",
+        "home_assist": "Y. Ikia Dimi",
+        "home_assist_id": "1238207296",
+        "score": "2 - 2",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "79",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 3",
+        "away_scorer": "Y. Diaby",
+        "away_scorer_id": "3210975710",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "73",
+        "away": "88"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "35",
+        "away": "40"
+      },
+      {
+        "type": "On Target",
+        "home": "6",
+        "away": "6"
+      },
+      {
+        "type": "Off Target",
+        "home": "7",
+        "away": "11"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "0%",
+        "away": "0%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "16",
+        "away": "18"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "8",
+        "away": "9"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "2",
+        "away": "7"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "11",
+        "away": "12"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Fouls",
+        "home": "16",
+        "away": "27"
+      },
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "5"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "54%",
+        "away": "46%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Saves",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Passes Total",
+        "home": "426",
+        "away": "356"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "347",
+        "away": "290"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "43",
+        "away": "49"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "17",
+        "away": "25"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "58%",
+        "away": "42%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "4",
+        "away": "8"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Fouls",
+        "home": "5",
+        "away": "14"
+      },
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "58%",
+        "away": "42%"
+      },
+      {
+        "type": "Saves",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "255",
+        "away": "176"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "215",
+        "away": "146"
+      }
+    ]
   },
   {
     "match_id": "618153",
@@ -89904,24 +92194,24 @@
     "league_id": "164",
     "league_name": "Ligue 2",
     "match_date": "2025-11-03",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "20:45",
     "match_hometeam_id": "3807",
     "match_hometeam_name": "Pau FC",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Troyes",
     "match_awayteam_id": "3792",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "4-3-3",
     "match_live": "0",
     "match_round": "13",
     "match_stadium": "Stade Nouste Camp",
@@ -89933,9 +92223,300 @@
     "league_year": "2025/2026",
     "fk_stage_key": "263",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "33",
+        "home_scorer": "R. Messi",
+        "home_scorer_id": "3980157625",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "62",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "M. Diop",
+        "away_scorer_id": "479166729",
+        "away_assist": "M. Ifnaoui",
+        "away_assist_id": "1855312462",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "9",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "7",
+        "away": "2"
+      },
+      {
+        "type": "Attacks",
+        "home": "126",
+        "away": "66"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "62",
+        "away": "36"
+      },
+      {
+        "type": "On Target",
+        "home": "8",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "15",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "56%",
+        "away": "44%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "19",
+        "away": "9"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "7",
+        "away": "3"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "8",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "11",
+        "away": "5"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "8",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "14",
+        "away": "5"
+      },
+      {
+        "type": "Corners",
+        "home": "9",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "62%",
+        "away": "38%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "2",
+        "away": "6"
+      },
+      {
+        "type": "Passes Total",
+        "home": "570",
+        "away": "357"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "509",
+        "away": "299"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "53",
+        "away": "32"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "27",
+        "away": "23"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "6",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "62%",
+        "away": "38%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Fouls",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "62%",
+        "away": "38%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Passes Total",
+        "home": "277",
+        "away": "177"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "245",
+        "away": "152"
+      }
+    ]
   },
   {
     "match_id": "618154",
@@ -90224,7 +92805,7 @@
     "league_id": "164",
     "league_name": "Ligue 2",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "14:00",
     "match_hometeam_id": "3884",
     "match_hometeam_name": "Le Mans",
@@ -90264,7 +92845,7 @@
     "league_id": "164",
     "league_name": "Ligue 2",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "14:00",
     "match_hometeam_id": "3809",
     "match_hometeam_name": "Guingamp",
@@ -90284,7 +92865,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "14",
-    "match_stadium": "Stade de Roudourou",
+    "match_stadium": "Stade du Roudourou",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/3809_guingamp.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/3807_pau.jpg",
@@ -90304,7 +92885,7 @@
     "league_id": "164",
     "league_name": "Ligue 2",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "20:00",
     "match_hometeam_id": "3792",
     "match_hometeam_name": "Troyes",
@@ -90324,7 +92905,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "14",
-    "match_stadium": "",
+    "match_stadium": "Stade de l&apos;Aube",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/3792_troyes.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/3826_saint-etienne.jpg",
@@ -91578,206 +94159,6 @@
     "statistics_1half": []
   },
   {
-    "match_id": "618189",
-    "country_id": "3",
-    "country_name": "France",
-    "league_id": "164",
-    "league_name": "Ligue 2",
-    "match_date": "2026-01-02",
-    "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "3793",
-    "match_hometeam_name": "Clermont",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Laval",
-    "match_awayteam_id": "3882",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "18",
-    "match_stadium": "Stade Gabriel Montpied",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/3793_clermont.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/3882_laval.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/164_ligue-2.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/3_france.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "263",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "618190",
-    "country_id": "3",
-    "country_name": "France",
-    "league_id": "164",
-    "league_name": "Ligue 2",
-    "match_date": "2026-01-02",
-    "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "3807",
-    "match_hometeam_name": "Pau FC",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Rodez",
-    "match_awayteam_id": "3801",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "18",
-    "match_stadium": "Nouste Camp",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/3807_pau.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/3801_rodez.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/164_ligue-2.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/3_france.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "263",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "618191",
-    "country_id": "3",
-    "country_name": "France",
-    "league_id": "164",
-    "league_name": "Ligue 2",
-    "match_date": "2026-01-02",
-    "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "3800",
-    "match_hometeam_name": "Amiens",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Nancy",
-    "match_awayteam_id": "3799",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "18",
-    "match_stadium": "Stade de la Licorne",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/3800_amiens-sc.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/3799_nancy.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/164_ligue-2.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/3_france.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "263",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "618192",
-    "country_id": "3",
-    "country_name": "France",
-    "league_id": "164",
-    "league_name": "Ligue 2",
-    "match_date": "2026-01-02",
-    "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "182",
-    "match_hometeam_name": "Reims",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Annecy",
-    "match_awayteam_id": "3828",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "18",
-    "match_stadium": "Stade Auguste-Delaune",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/182_reims.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/3828_annecy.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/164_ligue-2.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/3_france.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "263",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "618193",
-    "country_id": "3",
-    "country_name": "France",
-    "league_id": "164",
-    "league_name": "Ligue 2",
-    "match_date": "2026-01-02",
-    "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "3792",
-    "match_hometeam_name": "Troyes",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Red Star",
-    "match_awayteam_id": "3833",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "18",
-    "match_stadium": "",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/3792_troyes.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/3833_red-star.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/164_ligue-2.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/3_france.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "263",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
     "match_id": "618194",
     "country_id": "3",
     "country_name": "France",
@@ -91818,19 +94199,19 @@
     "statistics_1half": []
   },
   {
-    "match_id": "618195",
+    "match_id": "618189",
     "country_id": "3",
     "country_name": "France",
     "league_id": "164",
     "league_name": "Ligue 2",
-    "match_date": "2026-01-02",
+    "match_date": "2026-01-03",
     "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "3819",
-    "match_hometeam_name": "Montpellier",
+    "match_time": "20:00",
+    "match_hometeam_id": "3793",
+    "match_hometeam_name": "Clermont",
     "match_hometeam_score": "",
-    "match_awayteam_name": "Dunkerque",
-    "match_awayteam_id": "3808",
+    "match_awayteam_name": "Laval",
+    "match_awayteam_id": "3882",
     "match_awayteam_score": "",
     "match_hometeam_halftime_score": "",
     "match_awayteam_halftime_score": "",
@@ -91844,10 +94225,170 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "18",
-    "match_stadium": "Stade de la Mosson",
+    "match_stadium": "Stade Gabriel Montpied",
     "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/3819_montpellier.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/3808_dunkerque.jpg",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/3793_clermont.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/3882_laval.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/164_ligue-2.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/3_france.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "263",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "618190",
+    "country_id": "3",
+    "country_name": "France",
+    "league_id": "164",
+    "league_name": "Ligue 2",
+    "match_date": "2026-01-03",
+    "match_status": "Not Started",
+    "match_time": "20:00",
+    "match_hometeam_id": "3807",
+    "match_hometeam_name": "Pau FC",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Rodez",
+    "match_awayteam_id": "3801",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "18",
+    "match_stadium": "Nouste Camp",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/3807_pau.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/3801_rodez.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/164_ligue-2.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/3_france.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "263",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "618191",
+    "country_id": "3",
+    "country_name": "France",
+    "league_id": "164",
+    "league_name": "Ligue 2",
+    "match_date": "2026-01-03",
+    "match_status": "Not Started",
+    "match_time": "20:00",
+    "match_hometeam_id": "3800",
+    "match_hometeam_name": "Amiens",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Nancy",
+    "match_awayteam_id": "3799",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "18",
+    "match_stadium": "Stade de la Licorne",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/3800_amiens-sc.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/3799_nancy.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/164_ligue-2.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/3_france.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "263",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "618192",
+    "country_id": "3",
+    "country_name": "France",
+    "league_id": "164",
+    "league_name": "Ligue 2",
+    "match_date": "2026-01-03",
+    "match_status": "Not Started",
+    "match_time": "20:00",
+    "match_hometeam_id": "182",
+    "match_hometeam_name": "Reims",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Annecy",
+    "match_awayteam_id": "3828",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "18",
+    "match_stadium": "Stade Auguste-Delaune",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/182_reims.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/3828_annecy.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/164_ligue-2.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/3_france.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "263",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "618193",
+    "country_id": "3",
+    "country_name": "France",
+    "league_id": "164",
+    "league_name": "Ligue 2",
+    "match_date": "2026-01-03",
+    "match_status": "Not Started",
+    "match_time": "14:00",
+    "match_hometeam_id": "3792",
+    "match_hometeam_name": "Troyes",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Red Star",
+    "match_awayteam_id": "3833",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "18",
+    "match_stadium": "",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/3792_troyes.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/3833_red-star.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/164_ligue-2.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/3_france.png",
     "league_year": "2025/2026",
@@ -91863,9 +94404,9 @@
     "country_name": "France",
     "league_id": "164",
     "league_name": "Ligue 2",
-    "match_date": "2026-01-02",
+    "match_date": "2026-01-03",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "20:00",
     "match_hometeam_id": "3886",
     "match_hometeam_name": "Bastia",
     "match_hometeam_score": "",
@@ -91903,9 +94444,9 @@
     "country_name": "France",
     "league_id": "164",
     "league_name": "Ligue 2",
-    "match_date": "2026-01-02",
+    "match_date": "2026-01-03",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "20:00",
     "match_hometeam_id": "3884",
     "match_hometeam_name": "Le Mans",
     "match_hometeam_score": "",
@@ -91943,9 +94484,9 @@
     "country_name": "France",
     "league_id": "164",
     "league_name": "Ligue 2",
-    "match_date": "2026-01-02",
+    "match_date": "2026-01-03",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "20:00",
     "match_hometeam_id": "3809",
     "match_hometeam_name": "Guingamp",
     "match_hometeam_score": "",
@@ -91968,6 +94509,46 @@
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/3809_guingamp.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/3832_boulogne.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/164_ligue-2.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/3_france.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "263",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "618195",
+    "country_id": "3",
+    "country_name": "France",
+    "league_id": "164",
+    "league_name": "Ligue 2",
+    "match_date": "2026-01-05",
+    "match_status": "Not Started",
+    "match_time": "20:45",
+    "match_hometeam_id": "3819",
+    "match_hometeam_name": "Montpellier",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Dunkerque",
+    "match_awayteam_id": "3808",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "18",
+    "match_stadium": "Stade de la Mosson",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/3819_montpellier.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/3808_dunkerque.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/164_ligue-2.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/3_france.png",
     "league_year": "2025/2026",

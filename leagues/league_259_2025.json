@@ -87805,27 +87805,27 @@
     "league_id": "259",
     "league_name": "Ekstraklasa",
     "match_date": "2025-10-31",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "18:00",
     "match_hometeam_id": "5778",
     "match_hometeam_name": "Termalica B-B.",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "0",
     "match_awayteam_name": "GKS Katowice",
     "match_awayteam_id": "5820",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "3",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "3",
+    "match_hometeam_system": "3-4-3",
+    "match_awayteam_system": "3-4-3",
     "match_live": "0",
     "match_round": "14",
-    "match_stadium": "",
+    "match_stadium": "Termalica Bruk-Bet Nieciecza",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/5778_nieciecza.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/5820_gks-katowice.jpg",
@@ -87834,9 +87834,304 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1420",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "13",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "L. Klemenz",
+        "away_scorer_id": "1418336572",
+        "away_assist": "M. Wedrychowski",
+        "away_assist_id": "90496993",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "76",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 2",
+        "away_scorer": "E. Markovic",
+        "away_scorer_id": "3911063042",
+        "away_assist": "B. Nowak",
+        "away_assist_id": "3171076552",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "89",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 3",
+        "away_scorer": "E. Markovic",
+        "away_scorer_id": "3911063042",
+        "away_assist": "I. Shkurin",
+        "away_assist_id": "953302113",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "7",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Attacks",
+        "home": "95",
+        "away": "64"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "79",
+        "away": "47"
+      },
+      {
+        "type": "On Target",
+        "home": "6",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "8",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "0%",
+        "away": "0%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "17",
+        "away": "11"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "6",
+        "away": "7"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "11",
+        "away": "6"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "6",
+        "away": "5"
+      },
+      {
+        "type": "Fouls",
+        "home": "13",
+        "away": "18"
+      },
+      {
+        "type": "Corners",
+        "home": "7",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "66%",
+        "away": "34%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "4",
+        "away": "6"
+      },
+      {
+        "type": "Passes Total",
+        "home": "502",
+        "away": "274"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "422",
+        "away": "198"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "52",
+        "away": "34"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "34",
+        "away": "27"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "70%",
+        "away": "30%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "8",
+        "away": "5"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Fouls",
+        "home": "8",
+        "away": "9"
+      },
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "70%",
+        "away": "30%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Passes Total",
+        "home": "257",
+        "away": "116"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "213",
+        "away": "76"
+      }
+    ]
   },
   {
     "match_id": "689036",
@@ -87845,27 +88140,27 @@
     "league_id": "259",
     "league_name": "Ekstraklasa",
     "match_date": "2025-10-31",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "20:30",
     "match_hometeam_id": "227",
     "match_hometeam_name": "Piast Gliwice",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "0",
     "match_awayteam_name": "Korona Kielce",
     "match_awayteam_id": "5790",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "5-4-1",
+    "match_awayteam_system": "3-4-3",
     "match_live": "0",
     "match_round": "14",
-    "match_stadium": "",
+    "match_stadium": "Stadion Miejski w Gliwicach",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/227_piast-gliwice.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/5790_korona-kielce.jpg",
@@ -87875,8 +88170,265 @@
     "fk_stage_key": "1420",
     "stage_name": "Current",
     "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "7",
+        "away": "9"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "94",
+        "away": "106"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "77",
+        "away": "87"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "7"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "10",
+        "away": "19"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "6",
+        "away": "11"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "5"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "7",
+        "away": "11"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "3",
+        "away": "8"
+      },
+      {
+        "type": "Fouls",
+        "home": "13",
+        "away": "8"
+      },
+      {
+        "type": "Corners",
+        "home": "7",
+        "away": "9"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "49%",
+        "away": "51%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Red Cards",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Saves",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "387",
+        "away": "406"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "290",
+        "away": "317"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "49",
+        "away": "48"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "40",
+        "away": "34"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "52%",
+        "away": "48%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "3",
+        "away": "9"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "0",
+        "away": "5"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "2",
+        "away": "5"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "7",
+        "away": "1"
+      },
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "52%",
+        "away": "48%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "215",
+        "away": "203"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "165",
+        "away": "160"
+      }
+    ]
   },
   {
     "match_id": "629862",
@@ -87885,24 +88437,24 @@
     "league_id": "259",
     "league_name": "Ekstraklasa",
     "match_date": "2025-11-02",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "17:30",
     "match_hometeam_id": "5770",
     "match_hometeam_name": "Jagiellonia",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Rakow",
     "match_awayteam_id": "5763",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "2",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "3-4-3",
     "match_live": "0",
     "match_round": "14",
     "match_stadium": "Chorten Arena",
@@ -87914,9 +88466,299 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1420",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "31",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "O. Repka",
+        "away_scorer_id": "3364742783",
+        "away_assist": "M. Ameyaw",
+        "away_assist_id": "4271290799",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "46",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 2",
+        "away_scorer": "O. Repka",
+        "away_scorer_id": "3364742783",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "80",
+        "home_scorer": "A. Pululu",
+        "home_scorer_id": "3752433789",
+        "home_assist": "B. Wdowik",
+        "home_assist_id": "2173483660",
+        "score": "1 - 2",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "112",
+        "away": "96"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "92",
+        "away": "62"
+      },
+      {
+        "type": "On Target",
+        "home": "6",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "19",
+        "away": "8"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "70%",
+        "away": "30%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "26",
+        "away": "10"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "6",
+        "away": "5"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "10",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "10",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "17",
+        "away": "7"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "9",
+        "away": "3"
+      },
+      {
+        "type": "Fouls",
+        "home": "19",
+        "away": "17"
+      },
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "67%",
+        "away": "33%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Passes Total",
+        "home": "500",
+        "away": "249"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "418",
+        "away": "179"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "53",
+        "away": "55"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "37",
+        "away": "38"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "8",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "62%",
+        "away": "38%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "10",
+        "away": "4"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "6",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Fouls",
+        "home": "10",
+        "away": "11"
+      },
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "62%",
+        "away": "38%"
+      },
+      {
+        "type": "Saves",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "229",
+        "away": "138"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "187",
+        "away": "107"
+      }
+    ]
   },
   {
     "match_id": "629863",
@@ -87925,24 +88767,24 @@
     "league_id": "259",
     "league_name": "Ekstraklasa",
     "match_date": "2025-11-02",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "12:15",
     "match_hometeam_id": "5765",
     "match_hometeam_name": "Gornik Zabrze",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "5",
     "match_awayteam_name": "Arka Gdynia",
     "match_awayteam_id": "5789",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "5",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "3-4-2-1",
     "match_live": "0",
     "match_round": "14",
     "match_stadium": "Stadion im. Ernesta Pohla",
@@ -87954,9 +88796,341 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1420",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "13",
+        "home_scorer": "S. Liseth",
+        "home_scorer_id": "3828717635",
+        "home_assist": "L. Ambros",
+        "home_assist_id": "1935357883",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "46",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "N. Rusyn",
+        "away_scorer_id": "624968413",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "50",
+        "home_scorer": "M. Khlan",
+        "home_scorer_id": "3071536486",
+        "home_assist": "L. Ambros",
+        "home_assist_id": "1935357883",
+        "score": "2 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "59",
+        "home_scorer": "P. Hellebrand",
+        "home_scorer_id": "2042194300",
+        "home_assist": "M. Khlan",
+        "home_assist_id": "3071536486",
+        "score": "3 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "62",
+        "home_scorer": "O. Sow",
+        "home_scorer_id": "2351380867",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "4 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "71",
+        "home_scorer": "L. Zahovic",
+        "home_scorer_id": "734991148",
+        "home_assist": "J. Kubicki",
+        "home_assist_id": "3505659235",
+        "score": "5 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "10",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "57",
+        "away": "62"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "66",
+        "away": "46"
+      },
+      {
+        "type": "On Target",
+        "home": "10",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "10",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "0%",
+        "away": "0%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "29",
+        "away": "8"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "11",
+        "away": "2"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "10",
+        "away": "5"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "8",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "17",
+        "away": "4"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "12",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "9",
+        "away": "10"
+      },
+      {
+        "type": "Corners",
+        "home": "10",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "53%",
+        "away": "47%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "6"
+      },
+      {
+        "type": "Passes Total",
+        "home": "400",
+        "away": "359"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "349",
+        "away": "303"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "7",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "35",
+        "away": "36"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "40",
+        "away": "28"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "12",
+        "away": "4"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "8",
+        "away": "1"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Fouls",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Corners",
+        "home": "7",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "193",
+        "away": "196"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "169",
+        "away": "166"
+      }
+    ]
   },
   {
     "match_id": "689035",
@@ -87965,24 +89139,24 @@
     "league_id": "259",
     "league_name": "Ekstraklasa",
     "match_date": "2025-11-02",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "14:45",
     "match_hometeam_id": "149",
     "match_hometeam_name": "Lech Poznan",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Motor Lublin",
     "match_awayteam_id": "5823",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "2",
+    "match_awayteam_halftime_score": "2",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "2",
+    "match_hometeam_system": "4-4-2",
+    "match_awayteam_system": "4-3-3",
     "match_live": "0",
     "match_round": "14",
     "match_stadium": "Stadion Poznan",
@@ -87994,9 +89168,318 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1420",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "9",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "J. Pereira (o.g.)",
+        "away_scorer_id": "2961685616",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "20",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 2",
+        "away_scorer": "Fabio Ronaldo",
+        "away_scorer_id": "590908228",
+        "away_assist": "I. Rodrigues",
+        "away_assist_id": "1765213300",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "25",
+        "home_scorer": "L. Palma",
+        "home_scorer_id": "305766848",
+        "home_assist": "M. Ishak",
+        "home_assist_id": "3997911552",
+        "score": "1 - 2",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "45+1",
+        "home_scorer": "J. Pereira",
+        "home_scorer_id": "2961685616",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 2",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "6"
+      },
+      {
+        "type": "Attacks",
+        "home": "106",
+        "away": "67"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "91",
+        "away": "36"
+      },
+      {
+        "type": "On Target",
+        "home": "7",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "14",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "0%",
+        "away": "0%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "18",
+        "away": "8"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "8",
+        "away": "5"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "7",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "8",
+        "away": "7"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "10",
+        "away": "1"
+      },
+      {
+        "type": "Fouls",
+        "home": "10",
+        "away": "14"
+      },
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "59%",
+        "away": "41%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "553",
+        "away": "380"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "467",
+        "away": "311"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "55",
+        "away": "34"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "43",
+        "away": "21"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "8",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "56%",
+        "away": "44%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "10",
+        "away": "3"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "6",
+        "away": "0"
+      },
+      {
+        "type": "Fouls",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "56%",
+        "away": "44%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "271",
+        "away": "209"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "230",
+        "away": "181"
+      }
+    ]
   },
   {
     "match_id": "689037",
@@ -88005,24 +89488,24 @@
     "league_id": "259",
     "league_name": "Ekstraklasa",
     "match_date": "2025-11-02",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "20:15",
     "match_hometeam_id": "5793",
     "match_hometeam_name": "Widzew Lodz",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Legia",
     "match_awayteam_id": "122",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "4-3-3",
+    "match_awayteam_system": "4-1-4-1",
     "match_live": "0",
     "match_round": "14",
     "match_stadium": "",
@@ -88034,9 +89517,285 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1420",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "66",
+        "home_scorer": "S. Bergier",
+        "home_scorer_id": "3871321396",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "85",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "E. Krasniqi",
+        "away_scorer_id": "1271443344",
+        "away_assist": "R. Vinagre",
+        "away_assist_id": "1358798717",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "8"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "84",
+        "away": "90"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "38",
+        "away": "64"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "11"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "0%",
+        "away": "0%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "10",
+        "away": "20"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "2",
+        "away": "6"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "5",
+        "away": "11"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "8",
+        "away": "11"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "2",
+        "away": "9"
+      },
+      {
+        "type": "Fouls",
+        "home": "10",
+        "away": "13"
+      },
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "8"
+      },
+      {
+        "type": "Offsides",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "42%",
+        "away": "58%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Saves",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "328",
+        "away": "442"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "275",
+        "away": "388"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "44",
+        "away": "38"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "20",
+        "away": "27"
+      },
+      {
+        "type": "On Target",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "54%",
+        "away": "46%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "3",
+        "away": "8"
+      },
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "54%",
+        "away": "46%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Passes Total",
+        "home": "234",
+        "away": "195"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "207",
+        "away": "169"
+      }
+    ]
   },
   {
     "match_id": "629861",
@@ -88045,24 +89804,24 @@
     "league_id": "259",
     "league_name": "Ekstraklasa",
     "match_date": "2025-11-03",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "20:30",
     "match_hometeam_id": "5772",
     "match_hometeam_name": "Cracovia",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "0",
     "match_awayteam_name": "Zaglebie",
     "match_awayteam_id": "5767",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "3-4-2-1",
+    "match_awayteam_system": "5-4-1",
     "match_live": "0",
     "match_round": "14",
     "match_stadium": "Stadion Cracovii im. Józefa Pilsudskiego",
@@ -88075,8 +89834,245 @@
     "fk_stage_key": "1420",
     "stage_name": "Current",
     "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "127",
+        "away": "85"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "87",
+        "away": "51"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "11",
+        "away": "7"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "83%",
+        "away": "17%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "14",
+        "away": "8"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "8",
+        "away": "5"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "8",
+        "away": "5"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Fouls",
+        "home": "11",
+        "away": "11"
+      },
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Offsides",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "68%",
+        "away": "32%"
+      },
+      {
+        "type": "Saves",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "639",
+        "away": "300"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "540",
+        "away": "202"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "67",
+        "away": "40"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "51",
+        "away": "21"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "8",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "66%",
+        "away": "34%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "9",
+        "away": "3"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Fouls",
+        "home": "4",
+        "away": "6"
+      },
+      {
+        "type": "Offsides",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "69%",
+        "away": "31%"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "304",
+        "away": "135"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "252",
+        "away": "89"
+      }
+    ]
   },
   {
     "match_id": "689034",
@@ -88085,24 +90081,24 @@
     "league_id": "259",
     "league_name": "Ekstraklasa",
     "match_date": "2025-11-03",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "18:00",
     "match_hometeam_id": "5764",
     "match_hometeam_name": "Lechia Gdansk",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Radomiak Radom",
     "match_awayteam_id": "5783",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "2",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "14",
     "match_stadium": "Polsat Plus Arena",
@@ -88114,9 +90110,304 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1420",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "35",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "Capita",
+        "away_scorer_id": "15437174",
+        "away_assist": "V. Lopes",
+        "away_assist_id": "2485728882",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "84",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 2",
+        "away_scorer": "A. Tapsoba",
+        "away_scorer_id": "3676187493",
+        "away_assist": "R. Alves",
+        "away_assist_id": "1528468328",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "90+3",
+        "home_scorer": "B. Viunnyk",
+        "home_scorer_id": "4022736237",
+        "home_assist": "D. Kurminowski",
+        "home_assist_id": "685567398",
+        "score": "1 - 2",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "8",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "55",
+        "away": "70"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "65",
+        "away": "41"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "6"
+      },
+      {
+        "type": "Off Target",
+        "home": "7",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "38%",
+        "away": "62%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "14",
+        "away": "11"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "10",
+        "away": "7"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "11",
+        "away": "12"
+      },
+      {
+        "type": "Corners",
+        "home": "8",
+        "away": "4"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "47%",
+        "away": "53%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Saves",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "339",
+        "away": "403"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "257",
+        "away": "319"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "25",
+        "away": "31"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "31",
+        "away": "16"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "54%",
+        "away": "46%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Fouls",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "48%",
+        "away": "52%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "164",
+        "away": "186"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "131",
+        "away": "153"
+      }
+    ]
   },
   {
     "match_id": "689038",
@@ -88125,24 +90416,24 @@
     "league_id": "259",
     "league_name": "Ekstraklasa",
     "match_date": "2025-11-03",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "18:00",
     "match_hometeam_id": "5771",
     "match_hometeam_name": "Wisla Plock",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Pogon Szczecin",
     "match_awayteam_id": "5762",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "5-3-2",
+    "match_awayteam_system": "4-4-2",
     "match_live": "0",
     "match_round": "14",
     "match_stadium": "Orlen Stadion",
@@ -88154,9 +90445,285 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1420",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "22",
+        "home_scorer": "L. Koutris (o.g.)",
+        "home_scorer_id": "442417970",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "56",
+        "home_scorer": "D. Pacheco",
+        "home_scorer_id": "962379912",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "8"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "68",
+        "away": "126"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "42",
+        "away": "100"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "9"
+      },
+      {
+        "type": "Off Target",
+        "home": "8",
+        "away": "13"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "39%",
+        "away": "61%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "15",
+        "away": "22"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "5",
+        "away": "9"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "6",
+        "away": "8"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "9",
+        "away": "10"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "6",
+        "away": "12"
+      },
+      {
+        "type": "Fouls",
+        "home": "5",
+        "away": "7"
+      },
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "8"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "32%",
+        "away": "68%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "9",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "279",
+        "away": "625"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "196",
+        "away": "552"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Attacks",
+        "home": "35",
+        "away": "56"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "28",
+        "away": "26"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "44%",
+        "away": "56%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "9",
+        "away": "7"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Fouls",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "38%",
+        "away": "62%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "167",
+        "away": "292"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "129",
+        "away": "261"
+      }
+    ]
   },
   {
     "match_id": "629865",
@@ -88245,7 +90812,7 @@
     "league_id": "259",
     "league_name": "Ekstraklasa",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "20:15",
     "match_hometeam_id": "5820",
     "match_hometeam_name": "GKS Katowice",
@@ -88285,7 +90852,7 @@
     "league_id": "259",
     "league_name": "Ekstraklasa",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "14:45",
     "match_hometeam_id": "5764",
     "match_hometeam_name": "Lechia Gdansk",
@@ -88325,7 +90892,7 @@
     "league_id": "259",
     "league_name": "Ekstraklasa",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "17:30",
     "match_hometeam_id": "5823",
     "match_hometeam_name": "Motor Lublin",
@@ -88365,7 +90932,7 @@
     "league_id": "259",
     "league_name": "Ekstraklasa",
     "match_date": "2025-11-09",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "14:45",
     "match_hometeam_id": "122",
     "match_hometeam_name": "Legia",
@@ -88385,7 +90952,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "15",
-    "match_stadium": "Stadion Wojska Polskiego",
+    "match_stadium": "Stadion Miejski Legii Warszawa im. Marszalka Józef",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/122_legia-warszawa.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/5778_nieciecza.jpg",
@@ -88405,7 +90972,7 @@
     "league_id": "259",
     "league_name": "Ekstraklasa",
     "match_date": "2025-11-09",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "14:45",
     "match_hometeam_id": "5790",
     "match_hometeam_name": "Korona Kielce",
@@ -88425,7 +90992,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "15",
-    "match_stadium": "Exbud Arena",
+    "match_stadium": "EXBUD Arena",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/5790_korona-kielce.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/5763_rakow-czstochowa.jpg",
@@ -88445,7 +91012,7 @@
     "league_id": "259",
     "league_name": "Ekstraklasa",
     "match_date": "2025-11-09",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "20:15",
     "match_hometeam_id": "5789",
     "match_hometeam_name": "Arka Gdynia",
@@ -88485,7 +91052,7 @@
     "league_id": "259",
     "league_name": "Ekstraklasa",
     "match_date": "2025-11-09",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "17:30",
     "match_hometeam_id": "5762",
     "match_hometeam_name": "Pogon Szczecin",
@@ -88879,94 +91446,14 @@
     "statistics_1half": []
   },
   {
-    "match_id": "626691",
-    "country_id": "91",
-    "country_name": "Poland",
-    "league_id": "259",
-    "league_name": "Ekstraklasa",
-    "match_date": "2025-11-29",
-    "match_status": "Not Started",
-    "match_time": "18:00",
-    "match_hometeam_id": "5764",
-    "match_hometeam_name": "Lechia Gdansk",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Termalica B-B.",
-    "match_awayteam_id": "5778",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "17",
-    "match_stadium": "Polsat Plus Arena",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/5764_lechia-gdask.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/5778_nieciecza.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/259_ekstraklasa.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/91_poland.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "1420",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "629869",
-    "country_id": "91",
-    "country_name": "Poland",
-    "league_id": "259",
-    "league_name": "Ekstraklasa",
-    "match_date": "2025-11-29",
-    "match_status": "Not Started",
-    "match_time": "18:00",
-    "match_hometeam_id": "5767",
-    "match_hometeam_name": "Zaglebie",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Jagiellonia",
-    "match_awayteam_id": "5770",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "17",
-    "match_stadium": "KGHM Zaglebie Arena",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/5767_zagbie-lubin.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/5770_jagiellonia-biaystok.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/259_ekstraklasa.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/91_poland.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "1420",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
     "match_id": "629870",
     "country_id": "91",
     "country_name": "Poland",
     "league_id": "259",
     "league_name": "Ekstraklasa",
-    "match_date": "2025-11-29",
+    "match_date": "2025-11-28",
     "match_status": "Not Started",
-    "match_time": "18:00",
+    "match_time": "20:30",
     "match_hometeam_id": "5783",
     "match_hometeam_name": "Radomiak Radom",
     "match_hometeam_score": "",
@@ -88999,19 +91486,19 @@
     "statistics_1half": []
   },
   {
-    "match_id": "629871",
+    "match_id": "689053",
     "country_id": "91",
     "country_name": "Poland",
     "league_id": "259",
     "league_name": "Ekstraklasa",
-    "match_date": "2025-11-29",
+    "match_date": "2025-11-28",
     "match_status": "Not Started",
     "match_time": "18:00",
-    "match_hometeam_id": "5789",
-    "match_hometeam_name": "Arka Gdynia",
+    "match_hometeam_id": "227",
+    "match_hometeam_name": "Piast Gliwice",
     "match_hometeam_score": "",
-    "match_awayteam_name": "Rakow",
-    "match_awayteam_id": "5763",
+    "match_awayteam_name": "Widzew Lodz",
+    "match_awayteam_id": "5793",
     "match_awayteam_score": "",
     "match_hometeam_halftime_score": "",
     "match_awayteam_halftime_score": "",
@@ -89025,10 +91512,50 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "17",
-    "match_stadium": "Stadion Miejski w Gdyni",
+    "match_stadium": "Stadion Miejski w Gliwicach",
     "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/5789_arka-gdynia.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/5763_rakow-czstochowa.jpg",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/227_piast-gliwice.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/5793_widzew-od.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/259_ekstraklasa.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/91_poland.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "1420",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "626691",
+    "country_id": "91",
+    "country_name": "Poland",
+    "league_id": "259",
+    "league_name": "Ekstraklasa",
+    "match_date": "2025-11-29",
+    "match_status": "Not Started",
+    "match_time": "14:45",
+    "match_hometeam_id": "5764",
+    "match_hometeam_name": "Lechia Gdansk",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Termalica B-B.",
+    "match_awayteam_id": "5778",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "17",
+    "match_stadium": "Polsat Plus Arena",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/5764_lechia-gdask.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/5778_nieciecza.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/259_ekstraklasa.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/91_poland.png",
     "league_year": "2025/2026",
@@ -89046,7 +91573,7 @@
     "league_name": "Ekstraklasa",
     "match_date": "2025-11-29",
     "match_status": "Not Started",
-    "match_time": "18:00",
+    "match_time": "20:15",
     "match_hometeam_id": "5820",
     "match_hometeam_name": "GKS Katowice",
     "match_hometeam_score": "",
@@ -89086,7 +91613,7 @@
     "league_name": "Ekstraklasa",
     "match_date": "2025-11-29",
     "match_status": "Not Started",
-    "match_time": "18:00",
+    "match_time": "17:30",
     "match_hometeam_id": "5790",
     "match_hometeam_name": "Korona Kielce",
     "match_hometeam_score": "",
@@ -89119,19 +91646,19 @@
     "statistics_1half": []
   },
   {
-    "match_id": "689052",
+    "match_id": "629869",
     "country_id": "91",
     "country_name": "Poland",
     "league_id": "259",
     "league_name": "Ekstraklasa",
-    "match_date": "2025-11-29",
+    "match_date": "2025-11-30",
     "match_status": "Not Started",
-    "match_time": "18:00",
-    "match_hometeam_id": "5823",
-    "match_hometeam_name": "Motor Lublin",
+    "match_time": "17:30",
+    "match_hometeam_id": "5767",
+    "match_hometeam_name": "Zaglebie",
     "match_hometeam_score": "",
-    "match_awayteam_name": "Legia",
-    "match_awayteam_id": "122",
+    "match_awayteam_name": "Jagiellonia",
+    "match_awayteam_id": "5770",
     "match_awayteam_score": "",
     "match_hometeam_halftime_score": "",
     "match_awayteam_halftime_score": "",
@@ -89145,10 +91672,10 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "17",
-    "match_stadium": "Motor Lublin Arena",
+    "match_stadium": "KGHM Zaglebie Arena",
     "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/5823_motor-lublin.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/122_legia-warszawa.jpg",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/5767_zagbie-lubin.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/5770_jagiellonia-biaystok.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/259_ekstraklasa.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/91_poland.png",
     "league_year": "2025/2026",
@@ -89159,19 +91686,19 @@
     "statistics_1half": []
   },
   {
-    "match_id": "689053",
+    "match_id": "629871",
     "country_id": "91",
     "country_name": "Poland",
     "league_id": "259",
     "league_name": "Ekstraklasa",
-    "match_date": "2025-11-29",
+    "match_date": "2025-11-30",
     "match_status": "Not Started",
-    "match_time": "18:00",
-    "match_hometeam_id": "227",
-    "match_hometeam_name": "Piast Gliwice",
+    "match_time": "14:45",
+    "match_hometeam_id": "5789",
+    "match_hometeam_name": "Arka Gdynia",
     "match_hometeam_score": "",
-    "match_awayteam_name": "Widzew Lodz",
-    "match_awayteam_id": "5793",
+    "match_awayteam_name": "Rakow",
+    "match_awayteam_id": "5763",
     "match_awayteam_score": "",
     "match_hometeam_halftime_score": "",
     "match_awayteam_halftime_score": "",
@@ -89185,10 +91712,10 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "17",
-    "match_stadium": "Stadion Miejski w Gliwicach",
+    "match_stadium": "Stadion Miejski w Gdyni",
     "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/227_piast-gliwice.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/5793_widzew-od.jpg",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/5789_arka-gdynia.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/5763_rakow-czstochowa.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/259_ekstraklasa.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/91_poland.png",
     "league_year": "2025/2026",
@@ -89204,9 +91731,9 @@
     "country_name": "Poland",
     "league_id": "259",
     "league_name": "Ekstraklasa",
-    "match_date": "2025-11-29",
+    "match_date": "2025-11-30",
     "match_status": "Not Started",
-    "match_time": "18:00",
+    "match_time": "20:15",
     "match_hometeam_id": "5771",
     "match_hometeam_name": "Wisla Plock",
     "match_hometeam_score": "",
@@ -89229,6 +91756,46 @@
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/5771_wisa-pock.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/149_lech-pozna.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/259_ekstraklasa.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/91_poland.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "1420",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "689052",
+    "country_id": "91",
+    "country_name": "Poland",
+    "league_id": "259",
+    "league_name": "Ekstraklasa",
+    "match_date": "2025-12-01",
+    "match_status": "Not Started",
+    "match_time": "19:00",
+    "match_hometeam_id": "5823",
+    "match_hometeam_name": "Motor Lublin",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Legia",
+    "match_awayteam_id": "122",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "17",
+    "match_stadium": "Motor Lublin Arena",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/5823_motor-lublin.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/122_legia-warszawa.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/259_ekstraklasa.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/91_poland.png",
     "league_year": "2025/2026",

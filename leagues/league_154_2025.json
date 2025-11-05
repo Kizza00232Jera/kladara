@@ -172164,7 +172164,7 @@
     "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "12",
-    "match_stadium": "University of Bradford Stadium",
+    "match_stadium": "Valley Parade",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/3060_bradford-city.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/3122_lincoln-city.jpg",
@@ -172737,27 +172737,27 @@
     "league_id": "154",
     "league_name": "League One",
     "match_date": "2025-11-04",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "20:45",
     "match_hometeam_id": "3430",
     "match_hometeam_name": "Rotherham",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Burton",
     "match_awayteam_id": "3428",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "2",
+    "match_hometeam_system": "3-5-1-1",
+    "match_awayteam_system": "3-5-2",
     "match_live": "0",
     "match_round": "4",
-    "match_stadium": "AESSEAL New York Stadium",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/3430_rotherham-united.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/3428_burton-albion.jpg",
@@ -172766,9 +172766,313 @@
     "league_year": "2025/2026",
     "fk_stage_key": "966",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "51",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "K. Lofthouse",
+        "away_scorer_id": "489106754",
+        "away_assist": "C. Webster",
+        "away_assist_id": "4210604638",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "63",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 2",
+        "away_scorer": "T. Shade",
+        "away_scorer_id": "2755273298",
+        "away_assist": "J. Beesley",
+        "away_assist_id": "2528236788",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "69",
+        "home_scorer": "T. Sibbick (o.g.)",
+        "home_scorer_id": "1516889827",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 2",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "90+4",
+        "home_scorer": "H. Douglas",
+        "home_scorer_id": "2910121687",
+        "home_assist": "J. Benson",
+        "home_assist_id": "3381089730",
+        "score": "2 - 2",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Attacks",
+        "home": "125",
+        "away": "92"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "52",
+        "away": "39"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "7",
+        "away": "10"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "86%",
+        "away": "14%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "11",
+        "away": "15"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "6"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "3",
+        "away": "6"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "7",
+        "away": "9"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "4",
+        "away": "6"
+      },
+      {
+        "type": "Fouls",
+        "home": "12",
+        "away": "4"
+      },
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Offsides",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "62%",
+        "away": "38%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "0",
+        "away": "3"
+      },
+      {
+        "type": "Saves",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "444",
+        "away": "285"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "345",
+        "away": "202"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "59",
+        "away": "48"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "23",
+        "away": "18"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "58%",
+        "away": "42%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "5",
+        "away": "7"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "4",
+        "away": "0"
+      },
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "58%",
+        "away": "42%"
+      },
+      {
+        "type": "Saves",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "228",
+        "away": "169"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "178",
+        "away": "126"
+      }
+    ]
   },
   {
     "match_id": "618533",
@@ -172817,7 +173121,7 @@
     "league_id": "154",
     "league_name": "League One",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "16:00",
     "match_hometeam_id": "3106",
     "match_hometeam_name": "Peterborough",
@@ -172857,7 +173161,7 @@
     "league_id": "154",
     "league_name": "League One",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "16:00",
     "match_hometeam_id": "3060",
     "match_hometeam_name": "Bradford City",
@@ -172877,7 +173181,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "15",
-    "match_stadium": "Valley Parade",
+    "match_stadium": "University of Bradford Stadium",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/3060_bradford-city.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/3428_burton-albion.jpg",
@@ -172897,7 +173201,7 @@
     "league_id": "154",
     "league_name": "League One",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "13:30",
     "match_hometeam_id": "3431",
     "match_hometeam_name": "Northampton",
@@ -172937,7 +173241,7 @@
     "league_id": "154",
     "league_name": "League One",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "16:00",
     "match_hometeam_id": "2938",
     "match_hometeam_name": "Stockport County",
@@ -172977,7 +173281,7 @@
     "league_id": "154",
     "league_name": "League One",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "16:00",
     "match_hometeam_id": "3051",
     "match_hometeam_name": "Bolton",
@@ -173017,7 +173321,7 @@
     "league_id": "154",
     "league_name": "League One",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "16:00",
     "match_hometeam_id": "3430",
     "match_hometeam_name": "Rotherham",
@@ -173037,7 +173341,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "15",
-    "match_stadium": "Aesseal New York Stadium",
+    "match_stadium": "AESSEAL New York Stadium",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/3430_rotherham-united.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/3122_lincoln-city.jpg",
@@ -173057,7 +173361,7 @@
     "league_id": "154",
     "league_name": "League One",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "16:00",
     "match_hometeam_id": "3082",
     "match_hometeam_name": "Doncaster",
@@ -173097,7 +173401,7 @@
     "league_id": "154",
     "league_name": "League One",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "16:00",
     "match_hometeam_id": "3080",
     "match_hometeam_name": "Blackpool",
@@ -173137,7 +173441,7 @@
     "league_id": "154",
     "league_name": "League One",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "16:00",
     "match_hometeam_id": "3101",
     "match_hometeam_name": "Huddersfield",
@@ -173157,7 +173461,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "15",
-    "match_stadium": "John Smit",
+    "match_stadium": "Accu Stadium",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/3101_huddersfield-town.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/3102_plymouth-argyle.jpg",
@@ -173177,7 +173481,7 @@
     "league_id": "154",
     "league_name": "League One",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "16:00",
     "match_hometeam_id": "3054",
     "match_hometeam_name": "Exeter",
@@ -173217,7 +173521,7 @@
     "league_id": "154",
     "league_name": "League One",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "13:30",
     "match_hometeam_id": "3087",
     "match_hometeam_name": "Wycombe",
@@ -173617,7 +173921,7 @@
     "league_id": "154",
     "league_name": "League One",
     "match_date": "2025-11-15",
-    "match_status": "Not Started",
+    "match_status": "Postponed",
     "match_time": "16:00",
     "match_hometeam_id": "3090",
     "match_hometeam_name": "Cardiff",

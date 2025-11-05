@@ -64184,7 +64184,7 @@
     "match_awayteam_system": "3-4-3",
     "match_live": "0",
     "match_round": "10",
-    "match_stadium": "The BBSP Stadium Rugby Park",
+    "match_stadium": "Rugby Park",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/6344_kilmarnock.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/237_aberdeen.jpg",
@@ -65189,7 +65189,7 @@
     "match_awayteam_system": "3-4-2-1",
     "match_live": "0",
     "match_round": "10",
-    "match_stadium": "Easter Road Stadium",
+    "match_stadium": "Easter Road",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/6338_hibernian.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/146_rangers.jpg",
@@ -65797,24 +65797,24 @@
     "league_id": "279",
     "league_name": "Premiership",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "16:00",
     "match_hometeam_id": "6346",
     "match_hometeam_name": "Falkirk",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "3",
     "match_awayteam_name": "Kilmarnock",
     "match_awayteam_id": "6344",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "3",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "3",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "4-3-1-2",
     "match_live": "0",
     "match_round": "11",
     "match_stadium": "Falkirk Stadium",
@@ -65826,9 +65826,313 @@
     "league_year": "2025/2026",
     "fk_stage_key": "2200",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "7",
+        "home_scorer": "E. Williams",
+        "home_scorer_id": "4218390725",
+        "home_assist": "C. Miller",
+        "home_assist_id": "1397261607",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "22",
+        "home_scorer": "R. MacIver",
+        "home_scorer_id": "2021062378",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "38",
+        "home_scorer": "C. Miller",
+        "home_scorer_id": "1397261607",
+        "home_assist": "E. Williams",
+        "home_assist_id": "4218390725",
+        "score": "3 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "69",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 1",
+        "away_scorer": "T. John-Jules",
+        "away_scorer_id": "1426102915",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "6"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "89",
+        "away": "140"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "23",
+        "away": "51"
+      },
+      {
+        "type": "On Target",
+        "home": "6",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "52%",
+        "away": "48%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "12",
+        "away": "9"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "7",
+        "away": "5"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "7",
+        "away": "8"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Fouls",
+        "home": "15",
+        "away": "14"
+      },
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "6"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "48%",
+        "away": "52%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Passes Total",
+        "home": "354",
+        "away": "365"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "263",
+        "away": "267"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Attacks",
+        "home": "47",
+        "away": "69"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "13",
+        "away": "21"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "56%",
+        "away": "44%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "10",
+        "away": "3"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "6",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Fouls",
+        "home": "8",
+        "away": "5"
+      },
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "56%",
+        "away": "44%"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "228",
+        "away": "175"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "186",
+        "away": "127"
+      }
+    ]
   },
   {
     "match_id": "612294",
@@ -65837,24 +66141,24 @@
     "league_id": "279",
     "league_name": "Premiership",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "16:00",
     "match_hometeam_id": "6422",
     "match_hometeam_name": "Hearts",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "4",
     "match_awayteam_name": "Dundee FC",
     "match_awayteam_id": "6349",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "2",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "4",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "4-4-2",
+    "match_awayteam_system": "3-4-3",
     "match_live": "0",
     "match_round": "11",
     "match_stadium": "Tynecastle Park",
@@ -65866,9 +66170,308 @@
     "league_year": "2025/2026",
     "fk_stage_key": "2200",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "31",
+        "home_scorer": "L. Shankland",
+        "home_scorer_id": "3932624231",
+        "home_assist": "H. Milne",
+        "home_assist_id": "3086878212",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "38",
+        "home_scorer": "P. Kabore",
+        "home_scorer_id": "1408588317",
+        "home_assist": "O. McEntee",
+        "home_assist_id": "823657564",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "56",
+        "home_scorer": "P. Kabore",
+        "home_scorer_id": "1408588317",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "79",
+        "home_scorer": "T. Magnusson",
+        "home_scorer_id": "92183540",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "4 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "98",
+        "away": "83"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "50",
+        "away": "26"
+      },
+      {
+        "type": "On Target",
+        "home": "9",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "69%",
+        "away": "31%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "16",
+        "away": "5"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "10",
+        "away": "0"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "9",
+        "away": "2"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "7",
+        "away": "3"
+      },
+      {
+        "type": "Fouls",
+        "home": "8",
+        "away": "17"
+      },
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "68%",
+        "away": "32%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "0",
+        "away": "6"
+      },
+      {
+        "type": "Passes Total",
+        "home": "605",
+        "away": "290"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "513",
+        "away": "183"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "58",
+        "away": "46"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "27",
+        "away": "3"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "65%",
+        "away": "35%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Fouls",
+        "home": "5",
+        "away": "9"
+      },
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "65%",
+        "away": "35%"
+      },
+      {
+        "type": "Passes Total",
+        "home": "272",
+        "away": "148"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "220",
+        "away": "84"
+      }
+    ]
   },
   {
     "match_id": "612315",
@@ -65877,24 +66480,24 @@
     "league_id": "279",
     "league_name": "Premiership",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "16:00",
     "match_hometeam_id": "6339",
     "match_hometeam_name": "Livingston",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Hibernian",
     "match_awayteam_id": "6338",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "2",
+    "match_hometeam_system": "4-3-3",
+    "match_awayteam_system": "3-1-4-2",
     "match_live": "0",
     "match_round": "15",
     "match_stadium": "Home of the Set Fare Arena",
@@ -65906,9 +66509,318 @@
     "league_year": "2025/2026",
     "fk_stage_key": "2200",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "1",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "J. McGrath",
+        "away_scorer_id": "2127569861",
+        "away_assist": "T. Klidje",
+        "away_assist_id": "1052640648",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "37",
+        "home_scorer": "J. Bokila",
+        "home_scorer_id": "3781797029",
+        "home_assist": "S. Pittman",
+        "home_assist_id": "3508361307",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "55",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 2",
+        "away_scorer": "M. Boyle",
+        "away_scorer_id": "903046007",
+        "away_assist": "J. Mulligan",
+        "away_assist_id": "835081204",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "90+1",
+        "home_scorer": "G. Carey",
+        "home_scorer_id": "143222269",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 2",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "79",
+        "away": "77"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "46",
+        "away": "42"
+      },
+      {
+        "type": "On Target",
+        "home": "6",
+        "away": "7"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "10",
+        "away": "7"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "9",
+        "away": "5"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Fouls",
+        "home": "16",
+        "away": "13"
+      },
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "47%",
+        "away": "53%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "348",
+        "away": "398"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "254",
+        "away": "309"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "41",
+        "away": "46"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "19",
+        "away": "10"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Fouls",
+        "home": "10",
+        "away": "5"
+      },
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "192",
+        "away": "191"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "143",
+        "away": "142"
+      }
+    ]
   },
   {
     "match_id": "612299",
@@ -65917,7 +66829,7 @@
     "league_id": "279",
     "league_name": "Premiership",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "18:45",
     "match_hometeam_id": "6341",
     "match_hometeam_name": "St. Mirren",
@@ -65957,7 +66869,7 @@
     "league_id": "279",
     "league_name": "Premiership",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "16:00",
     "match_hometeam_id": "6346",
     "match_hometeam_name": "Falkirk",
@@ -65997,7 +66909,7 @@
     "league_id": "279",
     "league_name": "Premiership",
     "match_date": "2025-11-09",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "17:00",
     "match_hometeam_id": "127",
     "match_hometeam_name": "Celtic",
@@ -66037,7 +66949,7 @@
     "league_id": "279",
     "league_name": "Premiership",
     "match_date": "2025-11-09",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "16:00",
     "match_hometeam_id": "6349",
     "match_hometeam_name": "Dundee FC",
@@ -66077,7 +66989,7 @@
     "league_id": "279",
     "league_name": "Premiership",
     "match_date": "2025-11-09",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "16:00",
     "match_hometeam_id": "237",
     "match_hometeam_name": "Aberdeen",
@@ -66117,7 +67029,7 @@
     "league_id": "279",
     "league_name": "Premiership",
     "match_date": "2025-11-09",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "16:00",
     "match_hometeam_id": "6422",
     "match_hometeam_name": "Hearts",
@@ -67271,46 +68183,6 @@
     "statistics_1half": []
   },
   {
-    "match_id": "612329",
-    "country_id": "98",
-    "country_name": "Scotland",
-    "league_id": "279",
-    "league_name": "Premiership",
-    "match_date": "2025-12-14",
-    "match_status": "Not Started",
-    "match_time": "16:00",
-    "match_hometeam_id": "146",
-    "match_hometeam_name": "Rangers",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Hibernian",
-    "match_awayteam_id": "6338",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "17",
-    "match_stadium": "Ibrox Stadium",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/146_rangers.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/6338_hibernian.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/279_premiership.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/98_scotland.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "2200",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
     "match_id": "612330",
     "country_id": "98",
     "country_name": "Scotland",
@@ -67341,6 +68213,46 @@
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/237_aberdeen.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6344_kilmarnock.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/279_premiership.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/98_scotland.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "2200",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "612329",
+    "country_id": "98",
+    "country_name": "Scotland",
+    "league_id": "279",
+    "league_name": "Premiership",
+    "match_date": "2025-12-15",
+    "match_status": "Not Started",
+    "match_time": "20:45",
+    "match_hometeam_id": "146",
+    "match_hometeam_name": "Rangers",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Hibernian",
+    "match_awayteam_id": "6338",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "17",
+    "match_stadium": "Ibrox Stadium",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/146_rangers.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/6338_hibernian.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/279_premiership.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/98_scotland.png",
     "league_year": "2025/2026",

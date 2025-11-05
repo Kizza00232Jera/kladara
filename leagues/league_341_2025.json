@@ -35921,22 +35921,22 @@
     "league_id": "341",
     "league_name": "Premier League",
     "match_date": "2025-10-31",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "20:45",
     "match_hometeam_id": "258",
     "match_hometeam_name": "Bala",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Llanelli",
     "match_awayteam_id": "8084",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "0",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -35950,9 +35950,136 @@
     "league_year": "2025/2026",
     "fk_stage_key": "2326",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "14",
+        "home_scorer": "O. Ibrahim",
+        "home_scorer_id": "3494415001",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Attacks",
+        "home": "113",
+        "away": "118"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "54",
+        "away": "58"
+      },
+      {
+        "type": "On Target",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "44%",
+        "away": "56%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "60",
+        "away": "63"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "19",
+        "away": "26"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "42%",
+        "away": "58%"
+      }
+    ]
   },
   {
     "match_id": "609210",
@@ -35961,22 +36088,22 @@
     "league_id": "341",
     "league_name": "Premier League",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "15:30",
     "match_hometeam_id": "8064",
     "match_hometeam_name": "Flint",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "3",
     "match_awayteam_name": "Penybont",
     "match_awayteam_id": "8096",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "4",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "3",
+    "match_awayteam_ft_score": "4",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -35990,9 +36117,220 @@
     "league_year": "2025/2026",
     "fk_stage_key": "2326",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "25",
+        "home_scorer": "J. Thorn",
+        "home_scorer_id": "2840115444",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "40",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "C. Green",
+        "away_scorer_id": "2099195754",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "50",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 2",
+        "away_scorer": "N. Daley",
+        "away_scorer_id": "2767401663",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "62",
+        "home_scorer": "B. Wynne",
+        "home_scorer_id": "4116896673",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 2",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "67",
+        "home_scorer": "M. Burke",
+        "home_scorer_id": "1679797255",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 2",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "83",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 3",
+        "away_scorer": "J. Crole",
+        "away_scorer_id": "579648461",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "87",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 4",
+        "away_scorer": "N. Daley",
+        "away_scorer_id": "2767401663",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "124",
+        "away": "180"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "60",
+        "away": "85"
+      },
+      {
+        "type": "On Target",
+        "home": "6",
+        "away": "6"
+      },
+      {
+        "type": "Off Target",
+        "home": "7",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "45%",
+        "away": "55%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "56",
+        "away": "94"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "34",
+        "away": "35"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "42%",
+        "away": "58%"
+      }
+    ]
   },
   {
     "match_id": "609211",
@@ -36001,22 +36339,22 @@
     "league_id": "341",
     "league_name": "Premier League",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "15:30",
     "match_hometeam_id": "8097",
     "match_hometeam_name": "Caernarfon",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "4",
     "match_awayteam_name": "Briton Ferry",
     "match_awayteam_id": "8082",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "2",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "4",
+    "match_awayteam_ft_score": "1",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -36030,9 +36368,192 @@
     "league_year": "2025/2026",
     "fk_stage_key": "2326",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "24",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "C. Hurford",
+        "away_scorer_id": "2041565607",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "28",
+        "home_scorer": "S. Bradley",
+        "home_scorer_id": "3638568524",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "32",
+        "home_scorer": "A. Davies",
+        "home_scorer_id": "1611348914",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "65",
+        "home_scorer": "S. Bradley",
+        "home_scorer_id": "3638568524",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "90+3",
+        "home_scorer": "P. Mooney",
+        "home_scorer_id": "1523444603",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "4 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "2",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "84",
+        "away": "83"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "50",
+        "away": "41"
+      },
+      {
+        "type": "On Target",
+        "home": "14",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "8"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "53%",
+        "away": "47%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "48",
+        "away": "42"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "22",
+        "away": "21"
+      },
+      {
+        "type": "On Target",
+        "home": "9",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "59%",
+        "away": "41%"
+      }
+    ]
   },
   {
     "match_id": "609212",
@@ -36041,22 +36562,22 @@
     "league_id": "341",
     "league_name": "Premier League",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "15:30",
     "match_hometeam_id": "8100",
     "match_hometeam_name": "Cardiff Metropolitan",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "0",
     "match_awayteam_name": "Connahs Q.",
     "match_awayteam_id": "133",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "3",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "2",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "3",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -36070,9 +36591,164 @@
     "league_year": "2025/2026",
     "fk_stage_key": "2326",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "4",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "R. Hughes",
+        "away_scorer_id": "535084896",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "22",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 2",
+        "away_scorer": "H. Franklin",
+        "away_scorer_id": "3144604434",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "75",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 3",
+        "away_scorer": "R. Hughes",
+        "away_scorer_id": "535084896",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Attacks",
+        "home": "115",
+        "away": "101"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "50",
+        "away": "48"
+      },
+      {
+        "type": "On Target",
+        "home": "0",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "65",
+        "away": "48"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "27",
+        "away": "21"
+      },
+      {
+        "type": "On Target",
+        "home": "0",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      }
+    ]
   },
   {
     "match_id": "609213",
@@ -36081,22 +36757,22 @@
     "league_id": "341",
     "league_name": "Premier League",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "18:15",
     "match_hometeam_id": "8065",
     "match_hometeam_name": "Colwyn Bay",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Barry",
     "match_awayteam_id": "267",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "4",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "2",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "4",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -36110,9 +36786,192 @@
     "league_year": "2025/2026",
     "fk_stage_key": "2326",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "13",
+        "home_scorer": "N. Peate",
+        "home_scorer_id": "3197035269",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "20",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "Owen Ieuan Gwyn",
+        "away_scorer_id": "3012529955",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "25",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 2",
+        "away_scorer": "Owen Ieuan Gwyn",
+        "away_scorer_id": "3012529955",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "69",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 3",
+        "away_scorer": "O. Hulbert",
+        "away_scorer_id": "2619010680",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "78",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 4",
+        "away_scorer": "R. Willmott",
+        "away_scorer_id": "3356913958",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "76",
+        "away": "119"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "34",
+        "away": "69"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "7"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "9"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "37%",
+        "away": "63%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "35",
+        "away": "59"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "22",
+        "away": "31"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "33%",
+        "away": "67%"
+      }
+    ]
   },
   {
     "match_id": "609214",
@@ -36121,22 +36980,22 @@
     "league_id": "341",
     "league_name": "Premier League",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "15:30",
     "match_hometeam_id": "8081",
     "match_hometeam_name": "Haverfordwest",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "TNS",
     "match_awayteam_id": "203",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "3",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "2",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "3",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -36150,9 +37009,192 @@
     "league_year": "2025/2026",
     "fk_stage_key": "2326",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "27",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "D. Williams",
+        "away_scorer_id": "2083072911",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "30",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 2",
+        "away_scorer": "J. Williams",
+        "away_scorer_id": "218423096",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "48",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 3",
+        "away_scorer": "J. Williams",
+        "away_scorer_id": "218423096",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "58",
+        "home_scorer": "C. Shephard",
+        "home_scorer_id": "334303943",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 3",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "90",
+        "home_scorer": "B. Ahmun",
+        "home_scorer_id": "3192717442",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 3",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "12"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "50",
+        "away": "105"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "28",
+        "away": "75"
+      },
+      {
+        "type": "On Target",
+        "home": "6",
+        "away": "13"
+      },
+      {
+        "type": "Off Target",
+        "home": "0",
+        "away": "10"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "33%",
+        "away": "67%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "19",
+        "away": "60"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "8",
+        "away": "42"
+      },
+      {
+        "type": "On Target",
+        "home": "0",
+        "away": "8"
+      },
+      {
+        "type": "Off Target",
+        "home": "0",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "30%",
+        "away": "70%"
+      }
+    ]
   },
   {
     "match_id": "609215",
@@ -36241,7 +37283,7 @@
     "league_id": "341",
     "league_name": "Premier League",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "18:15",
     "match_hometeam_id": "133",
     "match_hometeam_name": "Connahs Q.",
@@ -36281,7 +37323,7 @@
     "league_id": "341",
     "league_name": "Premier League",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "15:30",
     "match_hometeam_id": "267",
     "match_hometeam_name": "Barry",
@@ -36321,7 +37363,7 @@
     "league_id": "341",
     "league_name": "Premier League",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "15:30",
     "match_hometeam_id": "8065",
     "match_hometeam_name": "Colwyn Bay",
@@ -36341,7 +37383,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "16",
-    "match_stadium": "Llanelian Road",
+    "match_stadium": "Blue Turtle Arena",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/8065_colwyn-bay.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/8084_llanelli-town.jpg",
@@ -36361,7 +37403,7 @@
     "league_id": "341",
     "league_name": "Premier League",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "15:30",
     "match_hometeam_id": "8097",
     "match_hometeam_name": "Caernarfon",
@@ -36381,7 +37423,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "16",
-    "match_stadium": "The Oval",
+    "match_stadium": "Go Goodwins Stadium",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/8097_caernarfon-town.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/8081_haverfordwest-county.jpg",

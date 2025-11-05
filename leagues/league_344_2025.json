@@ -44192,27 +44192,27 @@
     "league_id": "344",
     "league_name": "Premier League",
     "match_date": "2025-10-31",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "17:00",
     "match_hometeam_id": "169",
     "match_hometeam_name": "CSKA Moscow",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Pari NN",
     "match_awayteam_id": "6266",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "4-3-3",
+    "match_awayteam_system": "5-3-2",
     "match_live": "0",
     "match_round": "14",
-    "match_stadium": "",
+    "match_stadium": "VEB Arena",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/169_cska-moskva.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6266_nizhny-novgorod.jpg",
@@ -44221,9 +44221,180 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1516",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "40",
+        "home_scorer": "I. Oblyakov",
+        "home_scorer_id": "2609000225",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "82",
+        "home_scorer": "M. Kislyak",
+        "home_scorer_id": "2141440049",
+        "home_assist": "D. Krugovoy",
+        "home_assist_id": "1528096451",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Shots Total",
+        "home": "15",
+        "away": "15"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "8",
+        "away": "8"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "9",
+        "away": "10"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "6",
+        "away": "5"
+      },
+      {
+        "type": "Fouls",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "7"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "64%",
+        "away": "36%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Passes Total",
+        "home": "533",
+        "away": "299"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "463",
+        "away": "229"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Shots Total",
+        "home": "4",
+        "away": "7"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "0",
+        "away": "3"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Fouls",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "65%",
+        "away": "35%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "242",
+        "away": "123"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "207",
+        "away": "92"
+      }
+    ]
   },
   {
     "match_id": "689145",
@@ -44232,24 +44403,24 @@
     "league_id": "344",
     "league_name": "Premier League",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "15:45",
     "match_hometeam_id": "6210",
     "match_hometeam_name": "Dynamo Makhachkala",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Krylya Sovetov",
     "match_awayteam_id": "6264",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "3-1-4-2",
+    "match_awayteam_system": "3-4-3",
     "match_live": "0",
     "match_round": "14",
     "match_stadium": "Anzhi Arena",
@@ -44261,9 +44432,175 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1516",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "5",
+        "home_scorer": "H. Mrezigue",
+        "home_scorer_id": "4085753655",
+        "home_assist": "M. Azzi",
+        "home_assist_id": "2193319312",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "78",
+        "home_scorer": "M. Moubarik",
+        "home_scorer_id": "182942663",
+        "home_assist": "G. Agalarov",
+        "home_assist_id": "3582167802",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Shots Total",
+        "home": "15",
+        "away": "6"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "7",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "12",
+        "away": "5"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Fouls",
+        "home": "16",
+        "away": "19"
+      },
+      {
+        "type": "Corners",
+        "home": "9",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "58%",
+        "away": "42%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Passes Total",
+        "home": "512",
+        "away": "365"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "402",
+        "away": "255"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Shots Total",
+        "home": "10",
+        "away": "3"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "7",
+        "away": "3"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Fouls",
+        "home": "9",
+        "away": "9"
+      },
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "55%",
+        "away": "45%"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "230",
+        "away": "193"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "192",
+        "away": "146"
+      }
+    ]
   },
   {
     "match_id": "689146",
@@ -44272,24 +44609,24 @@
     "league_id": "344",
     "league_name": "Premier League",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "18:15",
     "match_hometeam_id": "184",
     "match_hometeam_name": "FK Rostov",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "0",
     "match_awayteam_name": "Akron Togliatti",
     "match_awayteam_id": "6281",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "3-1-4-2",
+    "match_awayteam_system": "4-3-3",
     "match_live": "0",
     "match_round": "14",
     "match_stadium": "Rostov Arena",
@@ -44301,9 +44638,171 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1516",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "79",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "Benchimol",
+        "away_scorer_id": "2162737021",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Shots Total",
+        "home": "10",
+        "away": "8"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "6",
+        "away": "5"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "6",
+        "away": "8"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "4",
+        "away": "0"
+      },
+      {
+        "type": "Fouls",
+        "home": "11",
+        "away": "13"
+      },
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Red Cards",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "333",
+        "away": "337"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "249",
+        "away": "251"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Shots Total",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Fouls",
+        "home": "7",
+        "away": "6"
+      },
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "51%",
+        "away": "49%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "158",
+        "away": "149"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "118",
+        "away": "114"
+      }
+    ]
   },
   {
     "match_id": "689149",
@@ -44312,24 +44811,24 @@
     "league_id": "344",
     "league_name": "Premier League",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "15:45",
     "match_hometeam_id": "8120",
     "match_hometeam_name": "Rubin Kazan",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "0",
     "match_awayteam_name": "Dynamo Moscow",
     "match_awayteam_id": "221",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "3-4-3",
+    "match_awayteam_system": "4-3-3",
     "match_live": "0",
     "match_round": "14",
     "match_stadium": "Ak Bars Arena",
@@ -44342,8 +44841,155 @@
     "fk_stage_key": "1516",
     "stage_name": "Current",
     "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "statistics": [
+      {
+        "type": "Shots Total",
+        "home": "7",
+        "away": "15"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "8"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "2",
+        "away": "9"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Fouls",
+        "home": "15",
+        "away": "14"
+      },
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Offsides",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "33%",
+        "away": "67%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Red Cards",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Saves",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "283",
+        "away": "574"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "196",
+        "away": "482"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Shots Total",
+        "home": "3",
+        "away": "7"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "5",
+        "away": "7"
+      },
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "38%",
+        "away": "62%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "198",
+        "away": "322"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "143",
+        "away": "270"
+      }
+    ]
   },
   {
     "match_id": "689150",
@@ -44352,24 +44998,24 @@
     "league_id": "344",
     "league_name": "Premier League",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "18:15",
     "match_hometeam_id": "95",
     "match_hometeam_name": "Zenit",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Lokomotiv Moscow",
     "match_awayteam_id": "75",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "4-3-3",
+    "match_awayteam_system": "4-3-3",
     "match_live": "0",
     "match_round": "14",
     "match_stadium": "Gazprom Arena",
@@ -44381,9 +45027,180 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1516",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "9",
+        "home_scorer": "Pedrinho",
+        "home_scorer_id": "2521485191",
+        "home_assist": "M. Glushenkov",
+        "home_assist_id": "3997580560",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "90+1",
+        "home_scorer": "A. Mostovoy",
+        "home_scorer_id": "2677883537",
+        "home_assist": "A. Erokhin",
+        "home_assist_id": "139119481",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Shots Total",
+        "home": "11",
+        "away": "9"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "7",
+        "away": "5"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "10",
+        "away": "19"
+      },
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "5",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "49%",
+        "away": "51%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Passes Total",
+        "home": "393",
+        "away": "400"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "304",
+        "away": "323"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Shots Total",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Fouls",
+        "home": "2",
+        "away": "9"
+      },
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "54%",
+        "away": "46%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "243",
+        "away": "202"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "201",
+        "away": "163"
+      }
+    ]
   },
   {
     "match_id": "599296",
@@ -44392,24 +45209,24 @@
     "league_id": "344",
     "league_name": "Premier League",
     "match_date": "2025-11-02",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "15:00",
     "match_hometeam_id": "6269",
     "match_hometeam_name": "Baltika",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Akhmat Grozny",
     "match_awayteam_id": "6290",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "3-4-3",
+    "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "14",
     "match_stadium": "Rostec Arena",
@@ -44421,9 +45238,185 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1516",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "9",
+        "home_scorer": "M. Petrov",
+        "home_scorer_id": "2267217281",
+        "home_assist": "B. Gil",
+        "home_assist_id": "2895212668",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "51",
+        "home_scorer": "S. Pryakhin",
+        "home_scorer_id": "1125067180",
+        "home_assist": "M. Petrov",
+        "home_assist_id": "2267217281",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Shots Total",
+        "home": "15",
+        "away": "11"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "7",
+        "away": "6"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "9",
+        "away": "6"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "6",
+        "away": "5"
+      },
+      {
+        "type": "Fouls",
+        "home": "19",
+        "away": "16"
+      },
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Offsides",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "51%",
+        "away": "49%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Passes Total",
+        "home": "331",
+        "away": "318"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "259",
+        "away": "241"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Shots Total",
+        "home": "6",
+        "away": "5"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Fouls",
+        "home": "11",
+        "away": "6"
+      },
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "49%",
+        "away": "51%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "147",
+        "away": "161"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "109",
+        "away": "125"
+      }
+    ]
   },
   {
     "match_id": "689147",
@@ -44432,24 +45425,24 @@
     "league_id": "344",
     "league_name": "Premier League",
     "match_date": "2025-11-02",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "17:30",
     "match_hometeam_id": "90",
     "match_hometeam_name": "Krasnodar",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Spartak Moscow",
     "match_awayteam_id": "6287",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "14",
     "match_stadium": "Ozon Arena",
@@ -44461,9 +45454,199 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1516",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "18",
+        "home_scorer": "A. Chernikov",
+        "home_scorer_id": "3357424842",
+        "home_assist": "J. Cordoba",
+        "home_assist_id": "1944524575",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "59",
+        "home_scorer": "J. Cordoba",
+        "home_scorer_id": "1944524575",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "90",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 1",
+        "away_scorer": "L. Garcia",
+        "away_scorer_id": "1064184415",
+        "away_assist": "E. Barco",
+        "away_assist_id": "1078463541",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Shots Total",
+        "home": "17",
+        "away": "11"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "6",
+        "away": "4"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "13",
+        "away": "5"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "4",
+        "away": "6"
+      },
+      {
+        "type": "Fouls",
+        "home": "24",
+        "away": "17"
+      },
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "44%",
+        "away": "56%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "6",
+        "away": "5"
+      },
+      {
+        "type": "Red Cards",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Saves",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "302",
+        "away": "389"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "210",
+        "away": "297"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Shots Total",
+        "home": "10",
+        "away": "3"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "4",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "8",
+        "away": "1"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Fouls",
+        "home": "11",
+        "away": "14"
+      },
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "53%",
+        "away": "47%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "0",
+        "away": "4"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Passes Total",
+        "home": "160",
+        "away": "144"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "128",
+        "away": "114"
+      }
+    ]
   },
   {
     "match_id": "689148",
@@ -44472,24 +45655,24 @@
     "league_id": "344",
     "league_name": "Premier League",
     "match_date": "2025-11-02",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "10:00",
     "match_hometeam_id": "6265",
     "match_hometeam_name": "Orenburg",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "3",
     "match_awayteam_name": "Sochi",
     "match_awayteam_id": "6289",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "2",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "3",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "4-4-2",
     "match_live": "0",
     "match_round": "14",
     "match_stadium": "Luzhniki Stadium",
@@ -44501,9 +45684,203 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1516",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "9",
+        "home_scorer": "E. Gurluk",
+        "home_scorer_id": "2242913284",
+        "home_assist": "J. Thompson",
+        "home_assist_id": "1031681100",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "37",
+        "home_scorer": "M. Ignatov (o.g.)",
+        "home_scorer_id": "2742952668",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "40",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 1",
+        "away_scorer": "F. Kamano",
+        "away_scorer_id": "1958294964",
+        "away_assist": "D. Vasiljev",
+        "away_assist_id": "1237434386",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "62",
+        "home_scorer": "J. Thompson",
+        "home_scorer_id": "1031681100",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Shots Total",
+        "home": "15",
+        "away": "7"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "9",
+        "away": "5"
+      },
+      {
+        "type": "Fouls",
+        "home": "20",
+        "away": "16"
+      },
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "4",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "41%",
+        "away": "59%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "2",
+        "away": "5"
+      },
+      {
+        "type": "Passes Total",
+        "home": "274",
+        "away": "392"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "195",
+        "away": "310"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Shots Total",
+        "home": "8",
+        "away": "3"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "4",
+        "away": "0"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Fouls",
+        "home": "8",
+        "away": "7"
+      },
+      {
+        "type": "Offsides",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "46%",
+        "away": "54%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "156",
+        "away": "184"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "115",
+        "away": "136"
+      }
+    ]
   },
   {
     "match_id": "689153",
@@ -44512,7 +45889,7 @@
     "league_id": "344",
     "league_name": "Premier League",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "14:30",
     "match_hometeam_id": "6210",
     "match_hometeam_name": "Dynamo Makhachkala",
@@ -44552,7 +45929,7 @@
     "league_id": "344",
     "league_name": "Premier League",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "12:00",
     "match_hometeam_id": "221",
     "match_hometeam_name": "Dynamo Moscow",
@@ -44592,7 +45969,7 @@
     "league_id": "344",
     "league_name": "Premier League",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "14:30",
     "match_hometeam_id": "6266",
     "match_hometeam_name": "Pari NN",
@@ -44632,7 +46009,7 @@
     "league_id": "344",
     "league_name": "Premier League",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "17:00",
     "match_hometeam_id": "6289",
     "match_hometeam_name": "Sochi",
@@ -44672,7 +46049,7 @@
     "league_id": "344",
     "league_name": "Premier League",
     "match_date": "2025-11-09",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "15:30",
     "match_hometeam_id": "6290",
     "match_hometeam_name": "Akhmat Grozny",
@@ -44712,7 +46089,7 @@
     "league_id": "344",
     "league_name": "Premier League",
     "match_date": "2025-11-09",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "17:45",
     "match_hometeam_id": "6269",
     "match_hometeam_name": "Baltika",
@@ -44752,7 +46129,7 @@
     "league_id": "344",
     "league_name": "Premier League",
     "match_date": "2025-11-09",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "11:00",
     "match_hometeam_id": "6264",
     "match_hometeam_name": "Krylya Sovetov",
@@ -44792,7 +46169,7 @@
     "league_id": "344",
     "league_name": "Premier League",
     "match_date": "2025-11-09",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "13:15",
     "match_hometeam_id": "75",
     "match_hometeam_name": "Lokomotiv Moscow",
@@ -45132,7 +46509,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "16",
-    "match_stadium": "",
+    "match_stadium": "Nizhny Novgorod Stadium",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/6266_nizhny-novgorod.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/95_zenit.jpg",

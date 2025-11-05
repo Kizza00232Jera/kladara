@@ -33806,22 +33806,22 @@
     "league_id": "138",
     "league_name": "1. Division",
     "match_date": "2025-10-31",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "19:00",
     "match_hometeam_id": "2654",
     "match_hometeam_name": "Horsens",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Koge",
     "match_awayteam_id": "2732",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "3",
+    "match_hometeam_halftime_score": "2",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "3",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -33835,9 +33835,192 @@
     "league_year": "2025/2026",
     "fk_stage_key": "888",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "30",
+        "home_scorer": "C. Tape",
+        "home_scorer_id": "3082340908",
+        "home_assist": "K. Kirkegaard",
+        "home_assist_id": "88995408",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "44",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "M. Jensen",
+        "away_scorer_id": "1951652876",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "45",
+        "home_scorer": "R. Baturina",
+        "home_scorer_id": "3230132403",
+        "home_assist": "K. Kirkegaard",
+        "home_assist_id": "88995408",
+        "score": "2 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "77",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 2",
+        "away_scorer": "M. Jensen",
+        "away_scorer_id": "1951652876",
+        "away_assist": "R. Brodersen",
+        "away_assist_id": "3876567029",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "90+2",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 3",
+        "away_scorer": "S. Hald",
+        "away_scorer_id": "2801803272",
+        "away_assist": "I. Dorgu",
+        "away_assist_id": "1133596596",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "133",
+        "away": "76"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "48",
+        "away": "30"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "9",
+        "away": "7"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "61%",
+        "away": "39%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "74",
+        "away": "34"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "22",
+        "away": "17"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "61%",
+        "away": "39%"
+      }
+    ]
   },
   {
     "match_id": "590346",
@@ -33846,22 +34029,22 @@
     "league_id": "138",
     "league_name": "1. Division",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "14:00",
     "match_hometeam_id": "2675",
     "match_hometeam_name": "Hillerod",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Kolding IF",
     "match_awayteam_id": "2737",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "1",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -33875,9 +34058,150 @@
     "league_year": "2025/2026",
     "fk_stage_key": "888",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "25",
+        "home_scorer": "V. Dedes",
+        "home_scorer_id": "3299431663",
+        "home_assist": "S. Jalaei",
+        "home_assist_id": "2502629167",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "57",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "V. Morozov",
+        "away_scorer_id": "4139738052",
+        "away_assist": "J. Alfaro",
+        "away_assist_id": "1075356189",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "6",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "111",
+        "away": "93"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "26",
+        "away": "35"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "46%",
+        "away": "54%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "55",
+        "away": "57"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "10",
+        "away": "12"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "40%",
+        "away": "60%"
+      }
+    ]
   },
   {
     "match_id": "680321",
@@ -33886,22 +34210,22 @@
     "league_id": "138",
     "league_name": "1. Division",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "14:00",
     "match_hometeam_id": "2658",
     "match_hometeam_name": "Aarhus Fremad",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "0",
     "match_awayteam_name": "Hvidovre IF",
     "match_awayteam_id": "2735",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "0",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -33916,8 +34240,120 @@
     "fk_stage_key": "888",
     "stage_name": "Current",
     "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "107",
+        "away": "84"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "42",
+        "away": "37"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "70%",
+        "away": "30%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "51",
+        "away": "46"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "17",
+        "away": "14"
+      },
+      {
+        "type": "On Target",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "70%",
+        "away": "30%"
+      }
+    ]
   },
   {
     "match_id": "680322",
@@ -33926,22 +34362,22 @@
     "league_id": "138",
     "league_name": "1. Division",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "14:00",
     "match_hometeam_id": "2661",
     "match_hometeam_name": "Middelfart",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Aalborg",
     "match_awayteam_id": "2651",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "2",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -33955,9 +34391,164 @@
     "league_year": "2025/2026",
     "fk_stage_key": "888",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "6",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "K. Hansen",
+        "away_scorer_id": "3375531623",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "69",
+        "home_scorer": "A. Akale",
+        "home_scorer_id": "3741055786",
+        "home_assist": "S. Pedersen",
+        "home_assist_id": "2239192730",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "71",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 2",
+        "away_scorer": "K. John",
+        "away_scorer_id": "3644423398",
+        "away_assist": "O. Ross",
+        "away_assist_id": "812290947",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "112",
+        "away": "81"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "46",
+        "away": "30"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "60%",
+        "away": "40%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "58",
+        "away": "39"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "15",
+        "away": "11"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "60%",
+        "away": "40%"
+      }
+    ]
   },
   {
     "match_id": "680323",
@@ -33966,22 +34557,22 @@
     "league_id": "138",
     "league_name": "1. Division",
     "match_date": "2025-11-02",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "17:00",
     "match_hometeam_id": "2729",
     "match_hometeam_name": "Esbjerg",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "3",
     "match_awayteam_name": "B.93",
     "match_awayteam_id": "2656",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "2",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "3",
+    "match_awayteam_ft_score": "2",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -33995,9 +34586,192 @@
     "league_year": "2025/2026",
     "fk_stage_key": "888",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "7",
+        "home_scorer": "L. Vigen",
+        "home_scorer_id": "2988288946",
+        "home_assist": "R. Gyamfi",
+        "home_assist_id": "1147828366",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "36",
+        "home_scorer": "M. Hansen",
+        "home_scorer_id": "3479064228",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "44",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 1",
+        "away_scorer": "R. Arabaci",
+        "away_scorer_id": "2968590308",
+        "away_assist": "O. Addo",
+        "away_assist_id": "1990693482",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "66",
+        "home_scorer": "M. Brajanac",
+        "home_scorer_id": "1804847644",
+        "home_assist": "J. Buus",
+        "home_assist_id": "1981727476",
+        "score": "3 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "90+2",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 2",
+        "away_scorer": "C. Bjork",
+        "away_scorer_id": "4262188463",
+        "away_assist": "A. Ahmad",
+        "away_assist_id": "3921873101",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "102",
+        "away": "98"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "53",
+        "away": "36"
+      },
+      {
+        "type": "On Target",
+        "home": "8",
+        "away": "9"
+      },
+      {
+        "type": "Off Target",
+        "home": "10",
+        "away": "6"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "51%",
+        "away": "49%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "58",
+        "away": "46"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "29",
+        "away": "14"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "6",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "60%",
+        "away": "40%"
+      }
+    ]
   },
   {
     "match_id": "689788",
@@ -34006,22 +34780,22 @@
     "league_id": "138",
     "league_name": "1. Division",
     "match_date": "2025-11-02",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "15:00",
     "match_hometeam_id": "2653",
     "match_hometeam_name": "Lyngby",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "3",
     "match_awayteam_name": "Hobro",
     "match_awayteam_id": "2734",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "2",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "3",
+    "match_awayteam_ft_score": "0",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -34035,9 +34809,164 @@
     "league_year": "2025/2026",
     "fk_stage_key": "888",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "24",
+        "home_scorer": "Dani",
+        "home_scorer_id": "112893044",
+        "home_assist": "P. Langhoff",
+        "home_assist_id": "3179798972",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "29",
+        "home_scorer": "W. Steindorsson",
+        "home_scorer_id": "2333790175",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "81",
+        "home_scorer": "G. Mortensen",
+        "home_scorer_id": "2638910797",
+        "home_assist": "S. Colyn",
+        "home_assist_id": "806847904",
+        "score": "3 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "6"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "99",
+        "away": "98"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "68",
+        "away": "48"
+      },
+      {
+        "type": "On Target",
+        "home": "9",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "11",
+        "away": "9"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "46%",
+        "away": "54%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "60",
+        "away": "45"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "34",
+        "away": "26"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "7",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "53%",
+        "away": "47%"
+      }
+    ]
   },
   {
     "match_id": "680324",
@@ -34166,7 +35095,7 @@
     "league_id": "138",
     "league_name": "1. Division",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "14:00",
     "match_hometeam_id": "2656",
     "match_hometeam_name": "B.93",
@@ -34186,7 +35115,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "16",
-    "match_stadium": "Osterbro Stadium",
+    "match_stadium": "Sundby Idrætspark",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/2656_b-93.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/2653_lyngby.jpg",
@@ -34206,7 +35135,7 @@
     "league_id": "138",
     "league_name": "1. Division",
     "match_date": "2025-11-09",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "13:00",
     "match_hometeam_id": "2735",
     "match_hometeam_name": "Hvidovre IF",
@@ -34226,7 +35155,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "16",
-    "match_stadium": "Hvidovre Stadium",
+    "match_stadium": "Pro Ventilation Arena",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/2735_hvidovre.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/2651_aab.jpg",
@@ -34246,7 +35175,7 @@
     "league_id": "138",
     "league_name": "1. Division",
     "match_date": "2025-11-10",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "19:00",
     "match_hometeam_id": "2729",
     "match_hometeam_name": "Esbjerg",

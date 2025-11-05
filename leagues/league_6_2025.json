@@ -14778,27 +14778,27 @@
     "league_id": "6",
     "league_name": "Première Ligue",
     "match_date": "2025-10-31",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "21:00",
     "match_hometeam_id": "12588",
     "match_hometeam_name": "Marseille W",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "0",
     "match_awayteam_name": "Strasbourg W",
     "match_awayteam_id": "33495",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "0",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "6",
-    "match_stadium": "Stade Roger Lebert",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/12588_olympique-marseille-w.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/33495_strasbourg-w.jpg",
@@ -14808,8 +14808,120 @@
     "fk_stage_key": "246",
     "stage_name": "Current",
     "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Attacks",
+        "home": "54",
+        "away": "46"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "21",
+        "away": "26"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "38%",
+        "away": "62%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "30",
+        "away": "31"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "13",
+        "away": "12"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "36%",
+        "away": "64%"
+      }
+    ]
   },
   {
     "match_id": "631576",
@@ -14818,22 +14930,22 @@
     "league_id": "6",
     "league_name": "Première Ligue",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "17:00",
     "match_hometeam_id": "20217",
     "match_hometeam_name": "St Etienne W",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "4",
     "match_awayteam_name": "Montpellier W",
     "match_awayteam_id": "311",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "2",
+    "match_awayteam_halftime_score": "2",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "4",
+    "match_awayteam_ft_score": "2",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -14847,9 +14959,206 @@
     "league_year": "2025/2026",
     "fk_stage_key": "246",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "13",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "J. Rouquet",
+        "away_scorer_id": "2955779373",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "18",
+        "home_scorer": "R. Corboz",
+        "home_scorer_id": "3658648941",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "37",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 2",
+        "away_scorer": "J. Rouquet",
+        "away_scorer_id": "2955779373",
+        "away_assist": "S. Ouchene",
+        "away_assist_id": "2830770295",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "45+1",
+        "home_scorer": "S. Hornemann",
+        "home_scorer_id": "1744137494",
+        "home_assist": "C. Tapia",
+        "home_assist_id": "400409871",
+        "score": "2 - 2",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "55",
+        "home_scorer": "S. Hornemann",
+        "home_scorer_id": "1744137494",
+        "home_assist": "S. Cambot",
+        "home_assist_id": "791219650",
+        "score": "3 - 2",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "81",
+        "home_scorer": "R. Corboz",
+        "home_scorer_id": "3658648941",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "4 - 2",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "10",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "68",
+        "away": "56"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "49",
+        "away": "29"
+      },
+      {
+        "type": "On Target",
+        "home": "8",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "11",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "47%",
+        "away": "53%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "36",
+        "away": "27"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "27",
+        "away": "13"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "7",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "46%",
+        "away": "54%"
+      }
+    ]
   },
   {
     "match_id": "631577",
@@ -14858,22 +15167,22 @@
     "league_id": "6",
     "league_name": "Première Ligue",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "17:00",
     "match_hometeam_id": "33504",
     "match_hometeam_name": "Nantes W",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Dijon W",
     "match_awayteam_id": "314",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "2",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -14887,9 +15196,164 @@
     "league_year": "2025/2026",
     "fk_stage_key": "246",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "1",
+        "home_scorer": "L. Khelifi",
+        "home_scorer_id": "1973981725",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "49",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "M. Terchoun",
+        "away_scorer_id": "2491281773",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "63",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 2",
+        "away_scorer": "L. Declercq",
+        "away_scorer_id": "2320498499",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "9"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Attacks",
+        "home": "106",
+        "away": "103"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "41",
+        "away": "57"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "8"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "9"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "49%",
+        "away": "51%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "50",
+        "away": "49"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "19",
+        "away": "30"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "51%",
+        "away": "49%"
+      }
+    ]
   },
   {
     "match_id": "631578",
@@ -14898,22 +15362,22 @@
     "league_id": "6",
     "league_name": "Première Ligue",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "17:00",
     "match_hometeam_id": "313",
     "match_hometeam_name": "Fleury 91 W",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "4",
     "match_awayteam_name": "Lens W",
     "match_awayteam_id": "33507",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "2",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "4",
+    "match_awayteam_ft_score": "0",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -14927,9 +15391,178 @@
     "league_year": "2025/2026",
     "fk_stage_key": "246",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "10",
+        "home_scorer": "E. Laurent",
+        "home_scorer_id": "146980656",
+        "home_assist": "C. Fernandes",
+        "home_assist_id": "1714314393",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "40",
+        "home_scorer": "E. Laurent",
+        "home_scorer_id": "146980656",
+        "home_assist": "C. Fernandes",
+        "home_assist_id": "1714314393",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "70",
+        "home_scorer": "E. Laurent",
+        "home_scorer_id": "146980656",
+        "home_assist": "S. Chossenotte",
+        "home_assist_id": "2049191897",
+        "score": "3 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "71",
+        "home_scorer": "M. Ngock",
+        "home_scorer_id": "516398410",
+        "home_assist": "E. Laurent",
+        "home_assist_id": "146980656",
+        "score": "4 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "8"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "70",
+        "away": "85"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "26",
+        "away": "38"
+      },
+      {
+        "type": "On Target",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "54%",
+        "away": "46%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "36",
+        "away": "41"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "13",
+        "away": "17"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "52%",
+        "away": "48%"
+      }
+    ]
   },
   {
     "match_id": "631580",
@@ -14938,22 +15571,22 @@
     "league_id": "6",
     "league_name": "Première Ligue",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "17:00",
     "match_hometeam_id": "29",
     "match_hometeam_name": "PSG W",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Le Havre W",
     "match_awayteam_id": "318",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "2",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "0",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -14967,9 +15600,150 @@
     "league_year": "2025/2026",
     "fk_stage_key": "246",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "11",
+        "home_scorer": "R. Leuchter",
+        "home_scorer_id": "3028734412",
+        "home_assist": "J. Echegini",
+        "home_assist_id": "900865203",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "22",
+        "home_scorer": "R. Leuchter",
+        "home_scorer_id": "3028734412",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "1st Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "9",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "109",
+        "away": "77"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "73",
+        "away": "48"
+      },
+      {
+        "type": "On Target",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "10",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "61%",
+        "away": "39%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Attacks",
+        "home": "45",
+        "away": "48"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "30",
+        "away": "25"
+      },
+      {
+        "type": "On Target",
+        "home": "6",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "6",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "58%",
+        "away": "42%"
+      }
+    ]
   },
   {
     "match_id": "631581",
@@ -14978,22 +15752,22 @@
     "league_id": "6",
     "league_name": "Première Ligue",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "21:00",
     "match_hometeam_id": "30",
     "match_hometeam_name": "Lyon W",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Paris FC W",
     "match_awayteam_id": "310",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "0",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -15007,9 +15781,136 @@
     "league_year": "2025/2026",
     "fk_stage_key": "246",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "75",
+        "home_scorer": "T. Chawinga",
+        "home_scorer_id": "1723519522",
+        "home_assist": "I. Engen",
+        "home_assist_id": "3476816107",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "128",
+        "away": "52"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "43",
+        "away": "33"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "7",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "60%",
+        "away": "40%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "69",
+        "away": "26"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "19",
+        "away": "18"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "65%",
+        "away": "35%"
+      }
+    ]
   },
   {
     "match_id": "631582",
@@ -15138,7 +16039,7 @@
     "league_id": "6",
     "league_name": "Première Ligue",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "17:00",
     "match_hometeam_id": "33504",
     "match_hometeam_name": "Nantes W",
@@ -15158,7 +16059,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "7",
-    "match_stadium": "Stade Marcel Saupin",
+    "match_stadium": "Stade Marcel-Saupin",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/33504_nantes-w.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/318_le-havre-w.jpg",
@@ -15178,7 +16079,7 @@
     "league_id": "6",
     "league_name": "Première Ligue",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "17:00",
     "match_hometeam_id": "33495",
     "match_hometeam_name": "Strasbourg W",
@@ -15198,7 +16099,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "7",
-    "match_stadium": "Stade de la Meinau",
+    "match_stadium": "Stade Jean-Nicolas Muller",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/33495_strasbourg-w.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/20217_saint-etienne-w.jpg",
@@ -15218,7 +16119,7 @@
     "league_id": "6",
     "league_name": "Première Ligue",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "21:00",
     "match_hometeam_id": "29",
     "match_hometeam_name": "PSG W",
@@ -15238,7 +16139,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "7",
-    "match_stadium": "Paris Saint-Germain Training Center",
+    "match_stadium": "Campus PSG",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/29_psg-w.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/313_fleury-91-w.jpg",

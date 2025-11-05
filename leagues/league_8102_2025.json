@@ -17826,27 +17826,27 @@
     "league_id": "8102",
     "league_name": "USL Super League - Group Stage",
     "match_date": "2025-10-31",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "23:00",
     "match_hometeam_id": "37336",
     "match_hometeam_name": "Lexington W",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "4",
     "match_awayteam_name": "Sporting Jax W",
     "match_awayteam_id": "39255",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "4",
+    "match_awayteam_ft_score": "2",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "",
-    "match_stadium": "Lexington SC Stadium",
+    "match_stadium": "Toyota Stadium",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/37336_lexington-w.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/39255_sporting-jax-w.jpg",
@@ -17855,9 +17855,206 @@
     "league_year": "2025/2026",
     "fk_stage_key": "20102",
     "stage_name": "Group Stage",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "17",
+        "home_scorer": "S. Griffith",
+        "home_scorer_id": "176661235",
+        "home_assist": "H. Johnson",
+        "home_assist_id": "1998652466",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "51",
+        "home_scorer": "E. Ekic",
+        "home_scorer_id": "2239622491",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "73",
+        "home_scorer": "C. Barry",
+        "home_scorer_id": "799026054",
+        "home_assist": "H. Johnson",
+        "home_assist_id": "1998652466",
+        "score": "3 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "79",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 1",
+        "away_scorer": "P. Kenton",
+        "away_scorer_id": "2624352025",
+        "away_assist": "A. Puerta",
+        "away_assist_id": "90521251",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "90",
+        "home_scorer": "S. Moyer",
+        "home_scorer_id": "776498528",
+        "home_assist": "T. Fung",
+        "home_assist_id": "1194961070",
+        "score": "4 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "90+6",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "4 - 2",
+        "away_scorer": "A. Puerta",
+        "away_scorer_id": "90521251",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Attacks",
+        "home": "69",
+        "away": "59"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "37",
+        "away": "27"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "53%",
+        "away": "47%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "36",
+        "away": "34"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "15",
+        "away": "10"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "53%",
+        "away": "47%"
+      }
+    ]
   },
   {
     "match_id": "702120",
@@ -18061,22 +18258,22 @@
     "league_id": "8102",
     "league_name": "USL Super League - Group Stage",
     "match_date": "2025-11-02",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "00:30",
     "match_hometeam_id": "37763",
     "match_hometeam_name": "Fort Lauderdale W",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Brooklyn W",
     "match_awayteam_id": "37449",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "1",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -18090,9 +18287,150 @@
     "league_year": "2025/2026",
     "fk_stage_key": "20102",
     "stage_name": "Group Stage",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "7",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "R. Cooke",
+        "away_scorer_id": "3866517317",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "39",
+        "home_scorer": "K. Van Treeck",
+        "home_scorer_id": "1717845950",
+        "home_assist": "S. Nyamekye",
+        "home_assist_id": "4073110978",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Attacks",
+        "home": "100",
+        "away": "84"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "52",
+        "away": "70"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "8",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "63%",
+        "away": "37%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "49",
+        "away": "42"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "25",
+        "away": "31"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "70%",
+        "away": "30%"
+      }
+    ]
   },
   {
     "match_id": "651946",
@@ -18141,22 +18479,22 @@
     "league_id": "8102",
     "league_name": "USL Super League - Group Stage",
     "match_date": "2025-11-02",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "23:00",
     "match_hometeam_id": "37219",
     "match_hometeam_name": "Dallas Trinity W",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "DC Power W",
     "match_awayteam_id": "37192",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "3",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "3",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -18170,9 +18508,192 @@
     "league_year": "2025/2026",
     "fk_stage_key": "20102",
     "stage_name": "Group Stage",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "13",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "J. Bedoya",
+        "away_scorer_id": "1527374767",
+        "away_assist": "K. Duong",
+        "away_assist_id": "3254825493",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "20",
+        "home_scorer": "C. Lancaster",
+        "home_scorer_id": "478023650",
+        "home_assist": "A. Thornton",
+        "home_assist_id": "1239556252",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "70",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 2",
+        "away_scorer": "S. Fitch",
+        "away_scorer_id": "2513031064",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "78",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 3",
+        "away_scorer": "G. Gourley",
+        "away_scorer_id": "739169081",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "85",
+        "home_scorer": "G. Brian",
+        "home_scorer_id": "1079274679",
+        "home_assist": "R. Moore",
+        "home_assist_id": "4067454670",
+        "score": "2 - 3",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "138",
+        "away": "123"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "68",
+        "away": "51"
+      },
+      {
+        "type": "On Target",
+        "home": "9",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "6",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "67",
+        "away": "62"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "27",
+        "away": "28"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      }
+    ]
   },
   {
     "match_id": "651948",
@@ -18181,7 +18702,7 @@
     "league_id": "8102",
     "league_name": "USL Super League - Group Stage",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "21:00",
     "match_hometeam_id": "37449",
     "match_hometeam_name": "Brooklyn W",
@@ -18221,7 +18742,7 @@
     "league_id": "8102",
     "league_name": "USL Super League - Group Stage",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "23:00",
     "match_hometeam_id": "37219",
     "match_hometeam_name": "Dallas Trinity W",
@@ -18261,7 +18782,7 @@
     "league_id": "8102",
     "league_name": "USL Super League - Group Stage",
     "match_date": "2025-11-09",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "01:00",
     "match_hometeam_id": "37191",
     "match_hometeam_name": "Carolina Ascent W",
@@ -18301,7 +18822,7 @@
     "league_id": "8102",
     "league_name": "USL Super League - Group Stage",
     "match_date": "2025-11-09",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "21:00",
     "match_hometeam_id": "37216",
     "match_hometeam_name": "Spokane Zephyr W",
@@ -18501,12 +19022,12 @@
     "league_id": "8102",
     "league_name": "USL Super League - Group Stage",
     "match_date": "2025-11-22",
-    "match_status": "",
+    "match_status": "Not Started",
     "match_time": "01:00",
     "match_hometeam_id": "37192",
     "match_hometeam_name": "DC Power W",
     "match_hometeam_score": "",
-    "match_awayteam_name": "Ascent W",
+    "match_awayteam_name": "Carolina Ascent W",
     "match_awayteam_id": "37191",
     "match_awayteam_score": "",
     "match_hometeam_halftime_score": "",
@@ -18521,7 +19042,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "",
-    "match_stadium": "Audi Field (Washington, District of Columbia)",
+    "match_stadium": "Audi Field",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/37192_dc-power-w.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/37191_carolina-ascent-w.jpg",
@@ -18541,12 +19062,12 @@
     "league_id": "8102",
     "league_name": "USL Super League - Group Stage",
     "match_date": "2025-11-22",
-    "match_status": "",
+    "match_status": "Not Started",
     "match_time": "21:00",
     "match_hometeam_id": "37449",
     "match_hometeam_name": "Brooklyn W",
     "match_hometeam_score": "",
-    "match_awayteam_name": "Zephyr W",
+    "match_awayteam_name": "Spokane Zephyr W",
     "match_awayteam_id": "37216",
     "match_awayteam_score": "",
     "match_hometeam_halftime_score": "",
@@ -18561,7 +19082,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "",
-    "match_stadium": "Maimonides Park (New York, New York)",
+    "match_stadium": "Maimonides Park",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/37449_brooklyn-w.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/37216_spokane-zephyr-w.jpg",
@@ -18581,12 +19102,12 @@
     "league_id": "8102",
     "league_name": "USL Super League - Group Stage",
     "match_date": "2025-11-23",
-    "match_status": "",
+    "match_status": "Not Started",
     "match_time": "01:30",
     "match_hometeam_id": "39255",
-    "match_hometeam_name": "Sporting JAX W",
+    "match_hometeam_name": "Sporting Jax W",
     "match_hometeam_score": "",
-    "match_awayteam_name": "FL United W",
+    "match_awayteam_name": "Fort Lauderdale W",
     "match_awayteam_id": "37763",
     "match_awayteam_score": "",
     "match_hometeam_halftime_score": "",
@@ -18601,7 +19122,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "",
-    "match_stadium": "Hodges Stadium (Jacksonville, Florida)",
+    "match_stadium": "Hodges Stadium",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/39255_sporting-jax-w.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/37763_fort-lauderdale-united-w.jpg",
@@ -18621,10 +19142,10 @@
     "league_id": "8102",
     "league_name": "USL Super League - Group Stage",
     "match_date": "2025-11-23",
-    "match_status": "",
+    "match_status": "Not Started",
     "match_time": "01:30",
     "match_hometeam_id": "37218",
-    "match_hometeam_name": "Tampa Bay W",
+    "match_hometeam_name": "Tampa Bay Sun W",
     "match_hometeam_score": "",
     "match_awayteam_name": "Lexington W",
     "match_awayteam_id": "37336",
@@ -18641,7 +19162,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "",
-    "match_stadium": "Riverfront Stadium (Tampa, Florida)",
+    "match_stadium": "Riverfront Stadium",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/37218_tampa-bay-sun-w.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/37336_lexington-w.jpg",

@@ -55633,22 +55633,22 @@
     "league_id": "40",
     "league_name": "Prim B Metro - Clausura",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "20:00",
     "match_hometeam_id": "963",
     "match_hometeam_name": "Laferrere",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Midland",
     "match_awayteam_id": "971",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "4",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "2",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "4",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -55662,9 +55662,192 @@
     "league_year": "2025",
     "fk_stage_key": "499",
     "stage_name": "Clausura",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "3",
+        "home_scorer": "F. Ortiz",
+        "home_scorer_id": "815768298",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "11",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "L. Vico",
+        "away_scorer_id": "3501061081",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "16",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 2",
+        "away_scorer": "L. Diaz Laharque",
+        "away_scorer_id": "3221262003",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "50",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 3",
+        "away_scorer": "F. Molina",
+        "away_scorer_id": "3384197784",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "56",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 4",
+        "away_scorer": "M. Rogoski",
+        "away_scorer_id": "811452515",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "53",
+        "away": "29"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "69",
+        "away": "64"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "6"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "58%",
+        "away": "42%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "30",
+        "away": "17"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "21",
+        "away": "37"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "60%",
+        "away": "40%"
+      }
+    ]
   },
   {
     "match_id": "588228",
@@ -55673,22 +55856,22 @@
     "league_id": "40",
     "league_name": "Prim B Metro - Clausura",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "19:30",
     "match_hometeam_id": "914",
     "match_hometeam_name": "Deportivo Armenio",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "0",
     "match_awayteam_name": "Real Pilar",
     "match_awayteam_id": "972",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "1",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -55702,9 +55885,136 @@
     "league_year": "2025",
     "fk_stage_key": "499",
     "stage_name": "Clausura",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "90+2",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "B. Martin",
+        "away_scorer_id": "2151454388",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "96",
+        "away": "89"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "48",
+        "away": "66"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "10",
+        "away": "9"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "49%",
+        "away": "51%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "51",
+        "away": "38"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "26",
+        "away": "28"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "53%",
+        "away": "47%"
+      }
+    ]
   },
   {
     "match_id": "588229",
@@ -55713,22 +56023,22 @@
     "league_id": "40",
     "league_name": "Prim B Metro - Clausura",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "19:30",
     "match_hometeam_id": "916",
     "match_hometeam_name": "Flandria",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Acassuso",
     "match_awayteam_id": "909",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "2",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -55742,9 +56052,164 @@
     "league_year": "2025",
     "fk_stage_key": "499",
     "stage_name": "Clausura",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "15",
+        "home_scorer": "G. Salega",
+        "home_scorer_id": "3889465310",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "47",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "D. Escalante",
+        "away_scorer_id": "1311694423",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "55",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 2",
+        "away_scorer": "B. Dordoni",
+        "away_scorer_id": "2921107300",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "6"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "77",
+        "away": "77"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "55",
+        "away": "78"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "44%",
+        "away": "56%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "32",
+        "away": "45"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "15",
+        "away": "50"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "34%",
+        "away": "66%"
+      }
+    ]
   },
   {
     "match_id": "588232",
@@ -55753,22 +56218,22 @@
     "league_id": "40",
     "league_name": "Prim B Metro - Clausura",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "19:30",
     "match_hometeam_id": "973",
     "match_hometeam_name": "San Martin Burzaco",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Villa San Carlos",
     "match_awayteam_id": "924",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "1",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -55782,7 +56247,36 @@
     "league_year": "2025",
     "fk_stage_key": "499",
     "stage_name": "Clausura",
-    "goalscorer": [],
+    "goalscorer": [
+      {
+        "time": "12",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "M. Samaniego",
+        "away_scorer_id": "2132786259",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "53",
+        "home_scorer": "B. Chavez",
+        "home_scorer_id": "2307578527",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "2nd Half"
+      }
+    ],
     "statistics": [],
     "statistics_1half": []
   },
@@ -55793,22 +56287,22 @@
     "league_id": "40",
     "league_name": "Prim B Metro - Clausura",
     "match_date": "2025-11-02",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "19:30",
     "match_hometeam_id": "946",
     "match_hometeam_name": "Villa Dalmine",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Brown Adrogue",
     "match_awayteam_id": "952",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "0",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -55822,9 +56316,136 @@
     "league_year": "2025",
     "fk_stage_key": "499",
     "stage_name": "Clausura",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "11",
+        "home_scorer": "T. Ponzo",
+        "home_scorer_id": "471776590",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "7"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "151",
+        "away": "160"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "76",
+        "away": "87"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "47%",
+        "away": "53%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "87",
+        "away": "76"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "40",
+        "away": "31"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      }
+    ]
   },
   {
     "match_id": "588233",
@@ -55833,22 +56454,22 @@
     "league_id": "40",
     "league_name": "Prim B Metro - Clausura",
     "match_date": "2025-11-02",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "19:30",
     "match_hometeam_id": "917",
     "match_hometeam_name": "Fenix",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Excursionistas",
     "match_awayteam_id": "966",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "5",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "2",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "5",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -55862,9 +56483,206 @@
     "league_year": "2025",
     "fk_stage_key": "499",
     "stage_name": "Clausura",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "11",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "I. Vera",
+        "away_scorer_id": "3968040276",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "13",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 2",
+        "away_scorer": "J. Zarate",
+        "away_scorer_id": "1125581453",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "57",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 3",
+        "away_scorer": "F. Sosa",
+        "away_scorer_id": "2180971651",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "64",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 4",
+        "away_scorer": "M. Lopez",
+        "away_scorer_id": "3134839506",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "66",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 5",
+        "away_scorer": "F. Sosa",
+        "away_scorer_id": "2180971651",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "85",
+        "home_scorer": "J. Vivas",
+        "home_scorer_id": "3261071545",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 5",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "8"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "48%",
+        "away": "52%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "On Target",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "48%",
+        "away": "52%"
+      }
+    ]
   },
   {
     "match_id": "588234",
@@ -55873,22 +56691,22 @@
     "league_id": "40",
     "league_name": "Prim B Metro - Clausura",
     "match_date": "2025-11-02",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "19:30",
     "match_hometeam_id": "976",
     "match_hometeam_name": "Liniers",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Sportivo Italiano",
     "match_awayteam_id": "974",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "3",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "2",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "3",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -55902,9 +56720,178 @@
     "league_year": "2025",
     "fk_stage_key": "499",
     "stage_name": "Clausura",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "16",
+        "home_scorer": "M. Gridel",
+        "home_scorer_id": "1653207456",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "33",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "C. Bifiguer",
+        "away_scorer_id": "3717645120",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "45+1",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 2",
+        "away_scorer": "E. Porro",
+        "away_scorer_id": "1245977288",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "77",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 3",
+        "away_scorer": "E. Mozzone",
+        "away_scorer_id": "1179192806",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "8"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Attacks",
+        "home": "102",
+        "away": "101"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "73",
+        "away": "69"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "51%",
+        "away": "49%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "41",
+        "away": "55"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "25",
+        "away": "34"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "38%",
+        "away": "62%"
+      }
+    ]
   },
   {
     "match_id": "588230",
@@ -55913,22 +56900,22 @@
     "league_id": "40",
     "league_name": "Prim B Metro - Clausura",
     "match_date": "2025-11-03",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "19:30",
     "match_hometeam_id": "920",
     "match_hometeam_name": "Sacachispas",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Dock Sud",
     "match_awayteam_id": "964",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "0",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -55942,9 +56929,136 @@
     "league_year": "2025",
     "fk_stage_key": "499",
     "stage_name": "Clausura",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "2",
+        "home_scorer": "C. Campuzano",
+        "home_scorer_id": "1840653302",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "12"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "9",
+        "away": "15"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "38",
+        "away": "45"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "47%",
+        "away": "53%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "5",
+        "away": "11"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "21",
+        "away": "18"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "53%",
+        "away": "47%"
+      }
+    ]
   },
   {
     "match_id": "588231",
@@ -55953,22 +57067,22 @@
     "league_id": "40",
     "league_name": "Prim B Metro - Clausura",
     "match_date": "2025-11-04",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "01:10",
     "match_hometeam_id": "283",
     "match_hometeam_name": "Comunicaciones",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "0",
     "match_awayteam_name": "UAI Urquiza",
     "match_awayteam_id": "923",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "3",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "2",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "3",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -55982,9 +57096,164 @@
     "league_year": "2025",
     "fk_stage_key": "499",
     "stage_name": "Clausura",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "3",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "C. Ordonez",
+        "away_scorer_id": "586659121",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "40",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 2",
+        "away_scorer": "L. Arcuri",
+        "away_scorer_id": "990592093",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "74",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 3",
+        "away_scorer": "N. Rios",
+        "away_scorer_id": "3588416860",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "8",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Attacks",
+        "home": "205",
+        "away": "143"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "126",
+        "away": "82"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "9",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "61%",
+        "away": "39%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "87",
+        "away": "82"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "48",
+        "away": "42"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "62%",
+        "away": "38%"
+      }
+    ]
   },
   {
     "match_id": "588235",
@@ -55993,22 +57262,22 @@
     "league_id": "40",
     "league_name": "Prim B Metro - Clausura",
     "match_date": "2025-11-04",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "19:30",
     "match_hometeam_id": "910",
     "match_hometeam_name": "Argentino de Quilmes",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Argentino de Merlo",
     "match_awayteam_id": "957",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "0",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -56022,9 +57291,136 @@
     "league_year": "2025",
     "fk_stage_key": "499",
     "stage_name": "Clausura",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "79",
+        "home_scorer": "F. Centurion",
+        "home_scorer_id": "4279098536",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "6"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "128",
+        "away": "129"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "75",
+        "away": "78"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "8"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "47%",
+        "away": "53%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "64",
+        "away": "61"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "33",
+        "away": "39"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "40%",
+        "away": "60%"
+      }
+    ]
   },
   {
     "match_id": "588236",
@@ -56033,8 +57429,8 @@
     "league_id": "40",
     "league_name": "Prim B Metro - Clausura",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
-    "match_time": "21:00",
+    "match_status": "",
+    "match_time": "19:30",
     "match_hometeam_id": "923",
     "match_hometeam_name": "UAI Urquiza",
     "match_hometeam_score": "",
@@ -56053,7 +57449,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "20",
-    "match_stadium": "Monumental de Villa Lynch",
+    "match_stadium": "Estadio Monumental de Villa Lynch",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/923_uai-urquiza.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/976_liniers.jpg",
@@ -56073,8 +57469,8 @@
     "league_id": "40",
     "league_name": "Prim B Metro - Clausura",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
-    "match_time": "21:00",
+    "match_status": "",
+    "match_time": "19:30",
     "match_hometeam_id": "909",
     "match_hometeam_name": "Acassuso",
     "match_hometeam_score": "",
@@ -56093,7 +57489,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "20",
-    "match_stadium": "",
+    "match_stadium": "Estadio La Quema",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/909_acassuso.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/946_villa-dalmine.jpg",
@@ -56113,8 +57509,8 @@
     "league_id": "40",
     "league_name": "Prim B Metro - Clausura",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
-    "match_time": "21:00",
+    "match_status": "",
+    "match_time": "19:30",
     "match_hometeam_id": "924",
     "match_hometeam_name": "Villa San Carlos",
     "match_hometeam_score": "",
@@ -56133,50 +57529,10 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "20",
-    "match_stadium": "Genacio Salice Stadium",
+    "match_stadium": "Estadio Genancio Sálice",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/924_villa-san-carlos.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/914_deportivo-armenio.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/40_prim-b-metro.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/14_argentina.png",
-    "league_year": "2025",
-    "fk_stage_key": "499",
-    "stage_name": "Clausura",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "588239",
-    "country_id": "14",
-    "country_name": "Argentina",
-    "league_id": "40",
-    "league_name": "Prim B Metro - Clausura",
-    "match_date": "2025-11-08",
-    "match_status": "Not Started",
-    "match_time": "21:00",
-    "match_hometeam_id": "964",
-    "match_hometeam_name": "Dock Sud",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "San Martin Burzaco",
-    "match_awayteam_id": "973",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "20",
-    "match_stadium": "Estadio de los Inmigrantes",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/964_dock-sud.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/973_san-martin-burzaco.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/40_prim-b-metro.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/14_argentina.png",
     "league_year": "2025",
@@ -56193,8 +57549,8 @@
     "league_id": "40",
     "league_name": "Prim B Metro - Clausura",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
-    "match_time": "21:00",
+    "match_status": "",
+    "match_time": "19:30",
     "match_hometeam_id": "974",
     "match_hometeam_name": "Sportivo Italiano",
     "match_hometeam_score": "",
@@ -56213,7 +57569,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "20",
-    "match_stadium": "Republica de Italia Stadium",
+    "match_stadium": "Estadio República de Italia",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/974_sportivo-italiano.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/963_deportivo-laferrere.jpg",
@@ -56233,8 +57589,8 @@
     "league_id": "40",
     "league_name": "Prim B Metro - Clausura",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
-    "match_time": "21:00",
+    "match_status": "",
+    "match_time": "19:00",
     "match_hometeam_id": "952",
     "match_hometeam_name": "Brown Adrogue",
     "match_hometeam_score": "",
@@ -56273,8 +57629,8 @@
     "league_id": "40",
     "league_name": "Prim B Metro - Clausura",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
-    "match_time": "21:00",
+    "match_status": "",
+    "match_time": "19:30",
     "match_hometeam_id": "972",
     "match_hometeam_name": "Real Pilar",
     "match_hometeam_score": "",
@@ -56293,7 +57649,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "20",
-    "match_stadium": "Municipal de Pilar-Carlos Barraza",
+    "match_stadium": "Estadio Municipal de Pilar",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/972_real-pilar.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/283_comunicaciones.jpg",
@@ -56313,8 +57669,8 @@
     "league_id": "40",
     "league_name": "Prim B Metro - Clausura",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
-    "match_time": "21:00",
+    "match_status": "",
+    "match_time": "19:30",
     "match_hometeam_id": "971",
     "match_hometeam_name": "Midland",
     "match_hometeam_score": "",
@@ -56333,50 +57689,10 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "20",
-    "match_stadium": "Raul Roberto Sabureau Stadium",
+    "match_stadium": "Estadio Ferrocarril Midland",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/971_midland.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/917_fenix.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/40_prim-b-metro.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/14_argentina.png",
-    "league_year": "2025",
-    "fk_stage_key": "499",
-    "stage_name": "Clausura",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "588244",
-    "country_id": "14",
-    "country_name": "Argentina",
-    "league_id": "40",
-    "league_name": "Prim B Metro - Clausura",
-    "match_date": "2025-11-08",
-    "match_status": "Not Started",
-    "match_time": "21:00",
-    "match_hometeam_id": "915",
-    "match_hometeam_name": "Dep. Merlo",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Sacachispas",
-    "match_awayteam_id": "920",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "20",
-    "match_stadium": "Jose Manuel Moreno Stadium",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/915_deportivo-merlo.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/920_sacachispas.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/40_prim-b-metro.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/14_argentina.png",
     "league_year": "2025",
@@ -56393,7 +57709,7 @@
     "league_id": "40",
     "league_name": "Prim B Metro - Clausura",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "21:00",
     "match_hometeam_id": "966",
     "match_hometeam_name": "Excursionistas",
@@ -56413,10 +57729,90 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "20",
-    "match_stadium": "Excursionistas Stadium",
+    "match_stadium": "Estadio de Excursionistas",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/966_excursionistas.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/916_flandria.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/40_prim-b-metro.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/14_argentina.png",
+    "league_year": "2025",
+    "fk_stage_key": "499",
+    "stage_name": "Clausura",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "588239",
+    "country_id": "14",
+    "country_name": "Argentina",
+    "league_id": "40",
+    "league_name": "Prim B Metro - Clausura",
+    "match_date": "2025-11-09",
+    "match_status": "",
+    "match_time": "19:30",
+    "match_hometeam_id": "964",
+    "match_hometeam_name": "Dock Sud",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "San Martin Burzaco",
+    "match_awayteam_id": "973",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "20",
+    "match_stadium": "Estadio de los Inmigrantes",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/964_dock-sud.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/973_san-martin-burzaco.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/40_prim-b-metro.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/14_argentina.png",
+    "league_year": "2025",
+    "fk_stage_key": "499",
+    "stage_name": "Clausura",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "588244",
+    "country_id": "14",
+    "country_name": "Argentina",
+    "league_id": "40",
+    "league_name": "Prim B Metro - Clausura",
+    "match_date": "2025-11-09",
+    "match_status": "",
+    "match_time": "19:30",
+    "match_hometeam_id": "915",
+    "match_hometeam_name": "Dep. Merlo",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Sacachispas",
+    "match_awayteam_id": "920",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "20",
+    "match_stadium": "Estadio José Manuel Moreno",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/915_deportivo-merlo.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/920_sacachispas.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/40_prim-b-metro.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/14_argentina.png",
     "league_year": "2025",

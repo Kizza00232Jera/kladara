@@ -53461,27 +53461,27 @@
     "league_id": "65",
     "league_name": "Challenger Pro League",
     "match_date": "2025-10-31",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "20:00",
     "match_hometeam_id": "1448",
     "match_hometeam_name": "K. Lierse S.K.",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "4",
     "match_awayteam_name": "Lommel SK",
     "match_awayteam_id": "1377",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "4",
+    "match_hometeam_halftime_score": "2",
+    "match_awayteam_halftime_score": "2",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "4",
+    "match_awayteam_ft_score": "4",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "12",
-    "match_stadium": "AsterX Group-f Arena",
+    "match_stadium": "Herman Vanderpoortenstadion",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/1448_lierse-k.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/1377_lommel.jpg",
@@ -53490,9 +53490,234 @@
     "league_year": "2025/2026",
     "fk_stage_key": "614",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "19",
+        "home_scorer": "P. Perdichizzi",
+        "home_scorer_id": "2662927848",
+        "home_assist": "J. Mertens",
+        "home_assist_id": "3920710411",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "26",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "P. Perdichizzi (o.g.)",
+        "away_scorer_id": "2662927848",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "36",
+        "home_scorer": "M. Lenaerts",
+        "home_scorer_id": "577975837",
+        "home_assist": "B. Adinany",
+        "home_assist_id": "185218291",
+        "score": "2 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "43",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 2",
+        "away_scorer": "P. Perdichizzi (o.g.)",
+        "away_scorer_id": "2662927848",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "47",
+        "home_scorer": "B. Adinany",
+        "home_scorer_id": "185218291",
+        "home_assist": "J. Mertens",
+        "home_assist_id": "3920710411",
+        "score": "3 - 2",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "58",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 3",
+        "away_scorer": "T. Eyoma",
+        "away_scorer_id": "3383243877",
+        "away_assist": "R. Seigers",
+        "away_assist_id": "1586568518",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "87",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 4",
+        "away_scorer": "R. Seuntjens",
+        "away_scorer_id": "3901120346",
+        "away_assist": "S. De Grand",
+        "away_assist_id": "4142891247",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "90+6",
+        "home_scorer": "B. Adinany",
+        "home_scorer_id": "185218291",
+        "home_assist": "D. Asare",
+        "home_assist_id": "2180944594",
+        "score": "4 - 4",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "80",
+        "away": "99"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "37",
+        "away": "36"
+      },
+      {
+        "type": "On Target",
+        "home": "6",
+        "away": "7"
+      },
+      {
+        "type": "Off Target",
+        "home": "10",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "44%",
+        "away": "56%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "45",
+        "away": "52"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "14",
+        "away": "13"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "6",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "46%",
+        "away": "54%"
+      }
+    ]
   },
   {
     "match_id": "620626",
@@ -53501,22 +53726,22 @@
     "league_id": "65",
     "league_name": "Challenger Pro League",
     "match_date": "2025-10-31",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "20:00",
     "match_hometeam_id": "1383",
     "match_hometeam_name": "Sporting Lokeren",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Francs Borains",
     "match_awayteam_id": "1412",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "2",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -53530,9 +53755,178 @@
     "league_year": "2025/2026",
     "fk_stage_key": "614",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "42",
+        "home_scorer": "S. Wasiu",
+        "home_scorer_id": "327408743",
+        "home_assist": "T. Janssen",
+        "home_assist_id": "807047563",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "52",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "P. Wydra",
+        "away_scorer_id": "454654200",
+        "away_assist": "M. Bruno",
+        "away_assist_id": "2021288153",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "77",
+        "home_scorer": "J. Palacios",
+        "home_scorer_id": "560763255",
+        "home_assist": "S. Brebels",
+        "home_assist_id": "414167415",
+        "score": "2 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "90",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 2",
+        "away_scorer": "Lucas Lima",
+        "away_scorer_id": "26501397",
+        "away_assist": "D. Dessoleil",
+        "away_assist_id": "3651661787",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "6"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "100",
+        "away": "85"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "42",
+        "away": "46"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "6"
+      },
+      {
+        "type": "Off Target",
+        "home": "10",
+        "away": "7"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "52%",
+        "away": "48%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "52",
+        "away": "41"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "22",
+        "away": "21"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "7",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "53%",
+        "away": "47%"
+      }
+    ]
   },
   {
     "match_id": "620620",
@@ -53541,22 +53935,22 @@
     "league_id": "65",
     "league_name": "Challenger Pro League",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "16:00",
     "match_hometeam_id": "26028",
     "match_hometeam_name": "Gent U23",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Eupen",
     "match_awayteam_id": "1366",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "1",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -53570,9 +53964,164 @@
     "league_year": "2025/2026",
     "fk_stage_key": "614",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "38",
+        "home_scorer": "A. Abdullahi",
+        "home_scorer_id": "2259836685",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "55",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "I. Nuhu",
+        "away_scorer_id": "2967463260",
+        "away_assist": "Y. Van Genechten",
+        "away_assist_id": "884675144",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "64",
+        "home_scorer": "E. H. Seck",
+        "home_scorer_id": "4055199643",
+        "home_assist": "A. Ayinde",
+        "home_assist_id": "2138867538",
+        "score": "2 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "77",
+        "away": "58"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "63",
+        "away": "42"
+      },
+      {
+        "type": "On Target",
+        "home": "6",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "12",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "54%",
+        "away": "46%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "43",
+        "away": "26"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "35",
+        "away": "9"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "7",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "66%",
+        "away": "34%"
+      }
+    ]
   },
   {
     "match_id": "620622",
@@ -53581,22 +54130,22 @@
     "league_id": "65",
     "league_name": "Challenger Pro League",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "20:00",
     "match_hometeam_id": "1384",
     "match_hometeam_name": "OC Charleroi",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "RFC Liege",
     "match_awayteam_id": "1385",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "1",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -53610,9 +54159,150 @@
     "league_year": "2025/2026",
     "fk_stage_key": "614",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "13",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "D. Sarmiento",
+        "away_scorer_id": "1471408931",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "39",
+        "home_scorer": "L. Florica",
+        "home_scorer_id": "2781797689",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "56",
+        "away": "72"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "51",
+        "away": "49"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "9",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "48%",
+        "away": "52%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "32",
+        "away": "35"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "31",
+        "away": "19"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      }
+    ]
   },
   {
     "match_id": "620623",
@@ -53621,22 +54311,22 @@
     "league_id": "65",
     "league_name": "Challenger Pro League",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "20:00",
     "match_hometeam_id": "1371",
     "match_hometeam_name": "Beveren",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Club Brugge KV U23",
     "match_awayteam_id": "1622",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "1",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -53650,9 +54340,164 @@
     "league_year": "2025/2026",
     "fk_stage_key": "614",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "6",
+        "home_scorer": "J. Margaritha",
+        "home_scorer_id": "4187549493",
+        "home_assist": "C. Bruls",
+        "home_assist_id": "2015537545",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "51",
+        "home_scorer": "J. Van Hecke",
+        "home_scorer_id": "834621403",
+        "home_assist": "L. Mertens",
+        "home_assist_id": "2642318526",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "90+4",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 1",
+        "away_scorer": "T. Van Acker",
+        "away_scorer_id": "591890857",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "8",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "90",
+        "away": "106"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "62",
+        "away": "38"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "6",
+        "away": "10"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "47%",
+        "away": "53%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "48",
+        "away": "38"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "36",
+        "away": "15"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      }
+    ]
   },
   {
     "match_id": "620624",
@@ -53661,22 +54506,22 @@
     "league_id": "65",
     "league_name": "Challenger Pro League",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "20:00",
     "match_hometeam_id": "12875",
     "match_hometeam_name": "RWDM Brussels",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Genk U23",
     "match_awayteam_id": "25504",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "1",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -53690,9 +54535,150 @@
     "league_year": "2025/2026",
     "fk_stage_key": "614",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "3",
+        "home_scorer": "P. Kestens",
+        "home_scorer_id": "1363434894",
+        "home_assist": "T. Persyn",
+        "home_assist_id": "915539807",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "90",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "K. Yasuda",
+        "away_scorer_id": "3202599839",
+        "away_assist": "L. Decresson",
+        "away_assist_id": "2043881852",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "96",
+        "away": "110"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "48",
+        "away": "67"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "7"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "52%",
+        "away": "48%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "46",
+        "away": "53"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "17",
+        "away": "27"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "53%",
+        "away": "47%"
+      }
+    ]
   },
   {
     "match_id": "620621",
@@ -53701,22 +54687,22 @@
     "league_id": "65",
     "league_name": "Challenger Pro League",
     "match_date": "2025-11-02",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "16:00",
     "match_hometeam_id": "1363",
     "match_hometeam_name": "Beerschot VA",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Kortrijk",
     "match_awayteam_id": "1367",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "2",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -53730,9 +54716,164 @@
     "league_year": "2025/2026",
     "fk_stage_key": "614",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "5",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "R. Kohon",
+        "away_scorer_id": "2158299635",
+        "away_assist": "L. Hens",
+        "away_assist_id": "2712182418",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "69",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 2",
+        "away_scorer": "M. Osifo",
+        "away_scorer_id": "2241583285",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "90+5",
+        "home_scorer": "L. Mbe Soh",
+        "home_scorer_id": "2936893859",
+        "home_assist": "C. Dagba",
+        "home_assist_id": "1873822203",
+        "score": "1 - 2",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "133",
+        "away": "83"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "42",
+        "away": "33"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "7"
+      },
+      {
+        "type": "Off Target",
+        "home": "9",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "63%",
+        "away": "37%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "63",
+        "away": "51"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "15",
+        "away": "17"
+      },
+      {
+        "type": "On Target",
+        "home": "0",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "64%",
+        "away": "36%"
+      }
+    ]
   },
   {
     "match_id": "620625",
@@ -53741,22 +54882,22 @@
     "league_id": "65",
     "league_name": "Challenger Pro League",
     "match_date": "2025-11-02",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "16:00",
     "match_hometeam_id": "1417",
     "match_hometeam_name": "Patro Eisden",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "0",
     "match_awayteam_name": "Anderlecht U23",
     "match_awayteam_id": "25505",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "0",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -53771,8 +54912,120 @@
     "fk_stage_key": "614",
     "stage_name": "Current",
     "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "99",
+        "away": "70"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "68",
+        "away": "27"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "6",
+        "away": "6"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "37%",
+        "away": "63%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "38",
+        "away": "36"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "27",
+        "away": "16"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "31%",
+        "away": "69%"
+      }
+    ]
   },
   {
     "match_id": "620627",
@@ -53861,7 +55114,7 @@
     "league_id": "65",
     "league_name": "Challenger Pro League",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "20:00",
     "match_hometeam_id": "1367",
     "match_hometeam_name": "Kortrijk",
@@ -53881,7 +55134,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "13",
-    "match_stadium": "Guldensporen Stadion",
+    "match_stadium": "Guldensporenstadion",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/1367_kortrijk.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/1417_patro-eisden.jpg",
@@ -53901,7 +55154,7 @@
     "league_id": "65",
     "league_name": "Challenger Pro League",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "20:00",
     "match_hometeam_id": "1622",
     "match_hometeam_name": "Club Brugge KV U23",
@@ -53921,7 +55174,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "13",
-    "match_stadium": "Schiervelde Stadion",
+    "match_stadium": "The NEST",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/1622_club-brugge-ii.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/1448_lierse-k.jpg",
@@ -53941,7 +55194,7 @@
     "league_id": "65",
     "league_name": "Challenger Pro League",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "20:00",
     "match_hometeam_id": "1381",
     "match_hometeam_name": "Seraing",
@@ -53981,7 +55234,7 @@
     "league_id": "65",
     "league_name": "Challenger Pro League",
     "match_date": "2025-11-09",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "16:00",
     "match_hometeam_id": "12875",
     "match_hometeam_name": "RWDM Brussels",
@@ -54001,7 +55254,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "13",
-    "match_stadium": "Edmond Machtens Stadium",
+    "match_stadium": "Edmond Machtensstadion",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/12875_rwdm-brussels.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/1363_beerschot.jpg",
@@ -54021,7 +55274,7 @@
     "league_id": "65",
     "league_name": "Challenger Pro League",
     "match_date": "2025-11-09",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "16:00",
     "match_hometeam_id": "1412",
     "match_hometeam_name": "Francs Borains",
@@ -54241,7 +55494,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "14",
-    "match_stadium": "",
+    "match_stadium": "Planet Group Arena",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/26028_gent-ii.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/25504_krc-genk-ii.jpg",

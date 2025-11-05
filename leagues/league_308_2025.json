@@ -63725,7 +63725,7 @@
     "match_awayteam_system": "4-1-4-1",
     "match_live": "0",
     "match_round": "11",
-    "match_stadium": "Stade de la Tuilière",
+    "match_stadium": "Stade de la Tuiliere",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/7409_lausanne-sport.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/240_servette.jpg",
@@ -64711,7 +64711,7 @@
     "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "11",
-    "match_stadium": "Stadion Letzigrund",
+    "match_stadium": "Letzigrund Stadion",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/7419_grasshoppers.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/125_young-boys.jpg",
@@ -65073,24 +65073,24 @@
     "league_id": "308",
     "league_name": "Super League",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "18:00",
     "match_hometeam_id": "7418",
     "match_hometeam_name": "Winterthur",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "4",
     "match_awayteam_name": "Servette",
     "match_awayteam_id": "240",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "4",
+    "match_awayteam_ft_score": "2",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "4-1-4-1",
     "match_live": "0",
     "match_round": "12",
     "match_stadium": "Stadion Schützenwiese",
@@ -65102,9 +65102,341 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1614",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "40",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "F. Aye",
+        "away_scorer_id": "4085652939",
+        "away_assist": "A. Baron",
+        "away_assist_id": "608491022",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "52",
+        "home_scorer": "T. Golliard",
+        "home_scorer_id": "4139314973",
+        "home_assist": "B. Dansoko",
+        "home_assist_id": "203129335",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "54",
+        "home_scorer": "T. Golliard",
+        "home_scorer_id": "4139314973",
+        "home_assist": "A. Jankewitz",
+        "home_assist_id": "1649112287",
+        "score": "2 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "69",
+        "home_scorer": "R. Schneider",
+        "home_scorer_id": "2334708202",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "90+1",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 2",
+        "away_scorer": "D. Douline",
+        "away_scorer_id": "3867959477",
+        "away_assist": "L. Njoh",
+        "away_assist_id": "2623290199",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "90+3",
+        "home_scorer": "E. Maluvunu",
+        "home_scorer_id": "2036284066",
+        "home_assist": "B. Beyer",
+        "home_assist_id": "659327700",
+        "score": "4 - 2",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "69",
+        "away": "134"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "29",
+        "away": "81"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "9"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "8"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "17%",
+        "away": "83%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "9",
+        "away": "18"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "5",
+        "away": "9"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "9",
+        "away": "12"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "0",
+        "away": "6"
+      },
+      {
+        "type": "Fouls",
+        "home": "7",
+        "away": "11"
+      },
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "39%",
+        "away": "61%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "7",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "353",
+        "away": "556"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "268",
+        "away": "476"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "28",
+        "away": "69"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "16",
+        "away": "48"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "38%",
+        "away": "62%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "5",
+        "away": "9"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "0",
+        "away": "3"
+      },
+      {
+        "type": "Fouls",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "38%",
+        "away": "62%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "185",
+        "away": "300"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "143",
+        "away": "262"
+      }
+    ]
   },
   {
     "match_id": "598387",
@@ -65113,24 +65445,24 @@
     "league_id": "308",
     "league_name": "Super League",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "18:00",
     "match_hometeam_id": "7428",
     "match_hometeam_name": "Thun",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Sion",
     "match_awayteam_id": "7412",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "4-2-2-2",
+    "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "12",
     "match_stadium": "Stockhorn Arena",
@@ -65142,9 +65474,294 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1614",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "15",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "Baltazar",
+        "away_scorer_id": "1834857328",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "39",
+        "home_scorer": "C. Ibayi",
+        "home_scorer_id": "2418550079",
+        "home_assist": "M. Heule",
+        "home_assist_id": "3115466164",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "65",
+        "home_scorer": "E. Rastoder",
+        "home_scorer_id": "1450532733",
+        "home_assist": "C. Ibayi",
+        "home_assist_id": "2418550079",
+        "score": "2 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "8"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "87",
+        "away": "86"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "55",
+        "away": "54"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "8"
+      },
+      {
+        "type": "Off Target",
+        "home": "10",
+        "away": "13"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "0%",
+        "away": "0%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "15",
+        "away": "22"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "7"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "10",
+        "away": "8"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "7"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "12",
+        "away": "16"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "3",
+        "away": "6"
+      },
+      {
+        "type": "Fouls",
+        "home": "19",
+        "away": "10"
+      },
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "8"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "41%",
+        "away": "59%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "6",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "285",
+        "away": "413"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "214",
+        "away": "328"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "44",
+        "away": "43"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "33",
+        "away": "26"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "40%",
+        "away": "60%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "8",
+        "away": "8"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "7",
+        "away": "6"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Fouls",
+        "home": "9",
+        "away": "5"
+      },
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "40%",
+        "away": "60%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Saves",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "126",
+        "away": "199"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "95",
+        "away": "160"
+      }
+    ]
   },
   {
     "match_id": "598388",
@@ -65153,24 +65770,24 @@
     "league_id": "308",
     "league_name": "Super League",
     "match_date": "2025-11-01",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "20:30",
     "match_hometeam_id": "7410",
     "match_hometeam_name": "Zurich",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Lausanne",
     "match_awayteam_id": "7409",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "2",
+    "match_hometeam_system": "4-3-1-2",
+    "match_awayteam_system": "4-3-1-2",
     "match_live": "0",
     "match_round": "12",
     "match_stadium": "Stadion Letzigrund",
@@ -65182,9 +65799,304 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1614",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "10",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "N. Butler-Oyedeji",
+        "away_scorer_id": "3607779275",
+        "away_assist": "O. Custodio",
+        "away_assist_id": "1399674937",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "32",
+        "home_scorer": "M. Phaeton",
+        "home_scorer_id": "1046308551",
+        "home_assist": "P. P. Keny",
+        "home_assist_id": "1397395945",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "82",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 2",
+        "away_scorer": "B. Lekoueiry",
+        "away_scorer_id": "2900556509",
+        "away_assist": "B. Soppy",
+        "away_assist_id": "3667547319",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "6"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "93",
+        "away": "87"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "33",
+        "away": "42"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "8"
+      },
+      {
+        "type": "Off Target",
+        "home": "11",
+        "away": "10"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "17",
+        "away": "18"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "6",
+        "away": "8"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "5",
+        "away": "9"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "6",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "13",
+        "away": "13"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Fouls",
+        "home": "16",
+        "away": "6"
+      },
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "6"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "56%",
+        "away": "44%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "7",
+        "away": "5"
+      },
+      {
+        "type": "Passes Total",
+        "home": "436",
+        "away": "334"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "344",
+        "away": "236"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "54",
+        "away": "33"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "19",
+        "away": "18"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "7"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "64%",
+        "away": "36%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "7",
+        "away": "11"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "5",
+        "away": "8"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Fouls",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "64%",
+        "away": "36%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Saves",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "271",
+        "away": "146"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "231",
+        "away": "105"
+      }
+    ]
   },
   {
     "match_id": "598383",
@@ -65193,24 +66105,24 @@
     "league_id": "308",
     "league_name": "Super League",
     "match_date": "2025-11-02",
-    "match_status": "",
+    "match_status": "37",
     "match_time": "14:00",
     "match_hometeam_id": "7408",
     "match_hometeam_name": "Lugano",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "St. Gallen",
     "match_awayteam_id": "198",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "3-1-4-2",
     "match_live": "0",
     "match_round": "12",
     "match_stadium": "Stadio di Cornaredo",
@@ -65223,8 +66135,260 @@
     "fk_stage_key": "1614",
     "stage_name": "Current",
     "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Attacks",
+        "home": "50",
+        "away": "43"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "6",
+        "away": "14"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "6",
+        "away": "7"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "56%",
+        "away": "44%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "7",
+        "away": "8"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "5",
+        "away": "9"
+      },
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "62%",
+        "away": "38%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Passes Total",
+        "home": "252",
+        "away": "151"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "208",
+        "away": "109"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Attacks",
+        "home": "47",
+        "away": "43"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "6",
+        "away": "14"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "7"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "62%",
+        "away": "38%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "6",
+        "away": "7"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Fouls",
+        "home": "5",
+        "away": "9"
+      },
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "62%",
+        "away": "38%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Passes Total",
+        "home": "239",
+        "away": "140"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "201",
+        "away": "104"
+      }
+    ]
   },
   {
     "match_id": "598385",
@@ -65233,24 +66397,24 @@
     "league_id": "308",
     "league_name": "Super League",
     "match_date": "2025-11-02",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "16:30",
     "match_hometeam_id": "125",
     "match_hometeam_name": "Young Boys",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "0",
     "match_awayteam_name": "Basel",
     "match_awayteam_id": "176",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "12",
     "match_stadium": "Stadion Wankdorf",
@@ -65263,8 +66427,265 @@
     "fk_stage_key": "1614",
     "stage_name": "Current",
     "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "7"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "80",
+        "away": "124"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "26",
+        "away": "65"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "15"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "0%",
+        "away": "0%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "9",
+        "away": "15"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "4",
+        "away": "0"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "4",
+        "away": "8"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "7"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "6",
+        "away": "8"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "3",
+        "away": "7"
+      },
+      {
+        "type": "Fouls",
+        "home": "13",
+        "away": "10"
+      },
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "7"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "43%",
+        "away": "57%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Red Cards",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Saves",
+        "home": "0",
+        "away": "4"
+      },
+      {
+        "type": "Passes Total",
+        "home": "369",
+        "away": "487"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "286",
+        "away": "421"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "42",
+        "away": "52"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "12",
+        "away": "20"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "6"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "53%",
+        "away": "47%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Fouls",
+        "home": "9",
+        "away": "4"
+      },
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "53%",
+        "away": "47%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Saves",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "229",
+        "away": "194"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "190",
+        "away": "164"
+      }
+    ]
   },
   {
     "match_id": "598386",
@@ -65273,24 +66694,24 @@
     "league_id": "308",
     "league_name": "Super League",
     "match_date": "2025-11-02",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "16:30",
     "match_hometeam_id": "7411",
     "match_hometeam_name": "Luzern",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "6",
     "match_awayteam_name": "Grasshoppers",
     "match_awayteam_id": "7419",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "3",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "6",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "4-3-1-2",
+    "match_awayteam_system": "3-4-3",
     "match_live": "0",
     "match_round": "12",
     "match_stadium": "swissporarena",
@@ -65302,9 +66723,346 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1614",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "18",
+        "home_scorer": "M. Di Giusto",
+        "home_scorer_id": "881898330",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "27",
+        "home_scorer": "A. Bajrami",
+        "home_scorer_id": "4230400692",
+        "home_assist": "M. Di Giusto",
+        "home_assist_id": "881898330",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "40",
+        "home_scorer": "J. Von Moos",
+        "home_scorer_id": "4215416165",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "66",
+        "home_scorer": "M. Di Giusto",
+        "home_scorer_id": "881898330",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "4 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "71",
+        "home_scorer": "A. Grbic",
+        "home_scorer_id": "1512484446",
+        "home_assist": "T. Owusu",
+        "home_assist_id": "3155660432",
+        "score": "5 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "73",
+        "home_scorer": "K. Spadanuda",
+        "home_scorer_id": "362936195",
+        "home_assist": "L. M. Silva Ferreira",
+        "home_assist_id": "3241740290",
+        "score": "6 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "76",
+        "away": "101"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "36",
+        "away": "53"
+      },
+      {
+        "type": "On Target",
+        "home": "8",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "6",
+        "away": "11"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "60%",
+        "away": "40%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "14",
+        "away": "14"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "9",
+        "away": "3"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "4",
+        "away": "7"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "10",
+        "away": "5"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "4",
+        "away": "9"
+      },
+      {
+        "type": "Fouls",
+        "home": "11",
+        "away": "17"
+      },
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "46%",
+        "away": "54%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Saves",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "303",
+        "away": "352"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "210",
+        "away": "242"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "35",
+        "away": "61"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "25",
+        "away": "19"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "7"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "46%",
+        "away": "54%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "7",
+        "away": "8"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Fouls",
+        "home": "7",
+        "away": "7"
+      },
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "46%",
+        "away": "54%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "159",
+        "away": "188"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "113",
+        "away": "123"
+      }
+    ]
   },
   {
     "match_id": "598389",
@@ -65313,7 +67071,7 @@
     "league_id": "308",
     "league_name": "Super League",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "18:00",
     "match_hometeam_id": "7418",
     "match_hometeam_name": "Winterthur",
@@ -65333,7 +67091,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "13",
-    "match_stadium": "",
+    "match_stadium": "Stadion Schützenwiese",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/7418_winterthur.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/7419_grasshoppers.jpg",
@@ -65353,7 +67111,7 @@
     "league_id": "308",
     "league_name": "Super League",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "18:00",
     "match_hometeam_id": "7410",
     "match_hometeam_name": "Zurich",
@@ -65373,7 +67131,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "13",
-    "match_stadium": "Letzigrund Stadion",
+    "match_stadium": "Stadion Letzigrund",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/7410_zurich.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/7411_luzern.jpg",
@@ -65393,7 +67151,7 @@
     "league_id": "308",
     "league_name": "Super League",
     "match_date": "2025-11-08",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "20:30",
     "match_hometeam_id": "240",
     "match_hometeam_name": "Servette",
@@ -65413,7 +67171,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "13",
-    "match_stadium": "",
+    "match_stadium": "Stade de Genève",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/240_servette.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/7428_thun.jpg",
@@ -65433,7 +67191,7 @@
     "league_id": "308",
     "league_name": "Super League",
     "match_date": "2025-11-09",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "16:30",
     "match_hometeam_id": "7409",
     "match_hometeam_name": "Lausanne",
@@ -65453,7 +67211,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "13",
-    "match_stadium": "Stade de la Tuiliere",
+    "match_stadium": "Stade de la Tuilière",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/7409_lausanne-sport.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/7412_sion.jpg",
@@ -65473,7 +67231,7 @@
     "league_id": "308",
     "league_name": "Super League",
     "match_date": "2025-11-09",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "16:30",
     "match_hometeam_id": "198",
     "match_hometeam_name": "St. Gallen",
@@ -65493,7 +67251,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "13",
-    "match_stadium": "Kybunpark",
+    "match_stadium": "kybunpark",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/198_st.gallen.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/125_young-boys.jpg",
@@ -65513,7 +67271,7 @@
     "league_id": "308",
     "league_name": "Super League",
     "match_date": "2025-11-09",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "14:00",
     "match_hometeam_id": "176",
     "match_hometeam_name": "Basel",
