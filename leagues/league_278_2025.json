@@ -83177,7 +83177,7 @@
     "match_awayteam_system": "4-1-4-1",
     "match_live": "0",
     "match_round": "7",
-    "match_stadium": "Al-Awwal Park",
+    "match_stadium": "King Saud University Stadium",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/371_al-nassr.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6308_al-fayha.jpg",
@@ -83512,7 +83512,7 @@
     "match_awayteam_system": "4-4-2",
     "match_live": "0",
     "match_round": "7",
-    "match_stadium": "King Abdullah Sport City Stadium",
+    "match_stadium": "Al Taawon Arena",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/368_al-taawoun.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6330_al-qadsiah.jpg",
@@ -83803,28 +83803,28 @@
     "league_id": "278",
     "league_name": "Saudi League",
     "match_date": "2025-11-06",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "18:30",
     "match_hometeam_id": "16129",
     "match_hometeam_name": "Al Riyadh",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Damac",
     "match_awayteam_id": "6336",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "4-4-2",
+    "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "8",
-    "match_stadium": "Al-Shabab Club Stadium",
-    "match_referee": "",
+    "match_stadium": "",
+    "match_referee": "Abdullah Al-Kharbosh, Saudi Arabia",
     "team_home_badge": "https://apiv3.apifootball.com/badges/16129_al-riyadh.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6336_damac.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/278_saudi-league.png",
@@ -83832,9 +83832,285 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1526",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "24",
+        "home_scorer": "S. Gonzalez",
+        "home_scorer_id": "1028490225",
+        "home_assist": "Toze",
+        "home_assist_id": "2925648174",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "85",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "V. Vada",
+        "away_scorer_id": "165413243",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Attacks",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "0%",
+        "away": "0%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "7",
+        "away": "14"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "4",
+        "away": "6"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "6"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "2",
+        "away": "8"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Fouls",
+        "home": "12",
+        "away": "13"
+      },
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Offsides",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "34%",
+        "away": "66%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Passes Total",
+        "home": "248",
+        "away": "482"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "194",
+        "away": "430"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "38%",
+        "away": "62%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Fouls",
+        "home": "6",
+        "away": "6"
+      },
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "38%",
+        "away": "62%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Passes Total",
+        "home": "139",
+        "away": "235"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "117",
+        "away": "213"
+      }
+    ]
   },
   {
     "match_id": "643256",
@@ -83843,28 +84119,28 @@
     "league_id": "278",
     "league_name": "Saudi League",
     "match_date": "2025-11-06",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "18:30",
     "match_hometeam_id": "6330",
     "match_hometeam_name": "Al Qadisiya",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "4",
     "match_awayteam_name": "Al Kholood",
     "match_awayteam_id": "18893",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "4",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "4-4-1-1",
+    "match_awayteam_system": "4-4-2",
     "match_live": "0",
     "match_round": "8",
-    "match_stadium": "Prince Mohamed bin Fahd Stadium",
-    "match_referee": "",
+    "match_stadium": "",
+    "match_referee": "Serdar Gozubuyuk, Netherlands",
     "team_home_badge": "https://apiv3.apifootball.com/badges/6330_al-qadsiah.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/18893_al-kholood.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/278_saudi-league.png",
@@ -83872,9 +84148,303 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1526",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "15",
+        "home_scorer": "M. Retegui",
+        "home_scorer_id": "3268767791",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "60",
+        "home_scorer": "M. Al Juwayr",
+        "home_scorer_id": "2043713064",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "65",
+        "home_scorer": "N. Nandez",
+        "home_scorer_id": "2396791326",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "68",
+        "home_scorer": "M. Retegui",
+        "home_scorer_id": "3268767791",
+        "home_assist": "J. Weigl",
+        "home_assist_id": "7196401",
+        "score": "4 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "7",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "19",
+        "away": "6"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "6",
+        "away": "0"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "8",
+        "away": "4"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "15",
+        "away": "2"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "16",
+        "away": "6"
+      },
+      {
+        "type": "Corners",
+        "home": "7",
+        "away": "6"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "6"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "57%",
+        "away": "43%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "439",
+        "away": "323"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "378",
+        "away": "261"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Shots Total",
+        "home": "10",
+        "away": "3"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "8",
+        "away": "1"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Fouls",
+        "home": "9",
+        "away": "3"
+      },
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "67%",
+        "away": "33%"
+      },
+      {
+        "type": "Passes Total",
+        "home": "265",
+        "away": "128"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "234",
+        "away": "98"
+      }
+    ]
   },
   {
     "match_id": "643262",
@@ -83883,27 +84453,27 @@
     "league_id": "278",
     "league_name": "Saudi League",
     "match_date": "2025-11-06",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "15:55",
     "match_hometeam_id": "6307",
     "match_hometeam_name": "Al Hazem",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Al Khaleej",
     "match_awayteam_id": "6312",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "4",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "2",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "4",
+    "match_hometeam_system": "4-1-4-1",
+    "match_awayteam_system": "4-4-2",
     "match_live": "0",
     "match_round": "8",
-    "match_stadium": "Ar-Rass Stadium",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/6307_al-hazem.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6312_al-khaleej.jpg",
@@ -83912,9 +84482,332 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1526",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "8",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "K. Fortounis",
+        "away_scorer_id": "617259609",
+        "away_assist": "J. King",
+        "away_assist_id": "2538799961",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "38",
+        "home_scorer": "F. Martins",
+        "home_scorer_id": "3647400376",
+        "home_assist": "A. Sayoud",
+        "home_assist_id": "2417523678",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "45+1",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 2",
+        "away_scorer": "G. Masouras",
+        "away_scorer_id": "3656193942",
+        "away_assist": "K. Fortounis",
+        "away_assist_id": "617259609",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "58",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 3",
+        "away_scorer": "P. Fernandes",
+        "away_scorer_id": "1753472208",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "75",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 4",
+        "away_scorer": "G. Masouras",
+        "away_scorer_id": "3656193942",
+        "away_assist": "S. Al Hamsal",
+        "away_assist_id": "2769351293",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Attacks",
+        "home": "59",
+        "away": "47"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "49",
+        "away": "30"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "7"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Shots Total",
+        "home": "21",
+        "away": "13"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "6",
+        "away": "4"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "10",
+        "away": "5"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "9",
+        "away": "10"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "12",
+        "away": "3"
+      },
+      {
+        "type": "Fouls",
+        "home": "14",
+        "away": "9"
+      },
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "56%",
+        "away": "44%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "0",
+        "away": "5"
+      },
+      {
+        "type": "Passes Total",
+        "home": "470",
+        "away": "384"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "414",
+        "away": "313"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "28",
+        "away": "29"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "22",
+        "away": "16"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "49%",
+        "away": "51%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "11",
+        "away": "6"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "4",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "7",
+        "away": "3"
+      },
+      {
+        "type": "Fouls",
+        "home": "7",
+        "away": "6"
+      },
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "49%",
+        "away": "51%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Saves",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "208",
+        "away": "220"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "177",
+        "away": "190"
+      }
+    ]
   },
   {
     "match_id": "643257",
@@ -83943,7 +84836,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "8",
-    "match_stadium": "Al Fateh Club Stadium",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/6331_al-fateh.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/368_al-taawoun.jpg",
@@ -83983,7 +84876,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "8",
-    "match_stadium": "King Abdullah Sports City Stadium",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/12632_al-najma.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/366_al-hilal-fc.jpg",
@@ -84023,7 +84916,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "8",
-    "match_stadium": "Al Majma&apos;ah Sports City Stadium",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/6308_al-fayha.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/18903_al-okhdood.jpg",
@@ -84903,7 +85796,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "11",
-    "match_stadium": "",
+    "match_stadium": "King Khalid Sports City",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/18904_neom.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/12632_al-najma.jpg",
@@ -85503,7 +86396,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "12",
-    "match_stadium": "",
+    "match_stadium": "King Khalid Sports City",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/18904_neom.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6328_al-ittihad.jpg",
@@ -86103,7 +86996,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "14",
-    "match_stadium": "",
+    "match_stadium": "King Khalid Sports City",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/18904_neom.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6331_al-fateh.jpg",
@@ -86823,7 +87716,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "16",
-    "match_stadium": "",
+    "match_stadium": "King Khalid Sports City",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/18904_neom.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/366_al-hilal-fc.jpg",
@@ -87543,7 +88436,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "18",
-    "match_stadium": "",
+    "match_stadium": "King Khalid Sports City",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/18904_neom.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/359_al-ahli.jpg",
@@ -87783,7 +88676,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "19",
-    "match_stadium": "",
+    "match_stadium": "King Khalid Sports City",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/18904_neom.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6336_damac.jpg",
@@ -88583,7 +89476,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "21",
-    "match_stadium": "",
+    "match_stadium": "King Khalid Sports City",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/18904_neom.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/16129_al-riyadh.jpg",
@@ -89903,7 +90796,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "24",
-    "match_stadium": "",
+    "match_stadium": "King Khalid Sports City",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/18904_neom.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/18893_al-kholood.jpg",
@@ -90583,7 +91476,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "26",
-    "match_stadium": "",
+    "match_stadium": "King Khalid Sports City",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/18904_neom.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/368_al-taawoun.jpg",
@@ -90863,7 +91756,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "27",
-    "match_stadium": "",
+    "match_stadium": "King Khalid Sports City",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/18904_neom.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6308_al-fayha.jpg",
@@ -91903,7 +92796,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "30",
-    "match_stadium": "",
+    "match_stadium": "King Khalid Sports City",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/18904_neom.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6307_al-hazem.jpg",
@@ -92463,7 +93356,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "32",
-    "match_stadium": "",
+    "match_stadium": "King Khalid Sports City",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/18904_neom.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6327_al-shabab.jpg",
@@ -93303,7 +94196,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "34",
-    "match_stadium": "",
+    "match_stadium": "King Khalid Sports City",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/18904_neom.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6329_al-ettifaq.jpg",

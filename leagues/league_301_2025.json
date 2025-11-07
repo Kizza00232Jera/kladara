@@ -124172,7 +124172,7 @@
     "match_awayteam_system": "3-4-3",
     "match_live": "0",
     "match_round": "12",
-    "match_stadium": "Estadio Municipal Reino de León",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/7207_cultural-leonesa.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/7295_mirandes.jpg",
@@ -124870,7 +124870,7 @@
     "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "12",
-    "match_stadium": "UD Almería Stadium",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/7260_almeria.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/7278_eibar.jpg",
@@ -125214,7 +125214,7 @@
     "match_awayteam_system": "4-4-2",
     "match_live": "0",
     "match_round": "12",
-    "match_stadium": "Nou Estadi Encamp",
+    "match_stadium": "Estadi de la FAF",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/7239_fc-andorra.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/7277_cadiz.jpg",
@@ -125506,7 +125506,7 @@
     "match_awayteam_system": "5-3-2",
     "match_live": "0",
     "match_round": "12",
-    "match_stadium": "Ibercaja Estadio",
+    "match_stadium": "Ibercaja Stadium",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/7283_real-zaragoza.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/7200_deportivo-de-la-coruna.jpg",
@@ -125827,7 +125827,7 @@
     "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "12",
-    "match_stadium": "Estadio Municipal El Molinón-Enrique Castro Quini",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/7270_sporting-de-gijon.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/7289_las-palmas.jpg",
@@ -126119,7 +126119,7 @@
     "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "12",
-    "match_stadium": "Estadio SkyFi Castalia",
+    "match_stadium": "Estadio Municipal de Castalia",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/7276_castellon.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/7267_malaga.jpg",
@@ -126459,7 +126459,7 @@
     "match_awayteam_system": "4-3-3",
     "match_live": "0",
     "match_round": "12",
-    "match_stadium": "Estadio Nuevo Arcángel",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/7171_cordoba.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6853_ceuta.jpg",
@@ -127100,28 +127100,28 @@
     "league_id": "301",
     "league_name": "Segunda División",
     "match_date": "2025-11-05",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "20:00",
     "match_hometeam_id": "7216",
     "match_hometeam_name": "Real Sociedad B",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Huesca",
     "match_awayteam_id": "7280",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "4-1-4-1",
+    "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "10",
-    "match_stadium": "",
-    "match_referee": "Jose Antonio Sanchez Villalobos, Spain",
+    "match_stadium": "Estadio Municipal de Anoeta",
+    "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/7216_real-sociedad-ii.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/7280_huesca.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/301_segunda-division.png",
@@ -127129,9 +127129,290 @@
     "league_year": "2025/2026",
     "fk_stage_key": "401",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "24",
+        "home_scorer": "P. Rodriguez",
+        "home_scorer_id": "1487556434",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "90",
+        "home_scorer": "L. Astiazaran",
+        "home_scorer_id": "2093434424",
+        "home_assist": "G. Carrera",
+        "home_assist_id": "3812168865",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "6"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Attacks",
+        "home": "77",
+        "away": "69"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "24",
+        "away": "44"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "8",
+        "away": "6"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "0%",
+        "away": "0%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "13",
+        "away": "10"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "7",
+        "away": "7"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "8",
+        "away": "4"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Fouls",
+        "home": "19",
+        "away": "16"
+      },
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "6"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "55%",
+        "away": "45%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "429",
+        "away": "342"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "370",
+        "away": "282"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "31",
+        "away": "39"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "11",
+        "away": "26"
+      },
+      {
+        "type": "On Target",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "3",
+        "away": "8"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "1",
+        "away": "6"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "10",
+        "away": "8"
+      },
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Passes Total",
+        "home": "189",
+        "away": "187"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "152",
+        "away": "158"
+      }
+    ]
   },
   {
     "match_id": "611130",
@@ -127160,7 +127441,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "13",
-    "match_stadium": "Estadio de Mendizorroza",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/7295_mirandes.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/7270_sporting-de-gijon.jpg",

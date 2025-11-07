@@ -90830,7 +90830,7 @@
     "match_awayteam_system": "4-1-4-1",
     "match_live": "0",
     "match_round": "14",
-    "match_stadium": "Sportsko-Rekreativni Centar Mladost",
+    "match_stadium": "Stadion na Banovom brdu",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/6461_ukariki.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/219_partizan.jpg",
@@ -93220,27 +93220,27 @@
     "league_id": "288",
     "league_name": "Super Liga",
     "match_date": "2025-11-05",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "17:00",
     "match_hometeam_id": "6468",
     "match_hometeam_name": "Javor",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Partizan",
     "match_awayteam_id": "219",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "3",
+    "match_hometeam_halftime_score": "2",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "3",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "4-1-4-1",
     "match_live": "0",
     "match_round": "2",
-    "match_stadium": "",
+    "match_stadium": "Stadion Kraj Moravice",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/6468_javor.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/219_partizan.jpg",
@@ -93249,9 +93249,212 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1560",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "21",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "J. Milosevic",
+        "away_scorer_id": "1816163171",
+        "away_assist": "O. Ugresic",
+        "away_assist_id": "12811988",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "25",
+        "home_scorer": "D. Pantelic",
+        "home_scorer_id": "3525366792",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "34",
+        "home_scorer": "M. Zuvic",
+        "home_scorer_id": "2523632794",
+        "home_assist": "M. Bjekovic",
+        "home_assist_id": "2998443377",
+        "score": "2 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "58",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 2",
+        "away_scorer": "B. Natcho",
+        "away_scorer_id": "2054613778",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "69",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 3",
+        "away_scorer": "J. Milosevic",
+        "away_scorer_id": "1816163171",
+        "away_assist": "M. Roganovic",
+        "away_assist_id": "3553360585",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Shots Total",
+        "home": "9",
+        "away": "8"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "17",
+        "away": "11"
+      },
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "40%",
+        "away": "60%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "355",
+        "away": "552"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "277",
+        "away": "478"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Shots Total",
+        "home": "6",
+        "away": "5"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Fouls",
+        "home": "9",
+        "away": "7"
+      },
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "38%",
+        "away": "62%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "166",
+        "away": "271"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "132",
+        "away": "241"
+      }
+    ]
   },
   {
     "match_id": "694629",
@@ -93300,7 +93503,7 @@
     "league_id": "288",
     "league_name": "Super Liga",
     "match_date": "2025-11-08",
-    "match_status": "",
+    "match_status": "Postponed",
     "match_time": "16:00",
     "match_hometeam_id": "6442",
     "match_hometeam_name": "Radnicki 1923",
@@ -93903,7 +94106,7 @@
     "match_status": "Not Started",
     "match_time": "17:00",
     "match_hometeam_id": "8667",
-    "match_hometeam_name": "OFK Beograd",
+    "match_hometeam_name": "OFK Beograd Mozzart Bet",
     "match_hometeam_score": "",
     "match_awayteam_name": "Crvena zvezda",
     "match_awayteam_id": "112",
@@ -94345,7 +94548,7 @@
     "match_hometeam_id": "6468",
     "match_hometeam_name": "Javor",
     "match_hometeam_score": "",
-    "match_awayteam_name": "OFK Beograd",
+    "match_awayteam_name": "OFK Beograd Mozzart Bet",
     "match_awayteam_id": "8667",
     "match_awayteam_score": "",
     "match_hometeam_halftime_score": "",
@@ -94825,7 +95028,7 @@
     "match_hometeam_id": "6460",
     "match_hometeam_name": "Vojvodina",
     "match_hometeam_score": "",
-    "match_awayteam_name": "OFK Beograd",
+    "match_awayteam_name": "OFK Beograd Mozzart Bet",
     "match_awayteam_id": "8667",
     "match_awayteam_score": "",
     "match_hometeam_halftime_score": "",
@@ -94903,7 +95106,7 @@
     "match_status": "Not Started",
     "match_time": "17:00",
     "match_hometeam_id": "8667",
-    "match_hometeam_name": "OFK Beograd",
+    "match_hometeam_name": "OFK Beograd Mozzart Bet",
     "match_hometeam_score": "",
     "match_awayteam_name": "TSC",
     "match_awayteam_id": "242",
@@ -95265,7 +95468,7 @@
     "match_hometeam_id": "6470",
     "match_hometeam_name": "Mladost",
     "match_hometeam_score": "",
-    "match_awayteam_name": "OFK Beograd",
+    "match_awayteam_name": "OFK Beograd Mozzart Bet",
     "match_awayteam_id": "8667",
     "match_awayteam_score": "",
     "match_hometeam_halftime_score": "",
@@ -95543,7 +95746,7 @@
     "match_status": "Not Started",
     "match_time": "17:00",
     "match_hometeam_id": "8667",
-    "match_hometeam_name": "OFK Beograd",
+    "match_hometeam_name": "OFK Beograd Mozzart Bet",
     "match_hometeam_score": "",
     "match_awayteam_name": "Cukaricki",
     "match_awayteam_id": "6461",
@@ -96025,7 +96228,7 @@
     "match_hometeam_id": "6469",
     "match_hometeam_name": "Novi Pazar",
     "match_hometeam_score": "",
-    "match_awayteam_name": "OFK Beograd",
+    "match_awayteam_name": "OFK Beograd Mozzart Bet",
     "match_awayteam_id": "8667",
     "match_awayteam_score": "",
     "match_hometeam_halftime_score": "",
@@ -96183,7 +96386,7 @@
     "match_status": "Not Started",
     "match_time": "17:00",
     "match_hometeam_id": "8667",
-    "match_hometeam_name": "OFK Beograd",
+    "match_hometeam_name": "OFK Beograd Mozzart Bet",
     "match_hometeam_score": "",
     "match_awayteam_name": "Zeleznicar Pancevo",
     "match_awayteam_id": "6451",
@@ -96665,7 +96868,7 @@
     "match_hometeam_id": "219",
     "match_hometeam_name": "Partizan",
     "match_hometeam_score": "",
-    "match_awayteam_name": "OFK Beograd",
+    "match_awayteam_name": "OFK Beograd Mozzart Bet",
     "match_awayteam_id": "8667",
     "match_awayteam_score": "",
     "match_hometeam_halftime_score": "",
@@ -96823,7 +97026,7 @@
     "match_status": "Not Started",
     "match_time": "17:00",
     "match_hometeam_id": "8667",
-    "match_hometeam_name": "OFK Beograd",
+    "match_hometeam_name": "OFK Beograd Mozzart Bet",
     "match_hometeam_score": "",
     "match_awayteam_name": "Radnicki 1923",
     "match_awayteam_id": "6442",
@@ -97185,7 +97388,7 @@
     "match_hometeam_id": "6472",
     "match_hometeam_name": "Napredak",
     "match_hometeam_score": "",
-    "match_awayteam_name": "OFK Beograd",
+    "match_awayteam_name": "OFK Beograd Mozzart Bet",
     "match_awayteam_id": "8667",
     "match_awayteam_score": "",
     "match_hometeam_halftime_score": "",
@@ -97463,7 +97666,7 @@
     "match_status": "Not Started",
     "match_time": "17:00",
     "match_hometeam_id": "8667",
-    "match_hometeam_name": "OFK Beograd",
+    "match_hometeam_name": "OFK Beograd Mozzart Bet",
     "match_hometeam_score": "",
     "match_awayteam_name": "IMT Novi Beograd",
     "match_awayteam_id": "6446",
@@ -97945,7 +98148,7 @@
     "match_hometeam_id": "6465",
     "match_hometeam_name": "Radnicki Nis",
     "match_hometeam_score": "",
-    "match_awayteam_name": "OFK Beograd",
+    "match_awayteam_name": "OFK Beograd Mozzart Bet",
     "match_awayteam_id": "8667",
     "match_awayteam_score": "",
     "match_hometeam_halftime_score": "",
@@ -98103,7 +98306,7 @@
     "match_status": "Not Started",
     "match_time": "17:00",
     "match_hometeam_id": "8667",
-    "match_hometeam_name": "OFK Beograd",
+    "match_hometeam_name": "OFK Beograd Mozzart Bet",
     "match_hometeam_score": "",
     "match_awayteam_name": "Radnik",
     "match_awayteam_id": "6463",

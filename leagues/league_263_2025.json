@@ -49869,7 +49869,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "13",
-    "match_stadium": "Stadion Miejski",
+    "match_stadium": "Stadion MZOS Znicz",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/5826_pogo-grodzisk-maz..jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/5864_ruch-chorzow.jpg",
@@ -54395,7 +54395,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "15",
-    "match_stadium": "Stadion Polonii Bytom",
+    "match_stadium": "Stadion im. Edwarda Szymkowiaka",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/5865_polonia-bytom.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/5784_znicz-pruszkow.jpg",
@@ -54576,7 +54576,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "15",
-    "match_stadium": "Stadion im. Orla Bialego",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/5896_mied-legnica.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/12131_wieczysta-krakow.jpg",
@@ -54799,7 +54799,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "15",
-    "match_stadium": "Stadion Stal",
+    "match_stadium": "Stadion Miejski w Rzeszowie",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/5801_stal-rzeszow.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/5782_pogo-siedlce.jpg",
@@ -54980,7 +54980,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "15",
-    "match_stadium": "Stadion GOS",
+    "match_stadium": "Stadion Chrobrego",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/5808_chrobry-gogow.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/5769_wisa-krakow.jpg",
@@ -55517,27 +55517,27 @@
     "league_id": "263",
     "league_name": "I Liga",
     "match_date": "2025-11-05",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "17:00",
     "match_hometeam_id": "5788",
     "match_hometeam_name": "Puszcza",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Stal Mielec",
     "match_awayteam_id": "5773",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "1",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "15",
-    "match_stadium": "",
+    "match_stadium": "Stadion Miejski w Niepolomicach",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/5788_puszcza-niepoomice.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/5773_stal-mielec.jpg",
@@ -55546,9 +55546,150 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1433",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "14",
+        "home_scorer": "M. Cholewiak",
+        "home_scorer_id": "1152353044",
+        "home_assist": "K. Przybylko",
+        "home_assist_id": "792645685",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "64",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "P. Kruszelnicki",
+        "away_scorer_id": "1260050248",
+        "away_assist": "J. Pisek",
+        "away_assist_id": "1922270677",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "70",
+        "away": "92"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "39",
+        "away": "65"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "10"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "39",
+        "away": "46"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "23",
+        "away": "30"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      }
+    ]
   },
   {
     "match_id": "650375",
@@ -56697,7 +56838,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "19",
-    "match_stadium": "Stadion Miejski",
+    "match_stadium": "Stadion MZOS Znicz",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/5826_pogo-grodzisk-maz..jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/5788_puszcza-niepoomice.jpg",
