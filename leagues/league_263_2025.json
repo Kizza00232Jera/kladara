@@ -55147,7 +55147,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "15",
-    "match_stadium": "Stadion Znicza",
+    "match_stadium": "Stadion MZOS Znicz",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/5826_pogo-grodzisk-maz..jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/5806_odra-opole.jpg",
@@ -55342,7 +55342,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "15",
-    "match_stadium": "Stadion Miejski LKS Lodz",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/5781_ks-od.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/5766_lsk-wrocaw.jpg",
@@ -55537,7 +55537,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "15",
-    "match_stadium": "Stadion Miejski w Niepolomicach",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/5788_puszcza-niepoomice.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/5773_stal-mielec.jpg",
@@ -55698,22 +55698,22 @@
     "league_id": "263",
     "league_name": "I Liga",
     "match_date": "2025-11-07",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "20:30",
     "match_hometeam_id": "5784",
     "match_hometeam_name": "Pruszkow",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "0",
     "match_awayteam_name": "Chrobry Glogow",
     "match_awayteam_id": "5808",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "2",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -55727,9 +55727,150 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1433",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "63",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "K. Laskowski",
+        "away_scorer_id": "2660538573",
+        "away_assist": "K. Nowakowski",
+        "away_assist_id": "4181644593",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "90+5",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 2",
+        "away_scorer": "P. Janczukowicz",
+        "away_scorer_id": "1999039250",
+        "away_assist": "K. Laskowski",
+        "away_assist_id": "2660538573",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "84",
+        "away": "92"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "50",
+        "away": "47"
+      },
+      {
+        "type": "On Target",
+        "home": "0",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "9",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "46%",
+        "away": "54%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "31",
+        "away": "48"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "18",
+        "away": "19"
+      },
+      {
+        "type": "On Target",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "40%",
+        "away": "60%"
+      }
+    ]
   },
   {
     "match_id": "691033",
@@ -55738,22 +55879,22 @@
     "league_id": "263",
     "league_name": "I Liga",
     "match_date": "2025-11-07",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "17:00",
     "match_hometeam_id": "5864",
     "match_hometeam_name": "Ruch Chorzow",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "3",
     "match_awayteam_name": "Legnica",
     "match_awayteam_id": "5896",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "2",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "3",
+    "match_awayteam_ft_score": "1",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -55767,9 +55908,178 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1433",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "13",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "D. Stanclik",
+        "away_scorer_id": "1462436076",
+        "away_assist": "K. Antonik",
+        "away_assist_id": "293372647",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "33",
+        "home_scorer": "M. Kolar",
+        "home_scorer_id": "797231640",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "44",
+        "home_scorer": "P. Szwedzik",
+        "home_scorer_id": "205651489",
+        "home_assist": "M. Kolar",
+        "home_assist_id": "797231640",
+        "score": "2 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "67",
+        "home_scorer": "M. Mezghrani",
+        "home_scorer_id": "2472646231",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "108",
+        "away": "127"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "51",
+        "away": "71"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "9"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "53",
+        "away": "59"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "23",
+        "away": "33"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      }
+    ]
   },
   {
     "match_id": "650373",
@@ -55778,22 +56088,22 @@
     "league_id": "263",
     "league_name": "I Liga",
     "match_date": "2025-11-08",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "14:30",
     "match_hometeam_id": "5769",
     "match_hometeam_name": "Wisla",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Polonia Warszawa",
     "match_awayteam_id": "5830",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "2",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -55807,9 +56117,164 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1433",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "10",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "R. Dadok",
+        "away_scorer_id": "2364738692",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "16",
+        "home_scorer": "A. Rodado",
+        "home_scorer_id": "2025457656",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "79",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 2",
+        "away_scorer": "D. Gnaase",
+        "away_scorer_id": "2404281623",
+        "away_assist": "N. Vasin",
+        "away_assist_id": "3002836171",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "7",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Attacks",
+        "home": "88",
+        "away": "64"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "58",
+        "away": "31"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "59%",
+        "away": "41%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "44",
+        "away": "33"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "24",
+        "away": "18"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "53%",
+        "away": "47%"
+      }
+    ]
   },
   {
     "match_id": "650377",
@@ -55818,22 +56283,22 @@
     "league_id": "263",
     "league_name": "I Liga",
     "match_date": "2025-11-08",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "19:30",
     "match_hometeam_id": "5781",
     "match_hometeam_name": "LKS Lodz",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "0",
     "match_awayteam_name": "Puszcza",
     "match_awayteam_id": "5788",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "3",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "3",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -55847,9 +56312,164 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1433",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "32",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "O. Korczakowski",
+        "away_scorer_id": "2116821683",
+        "away_assist": "M. Walski",
+        "away_assist_id": "2631892138",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "72",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 2",
+        "away_scorer": "O. Korczakowski",
+        "away_scorer_id": "2116821683",
+        "away_assist": "M. Cholewiak",
+        "away_assist_id": "1152353044",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "78",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 3",
+        "away_scorer": "K. Iwao",
+        "away_scorer_id": "3061793782",
+        "away_assist": "M. Cholewiak",
+        "away_assist_id": "1152353044",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "17",
+        "away": "6"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "108",
+        "away": "62"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "76",
+        "away": "24"
+      },
+      {
+        "type": "On Target",
+        "home": "0",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "10",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "10",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "49",
+        "away": "33"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "37",
+        "away": "8"
+      },
+      {
+        "type": "On Target",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      }
+    ]
   },
   {
     "match_id": "650378",
@@ -55858,22 +56478,22 @@
     "league_id": "263",
     "league_name": "I Liga",
     "match_date": "2025-11-08",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "19:30",
     "match_hometeam_id": "12131",
     "match_hometeam_name": "KS Wieczysta Krakow",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "S. Rzeszow",
     "match_awayteam_id": "5801",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "2",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -55887,9 +56507,164 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1433",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "69",
+        "home_scorer": "K. Fila",
+        "home_scorer_id": "1128640214",
+        "home_assist": "P. Pusic",
+        "home_assist_id": "1004928881",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "77",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "S. Darwish",
+        "away_scorer_id": "3112284750",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "90",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 2",
+        "away_scorer": "K. Wachowiak",
+        "away_scorer_id": "9429427",
+        "away_assist": "K. Masiak",
+        "away_assist_id": "1146236451",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "8",
+        "away": "6"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "157",
+        "away": "156"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "124",
+        "away": "125"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "7",
+        "away": "8"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "47%",
+        "away": "53%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "100",
+        "away": "75"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "81",
+        "away": "55"
+      },
+      {
+        "type": "On Target",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "56%",
+        "away": "44%"
+      }
+    ]
   },
   {
     "match_id": "650379",
@@ -55898,22 +56673,22 @@
     "league_id": "263",
     "league_name": "I Liga",
     "match_date": "2025-11-08",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "19:30",
     "match_hometeam_id": "5773",
     "match_hometeam_name": "Stal Mielec",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "0",
     "match_awayteam_name": "Pogon Siedlce",
     "match_awayteam_id": "5782",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "0",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -55928,8 +56703,120 @@
     "fk_stage_key": "1433",
     "stage_name": "Current",
     "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "9",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Attacks",
+        "home": "107",
+        "away": "73"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "92",
+        "away": "53"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "13",
+        "away": "12"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "60",
+        "away": "28"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "43",
+        "away": "20"
+      },
+      {
+        "type": "On Target",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "7",
+        "away": "6"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      }
+    ]
   },
   {
     "match_id": "650380",
@@ -55978,22 +56865,22 @@
     "league_id": "263",
     "league_name": "I Liga",
     "match_date": "2025-11-09",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "17:00",
     "match_hometeam_id": "5805",
     "match_hometeam_name": "Tychy",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Grodzisk M.",
     "match_awayteam_id": "5826",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "2",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "2",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -56007,9 +56894,164 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1433",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "4",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "R. Adamski",
+        "away_scorer_id": "477940831",
+        "away_assist": "J. Konstantyn",
+        "away_assist_id": "428363836",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "19",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 2",
+        "away_scorer": "M. Szczepaniak",
+        "away_scorer_id": "3990114235",
+        "away_assist": "R. Adamski",
+        "away_assist_id": "477940831",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "24",
+        "home_scorer": "D. Rumin",
+        "home_scorer_id": "1729175921",
+        "home_assist": "J. Keiblinger",
+        "home_assist_id": "1929561291",
+        "score": "1 - 2",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "135",
+        "away": "100"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "97",
+        "away": "81"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "10"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "52%",
+        "away": "48%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "60",
+        "away": "49"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "45",
+        "away": "35"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "1",
+        "away": "7"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "51%",
+        "away": "49%"
+      }
+    ]
   },
   {
     "match_id": "650374",
@@ -56018,22 +57060,22 @@
     "league_id": "263",
     "league_name": "I Liga",
     "match_date": "2025-11-09",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "12:00",
     "match_hometeam_id": "5806",
     "match_hometeam_name": "Odra Opole",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "3",
     "match_awayteam_name": "Leczna",
     "match_awayteam_id": "5786",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "3",
+    "match_awayteam_ft_score": "1",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -56047,9 +57089,178 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1433",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "8",
+        "home_scorer": "K. Przybylko",
+        "home_scorer_id": "776722755",
+        "home_assist": "T. Prikryl",
+        "home_assist_id": "2619191323",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "20",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "Rafa Santos",
+        "away_scorer_id": "3460416469",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "69",
+        "home_scorer": "F. Kendzia",
+        "home_scorer_id": "393991678",
+        "home_assist": "M. Milos",
+        "home_assist_id": "1845609609",
+        "score": "2 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "87",
+        "home_scorer": "A. Purzycki",
+        "home_scorer_id": "1420141913",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "7"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "6",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "109",
+        "away": "116"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "76",
+        "away": "91"
+      },
+      {
+        "type": "On Target",
+        "home": "7",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "7",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "52%",
+        "away": "48%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "6"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "63",
+        "away": "58"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "35",
+        "away": "53"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      }
+    ]
   },
   {
     "match_id": "650376",
@@ -56058,22 +57269,22 @@
     "league_id": "263",
     "league_name": "I Liga",
     "match_date": "2025-11-09",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "14:30",
     "match_hometeam_id": "5766",
     "match_hometeam_name": "Slask Wroclaw",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Polonia Bytom",
     "match_awayteam_id": "5865",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "3",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "2",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "3",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -56087,9 +57298,192 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1433",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "2",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "L. Zielinski",
+        "away_scorer_id": "3979928762",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "28",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 2",
+        "away_scorer": "J. Arak",
+        "away_scorer_id": "38369007",
+        "away_assist": "J. Szymanski",
+        "away_assist_id": "2329354595",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "53",
+        "home_scorer": "B. Halimi",
+        "home_scorer_id": "3686295627",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 2",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "77",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 3",
+        "away_scorer": "K. Wojtyra",
+        "away_scorer_id": "4067148792",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "87",
+        "home_scorer": "M. Llinares",
+        "home_scorer_id": "2208304411",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 3",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "14",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "159",
+        "away": "120"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "121",
+        "away": "62"
+      },
+      {
+        "type": "On Target",
+        "home": "7",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "15",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "62%",
+        "away": "38%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "71",
+        "away": "65"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "46",
+        "away": "37"
+      },
+      {
+        "type": "On Target",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "56%",
+        "away": "44%"
+      }
+    ]
   },
   {
     "match_id": "596663",
@@ -56452,19 +57846,19 @@
     "statistics_1half": []
   },
   {
-    "match_id": "596664",
+    "match_id": "650394",
     "country_id": "91",
     "country_name": "Poland",
     "league_id": "263",
     "league_name": "I Liga",
-    "match_date": "2025-11-29",
+    "match_date": "2025-11-28",
     "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "5801",
-    "match_hometeam_name": "S. Rzeszow",
+    "match_time": "20:30",
+    "match_hometeam_id": "5896",
+    "match_hometeam_name": "Legnica",
     "match_hometeam_score": "",
-    "match_awayteam_name": "Grodzisk M.",
-    "match_awayteam_id": "5826",
+    "match_awayteam_name": "Tychy",
+    "match_awayteam_id": "5805",
     "match_awayteam_score": "",
     "match_hometeam_halftime_score": "",
     "match_awayteam_halftime_score": "",
@@ -56478,10 +57872,10 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "18",
-    "match_stadium": "Stadion Miejski w Rzeszowie",
+    "match_stadium": "",
     "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/5801_stal-rzeszow.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/5826_pogo-grodzisk-maz..jpg",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/5896_mied-legnica.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/5805_tychy.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/263_i-liga.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/91_poland.png",
     "league_year": "2025/2026",
@@ -56492,19 +57886,19 @@
     "statistics_1half": []
   },
   {
-    "match_id": "650389",
+    "match_id": "650395",
     "country_id": "91",
     "country_name": "Poland",
     "league_id": "263",
     "league_name": "I Liga",
-    "match_date": "2025-11-29",
+    "match_date": "2025-11-28",
     "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "5769",
-    "match_hometeam_name": "Wisla",
+    "match_time": "18:00",
+    "match_hometeam_id": "5865",
+    "match_hometeam_name": "Polonia Bytom",
     "match_hometeam_score": "",
-    "match_awayteam_name": "Stal Mielec",
-    "match_awayteam_id": "5773",
+    "match_awayteam_name": "Leczna",
+    "match_awayteam_id": "5786",
     "match_awayteam_score": "",
     "match_hometeam_halftime_score": "",
     "match_awayteam_halftime_score": "",
@@ -56518,10 +57912,10 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "18",
-    "match_stadium": "Stadion Miejski im. Henryka Reymana",
+    "match_stadium": "Stadion im. Edwarda Szymkowiaka",
     "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/5769_wisa-krakow.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/5773_stal-mielec.jpg",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/5865_polonia-bytom.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/5786_gornik-czna.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/263_i-liga.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/91_poland.png",
     "league_year": "2025/2026",
@@ -56539,7 +57933,7 @@
     "league_name": "I Liga",
     "match_date": "2025-11-29",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "19:30",
     "match_hometeam_id": "5830",
     "match_hometeam_name": "Polonia Warszawa",
     "match_hometeam_score": "",
@@ -56579,7 +57973,7 @@
     "league_name": "I Liga",
     "match_date": "2025-11-29",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "19:30",
     "match_hometeam_id": "5806",
     "match_hometeam_name": "Odra Opole",
     "match_hometeam_score": "",
@@ -56612,46 +58006,6 @@
     "statistics_1half": []
   },
   {
-    "match_id": "650392",
-    "country_id": "91",
-    "country_name": "Poland",
-    "league_id": "263",
-    "league_name": "I Liga",
-    "match_date": "2025-11-29",
-    "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "12131",
-    "match_hometeam_name": "KS Wieczysta Krakow",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Slask Wroclaw",
-    "match_awayteam_id": "5766",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "18",
-    "match_stadium": "ArcelorMittal Park",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/12131_wieczysta-krakow.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/5766_lsk-wrocaw.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/263_i-liga.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/91_poland.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "1433",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
     "match_id": "650393",
     "country_id": "91",
     "country_name": "Poland",
@@ -56659,7 +58013,7 @@
     "league_name": "I Liga",
     "match_date": "2025-11-29",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "19:30",
     "match_hometeam_id": "5864",
     "match_hometeam_name": "Ruch Chorzow",
     "match_hometeam_score": "",
@@ -56692,19 +58046,19 @@
     "statistics_1half": []
   },
   {
-    "match_id": "650394",
+    "match_id": "650389",
     "country_id": "91",
     "country_name": "Poland",
     "league_id": "263",
     "league_name": "I Liga",
-    "match_date": "2025-11-29",
+    "match_date": "2025-11-30",
     "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "5896",
-    "match_hometeam_name": "Legnica",
+    "match_time": "20:15",
+    "match_hometeam_id": "5769",
+    "match_hometeam_name": "Wisla",
     "match_hometeam_score": "",
-    "match_awayteam_name": "Tychy",
-    "match_awayteam_id": "5805",
+    "match_awayteam_name": "Stal Mielec",
+    "match_awayteam_id": "5773",
     "match_awayteam_score": "",
     "match_hometeam_halftime_score": "",
     "match_awayteam_halftime_score": "",
@@ -56718,10 +58072,10 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "18",
-    "match_stadium": "",
+    "match_stadium": "Stadion Miejski im. Henryka Reymana",
     "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/5896_mied-legnica.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/5805_tychy.jpg",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/5769_wisa-krakow.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/5773_stal-mielec.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/263_i-liga.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/91_poland.png",
     "league_year": "2025/2026",
@@ -56732,19 +58086,19 @@
     "statistics_1half": []
   },
   {
-    "match_id": "650395",
+    "match_id": "650392",
     "country_id": "91",
     "country_name": "Poland",
     "league_id": "263",
     "league_name": "I Liga",
-    "match_date": "2025-11-29",
+    "match_date": "2025-11-30",
     "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "5865",
-    "match_hometeam_name": "Polonia Bytom",
+    "match_time": "14:30",
+    "match_hometeam_id": "12131",
+    "match_hometeam_name": "KS Wieczysta Krakow",
     "match_hometeam_score": "",
-    "match_awayteam_name": "Leczna",
-    "match_awayteam_id": "5786",
+    "match_awayteam_name": "Slask Wroclaw",
+    "match_awayteam_id": "5766",
     "match_awayteam_score": "",
     "match_hometeam_halftime_score": "",
     "match_awayteam_halftime_score": "",
@@ -56758,10 +58112,10 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "18",
-    "match_stadium": "Stadion im. Edwarda Szymkowiaka",
+    "match_stadium": "ArcelorMittal Park",
     "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/5865_polonia-bytom.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/5786_gornik-czna.jpg",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/12131_wieczysta-krakow.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/5766_lsk-wrocaw.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/263_i-liga.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/91_poland.png",
     "league_year": "2025/2026",
@@ -56777,9 +58131,9 @@
     "country_name": "Poland",
     "league_id": "263",
     "league_name": "I Liga",
-    "match_date": "2025-11-29",
+    "match_date": "2025-11-30",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "12:00",
     "match_hometeam_id": "5784",
     "match_hometeam_name": "Pruszkow",
     "match_hometeam_score": "",
@@ -56812,19 +58166,19 @@
     "statistics_1half": []
   },
   {
-    "match_id": "596665",
+    "match_id": "596664",
     "country_id": "91",
     "country_name": "Poland",
     "league_id": "263",
     "league_name": "I Liga",
-    "match_date": "2025-12-06",
+    "match_date": "2025-12-01",
     "match_status": "Not Started",
     "match_time": "17:00",
-    "match_hometeam_id": "5826",
-    "match_hometeam_name": "Grodzisk M.",
+    "match_hometeam_id": "5801",
+    "match_hometeam_name": "S. Rzeszow",
     "match_hometeam_score": "",
-    "match_awayteam_name": "Puszcza",
-    "match_awayteam_id": "5788",
+    "match_awayteam_name": "Grodzisk M.",
+    "match_awayteam_id": "5826",
     "match_awayteam_score": "",
     "match_hometeam_halftime_score": "",
     "match_awayteam_halftime_score": "",
@@ -56837,51 +58191,11 @@
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
-    "match_round": "19",
-    "match_stadium": "Stadion MZOS Znicz",
+    "match_round": "18",
+    "match_stadium": "Stadion Miejski w Rzeszowie",
     "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/5826_pogo-grodzisk-maz..jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/5788_puszcza-niepoomice.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/263_i-liga.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/91_poland.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "1433",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "650397",
-    "country_id": "91",
-    "country_name": "Poland",
-    "league_id": "263",
-    "league_name": "I Liga",
-    "match_date": "2025-12-06",
-    "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "5786",
-    "match_hometeam_name": "Leczna",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Ruch Chorzow",
-    "match_awayteam_id": "5864",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "19",
-    "match_stadium": "",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/5786_gornik-czna.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/5864_ruch-chorzow.jpg",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/5801_stal-rzeszow.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/5826_pogo-grodzisk-maz..jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/263_i-liga.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/91_poland.png",
     "league_year": "2025/2026",
@@ -56897,9 +58211,9 @@
     "country_name": "Poland",
     "league_id": "263",
     "league_name": "I Liga",
-    "match_date": "2025-12-06",
+    "match_date": "2025-12-05",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "18:00",
     "match_hometeam_id": "5805",
     "match_hometeam_name": "Tychy",
     "match_hometeam_score": "",
@@ -56932,6 +58246,46 @@
     "statistics_1half": []
   },
   {
+    "match_id": "596665",
+    "country_id": "91",
+    "country_name": "Poland",
+    "league_id": "263",
+    "league_name": "I Liga",
+    "match_date": "2025-12-06",
+    "match_status": "Not Started",
+    "match_time": "16:30",
+    "match_hometeam_id": "5826",
+    "match_hometeam_name": "Grodzisk M.",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Puszcza",
+    "match_awayteam_id": "5788",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "19",
+    "match_stadium": "Stadion MZOS Znicz",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/5826_pogo-grodzisk-maz..jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/5788_puszcza-niepoomice.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/263_i-liga.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/91_poland.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "1433",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
     "match_id": "650399",
     "country_id": "91",
     "country_name": "Poland",
@@ -56939,7 +58293,7 @@
     "league_name": "I Liga",
     "match_date": "2025-12-06",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "16:30",
     "match_hometeam_id": "5896",
     "match_hometeam_name": "Legnica",
     "match_hometeam_score": "",
@@ -56972,14 +58326,94 @@
     "statistics_1half": []
   },
   {
-    "match_id": "650400",
+    "match_id": "650404",
     "country_id": "91",
     "country_name": "Poland",
     "league_id": "263",
     "league_name": "I Liga",
     "match_date": "2025-12-06",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "16:30",
+    "match_hometeam_id": "5782",
+    "match_hometeam_name": "Pogon Siedlce",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "KS Wieczysta Krakow",
+    "match_awayteam_id": "12131",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "19",
+    "match_stadium": "Stadion ROSRRiT",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/5782_pogo-siedlce.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/12131_wieczysta-krakow.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/263_i-liga.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/91_poland.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "1433",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "650397",
+    "country_id": "91",
+    "country_name": "Poland",
+    "league_id": "263",
+    "league_name": "I Liga",
+    "match_date": "2025-12-07",
+    "match_status": "Not Started",
+    "match_time": "20:15",
+    "match_hometeam_id": "5786",
+    "match_hometeam_name": "Leczna",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Ruch Chorzow",
+    "match_awayteam_id": "5864",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "19",
+    "match_stadium": "",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/5786_gornik-czna.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/5864_ruch-chorzow.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/263_i-liga.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/91_poland.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "1433",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "650400",
+    "country_id": "91",
+    "country_name": "Poland",
+    "league_id": "263",
+    "league_name": "I Liga",
+    "match_date": "2025-12-07",
+    "match_status": "Not Started",
+    "match_time": "17:30",
     "match_hometeam_id": "5865",
     "match_hometeam_name": "Polonia Bytom",
     "match_hometeam_score": "",
@@ -57012,54 +58446,14 @@
     "statistics_1half": []
   },
   {
-    "match_id": "650401",
-    "country_id": "91",
-    "country_name": "Poland",
-    "league_id": "263",
-    "league_name": "I Liga",
-    "match_date": "2025-12-06",
-    "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "5766",
-    "match_hometeam_name": "Slask Wroclaw",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "S. Rzeszow",
-    "match_awayteam_id": "5801",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "19",
-    "match_stadium": "Tarczynski Arena",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/5766_lsk-wrocaw.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/5801_stal-rzeszow.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/263_i-liga.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/91_poland.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "1433",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
     "match_id": "650402",
     "country_id": "91",
     "country_name": "Poland",
     "league_id": "263",
     "league_name": "I Liga",
-    "match_date": "2025-12-06",
+    "match_date": "2025-12-07",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "14:30",
     "match_hometeam_id": "5781",
     "match_hometeam_name": "LKS Lodz",
     "match_hometeam_score": "",
@@ -57097,9 +58491,9 @@
     "country_name": "Poland",
     "league_id": "263",
     "league_name": "I Liga",
-    "match_date": "2025-12-06",
+    "match_date": "2025-12-07",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "12:00",
     "match_hometeam_id": "5773",
     "match_hometeam_name": "Stal Mielec",
     "match_hometeam_score": "",
@@ -57132,19 +58526,19 @@
     "statistics_1half": []
   },
   {
-    "match_id": "650404",
+    "match_id": "650401",
     "country_id": "91",
     "country_name": "Poland",
     "league_id": "263",
     "league_name": "I Liga",
-    "match_date": "2025-12-06",
+    "match_date": "2025-12-08",
     "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "5782",
-    "match_hometeam_name": "Pogon Siedlce",
+    "match_time": "19:00",
+    "match_hometeam_id": "5766",
+    "match_hometeam_name": "Slask Wroclaw",
     "match_hometeam_score": "",
-    "match_awayteam_name": "KS Wieczysta Krakow",
-    "match_awayteam_id": "12131",
+    "match_awayteam_name": "S. Rzeszow",
+    "match_awayteam_id": "5801",
     "match_awayteam_score": "",
     "match_hometeam_halftime_score": "",
     "match_awayteam_halftime_score": "",
@@ -57158,10 +58552,10 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "19",
-    "match_stadium": "Stadion ROSRRiT",
+    "match_stadium": "Tarczynski Arena",
     "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/5782_pogo-siedlce.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/12131_wieczysta-krakow.jpg",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/5766_lsk-wrocaw.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/5801_stal-rzeszow.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/263_i-liga.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/91_poland.png",
     "league_year": "2025/2026",

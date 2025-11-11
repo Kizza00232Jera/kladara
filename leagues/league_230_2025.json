@@ -27771,7 +27771,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "12",
-    "match_stadium": "Stadion Cegrane",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/26369_aresimi.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/32783_bashkimi-kumanovo.jpg",
@@ -27896,7 +27896,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "12",
-    "match_stadium": "To?e Proeski Arena",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/5293_rabotniki.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/5271_tikvesh.jpg",
@@ -28077,7 +28077,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "12",
-    "match_stadium": "Stadion Gorce Petrov",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/5291_makedonija-gjp.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/5292_struga.jpg",
@@ -28258,7 +28258,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "12",
-    "match_stadium": "Stadion Blagoj Istatov",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/5296_akademija-pandev.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/233_sileks.jpg",
@@ -28534,7 +28534,7 @@
         "score_info_time": "2nd Half"
       },
       {
-        "time": "83",
+        "time": "74",
         "home_scorer": "",
         "home_scorer_id": "",
         "home_assist": "",
@@ -28670,22 +28670,22 @@
     "league_id": "230",
     "league_name": "First League",
     "match_date": "2025-11-08",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "13:00",
     "match_hometeam_id": "32783",
     "match_hometeam_name": "Bashkimi",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Rabotnicki",
     "match_awayteam_id": "5293",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "1",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -28699,7 +28699,50 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1264",
     "stage_name": "Current",
-    "goalscorer": [],
+    "goalscorer": [
+      {
+        "time": "41",
+        "home_scorer": "A. Jahja",
+        "home_scorer_id": "2879172427",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "64",
+        "home_scorer": "E. Avornyo",
+        "home_scorer_id": "3872660171",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "87",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 1",
+        "away_scorer": "D. Hodja",
+        "away_scorer_id": "2632958413",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
     "statistics": [],
     "statistics_1half": []
   },
@@ -28710,27 +28753,27 @@
     "league_id": "230",
     "league_name": "First League",
     "match_date": "2025-11-08",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "13:00",
     "match_hometeam_id": "5292",
     "match_hometeam_name": "Struga",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "4",
     "match_awayteam_name": "Arsimi",
     "match_awayteam_id": "26369",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "4",
+    "match_awayteam_ft_score": "0",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "13",
-    "match_stadium": "Gradska Plaža Stadium",
+    "match_stadium": "Gradska Pla?a Stadium",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/5292_struga.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/26369_aresimi.jpg",
@@ -28739,9 +28782,178 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1264",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "20",
+        "home_scorer": "M. Radeski",
+        "home_scorer_id": "3628392619",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "53",
+        "home_scorer": "B. Shabani",
+        "home_scorer_id": "3363994924",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "55",
+        "home_scorer": "B. Shabani",
+        "home_scorer_id": "3363994924",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "87",
+        "home_scorer": "H. Maleski",
+        "home_scorer_id": "382249908",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "4 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "9",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "141",
+        "away": "118"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "87",
+        "away": "55"
+      },
+      {
+        "type": "On Target",
+        "home": "8",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "8",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "56%",
+        "away": "44%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Attacks",
+        "home": "74",
+        "away": "65"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "34",
+        "away": "29"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "52%",
+        "away": "48%"
+      }
+    ]
   },
   {
     "match_id": "642061",
@@ -28830,27 +29042,27 @@
     "league_id": "230",
     "league_name": "First League",
     "match_date": "2025-11-09",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "13:00",
     "match_hometeam_id": "5295",
     "match_hometeam_name": "Pelister",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Brera Strumica",
     "match_awayteam_id": "5296",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "0",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "13",
-    "match_stadium": "Stadion Petar Miloševski",
+    "match_stadium": "Stadion Petar Milo?evski",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/5295_pelister.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/5296_akademija-pandev.jpg",
@@ -28859,9 +29071,136 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1264",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "22",
+        "home_scorer": "V. Kerim",
+        "home_scorer_id": "2390756639",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "8",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "131",
+        "away": "103"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "83",
+        "away": "40"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "8",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "54%",
+        "away": "46%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "65",
+        "away": "57"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "44",
+        "away": "23"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "49%",
+        "away": "51%"
+      }
+    ]
   },
   {
     "match_id": "642059",
@@ -28870,27 +29209,27 @@
     "league_id": "230",
     "league_name": "First League",
     "match_date": "2025-11-09",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "13:00",
     "match_hometeam_id": "5297",
     "match_hometeam_name": "Vardar",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "3",
     "match_awayteam_name": "Tikves",
     "match_awayteam_id": "5271",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "3",
+    "match_awayteam_ft_score": "1",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "13",
-    "match_stadium": "Toše Proeski Arena",
+    "match_stadium": "To?e Proeski Arena",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/5297_vardar-skopje.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/5271_tikvesh.jpg",
@@ -28899,9 +29238,178 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1264",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "19",
+        "home_scorer": "W. Tchimbembe",
+        "home_scorer_id": "2942239228",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "45",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "I. Ivanovski",
+        "away_scorer_id": "2465340040",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "81",
+        "home_scorer": "E. Spahiu",
+        "home_scorer_id": "1505678870",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "85",
+        "home_scorer": "R. Mato",
+        "home_scorer_id": "2430192633",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "9",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "117",
+        "away": "99"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "92",
+        "away": "47"
+      },
+      {
+        "type": "On Target",
+        "home": "10",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "10",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "61%",
+        "away": "39%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "65",
+        "away": "54"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "45",
+        "away": "20"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "62%",
+        "away": "38%"
+      }
+    ]
   },
   {
     "match_id": "642062",
@@ -28990,27 +29498,27 @@
     "league_id": "230",
     "league_name": "First League",
     "match_date": "2025-11-10",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "13:00",
     "match_hometeam_id": "191",
     "match_hometeam_name": "Shkendija",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "7",
     "match_awayteam_name": "Makedonija GP",
     "match_awayteam_id": "5291",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "3",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "7",
+    "match_awayteam_ft_score": "2",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "13",
-    "match_stadium": "Ecolog Arena",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/191_shkendija.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/5291_makedonija-gjp.jpg",
@@ -29019,9 +29527,248 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1264",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "9",
+        "home_scorer": "A. Mazari",
+        "home_scorer_id": "130643346",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "16",
+        "home_scorer": "F. Ramadani",
+        "home_scorer_id": "1632161804",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "20",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 1",
+        "away_scorer": "A. Etemi",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "30",
+        "home_scorer": "A. Meliqi",
+        "home_scorer_id": "322380770",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "67",
+        "home_scorer": "A. Mazari",
+        "home_scorer_id": "130643346",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "4 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "73",
+        "home_scorer": "F. Ademi",
+        "home_scorer_id": "2967302947",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "5 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "80",
+        "home_scorer": "E. Belica",
+        "home_scorer_id": "2152107581",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "6 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "83",
+        "home_scorer": "L. Latifi",
+        "home_scorer_id": "1639377482",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "7 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "89",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "7 - 2",
+        "away_scorer": "O. Sulejmani",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "8",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "179",
+        "away": "114"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "101",
+        "away": "30"
+      },
+      {
+        "type": "On Target",
+        "home": "12",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "7",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "67%",
+        "away": "33%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "96",
+        "away": "52"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "54",
+        "away": "8"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "71%",
+        "away": "29%"
+      }
+    ]
   },
   {
     "match_id": "642058",
@@ -29030,27 +29777,27 @@
     "league_id": "230",
     "league_name": "First League",
     "match_date": "2025-11-10",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "13:00",
     "match_hometeam_id": "233",
     "match_hometeam_name": "Sileks",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "5",
     "match_awayteam_name": "Shkupi",
     "match_awayteam_id": "5290",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "4",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "5",
+    "match_awayteam_ft_score": "1",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "13",
-    "match_stadium": "Gradski stadion Kratovo",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/233_sileks.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/5290_shkupi.jpg",
@@ -29059,9 +29806,206 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1264",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "7",
+        "home_scorer": "A. Alic",
+        "home_scorer_id": "3275964778",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "10",
+        "home_scorer": "Miguel Pires",
+        "home_scorer_id": "3546056441",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "35",
+        "home_scorer": "A. Alic",
+        "home_scorer_id": "3275964778",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "39",
+        "home_scorer": "M. Mircevski",
+        "home_scorer_id": "2191078549",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "4 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "51",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "4 - 1",
+        "away_scorer": "L. Ribeiro",
+        "away_scorer_id": "1632372228",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "57",
+        "home_scorer": "M. Mircevski",
+        "home_scorer_id": "2191078549",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "5 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "161",
+        "away": "103"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "92",
+        "away": "35"
+      },
+      {
+        "type": "On Target",
+        "home": "12",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "8",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "60%",
+        "away": "40%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "3"
+      },
+      {
+        "type": "Attacks",
+        "home": "70",
+        "away": "49"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "43",
+        "away": "15"
+      },
+      {
+        "type": "On Target",
+        "home": "9",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "59%",
+        "away": "41%"
+      }
+    ]
   },
   {
     "match_id": "642065",
@@ -29090,7 +30034,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "14",
-    "match_stadium": "Stadion Cair",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/5290_shkupi.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/5295_pelister.jpg",
@@ -29130,7 +30074,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "14",
-    "match_stadium": "Stadion Cegrane",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/26369_aresimi.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/191_shkendija.jpg",
@@ -29150,7 +30094,7 @@
     "league_id": "230",
     "league_name": "First League",
     "match_date": "2025-11-15",
-    "match_status": "Not Started",
+    "match_status": "",
     "match_time": "13:00",
     "match_hometeam_id": "5290",
     "match_hometeam_name": "Shkupi",
@@ -29170,7 +30114,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "12",
-    "match_stadium": "",
+    "match_stadium": "Stadion Cair",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/5290_shkupi.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/191_shkendija.jpg",

@@ -57827,22 +57827,22 @@
     "league_id": "287",
     "league_name": "Prva Liga",
     "match_date": "2025-11-08",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "13:00",
     "match_hometeam_id": "6443",
     "match_hometeam_name": "Kabel Novi Sad",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "0",
     "match_awayteam_name": "Graficar Beograd",
     "match_awayteam_id": "6449",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "0",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -57857,8 +57857,120 @@
     "fk_stage_key": "1559",
     "stage_name": "Current",
     "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "9"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "84",
+        "away": "113"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "37",
+        "away": "67"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "12"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "37%",
+        "away": "63%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "44",
+        "away": "59"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "18",
+        "away": "29"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "40%",
+        "away": "60%"
+      }
+    ]
   },
   {
     "match_id": "689432",
@@ -57867,22 +57979,22 @@
     "league_id": "287",
     "league_name": "Prva Liga",
     "match_date": "2025-11-08",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "13:00",
     "match_hometeam_id": "6459",
     "match_hometeam_name": "Zemun",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "3",
     "match_awayteam_name": "Dubocica",
     "match_awayteam_id": "6453",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "3",
+    "match_awayteam_ft_score": "0",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -57896,9 +58008,164 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1559",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "29",
+        "home_scorer": "D. Milicevic",
+        "home_scorer_id": "2058257965",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "60",
+        "home_scorer": "N. Kalat",
+        "home_scorer_id": "1494573967",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "90+1",
+        "home_scorer": "S. Knezevic",
+        "home_scorer_id": "1871203820",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "7"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Attacks",
+        "home": "114",
+        "away": "102"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "55",
+        "away": "59"
+      },
+      {
+        "type": "On Target",
+        "home": "9",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "8"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "44%",
+        "away": "56%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Attacks",
+        "home": "66",
+        "away": "58"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "31",
+        "away": "30"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      }
+    ]
   },
   {
     "match_id": "689425",
@@ -57907,22 +58174,22 @@
     "league_id": "287",
     "league_name": "Prva Liga",
     "match_date": "2025-11-09",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "13:00",
     "match_hometeam_id": "6450",
     "match_hometeam_name": "Borac 1926",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Trayal Krusevac",
     "match_awayteam_id": "6454",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "0",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -57936,9 +58203,136 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1559",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "81",
+        "home_scorer": "M. Jevtovic",
+        "home_scorer_id": "4147502056",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Attacks",
+        "home": "92",
+        "away": "81"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "50",
+        "away": "28"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "8",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "55%",
+        "away": "45%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "54",
+        "away": "41"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "32",
+        "away": "12"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "6",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "60%",
+        "away": "40%"
+      }
+    ]
   },
   {
     "match_id": "689426",
@@ -57947,22 +58341,22 @@
     "league_id": "287",
     "league_name": "Prva Liga",
     "match_date": "2025-11-09",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "13:00",
     "match_hometeam_id": "37145",
     "match_hometeam_name": "Dinamo Jug",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Vrsac",
     "match_awayteam_id": "8621",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "1",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -57976,9 +58370,150 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1559",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "30",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "M. Spasojevic",
+        "away_scorer_id": "2773538658",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "89",
+        "home_scorer": "M. Spremo",
+        "home_scorer_id": "1784877379",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "9",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "80",
+        "away": "78"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "51",
+        "away": "43"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "12",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "54%",
+        "away": "46%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "34",
+        "away": "40"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "21",
+        "away": "23"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "39%",
+        "away": "61%"
+      }
+    ]
   },
   {
     "match_id": "689427",
@@ -57987,22 +58522,22 @@
     "league_id": "287",
     "league_name": "Prva Liga",
     "match_date": "2025-11-09",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "17:00",
     "match_hometeam_id": "8642",
     "match_hometeam_name": "Jedinstvo U.",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "3",
     "match_awayteam_name": "Usce",
     "match_awayteam_id": "8662",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "3",
+    "match_awayteam_ft_score": "0",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -58016,9 +58551,164 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1559",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "20",
+        "home_scorer": "M. Delimedjac",
+        "home_scorer_id": "274309895",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "61",
+        "home_scorer": "I. Abass",
+        "home_scorer_id": "899466300",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "87",
+        "home_scorer": "R. Denzell",
+        "home_scorer_id": "2839870492",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "74",
+        "away": "82"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "38",
+        "away": "44"
+      },
+      {
+        "type": "On Target",
+        "home": "6",
+        "away": "6"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "51%",
+        "away": "49%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "40",
+        "away": "41"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "20",
+        "away": "22"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "55%",
+        "away": "45%"
+      }
+    ]
   },
   {
     "match_id": "689429",
@@ -58027,22 +58717,22 @@
     "league_id": "287",
     "league_name": "Prva Liga",
     "match_date": "2025-11-09",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "17:00",
     "match_hometeam_id": "6475",
     "match_hometeam_name": "Macva",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Tekstilac Odzaci",
     "match_awayteam_id": "20368",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "1",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -58056,9 +58746,164 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1559",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "36",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "M. Abiodun",
+        "away_scorer_id": "2234343457",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "45+2",
+        "home_scorer": "D. Djordjic",
+        "home_scorer_id": "1681580808",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "69",
+        "home_scorer": "D. Djordjic",
+        "home_scorer_id": "1681580808",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "11",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "94",
+        "away": "69"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "56",
+        "away": "27"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "12",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "58%",
+        "away": "42%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "51",
+        "away": "24"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "27",
+        "away": "8"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "65%",
+        "away": "35%"
+      }
+    ]
   },
   {
     "match_id": "689430",
@@ -58067,22 +58912,22 @@
     "league_id": "287",
     "league_name": "Prva Liga",
     "match_date": "2025-11-09",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "13:00",
     "match_hometeam_id": "8650",
     "match_hometeam_name": "Smederevo",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "5",
     "match_awayteam_name": "FAP",
     "match_awayteam_id": "26596",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "5",
+    "match_awayteam_ft_score": "1",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -58096,9 +58941,206 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1559",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "21",
+        "home_scorer": "D. Glavinic",
+        "home_scorer_id": "2044127237",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "52",
+        "home_scorer": "N. Kodzic",
+        "home_scorer_id": "923661823",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "60",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 1",
+        "away_scorer": "L. Lazarevic",
+        "away_scorer_id": "424482637",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "68",
+        "home_scorer": "D. Glavinic",
+        "home_scorer_id": "2044127237",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "81",
+        "home_scorer": "I. Josovic (o.g.)",
+        "home_scorer_id": "802175278",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "4 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "84",
+        "home_scorer": "A. Preradov",
+        "home_scorer_id": "2568825632",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "5 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "109",
+        "away": "101"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "65",
+        "away": "61"
+      },
+      {
+        "type": "On Target",
+        "home": "7",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "9",
+        "away": "8"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "47%",
+        "away": "53%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Attacks",
+        "home": "67",
+        "away": "54"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "39",
+        "away": "28"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "57%",
+        "away": "43%"
+      }
+    ]
   },
   {
     "match_id": "689431",
@@ -58107,22 +59149,22 @@
     "league_id": "287",
     "league_name": "Prva Liga",
     "match_date": "2025-11-09",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "17:00",
     "match_hometeam_id": "6467",
     "match_hometeam_name": "Vozdovac",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Loznica",
     "match_awayteam_id": "6448",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "1",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
@@ -58136,24 +59178,205 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1559",
     "stage_name": "Current",
+    "goalscorer": [
+      {
+        "time": "45",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "N. Motika",
+        "away_scorer_id": "3861668156",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "72",
+        "home_scorer": "O. Dimitric",
+        "home_scorer_id": "2695471788",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "72",
+        "away": "93"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "36",
+        "away": "40"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "6"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "36%",
+        "away": "64%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "39",
+        "away": "43"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "20",
+        "away": "17"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "37%",
+        "away": "63%"
+      }
+    ]
+  },
+  {
+    "match_id": "689436",
+    "country_id": "99",
+    "country_name": "Serbia",
+    "league_id": "287",
+    "league_name": "Prva Liga",
+    "match_date": "2025-11-14",
+    "match_status": "",
+    "match_time": "17:00",
+    "match_hometeam_id": "6448",
+    "match_hometeam_name": "Loznica",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Smederevo",
+    "match_awayteam_id": "8650",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "18",
+    "match_stadium": "Lagator Stadium",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/6448_loznica.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/8650_smederevo-1924.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/287_prva-liga.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/99_serbia.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "1559",
+    "stage_name": "Current",
     "goalscorer": [],
     "statistics": [],
     "statistics_1half": []
   },
   {
-    "match_id": "689433",
+    "match_id": "689439",
     "country_id": "99",
     "country_name": "Serbia",
     "league_id": "287",
     "league_name": "Prva Liga",
-    "match_date": "2025-11-15",
-    "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "6453",
-    "match_hometeam_name": "Dubocica",
+    "match_date": "2025-11-14",
+    "match_status": "",
+    "match_time": "13:00",
+    "match_hometeam_id": "8662",
+    "match_hometeam_name": "Usce",
     "match_hometeam_score": "",
-    "match_awayteam_name": "Vozdovac",
-    "match_awayteam_id": "6467",
+    "match_awayteam_name": "Borac 1926",
+    "match_awayteam_id": "6450",
     "match_awayteam_score": "",
     "match_hometeam_halftime_score": "",
     "match_awayteam_halftime_score": "",
@@ -58169,8 +59392,8 @@
     "match_round": "18",
     "match_stadium": "",
     "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/6453_duboica.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/6467_vodovac.jpg",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/8662_ue-novi-beograd.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/6450_borac-aak.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/287_prva-liga.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/99_serbia.png",
     "league_year": "2025/2026",
@@ -58187,8 +59410,8 @@
     "league_id": "287",
     "league_name": "Prva Liga",
     "match_date": "2025-11-15",
-    "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_status": "",
+    "match_time": "13:00",
     "match_hometeam_id": "26596",
     "match_hometeam_name": "FAP",
     "match_hometeam_score": "",
@@ -58227,8 +59450,8 @@
     "league_id": "287",
     "league_name": "Prva Liga",
     "match_date": "2025-11-15",
-    "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_status": "",
+    "match_time": "13:00",
     "match_hometeam_id": "6449",
     "match_hometeam_name": "Graficar Beograd",
     "match_hometeam_score": "",
@@ -58261,94 +59484,14 @@
     "statistics_1half": []
   },
   {
-    "match_id": "689436",
-    "country_id": "99",
-    "country_name": "Serbia",
-    "league_id": "287",
-    "league_name": "Prva Liga",
-    "match_date": "2025-11-15",
-    "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "6448",
-    "match_hometeam_name": "Loznica",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Smederevo",
-    "match_awayteam_id": "8650",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "18",
-    "match_stadium": "Lagator Stadium",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/6448_loznica.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/8650_smederevo-1924.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/287_prva-liga.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/99_serbia.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "1559",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "689437",
-    "country_id": "99",
-    "country_name": "Serbia",
-    "league_id": "287",
-    "league_name": "Prva Liga",
-    "match_date": "2025-11-15",
-    "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "20368",
-    "match_hometeam_name": "Tekstilac Odzaci",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Kabel Novi Sad",
-    "match_awayteam_id": "6443",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "18",
-    "match_stadium": "Gradski stadion",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/20368_tekstilac-odaci.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/6443_kabel-novi-sad.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/287_prva-liga.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/99_serbia.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "1559",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
     "match_id": "689438",
     "country_id": "99",
     "country_name": "Serbia",
     "league_id": "287",
     "league_name": "Prva Liga",
     "match_date": "2025-11-15",
-    "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_status": "",
+    "match_time": "13:00",
     "match_hometeam_id": "6454",
     "match_hometeam_name": "Trayal Krusevac",
     "match_hometeam_score": "",
@@ -58381,19 +59524,19 @@
     "statistics_1half": []
   },
   {
-    "match_id": "689439",
+    "match_id": "689437",
     "country_id": "99",
     "country_name": "Serbia",
     "league_id": "287",
     "league_name": "Prva Liga",
-    "match_date": "2025-11-15",
-    "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "8662",
-    "match_hometeam_name": "Usce",
+    "match_date": "2025-11-17",
+    "match_status": "",
+    "match_time": "13:00",
+    "match_hometeam_id": "20368",
+    "match_hometeam_name": "Tekstilac Odzaci",
     "match_hometeam_score": "",
-    "match_awayteam_name": "Borac 1926",
-    "match_awayteam_id": "6450",
+    "match_awayteam_name": "Kabel Novi Sad",
+    "match_awayteam_id": "6443",
     "match_awayteam_score": "",
     "match_hometeam_halftime_score": "",
     "match_awayteam_halftime_score": "",
@@ -58407,10 +59550,10 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "18",
-    "match_stadium": "",
+    "match_stadium": "Gradski stadion",
     "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/8662_ue-novi-beograd.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/6450_borac-aak.jpg",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/20368_tekstilac-odaci.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/6443_kabel-novi-sad.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/287_prva-liga.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/99_serbia.png",
     "league_year": "2025/2026",
@@ -58426,9 +59569,9 @@
     "country_name": "Serbia",
     "league_id": "287",
     "league_name": "Prva Liga",
-    "match_date": "2025-11-15",
-    "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_date": "2025-11-17",
+    "match_status": "",
+    "match_time": "13:00",
     "match_hometeam_id": "8621",
     "match_hometeam_name": "Vrsac",
     "match_hometeam_score": "",
@@ -58451,6 +59594,46 @@
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/8621_ofk-vrac.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6475_mava-abac.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/287_prva-liga.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/99_serbia.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "1559",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "689433",
+    "country_id": "99",
+    "country_name": "Serbia",
+    "league_id": "287",
+    "league_name": "Prva Liga",
+    "match_date": "2025-11-18",
+    "match_status": "Not Started",
+    "match_time": "13:00",
+    "match_hometeam_id": "6453",
+    "match_hometeam_name": "Dubocica",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Vozdovac",
+    "match_awayteam_id": "6467",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "18",
+    "match_stadium": "",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/6453_duboica.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/6467_vodovac.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/287_prva-liga.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/99_serbia.png",
     "league_year": "2025/2026",

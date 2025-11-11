@@ -87777,7 +87777,7 @@
     "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "15",
-    "match_stadium": "Stadionul Central",
+    "match_stadium": "Central Stadium Hagi Academy",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/6168_fcv-farul-constana.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6174_csikszereda.jpg",
@@ -88112,7 +88112,7 @@
     "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "15",
-    "match_stadium": "Stadionul Ilie Oana",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/6176_petrolul-52.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/210_botoani.jpg",
@@ -88374,27 +88374,27 @@
     "league_id": "272",
     "league_name": "Liga I",
     "match_date": "2025-11-07",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "17:00",
     "match_hometeam_id": "6175",
     "match_hometeam_name": "U. Cluj",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "3",
     "match_awayteam_name": "Metaloglobus Bucharest",
     "match_awayteam_id": "6171",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "3",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "3",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "4-3-3",
+    "match_awayteam_system": "5-3-2",
     "match_live": "0",
     "match_round": "16",
-    "match_stadium": "",
+    "match_stadium": "Cluj Arena",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/6175_fc-universitatea-cluj.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6171_metaloglobus.jpg",
@@ -88403,9 +88403,318 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1490",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "10",
+        "home_scorer": "D. Nistor",
+        "home_scorer_id": "293960367",
+        "home_assist": "J. Lukic",
+        "home_assist_id": "2282554142",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "22",
+        "home_scorer": "D. Nistor",
+        "home_scorer_id": "293960367",
+        "home_assist": "O. El Sawy",
+        "home_assist_id": "2545570931",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "38",
+        "home_scorer": "O. Bic",
+        "home_scorer_id": "2156368777",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "47",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 1",
+        "away_scorer": "E. Fernandes",
+        "away_scorer_id": "586572188",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "7",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "111",
+        "away": "120"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "64",
+        "away": "81"
+      },
+      {
+        "type": "On Target",
+        "home": "8",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "0%",
+        "away": "0%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "14",
+        "away": "8"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "7",
+        "away": "4"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "10",
+        "away": "5"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Fouls",
+        "home": "4",
+        "away": "10"
+      },
+      {
+        "type": "Corners",
+        "home": "7",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "49%",
+        "away": "51%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Passes Total",
+        "home": "447",
+        "away": "465"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "364",
+        "away": "386"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "56",
+        "away": "56"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "28",
+        "away": "33"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "57%",
+        "away": "43%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "10",
+        "away": "3"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "8",
+        "away": "3"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Fouls",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "57%",
+        "away": "43%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Saves",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "268",
+        "away": "204"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "226",
+        "away": "166"
+      }
+    ]
   },
   {
     "match_id": "596781",
@@ -88414,27 +88723,27 @@
     "league_id": "272",
     "league_name": "Liga I",
     "match_date": "2025-11-07",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "19:30",
     "match_hometeam_id": "6168",
     "match_hometeam_name": "Farul Constanta",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "FC Botosani",
     "match_awayteam_id": "210",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "2",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "4-3-3",
+    "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "16",
-    "match_stadium": "",
+    "match_stadium": "Stadionul Central",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/6168_fcv-farul-constana.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/210_botoani.jpg",
@@ -88443,9 +88752,300 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1490",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "5",
+        "home_scorer": "I. Vina",
+        "home_scorer_id": "1765441480",
+        "home_assist": "C. Ganea",
+        "home_assist_id": "2243976240",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "45+2",
+        "home_scorer": "I. Larie",
+        "home_scorer_id": "2450758436",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "1st Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "101",
+        "away": "80"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "40",
+        "away": "29"
+      },
+      {
+        "type": "On Target",
+        "home": "7",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "9",
+        "away": "9"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "47%",
+        "away": "53%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "16",
+        "away": "13"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "8",
+        "away": "3"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "6",
+        "away": "7"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "9",
+        "away": "8"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "7",
+        "away": "5"
+      },
+      {
+        "type": "Fouls",
+        "home": "12",
+        "away": "8"
+      },
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "61%",
+        "away": "39%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Passes Total",
+        "home": "523",
+        "away": "327"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "439",
+        "away": "256"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Attacks",
+        "home": "39",
+        "away": "50"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "10",
+        "away": "24"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "42%",
+        "away": "58%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "7",
+        "away": "9"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "44%",
+        "away": "56%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Passes Total",
+        "home": "145",
+        "away": "179"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "94",
+        "away": "140"
+      }
+    ]
   },
   {
     "match_id": "596778",
@@ -88454,24 +89054,24 @@
     "league_id": "272",
     "league_name": "Liga I",
     "match_date": "2025-11-08",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "19:30",
     "match_hometeam_id": "6173",
     "match_hometeam_name": "FC Rapid Bucuresti",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "FC Arges",
     "match_awayteam_id": "6190",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "4-1-4-1",
     "match_live": "0",
     "match_round": "16",
     "match_stadium": "Superbet Arena-Giule?ti",
@@ -88483,9 +89083,285 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1490",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "26",
+        "home_scorer": "A. Dobre",
+        "home_scorer_id": "1542536800",
+        "home_assist": "E. Koljic",
+        "home_assist_id": "2420560604",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "70",
+        "home_scorer": "A. Pascanu",
+        "home_scorer_id": "1829003332",
+        "home_assist": "T. Christensen",
+        "home_assist_id": "3179074044",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "7"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "65",
+        "away": "96"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "49",
+        "away": "78"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "0%",
+        "away": "0%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "8",
+        "away": "10"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "6"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "3",
+        "away": "6"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "12",
+        "away": "8"
+      },
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "7"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "59%",
+        "away": "41%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Passes Total",
+        "home": "479",
+        "away": "313"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "397",
+        "away": "240"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "37",
+        "away": "43"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "29",
+        "away": "29"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "68%",
+        "away": "32%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Fouls",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "68%",
+        "away": "32%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Passes Total",
+        "home": "280",
+        "away": "127"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "243",
+        "away": "94"
+      }
+    ]
   },
   {
     "match_id": "596780",
@@ -88494,24 +89370,24 @@
     "league_id": "272",
     "league_name": "Liga I",
     "match_date": "2025-11-08",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "13:30",
     "match_hometeam_id": "6176",
     "match_hometeam_name": "Petrolul",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "0",
     "match_awayteam_name": "Otelul",
     "match_awayteam_id": "6085",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "3-4-3",
+    "match_awayteam_system": "4-4-2",
     "match_live": "0",
     "match_round": "16",
     "match_stadium": "Stadionul Ilie Oana",
@@ -88524,8 +89400,255 @@
     "fk_stage_key": "1490",
     "stage_name": "Current",
     "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "11",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "97",
+        "away": "94"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "37",
+        "away": "63"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Off Target",
+        "home": "15",
+        "away": "7"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "0%",
+        "away": "0%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "14",
+        "away": "14"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "6"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "6",
+        "away": "6"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "8",
+        "away": "7"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "6",
+        "away": "7"
+      },
+      {
+        "type": "Fouls",
+        "home": "12",
+        "away": "12"
+      },
+      {
+        "type": "Corners",
+        "home": "11",
+        "away": "4"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "48%",
+        "away": "52%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "367",
+        "away": "411"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "282",
+        "away": "343"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Attacks",
+        "home": "53",
+        "away": "41"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "16",
+        "away": "30"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "49%",
+        "away": "51%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Fouls",
+        "home": "8",
+        "away": "7"
+      },
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "49%",
+        "away": "51%"
+      },
+      {
+        "type": "Saves",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "182",
+        "away": "189"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "146",
+        "away": "153"
+      }
+    ]
   },
   {
     "match_id": "596784",
@@ -88534,24 +89657,24 @@
     "league_id": "272",
     "league_name": "Liga I",
     "match_date": "2025-11-08",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "16:30",
     "match_hometeam_id": "6197",
     "match_hometeam_name": "Din. Bucuresti",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "4",
     "match_awayteam_name": "Csikszereda M. Ciuc",
     "match_awayteam_id": "6174",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "4",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "4-3-3",
+    "match_awayteam_system": "4-1-4-1",
     "match_live": "0",
     "match_round": "16",
     "match_stadium": "Stadionul Arcul de Triumf",
@@ -88563,9 +89686,318 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1490",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "19",
+        "home_scorer": "M. Karamoko",
+        "home_scorer_id": "137242811",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "50",
+        "home_scorer": "M. Karamoko",
+        "home_scorer_id": "137242811",
+        "home_assist": "J. Ikoko",
+        "home_assist_id": "3745751473",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "60",
+        "home_scorer": "A. Musi",
+        "home_scorer_id": "1226571405",
+        "home_assist": "C. Cirjan",
+        "home_assist_id": "995819938",
+        "score": "3 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "83",
+        "home_scorer": "A. Soro",
+        "home_scorer_id": "4153333428",
+        "home_assist": "S. Perica",
+        "home_assist_id": "3441219097",
+        "score": "4 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "9",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "85",
+        "away": "50"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "53",
+        "away": "14"
+      },
+      {
+        "type": "On Target",
+        "home": "11",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "8",
+        "away": "6"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "22",
+        "away": "6"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "13",
+        "away": "0"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "6",
+        "away": "5"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "18",
+        "away": "1"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Fouls",
+        "home": "10",
+        "away": "11"
+      },
+      {
+        "type": "Corners",
+        "home": "9",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "61%",
+        "away": "39%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Saves",
+        "home": "0",
+        "away": "9"
+      },
+      {
+        "type": "Passes Total",
+        "home": "472",
+        "away": "308"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "414",
+        "away": "231"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "38",
+        "away": "20"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "28",
+        "away": "8"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "9",
+        "away": "3"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "5",
+        "away": "0"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "8",
+        "away": "0"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Fouls",
+        "home": "6",
+        "away": "5"
+      },
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "57%",
+        "away": "43%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "0",
+        "away": "4"
+      },
+      {
+        "type": "Passes Total",
+        "home": "213",
+        "away": "157"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "182",
+        "away": "118"
+      }
+    ]
   },
   {
     "match_id": "596782",
@@ -88574,24 +90006,24 @@
     "league_id": "272",
     "league_name": "Liga I",
     "match_date": "2025-11-09",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "16:30",
     "match_hometeam_id": "6187",
     "match_hometeam_name": "Univ. Craiova",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "UTA Arad",
     "match_awayteam_id": "6193",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "2",
+    "match_hometeam_system": "3-5-2",
+    "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "16",
     "match_stadium": "Complex Sportiv Craiova",
@@ -88603,9 +90035,304 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1490",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "24",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "L. Mihai",
+        "away_scorer_id": "4119911655",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "36",
+        "home_scorer": "O. Romanchuk",
+        "home_scorer_id": "10191826",
+        "home_assist": "D. Matei",
+        "home_assist_id": "2957803540",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "76",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 2",
+        "away_scorer": "V. Costache",
+        "away_scorer_id": "663064910",
+        "away_assist": "A. Roman",
+        "away_assist_id": "3131513906",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "15",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Attacks",
+        "home": "130",
+        "away": "53"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "72",
+        "away": "16"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "18",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "56%",
+        "away": "44%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "23",
+        "away": "5"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "10",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "9",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "16",
+        "away": "1"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "7",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "12",
+        "away": "6"
+      },
+      {
+        "type": "Corners",
+        "home": "15",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "72%",
+        "away": "28%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Red Cards",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Saves",
+        "home": "0",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "546",
+        "away": "228"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "475",
+        "away": "154"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "74",
+        "away": "25"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "36",
+        "away": "9"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "9",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "70%",
+        "away": "30%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "10",
+        "away": "3"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "6",
+        "away": "1"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Fouls",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "70%",
+        "away": "30%"
+      },
+      {
+        "type": "Saves",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "296",
+        "away": "128"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "270",
+        "away": "92"
+      }
+    ]
   },
   {
     "match_id": "596783",
@@ -88614,24 +90341,24 @@
     "league_id": "272",
     "league_name": "Liga I",
     "match_date": "2025-11-09",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "13:30",
     "match_hometeam_id": "6181",
     "match_hometeam_name": "Unirea Slobozia",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "0",
     "match_awayteam_name": "CFR Cluj",
     "match_awayteam_id": "120",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "4-3-3",
     "match_live": "0",
     "match_round": "16",
     "match_stadium": "Clinceni - Arena 1",
@@ -88643,9 +90370,271 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1490",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "42",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "A. Cordea",
+        "away_scorer_id": "842456721",
+        "away_assist": "M. Ilie",
+        "away_assist_id": "2458915701",
+        "info": "",
+        "score_info_time": "1st Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "9",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "118",
+        "away": "104"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "37",
+        "away": "43"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "7"
+      },
+      {
+        "type": "Off Target",
+        "home": "10",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "22%",
+        "away": "78%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "11",
+        "away": "10"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "2",
+        "away": "7"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "7",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "7",
+        "away": "5"
+      },
+      {
+        "type": "Fouls",
+        "home": "16",
+        "away": "11"
+      },
+      {
+        "type": "Corners",
+        "home": "9",
+        "away": "4"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "380",
+        "away": "391"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "277",
+        "away": "292"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "63",
+        "away": "50"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "18",
+        "away": "19"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "6",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "37%",
+        "away": "63%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "8",
+        "away": "4"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Fouls",
+        "home": "8",
+        "away": "7"
+      },
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "41%",
+        "away": "59%"
+      },
+      {
+        "type": "Saves",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "161",
+        "away": "233"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "117",
+        "away": "185"
+      }
+    ]
   },
   {
     "match_id": "689952",
@@ -88654,24 +90643,24 @@
     "league_id": "272",
     "league_name": "Liga I",
     "match_date": "2025-11-09",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "19:30",
     "match_hometeam_id": "6198",
     "match_hometeam_name": "FC Hermannstadt",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "3",
     "match_awayteam_name": "FCSB",
     "match_awayteam_id": "190",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "3",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "3",
+    "match_awayteam_ft_score": "3",
+    "match_hometeam_system": "3-5-2",
+    "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "16",
     "match_stadium": "Stadionul Municipal",
@@ -88683,9 +90672,351 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1490",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "4",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "M. Thiam",
+        "away_scorer_id": "3710314971",
+        "away_assist": "J. Cisotti",
+        "away_assist_id": "1249508999",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "26",
+        "home_scorer": "A. Chitu",
+        "home_scorer_id": "1751878709",
+        "home_assist": "C. Negut",
+        "home_assist_id": "3147784960",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "54",
+        "home_scorer": "A. Chitu",
+        "home_scorer_id": "1751878709",
+        "home_assist": "L. Stancu",
+        "home_assist_id": "167958048",
+        "score": "2 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "63",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 2",
+        "away_scorer": "D. Miculescu",
+        "away_scorer_id": "2347929246",
+        "away_assist": "R. Radunovic",
+        "away_assist_id": "231023366",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "87",
+        "home_scorer": "L. Stancu",
+        "home_scorer_id": "167958048",
+        "home_assist": "S. Bus",
+        "home_assist_id": "2569848890",
+        "score": "3 - 2",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "90+3",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 3",
+        "away_scorer": "D. Politic",
+        "away_scorer_id": "369546718",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "88",
+        "away": "115"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "28",
+        "away": "41"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "8"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "12"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "39%",
+        "away": "61%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "9",
+        "away": "19"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "4",
+        "away": "6"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "4",
+        "away": "8"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "5",
+        "away": "10"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "4",
+        "away": "9"
+      },
+      {
+        "type": "Fouls",
+        "home": "6",
+        "away": "17"
+      },
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "34%",
+        "away": "66%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Red Cards",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "279",
+        "away": "564"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "191",
+        "away": "481"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "51",
+        "away": "54"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "18",
+        "away": "14"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "35%",
+        "away": "65%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "5",
+        "away": "9"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "2",
+        "away": "5"
+      },
+      {
+        "type": "Fouls",
+        "home": "6",
+        "away": "7"
+      },
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "35%",
+        "away": "65%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Saves",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "150",
+        "away": "296"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "104",
+        "away": "250"
+      }
+    ]
   },
   {
     "match_id": "596786",
@@ -89008,6 +91339,46 @@
     "statistics_1half": []
   },
   {
+    "match_id": "596798",
+    "country_id": "94",
+    "country_name": "Romania",
+    "league_id": "272",
+    "league_name": "Liga I",
+    "match_date": "2025-11-28",
+    "match_status": "Not Started",
+    "match_time": "19:30",
+    "match_hometeam_id": "6173",
+    "match_hometeam_name": "FC Rapid Bucuresti",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Csikszereda M. Ciuc",
+    "match_awayteam_id": "6174",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "18",
+    "match_stadium": "Superbet Arena - Giulesti",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/6173_rapid-bucureti.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/6174_csikszereda.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/272_liga-i.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/94_romania.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "1490",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
     "match_id": "596791",
     "country_id": "94",
     "country_name": "Romania",
@@ -89015,7 +91386,7 @@
     "league_name": "Liga I",
     "match_date": "2025-11-29",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "19:45",
     "match_hometeam_id": "6197",
     "match_hometeam_name": "Din. Bucuresti",
     "match_hometeam_score": "",
@@ -89055,7 +91426,7 @@
     "league_name": "Liga I",
     "match_date": "2025-11-29",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "15:30",
     "match_hometeam_id": "6190",
     "match_hometeam_name": "FC Arges",
     "match_hometeam_score": "",
@@ -89088,54 +91459,14 @@
     "statistics_1half": []
   },
   {
-    "match_id": "596793",
-    "country_id": "94",
-    "country_name": "Romania",
-    "league_id": "272",
-    "league_name": "Liga I",
-    "match_date": "2025-11-29",
-    "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "6176",
-    "match_hometeam_name": "Petrolul",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Metaloglobus Bucharest",
-    "match_awayteam_id": "6171",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "18",
-    "match_stadium": "",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/6176_petrolul-52.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/6171_metaloglobus.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/272_liga-i.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/94_romania.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "1490",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
     "match_id": "596794",
     "country_id": "94",
     "country_name": "Romania",
     "league_id": "272",
     "league_name": "Liga I",
-    "match_date": "2025-11-29",
+    "match_date": "2025-11-30",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "19:30",
     "match_hometeam_id": "6168",
     "match_hometeam_name": "Farul Constanta",
     "match_hometeam_score": "",
@@ -89168,54 +91499,14 @@
     "statistics_1half": []
   },
   {
-    "match_id": "596795",
-    "country_id": "94",
-    "country_name": "Romania",
-    "league_id": "272",
-    "league_name": "Liga I",
-    "match_date": "2025-11-29",
-    "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "6175",
-    "match_hometeam_name": "U. Cluj",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Univ. Craiova",
-    "match_awayteam_id": "6187",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "18",
-    "match_stadium": "Cluj Arena",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/6175_fc-universitatea-cluj.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/6187_universitatea-craiova.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/272_liga-i.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/94_romania.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "1490",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
     "match_id": "596796",
     "country_id": "94",
     "country_name": "Romania",
     "league_id": "272",
     "league_name": "Liga I",
-    "match_date": "2025-11-29",
+    "match_date": "2025-11-30",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "14:00",
     "match_hometeam_id": "6198",
     "match_hometeam_name": "FC Hermannstadt",
     "match_hometeam_score": "",
@@ -89253,9 +91544,9 @@
     "country_name": "Romania",
     "league_id": "272",
     "league_name": "Liga I",
-    "match_date": "2025-11-29",
+    "match_date": "2025-11-30",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "16:30",
     "match_hometeam_id": "6181",
     "match_hometeam_name": "Unirea Slobozia",
     "match_hometeam_score": "",
@@ -89288,19 +91579,19 @@
     "statistics_1half": []
   },
   {
-    "match_id": "596798",
+    "match_id": "596793",
     "country_id": "94",
     "country_name": "Romania",
     "league_id": "272",
     "league_name": "Liga I",
-    "match_date": "2025-11-29",
+    "match_date": "2025-12-01",
     "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "6173",
-    "match_hometeam_name": "FC Rapid Bucuresti",
+    "match_time": "15:00",
+    "match_hometeam_id": "6176",
+    "match_hometeam_name": "Petrolul",
     "match_hometeam_score": "",
-    "match_awayteam_name": "Csikszereda M. Ciuc",
-    "match_awayteam_id": "6174",
+    "match_awayteam_name": "Metaloglobus Bucharest",
+    "match_awayteam_id": "6171",
     "match_awayteam_score": "",
     "match_hometeam_halftime_score": "",
     "match_awayteam_halftime_score": "",
@@ -89314,10 +91605,50 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "18",
-    "match_stadium": "Superbet Arena - Giulesti",
+    "match_stadium": "",
     "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/6173_rapid-bucureti.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/6174_csikszereda.jpg",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/6176_petrolul-52.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/6171_metaloglobus.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/272_liga-i.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/94_romania.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "1490",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "596795",
+    "country_id": "94",
+    "country_name": "Romania",
+    "league_id": "272",
+    "league_name": "Liga I",
+    "match_date": "2025-12-01",
+    "match_status": "Not Started",
+    "match_time": "18:00",
+    "match_hometeam_id": "6175",
+    "match_hometeam_name": "U. Cluj",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Univ. Craiova",
+    "match_awayteam_id": "6187",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "18",
+    "match_stadium": "Cluj Arena",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/6175_fc-universitatea-cluj.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/6187_universitatea-craiova.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/272_liga-i.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/94_romania.png",
     "league_year": "2025/2026",
@@ -89333,9 +91664,9 @@
     "country_name": "Romania",
     "league_id": "272",
     "league_name": "Liga I",
-    "match_date": "2025-12-06",
+    "match_date": "2025-12-05",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "19:30",
     "match_hometeam_id": "6174",
     "match_hometeam_name": "Csikszereda M. Ciuc",
     "match_hometeam_score": "",
@@ -89375,7 +91706,7 @@
     "league_name": "Liga I",
     "match_date": "2025-12-06",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "16:00",
     "match_hometeam_id": "6085",
     "match_hometeam_name": "Otelul",
     "match_hometeam_score": "",
@@ -89408,14 +91739,54 @@
     "statistics_1half": []
   },
   {
-    "match_id": "596801",
+    "match_id": "596806",
     "country_id": "94",
     "country_name": "Romania",
     "league_id": "272",
     "league_name": "Liga I",
     "match_date": "2025-12-06",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "19:30",
+    "match_hometeam_id": "190",
+    "match_hometeam_name": "FCSB",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Din. Bucuresti",
+    "match_awayteam_id": "6197",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "19",
+    "match_stadium": "Arena Nationala",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/190_fcsb.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/6197_dinamo-bucureti.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/272_liga-i.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/94_romania.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "1490",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "596801",
+    "country_id": "94",
+    "country_name": "Romania",
+    "league_id": "272",
+    "league_name": "Liga I",
+    "match_date": "2025-12-07",
+    "match_status": "Not Started",
+    "match_time": "16:30",
     "match_hometeam_id": "6171",
     "match_hometeam_name": "Metaloglobus Bucharest",
     "match_hometeam_score": "",
@@ -89453,9 +91824,9 @@
     "country_name": "Romania",
     "league_id": "272",
     "league_name": "Liga I",
-    "match_date": "2025-12-06",
+    "match_date": "2025-12-07",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "19:30",
     "match_hometeam_id": "6187",
     "match_hometeam_name": "Univ. Craiova",
     "match_hometeam_score": "",
@@ -89488,14 +91859,54 @@
     "statistics_1half": []
   },
   {
+    "match_id": "596805",
+    "country_id": "94",
+    "country_name": "Romania",
+    "league_id": "272",
+    "league_name": "Liga I",
+    "match_date": "2025-12-07",
+    "match_status": "Not Started",
+    "match_time": "14:00",
+    "match_hometeam_id": "6193",
+    "match_hometeam_name": "UTA Arad",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Petrolul",
+    "match_awayteam_id": "6176",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "19",
+    "match_stadium": "Arena Francisc Neuman",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/6193_uta-arad.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/6176_petrolul-52.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/272_liga-i.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/94_romania.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "1490",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
     "match_id": "596803",
     "country_id": "94",
     "country_name": "Romania",
     "league_id": "272",
     "league_name": "Liga I",
-    "match_date": "2025-12-06",
+    "match_date": "2025-12-08",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "16:30",
     "match_hometeam_id": "6175",
     "match_hometeam_name": "U. Cluj",
     "match_hometeam_score": "",
@@ -89533,9 +91944,9 @@
     "country_name": "Romania",
     "league_id": "272",
     "league_name": "Liga I",
-    "match_date": "2025-12-06",
+    "match_date": "2025-12-08",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "19:30",
     "match_hometeam_id": "210",
     "match_hometeam_name": "FC Botosani",
     "match_hometeam_score": "",
@@ -89558,86 +91969,6 @@
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/210_botoani.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6173_rapid-bucureti.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/272_liga-i.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/94_romania.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "1490",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "596805",
-    "country_id": "94",
-    "country_name": "Romania",
-    "league_id": "272",
-    "league_name": "Liga I",
-    "match_date": "2025-12-06",
-    "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "6193",
-    "match_hometeam_name": "UTA Arad",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Petrolul",
-    "match_awayteam_id": "6176",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "19",
-    "match_stadium": "Arena Francisc Neuman",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/6193_uta-arad.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/6176_petrolul-52.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/272_liga-i.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/94_romania.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "1490",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "596806",
-    "country_id": "94",
-    "country_name": "Romania",
-    "league_id": "272",
-    "league_name": "Liga I",
-    "match_date": "2025-12-06",
-    "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "190",
-    "match_hometeam_name": "FCSB",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Din. Bucuresti",
-    "match_awayteam_id": "6197",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "19",
-    "match_stadium": "Arena Nationala",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/190_fcsb.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/6197_dinamo-bucureti.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/272_liga-i.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/94_romania.png",
     "league_year": "2025/2026",

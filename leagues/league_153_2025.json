@@ -157612,7 +157612,7 @@
     "match_awayteam_system": "3-4-1-2",
     "match_live": "0",
     "match_round": "14",
-    "match_stadium": "Pride Park Stadium",
+    "match_stadium": "Pride Park",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/3426_derby-county.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/3119_hull-city.jpg",
@@ -157932,7 +157932,7 @@
     "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "14",
-    "match_stadium": "St. Andrew&apos;s @ Knighthead Park",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/3432_birmingham-city.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/3083_millwall.jpg",
@@ -158578,7 +158578,7 @@
     "match_awayteam_system": "4-1-3-2",
     "match_live": "0",
     "match_round": "14",
-    "match_stadium": "The Coventry Building Society Arena",
+    "match_stadium": "Coventry Building Society Arena",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/3094_coventry-city.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/3074_sheffield-united.jpg",
@@ -158927,7 +158927,7 @@
     "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "14",
-    "match_stadium": "The Kassam Stadium",
+    "match_stadium": "Kassam Stadium",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/3113_oxford-united.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/3097_stoke-city.jpg",
@@ -160200,7 +160200,7 @@
     "match_awayteam_system": "3-4-3",
     "match_live": "0",
     "match_round": "14",
-    "match_stadium": "MATRADE Loftus Road",
+    "match_stadium": "Loftus Road",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/3098_queens-park-rangers.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/3072_southampton.jpg",
@@ -160802,27 +160802,27 @@
     "league_id": "153",
     "league_name": "Championship",
     "match_date": "2025-11-07",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "21:00",
     "match_hometeam_id": "3427",
     "match_hometeam_name": "Watford",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Bristol City",
     "match_awayteam_id": "3084",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "3-4-3",
+    "match_awayteam_system": "3-5-2",
     "match_live": "0",
     "match_round": "15",
-    "match_stadium": "",
+    "match_stadium": "Vicarage Road",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/3427_watford.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/3084_bristol-city.jpg",
@@ -160831,9 +160831,290 @@
     "league_year": "2025/2026",
     "fk_stage_key": "965",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "6",
+        "home_scorer": "M. Bola",
+        "home_scorer_id": "3744295114",
+        "home_assist": "I. Louza",
+        "home_assist_id": "2893678445",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "29",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "S. Twine",
+        "away_scorer_id": "1595524916",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "111",
+        "away": "71"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "53",
+        "away": "33"
+      },
+      {
+        "type": "On Target",
+        "home": "10",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "6",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "16",
+        "away": "10"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "10",
+        "away": "4"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "11",
+        "away": "5"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Fouls",
+        "home": "10",
+        "away": "9"
+      },
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "4"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "64%",
+        "away": "36%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "3",
+        "away": "9"
+      },
+      {
+        "type": "Passes Total",
+        "home": "532",
+        "away": "307"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "471",
+        "away": "230"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "41",
+        "away": "40"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "11",
+        "away": "22"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "64%",
+        "away": "36%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "7",
+        "away": "5"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Fouls",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "0",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "64%",
+        "away": "36%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "296",
+        "away": "164"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "265",
+        "away": "128"
+      }
+    ]
   },
   {
     "match_id": "619082",
@@ -160842,24 +161123,24 @@
     "league_id": "153",
     "league_name": "Championship",
     "match_date": "2025-11-08",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "16:00",
     "match_hometeam_id": "3425",
     "match_hometeam_name": "Middlesbrough",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Birmingham",
     "match_awayteam_id": "3432",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "2",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "15",
     "match_stadium": "Riverside Stadium",
@@ -160871,9 +161152,304 @@
     "league_year": "2025/2026",
     "fk_stage_key": "965",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "17",
+        "home_scorer": "D. Fry",
+        "home_scorer_id": "1907371267",
+        "home_assist": "C. Brittain",
+        "home_assist_id": "49244258",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "29",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "D. Gray",
+        "away_scorer_id": "2108034411",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "45+5",
+        "home_scorer": "H. Hackney",
+        "home_scorer_id": "2049149239",
+        "home_assist": "A. Morris",
+        "home_assist_id": "1672770940",
+        "score": "2 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "80",
+        "away": "101"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "40",
+        "away": "57"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "13"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "56%",
+        "away": "44%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "8",
+        "away": "13"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "2",
+        "away": "5"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "5",
+        "away": "8"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Fouls",
+        "home": "9",
+        "away": "13"
+      },
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Offsides",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "43%",
+        "away": "57%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "348",
+        "away": "456"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "273",
+        "away": "371"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "40",
+        "away": "52"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "24",
+        "away": "16"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "6"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "51%",
+        "away": "49%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "8",
+        "away": "7"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Fouls",
+        "home": "5",
+        "away": "8"
+      },
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "51%",
+        "away": "49%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Saves",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "219",
+        "away": "217"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "175",
+        "away": "167"
+      }
+    ]
   },
   {
     "match_id": "619083",
@@ -160882,24 +161458,24 @@
     "league_id": "153",
     "league_name": "Championship",
     "match_date": "2025-11-08",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "16:00",
     "match_hometeam_id": "2954",
     "match_hometeam_name": "Wrexham",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Charlton",
     "match_awayteam_id": "3117",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "3-5-1-1",
+    "match_awayteam_system": "3-4-1-2",
     "match_live": "0",
     "match_round": "15",
     "match_stadium": "SToK Cae Ras",
@@ -160911,9 +161487,266 @@
     "league_year": "2025/2026",
     "fk_stage_key": "965",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "77",
+        "home_scorer": "J. Windass",
+        "home_scorer_id": "3910489315",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "8",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Attacks",
+        "home": "109",
+        "away": "99"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "74",
+        "away": "44"
+      },
+      {
+        "type": "On Target",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "12",
+        "away": "6"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "18",
+        "away": "10"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "6",
+        "away": "4"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "9",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "11",
+        "away": "5"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "7",
+        "away": "5"
+      },
+      {
+        "type": "Fouls",
+        "home": "9",
+        "away": "10"
+      },
+      {
+        "type": "Corners",
+        "home": "8",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "58%",
+        "away": "42%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Saves",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Passes Total",
+        "home": "481",
+        "away": "362"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "382",
+        "away": "269"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "57",
+        "away": "50"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "33",
+        "away": "28"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "7",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "56%",
+        "away": "44%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "10",
+        "away": "7"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Fouls",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "60%",
+        "away": "40%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "272",
+        "away": "179"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "219",
+        "away": "130"
+      }
+    ]
   },
   {
     "match_id": "619085",
@@ -160922,24 +161755,24 @@
     "league_id": "153",
     "league_name": "Championship",
     "match_date": "2025-11-08",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "16:00",
     "match_hometeam_id": "3074",
     "match_hometeam_name": "Sheffield Utd",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "0",
     "match_awayteam_name": "QPR",
     "match_awayteam_id": "3098",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "0",
+    "match_hometeam_system": "4-2-2-2",
+    "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "15",
     "match_stadium": "Bramall Lane",
@@ -160952,8 +161785,255 @@
     "fk_stage_key": "965",
     "stage_name": "Current",
     "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "14",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Attacks",
+        "home": "81",
+        "away": "61"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "67",
+        "away": "38"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "13",
+        "away": "7"
+      },
+      {
+        "type": "Shots Total",
+        "home": "19",
+        "away": "13"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "8",
+        "away": "4"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "8",
+        "away": "5"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "13",
+        "away": "9"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "6",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "6",
+        "away": "7"
+      },
+      {
+        "type": "Corners",
+        "home": "14",
+        "away": "5"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "61%",
+        "away": "39%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "404",
+        "away": "266"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "307",
+        "away": "164"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "7",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "41",
+        "away": "26"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "27",
+        "away": "20"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "58%",
+        "away": "42%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "8",
+        "away": "8"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "6",
+        "away": "4"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Corners",
+        "home": "7",
+        "away": "4"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "56%",
+        "away": "44%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "181",
+        "away": "143"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "135",
+        "away": "95"
+      }
+    ]
   },
   {
     "match_id": "619086",
@@ -160962,24 +162042,24 @@
     "league_id": "153",
     "league_name": "Championship",
     "match_date": "2025-11-08",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "16:00",
     "match_hometeam_id": "3097",
     "match_hometeam_name": "Stoke",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "0",
     "match_awayteam_name": "Coventry",
     "match_awayteam_id": "3094",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "4-4-2",
     "match_live": "0",
     "match_round": "15",
     "match_stadium": "bet365 Stadium",
@@ -160991,9 +162071,271 @@
     "league_year": "2025/2026",
     "fk_stage_key": "965",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "86",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "E. Mason-Clark",
+        "away_scorer_id": "1151947364",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "6"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Attacks",
+        "home": "72",
+        "away": "87"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "24",
+        "away": "57"
+      },
+      {
+        "type": "On Target",
+        "home": "0",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "10",
+        "away": "13"
+      },
+      {
+        "type": "Shots Total",
+        "home": "10",
+        "away": "17"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "0",
+        "away": "5"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "8",
+        "away": "9"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "6",
+        "away": "9"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "4",
+        "away": "8"
+      },
+      {
+        "type": "Fouls",
+        "home": "9",
+        "away": "9"
+      },
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "6"
+      },
+      {
+        "type": "Offsides",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "47%",
+        "away": "53%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Saves",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "314",
+        "away": "351"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "243",
+        "away": "255"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "43",
+        "away": "54"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "11",
+        "away": "37"
+      },
+      {
+        "type": "On Target",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "6"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "47%",
+        "away": "53%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "2",
+        "away": "8"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "6"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Fouls",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Corners",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Offsides",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "41%",
+        "away": "59%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "153",
+        "away": "213"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "121",
+        "away": "162"
+      }
+    ]
   },
   {
     "match_id": "619087",
@@ -161002,24 +162344,24 @@
     "league_id": "153",
     "league_name": "Championship",
     "match_date": "2025-11-08",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "16:00",
     "match_hometeam_id": "3423",
     "match_hometeam_name": "West Brom",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Oxford Utd",
     "match_awayteam_id": "3113",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "15",
     "match_stadium": "The Hawthorns",
@@ -161031,9 +162373,294 @@
     "league_year": "2025/2026",
     "fk_stage_key": "965",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "54",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "W. Lankshear",
+        "away_scorer_id": "3872517513",
+        "away_assist": "P. Placheta",
+        "away_assist_id": "3397098326",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "56",
+        "home_scorer": "G. Leigh (o.g.)",
+        "home_scorer_id": "4010510390",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "70",
+        "home_scorer": "A. Heggebo",
+        "home_scorer_id": "3438530204",
+        "home_assist": "I. Price",
+        "home_assist_id": "483938266",
+        "score": "2 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "11",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "118",
+        "away": "79"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "57",
+        "away": "42"
+      },
+      {
+        "type": "On Target",
+        "home": "7",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "19",
+        "away": "6"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "26",
+        "away": "9"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "7",
+        "away": "4"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "7",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "12",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "15",
+        "away": "4"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "11",
+        "away": "5"
+      },
+      {
+        "type": "Fouls",
+        "home": "6",
+        "away": "6"
+      },
+      {
+        "type": "Corners",
+        "home": "11",
+        "away": "5"
+      },
+      {
+        "type": "Offsides",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "63%",
+        "away": "37%"
+      },
+      {
+        "type": "Saves",
+        "home": "3",
+        "away": "6"
+      },
+      {
+        "type": "Passes Total",
+        "home": "534",
+        "away": "322"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "440",
+        "away": "229"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "9",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "56",
+        "away": "39"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "34",
+        "away": "11"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "14",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "63%",
+        "away": "37%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "15",
+        "away": "2"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "9",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "7",
+        "away": "0"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "8",
+        "away": "2"
+      },
+      {
+        "type": "Fouls",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Corners",
+        "home": "9",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "66%",
+        "away": "34%"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "249",
+        "away": "134"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "203",
+        "away": "91"
+      }
+    ]
   },
   {
     "match_id": "619088",
@@ -161042,24 +162669,24 @@
     "league_id": "153",
     "league_name": "Championship",
     "match_date": "2025-11-08",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "13:30",
     "match_hometeam_id": "3083",
     "match_hometeam_name": "Millwall",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Preston",
     "match_awayteam_id": "3424",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "3-1-4-2",
     "match_live": "0",
     "match_round": "15",
     "match_stadium": "The Den",
@@ -161071,9 +162698,290 @@
     "league_year": "2025/2026",
     "fk_stage_key": "965",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "15",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "M. Smith",
+        "away_scorer_id": "601004657",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "36",
+        "home_scorer": "M. Ivanovic",
+        "home_scorer_id": "1352382721",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "10",
+        "away": "6"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Attacks",
+        "home": "115",
+        "away": "88"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "39",
+        "away": "36"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "11",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "22%",
+        "away": "78%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "14",
+        "away": "8"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "4",
+        "away": "6"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "8",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "9",
+        "away": "6"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Fouls",
+        "home": "11",
+        "away": "10"
+      },
+      {
+        "type": "Corners",
+        "home": "10",
+        "away": "6"
+      },
+      {
+        "type": "Offsides",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "49%",
+        "away": "51%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "318",
+        "away": "342"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "221",
+        "away": "232"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "7",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "61",
+        "away": "38"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "24",
+        "away": "8"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "55%",
+        "away": "45%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "0"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Fouls",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Corners",
+        "home": "7",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "55%",
+        "away": "45%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "182",
+        "away": "163"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "131",
+        "away": "107"
+      }
+    ]
   },
   {
     "match_id": "619089",
@@ -161082,24 +162990,24 @@
     "league_id": "153",
     "league_name": "Championship",
     "match_date": "2025-11-08",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "16:00",
     "match_hometeam_id": "3072",
     "match_hometeam_name": "Southampton",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "3",
     "match_awayteam_name": "Sheffield Wed",
     "match_awayteam_id": "3099",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "2",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "3",
+    "match_awayteam_ft_score": "1",
+    "match_hometeam_system": "3-4-3",
+    "match_awayteam_system": "3-4-2-1",
     "match_live": "0",
     "match_round": "15",
     "match_stadium": "St. Mary&apos;s Stadium",
@@ -161111,9 +163019,308 @@
     "league_year": "2025/2026",
     "fk_stage_key": "965",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "9",
+        "home_scorer": "C. Jander",
+        "home_scorer_id": "457716111",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "17",
+        "home_scorer": "F. Azaz",
+        "home_scorer_id": "3423193913",
+        "home_assist": "T. Fellows",
+        "home_assist_id": "1426369735",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "25",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 1",
+        "away_scorer": "H. Amass",
+        "away_scorer_id": "3762172856",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "47",
+        "home_scorer": "A. Armstrong",
+        "home_scorer_id": "240089678",
+        "home_assist": "T. Harwood-Bellis",
+        "home_assist_id": "3775771030",
+        "score": "3 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Attacks",
+        "home": "79",
+        "away": "98"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "31",
+        "away": "45"
+      },
+      {
+        "type": "On Target",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "6",
+        "away": "10"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "12",
+        "away": "11"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "7",
+        "away": "3"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "2",
+        "away": "5"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "7",
+        "away": "5"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Fouls",
+        "home": "8",
+        "away": "16"
+      },
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "44%",
+        "away": "56%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "381",
+        "away": "488"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "315",
+        "away": "416"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "44",
+        "away": "38"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "16",
+        "away": "18"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "49%",
+        "away": "51%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "8",
+        "away": "5"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Fouls",
+        "home": "2",
+        "away": "8"
+      },
+      {
+        "type": "Corners",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "54%",
+        "away": "46%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Saves",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "231",
+        "away": "196"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "199",
+        "away": "158"
+      }
+    ]
   },
   {
     "match_id": "619090",
@@ -161122,24 +163329,24 @@
     "league_id": "153",
     "league_name": "Championship",
     "match_date": "2025-11-08",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "13:30",
     "match_hometeam_id": "3096",
     "match_hometeam_name": "Blackburn",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Derby",
     "match_awayteam_id": "3426",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "2",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "2",
+    "match_hometeam_system": "3-4-1-2",
+    "match_awayteam_system": "3-4-2-1",
     "match_live": "0",
     "match_round": "15",
     "match_stadium": "Ewood Park",
@@ -161151,9 +163358,299 @@
     "league_year": "2025/2026",
     "fk_stage_key": "965",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "19",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "C. Morris",
+        "away_scorer_id": "4069406729",
+        "away_assist": "C. Elder",
+        "away_assist_id": "1449542880",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "45",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 2",
+        "away_scorer": "P. Agyemang",
+        "away_scorer_id": "1589671841",
+        "away_assist": "J. Ward",
+        "away_assist_id": "1619211014",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "66",
+        "home_scorer": "Y. Ohashi",
+        "home_scorer_id": "3071924937",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 2",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "13",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "124",
+        "away": "96"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "64",
+        "away": "22"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "14%",
+        "away": "86%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "8",
+        "away": "6"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "6",
+        "away": "6"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Fouls",
+        "home": "6",
+        "away": "11"
+      },
+      {
+        "type": "Corners",
+        "home": "13",
+        "away": "3"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "65%",
+        "away": "35%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "451",
+        "away": "254"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "342",
+        "away": "173"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "65",
+        "away": "54"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "29",
+        "away": "15"
+      },
+      {
+        "type": "On Target",
+        "home": "0",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "56%",
+        "away": "44%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "3",
+        "away": "5"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "0",
+        "away": "3"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Fouls",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "56%",
+        "away": "44%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Passes Total",
+        "home": "218",
+        "away": "172"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "166",
+        "away": "131"
+      }
+    ]
   },
   {
     "match_id": "619091",
@@ -161162,24 +163659,24 @@
     "league_id": "153",
     "league_name": "Championship",
     "match_date": "2025-11-08",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "16:00",
     "match_hometeam_id": "3093",
     "match_hometeam_name": "Norwich",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Leicester",
     "match_awayteam_id": "155",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "2",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "15",
     "match_stadium": "Carrow Road",
@@ -161191,9 +163688,304 @@
     "league_year": "2025/2026",
     "fk_stage_key": "965",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "62",
+        "home_scorer": "M. Kvistgaarden",
+        "home_scorer_id": "1563610954",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "75",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "B. De Cordova-Reid",
+        "away_scorer_id": "3402366216",
+        "away_assist": "P. Daka",
+        "away_assist_id": "2834230991",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "90+2",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 2",
+        "away_scorer": "J. James",
+        "away_scorer_id": "1042897708",
+        "away_assist": "I. Fatawu",
+        "away_assist_id": "4152984480",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "104",
+        "away": "104"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "43",
+        "away": "35"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "8"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "8",
+        "away": "14"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "7"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "1",
+        "away": "4"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "4",
+        "away": "11"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Fouls",
+        "home": "17",
+        "away": "10"
+      },
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "3"
+      },
+      {
+        "type": "Offsides",
+        "home": "5",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "35%",
+        "away": "65%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Passes Total",
+        "home": "275",
+        "away": "540"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "200",
+        "away": "452"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "53",
+        "away": "45"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "33",
+        "away": "16"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "47%",
+        "away": "53%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "3",
+        "away": "6"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "1",
+        "away": "2"
+      },
+      {
+        "type": "Fouls",
+        "home": "10",
+        "away": "4"
+      },
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "1"
+      },
+      {
+        "type": "Offsides",
+        "home": "4",
+        "away": "0"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "39%",
+        "away": "61%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "148",
+        "away": "247"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "118",
+        "away": "215"
+      }
+    ]
   },
   {
     "match_id": "619092",
@@ -161202,24 +163994,24 @@
     "league_id": "153",
     "league_name": "Championship",
     "match_date": "2025-11-08",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "13:30",
     "match_hometeam_id": "3119",
     "match_hometeam_name": "Hull",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "3",
     "match_awayteam_name": "Portsmouth",
     "match_awayteam_id": "3105",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "2",
+    "match_awayteam_halftime_score": "2",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "3",
+    "match_awayteam_ft_score": "2",
+    "match_hometeam_system": "4-2-3-1",
+    "match_awayteam_system": "3-4-2-1",
     "match_live": "0",
     "match_round": "15",
     "match_stadium": "The MKM Stadium",
@@ -161231,9 +164023,317 @@
     "league_year": "2025/2026",
     "fk_stage_key": "965",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "15",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "T. Devlin",
+        "away_scorer_id": "2223827656",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "27",
+        "home_scorer": "E. Destan",
+        "home_scorer_id": "3604715672",
+        "home_assist": "L. Coyle",
+        "home_assist_id": "2680279167",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "42",
+        "home_scorer": "K. Joseph",
+        "home_scorer_id": "593549155",
+        "home_assist": "J. Gelhardt",
+        "home_assist_id": "1256311386",
+        "score": "2 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "45+2",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 2",
+        "away_scorer": "T. Devlin",
+        "away_scorer_id": "2223827656",
+        "away_assist": "J. Murphy",
+        "away_assist_id": "3720602909",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "79",
+        "home_scorer": "J. Gelhardt",
+        "home_scorer_id": "1256311386",
+        "home_assist": "C. Hughes",
+        "home_assist_id": "4068701009",
+        "score": "3 - 2",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "80",
+        "away": "89"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "27",
+        "away": "39"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "9",
+        "away": "7"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "13",
+        "away": "13"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "7",
+        "away": "4"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "10",
+        "away": "7"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "3",
+        "away": "6"
+      },
+      {
+        "type": "Fouls",
+        "home": "6",
+        "away": "14"
+      },
+      {
+        "type": "Corners",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "57%",
+        "away": "43%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Saves",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "389",
+        "away": "283"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "286",
+        "away": "197"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "39",
+        "away": "47"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "15",
+        "away": "19"
+      },
+      {
+        "type": "On Target",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "62%",
+        "away": "38%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "6",
+        "away": "6"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "6",
+        "away": "2"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "0",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "2",
+        "away": "6"
+      },
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "63%",
+        "away": "37%"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Passes Total",
+        "home": "189",
+        "away": "107"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "138",
+        "away": "66"
+      }
+    ]
   },
   {
     "match_id": "619093",
@@ -161242,24 +164342,24 @@
     "league_id": "153",
     "league_name": "Championship",
     "match_date": "2025-11-08",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "16:00",
     "match_hometeam_id": "3076",
     "match_hometeam_name": "Swansea",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Ipswich",
     "match_awayteam_id": "3121",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "4",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "4",
+    "match_hometeam_system": "3-4-2-1",
+    "match_awayteam_system": "4-2-3-1",
     "match_live": "0",
     "match_round": "15",
     "match_stadium": "Swansea.com Stadium",
@@ -161271,9 +164371,327 @@
     "league_year": "2025/2026",
     "fk_stage_key": "965",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "36",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "J. Clarke",
+        "away_scorer_id": "2040856991",
+        "away_assist": "D. O'Shea",
+        "away_assist_id": "954369483",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "50",
+        "home_scorer": "G. Franco",
+        "home_scorer_id": "1228880202",
+        "home_assist": "J. Tymon",
+        "home_assist_id": "1513513757",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "55",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 2",
+        "away_scorer": "C. Burgess (o.g.)",
+        "away_scorer_id": "2539834284",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "76",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 3",
+        "away_scorer": "I. Azon",
+        "away_scorer_id": "656606421",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "81",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 4",
+        "away_scorer": "C. Burgess (o.g.)",
+        "away_scorer_id": "2539834284",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "101",
+        "away": "89"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "31",
+        "away": "46"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "6"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "%",
+        "away": "%"
+      },
+      {
+        "type": "Shots Total",
+        "home": "8",
+        "away": "11"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "3",
+        "away": "7"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Fouls",
+        "home": "13",
+        "away": "14"
+      },
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "5"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "55%",
+        "away": "45%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Saves",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Passes Total",
+        "home": "447",
+        "away": "355"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "369",
+        "away": "285"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "36",
+        "away": "63"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "8",
+        "away": "25"
+      },
+      {
+        "type": "On Target",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Shots Total",
+        "home": "1",
+        "away": "5"
+      },
+      {
+        "type": "Shots On Goal",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Shots Off Goal",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Shots Blocked",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Shots Inside Box",
+        "home": "0",
+        "away": "2"
+      },
+      {
+        "type": "Shots Outside Box",
+        "home": "1",
+        "away": "3"
+      },
+      {
+        "type": "Fouls",
+        "home": "10",
+        "away": "7"
+      },
+      {
+        "type": "Corners",
+        "home": "0",
+        "away": "3"
+      },
+      {
+        "type": "Offsides",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "44%",
+        "away": "56%"
+      },
+      {
+        "type": "Yellow Cards",
+        "home": "4",
+        "away": "1"
+      },
+      {
+        "type": "Saves",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Passes Total",
+        "home": "178",
+        "away": "225"
+      },
+      {
+        "type": "Passes Accurate",
+        "home": "137",
+        "away": "184"
+      }
+    ]
   },
   {
     "match_id": "619096",
@@ -166903,6 +170321,46 @@
     "statistics_1half": []
   },
   {
+    "match_id": "619231",
+    "country_id": "44",
+    "country_name": "England",
+    "league_id": "153",
+    "league_name": "Championship",
+    "match_date": "2026-01-16",
+    "match_status": "Not Started",
+    "match_time": "21:00",
+    "match_hometeam_id": "3423",
+    "match_hometeam_name": "West Brom",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Middlesbrough",
+    "match_awayteam_id": "3425",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "27",
+    "match_stadium": "The Hawthorns",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/3423_west-bromwich-albion.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/3425_middlesbrough.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/153_championship.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "965",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
     "match_id": "619226",
     "country_id": "44",
     "country_name": "England",
@@ -166910,7 +170368,7 @@
     "league_name": "Championship",
     "match_date": "2026-01-17",
     "match_status": "Not Started",
-    "match_time": "16:00",
+    "match_time": "13:30",
     "match_hometeam_id": "3121",
     "match_hometeam_name": "Ipswich",
     "match_hometeam_score": "",
@@ -167070,7 +170528,7 @@
     "league_name": "Championship",
     "match_date": "2026-01-17",
     "match_status": "Not Started",
-    "match_time": "16:00",
+    "match_time": "13:30",
     "match_hometeam_id": "3427",
     "match_hometeam_name": "Watford",
     "match_hometeam_score": "",
@@ -167093,46 +170551,6 @@
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/3427_watford.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/3083_millwall.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/153_championship.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "965",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "619231",
-    "country_id": "44",
-    "country_name": "England",
-    "league_id": "153",
-    "league_name": "Championship",
-    "match_date": "2026-01-17",
-    "match_status": "Not Started",
-    "match_time": "16:00",
-    "match_hometeam_id": "3423",
-    "match_hometeam_name": "West Brom",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Middlesbrough",
-    "match_awayteam_id": "3425",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "27",
-    "match_stadium": "The Hawthorns",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/3423_west-bromwich-albion.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/3425_middlesbrough.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/153_championship.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
     "league_year": "2025/2026",
@@ -167310,7 +170728,7 @@
     "league_name": "Championship",
     "match_date": "2026-01-17",
     "match_status": "Not Started",
-    "match_time": "16:00",
+    "match_time": "18:30",
     "match_hometeam_id": "3076",
     "match_hometeam_name": "Swansea",
     "match_hometeam_score": "",
@@ -167350,7 +170768,7 @@
     "league_name": "Championship",
     "match_date": "2026-01-17",
     "match_status": "Not Started",
-    "match_time": "16:00",
+    "match_time": "13:30",
     "match_hometeam_id": "3094",
     "match_hometeam_name": "Coventry",
     "match_hometeam_score": "",
@@ -167550,7 +170968,7 @@
     "league_name": "Championship",
     "match_date": "2026-01-20",
     "match_status": "Not Started",
-    "match_time": "20:45",
+    "match_time": "21:00",
     "match_hometeam_id": "2954",
     "match_hometeam_name": "Wrexham",
     "match_hometeam_score": "",
@@ -167710,7 +171128,7 @@
     "league_name": "Championship",
     "match_date": "2026-01-21",
     "match_status": "Not Started",
-    "match_time": "20:45",
+    "match_time": "21:00",
     "match_hometeam_id": "3097",
     "match_hometeam_name": "Stoke",
     "match_hometeam_score": "",
@@ -167863,6 +171281,46 @@
     "statistics_1half": []
   },
   {
+    "match_id": "619252",
+    "country_id": "44",
+    "country_name": "England",
+    "league_id": "153",
+    "league_name": "Championship",
+    "match_date": "2026-01-23",
+    "match_status": "Not Started",
+    "match_time": "21:00",
+    "match_hometeam_id": "3426",
+    "match_hometeam_name": "Derby",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "West Brom",
+    "match_awayteam_id": "3423",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "29",
+    "match_stadium": "Pride Park",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/3426_derby-county.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/3423_west-bromwich-albion.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/153_championship.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "965",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
     "match_id": "619250",
     "country_id": "44",
     "country_name": "England",
@@ -167933,46 +171391,6 @@
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/155_leicester-city.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/3113_oxford-united.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/153_championship.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "965",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "619252",
-    "country_id": "44",
-    "country_name": "England",
-    "league_id": "153",
-    "league_name": "Championship",
-    "match_date": "2026-01-24",
-    "match_status": "Not Started",
-    "match_time": "16:00",
-    "match_hometeam_id": "3426",
-    "match_hometeam_name": "Derby",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "West Brom",
-    "match_awayteam_id": "3423",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "29",
-    "match_stadium": "Pride Park",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/3426_derby-county.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/3423_west-bromwich-albion.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/153_championship.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
     "league_year": "2025/2026",
@@ -168070,7 +171488,7 @@
     "league_name": "Championship",
     "match_date": "2026-01-24",
     "match_status": "Not Started",
-    "match_time": "16:00",
+    "match_time": "13:30",
     "match_hometeam_id": "3425",
     "match_hometeam_name": "Middlesbrough",
     "match_hometeam_score": "",
@@ -168223,46 +171641,6 @@
     "statistics_1half": []
   },
   {
-    "match_id": "619259",
-    "country_id": "44",
-    "country_name": "England",
-    "league_id": "153",
-    "league_name": "Championship",
-    "match_date": "2026-01-24",
-    "match_status": "Not Started",
-    "match_time": "16:00",
-    "match_hometeam_id": "3093",
-    "match_hometeam_name": "Norwich",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Coventry",
-    "match_awayteam_id": "3094",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "29",
-    "match_stadium": "Carrow Road",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/3093_norwich-city.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/3094_coventry-city.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/153_championship.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "965",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
     "match_id": "619260",
     "country_id": "44",
     "country_name": "England",
@@ -168333,6 +171711,86 @@
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/3105_portsmouth.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/3072_southampton.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/153_championship.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "965",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "619259",
+    "country_id": "44",
+    "country_name": "England",
+    "league_id": "153",
+    "league_name": "Championship",
+    "match_date": "2026-01-26",
+    "match_status": "Not Started",
+    "match_time": "21:00",
+    "match_hometeam_id": "3093",
+    "match_hometeam_name": "Norwich",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Coventry",
+    "match_awayteam_id": "3094",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "29",
+    "match_stadium": "Carrow Road",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/3093_norwich-city.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/3094_coventry-city.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/153_championship.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "965",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "619269",
+    "country_id": "44",
+    "country_name": "England",
+    "league_id": "153",
+    "league_name": "Championship",
+    "match_date": "2026-01-30",
+    "match_status": "Not Started",
+    "match_time": "21:00",
+    "match_hometeam_id": "3084",
+    "match_hometeam_name": "Bristol City",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Derby",
+    "match_awayteam_id": "3426",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "30",
+    "match_stadium": "Ashton Gate Stadium",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/3084_bristol-city.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/3426_derby-county.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/153_championship.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
     "league_year": "2025/2026",
@@ -168430,7 +171888,7 @@
     "league_name": "Championship",
     "match_date": "2026-01-31",
     "match_status": "Not Started",
-    "match_time": "16:00",
+    "match_time": "13:30",
     "match_hometeam_id": "3099",
     "match_hometeam_name": "Sheffield Wed",
     "match_hometeam_score": "",
@@ -168623,46 +172081,6 @@
     "statistics_1half": []
   },
   {
-    "match_id": "619269",
-    "country_id": "44",
-    "country_name": "England",
-    "league_id": "153",
-    "league_name": "Championship",
-    "match_date": "2026-01-31",
-    "match_status": "Not Started",
-    "match_time": "16:00",
-    "match_hometeam_id": "3084",
-    "match_hometeam_name": "Bristol City",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Derby",
-    "match_awayteam_id": "3426",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "30",
-    "match_stadium": "Ashton Gate Stadium",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/3084_bristol-city.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/3426_derby-county.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/153_championship.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "965",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
     "match_id": "619270",
     "country_id": "44",
     "country_name": "England",
@@ -168670,7 +172088,7 @@
     "league_name": "Championship",
     "match_date": "2026-01-31",
     "match_status": "Not Started",
-    "match_time": "16:00",
+    "match_time": "13:30",
     "match_hometeam_id": "3097",
     "match_hometeam_name": "Stoke",
     "match_hometeam_score": "",
@@ -168790,7 +172208,7 @@
     "league_name": "Championship",
     "match_date": "2026-01-31",
     "match_status": "Not Started",
-    "match_time": "16:00",
+    "match_time": "13:30",
     "match_hometeam_id": "155",
     "match_hometeam_name": "Leicester",
     "match_hometeam_score": "",
@@ -168823,6 +172241,46 @@
     "statistics_1half": []
   },
   {
+    "match_id": "619277",
+    "country_id": "44",
+    "country_name": "England",
+    "league_id": "153",
+    "league_name": "Championship",
+    "match_date": "2026-02-06",
+    "match_status": "Not Started",
+    "match_time": "21:00",
+    "match_hometeam_id": "3117",
+    "match_hometeam_name": "Charlton",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "QPR",
+    "match_awayteam_id": "3098",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "31",
+    "match_stadium": "The Valley",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/3117_charlton-athletic.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/3098_queens-park-rangers.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/153_championship.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "965",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
     "match_id": "619274",
     "country_id": "44",
     "country_name": "England",
@@ -168830,7 +172288,7 @@
     "league_name": "Championship",
     "match_date": "2026-02-07",
     "match_status": "Not Started",
-    "match_time": "16:00",
+    "match_time": "13:30",
     "match_hometeam_id": "3426",
     "match_hometeam_name": "Derby",
     "match_hometeam_score": "",
@@ -168853,46 +172311,6 @@
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/3426_derby-county.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/3121_ipswich-town.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/153_championship.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "965",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "619275",
-    "country_id": "44",
-    "country_name": "England",
-    "league_id": "153",
-    "league_name": "Championship",
-    "match_date": "2026-02-07",
-    "match_status": "Not Started",
-    "match_time": "16:00",
-    "match_hometeam_id": "3076",
-    "match_hometeam_name": "Swansea",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Sheffield Wed",
-    "match_awayteam_id": "3099",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "31",
-    "match_stadium": "Swansea.com Stadium",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/3076_swansea-city.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/3099_sheffield-wednesday.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/153_championship.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
     "league_year": "2025/2026",
@@ -168943,46 +172361,6 @@
     "statistics_1half": []
   },
   {
-    "match_id": "619277",
-    "country_id": "44",
-    "country_name": "England",
-    "league_id": "153",
-    "league_name": "Championship",
-    "match_date": "2026-02-07",
-    "match_status": "Not Started",
-    "match_time": "16:00",
-    "match_hometeam_id": "3117",
-    "match_hometeam_name": "Charlton",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "QPR",
-    "match_awayteam_id": "3098",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "31",
-    "match_stadium": "The Valley",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/3117_charlton-athletic.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/3098_queens-park-rangers.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/153_championship.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "965",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
     "match_id": "619278",
     "country_id": "44",
     "country_name": "England",
@@ -168990,7 +172368,7 @@
     "league_name": "Championship",
     "match_date": "2026-02-07",
     "match_status": "Not Started",
-    "match_time": "16:00",
+    "match_time": "13:30",
     "match_hometeam_id": "3072",
     "match_hometeam_name": "Southampton",
     "match_hometeam_score": "",
@@ -169103,46 +172481,6 @@
     "statistics_1half": []
   },
   {
-    "match_id": "619281",
-    "country_id": "44",
-    "country_name": "England",
-    "league_id": "153",
-    "league_name": "Championship",
-    "match_date": "2026-02-07",
-    "match_status": "Not Started",
-    "match_time": "16:00",
-    "match_hometeam_id": "3074",
-    "match_hometeam_name": "Sheffield Utd",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Middlesbrough",
-    "match_awayteam_id": "3425",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "31",
-    "match_stadium": "Bramall Lane",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/3074_sheffield-united.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/3425_middlesbrough.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/153_championship.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "965",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
     "match_id": "619282",
     "country_id": "44",
     "country_name": "England",
@@ -169150,7 +172488,7 @@
     "league_name": "Championship",
     "match_date": "2026-02-07",
     "match_status": "Not Started",
-    "match_time": "16:00",
+    "match_time": "13:30",
     "match_hometeam_id": "3093",
     "match_hometeam_name": "Norwich",
     "match_hometeam_score": "",
@@ -169303,14 +172641,94 @@
     "statistics_1half": []
   },
   {
+    "match_id": "619275",
+    "country_id": "44",
+    "country_name": "England",
+    "league_id": "153",
+    "league_name": "Championship",
+    "match_date": "2026-02-08",
+    "match_status": "Not Started",
+    "match_time": "13:00",
+    "match_hometeam_id": "3076",
+    "match_hometeam_name": "Swansea",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Sheffield Wed",
+    "match_awayteam_id": "3099",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "31",
+    "match_stadium": "Swansea.com Stadium",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/3076_swansea-city.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/3099_sheffield-wednesday.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/153_championship.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "965",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "619281",
+    "country_id": "44",
+    "country_name": "England",
+    "league_id": "153",
+    "league_name": "Championship",
+    "match_date": "2026-02-09",
+    "match_status": "Not Started",
+    "match_time": "21:00",
+    "match_hometeam_id": "3074",
+    "match_hometeam_name": "Sheffield Utd",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Middlesbrough",
+    "match_awayteam_id": "3425",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "31",
+    "match_stadium": "Bramall Lane",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/3074_sheffield-united.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/3425_middlesbrough.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/153_championship.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "965",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
     "match_id": "619286",
     "country_id": "44",
     "country_name": "England",
     "league_id": "153",
     "league_name": "Championship",
-    "match_date": "2026-02-14",
+    "match_date": "2026-02-13",
     "match_status": "Not Started",
-    "match_time": "16:00",
+    "match_time": "21:00",
     "match_hometeam_id": "3084",
     "match_hometeam_name": "Bristol City",
     "match_hometeam_score": "",
@@ -169430,7 +172848,7 @@
     "league_name": "Championship",
     "match_date": "2026-02-14",
     "match_status": "Not Started",
-    "match_time": "16:00",
+    "match_time": "13:30",
     "match_hometeam_id": "3432",
     "match_hometeam_name": "Birmingham",
     "match_hometeam_score": "",
@@ -169470,7 +172888,7 @@
     "league_name": "Championship",
     "match_date": "2026-02-14",
     "match_status": "Not Started",
-    "match_time": "16:00",
+    "match_time": "13:30",
     "match_hometeam_id": "3117",
     "match_hometeam_name": "Charlton",
     "match_hometeam_score": "",
@@ -169590,7 +173008,7 @@
     "league_name": "Championship",
     "match_date": "2026-02-14",
     "match_status": "Not Started",
-    "match_time": "16:00",
+    "match_time": "13:30",
     "match_hometeam_id": "3113",
     "match_hometeam_name": "Oxford Utd",
     "match_hometeam_score": "",
@@ -169613,46 +173031,6 @@
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/3113_oxford-united.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/3093_norwich-city.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/153_championship.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "965",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "619294",
-    "country_id": "44",
-    "country_name": "England",
-    "league_id": "153",
-    "league_name": "Championship",
-    "match_date": "2026-02-14",
-    "match_status": "Not Started",
-    "match_time": "16:00",
-    "match_hometeam_id": "3094",
-    "match_hometeam_name": "Coventry",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Middlesbrough",
-    "match_awayteam_id": "3425",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "32",
-    "match_stadium": "Coventry Building Society Arena",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/3094_coventry-city.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/3425_middlesbrough.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/153_championship.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
     "league_year": "2025/2026",
@@ -169783,6 +173161,86 @@
     "statistics_1half": []
   },
   {
+    "match_id": "619294",
+    "country_id": "44",
+    "country_name": "England",
+    "league_id": "153",
+    "league_name": "Championship",
+    "match_date": "2026-02-16",
+    "match_status": "Not Started",
+    "match_time": "21:00",
+    "match_hometeam_id": "3094",
+    "match_hometeam_name": "Coventry",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Middlesbrough",
+    "match_awayteam_id": "3425",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "32",
+    "match_stadium": "Coventry Building Society Arena",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/3094_coventry-city.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/3425_middlesbrough.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/153_championship.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "965",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "619303",
+    "country_id": "44",
+    "country_name": "England",
+    "league_id": "153",
+    "league_name": "Championship",
+    "match_date": "2026-02-20",
+    "match_status": "Not Started",
+    "match_time": "21:00",
+    "match_hometeam_id": "3096",
+    "match_hometeam_name": "Blackburn",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Preston",
+    "match_awayteam_id": "3424",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "33",
+    "match_stadium": "Ewood Park",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/3096_blackburn-rovers.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/3424_preston-north-end.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/153_championship.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "965",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
     "match_id": "619298",
     "country_id": "44",
     "country_name": "England",
@@ -169830,7 +173288,7 @@
     "league_name": "Championship",
     "match_date": "2026-02-21",
     "match_status": "Not Started",
-    "match_time": "16:00",
+    "match_time": "13:30",
     "match_hometeam_id": "3097",
     "match_hometeam_name": "Stoke",
     "match_hometeam_score": "",
@@ -169863,46 +173321,6 @@
     "statistics_1half": []
   },
   {
-    "match_id": "619300",
-    "country_id": "44",
-    "country_name": "England",
-    "league_id": "153",
-    "league_name": "Championship",
-    "match_date": "2026-02-21",
-    "match_status": "Not Started",
-    "match_time": "16:00",
-    "match_hometeam_id": "3074",
-    "match_hometeam_name": "Sheffield Utd",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Sheffield Wed",
-    "match_awayteam_id": "3099",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "33",
-    "match_stadium": "Bramall Lane",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/3074_sheffield-united.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/3099_sheffield-wednesday.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/153_championship.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "965",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
     "match_id": "619301",
     "country_id": "44",
     "country_name": "England",
@@ -169910,7 +173328,7 @@
     "league_name": "Championship",
     "match_date": "2026-02-21",
     "match_status": "Not Started",
-    "match_time": "16:00",
+    "match_time": "13:30",
     "match_hometeam_id": "3119",
     "match_hometeam_name": "Hull",
     "match_hometeam_score": "",
@@ -169973,46 +173391,6 @@
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/2954_wrexham.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/3121_ipswich-town.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/153_championship.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "965",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "619303",
-    "country_id": "44",
-    "country_name": "England",
-    "league_id": "153",
-    "league_name": "Championship",
-    "match_date": "2026-02-21",
-    "match_status": "Not Started",
-    "match_time": "16:00",
-    "match_hometeam_id": "3096",
-    "match_hometeam_name": "Blackburn",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Preston",
-    "match_awayteam_id": "3424",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "33",
-    "match_stadium": "Ewood Park",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/3096_blackburn-rovers.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/3424_preston-north-end.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/153_championship.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
     "league_year": "2025/2026",
@@ -170150,7 +173528,7 @@
     "league_name": "Championship",
     "match_date": "2026-02-21",
     "match_status": "Not Started",
-    "match_time": "16:00",
+    "match_time": "13:30",
     "match_hometeam_id": "3423",
     "match_hometeam_name": "West Brom",
     "match_hometeam_score": "",
@@ -170263,6 +173641,46 @@
     "statistics_1half": []
   },
   {
+    "match_id": "619300",
+    "country_id": "44",
+    "country_name": "England",
+    "league_id": "153",
+    "league_name": "Championship",
+    "match_date": "2026-02-22",
+    "match_status": "Not Started",
+    "match_time": "13:00",
+    "match_hometeam_id": "3074",
+    "match_hometeam_name": "Sheffield Utd",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Sheffield Wed",
+    "match_awayteam_id": "3099",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "33",
+    "match_stadium": "Bramall Lane",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/3074_sheffield-united.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/3099_sheffield-wednesday.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/153_championship.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "965",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
     "match_id": "619310",
     "country_id": "44",
     "country_name": "England",
@@ -170270,7 +173688,7 @@
     "league_name": "Championship",
     "match_date": "2026-02-24",
     "match_status": "Not Started",
-    "match_time": "20:45",
+    "match_time": "21:00",
     "match_hometeam_id": "3072",
     "match_hometeam_name": "Southampton",
     "match_hometeam_score": "",
@@ -170423,46 +173841,6 @@
     "statistics_1half": []
   },
   {
-    "match_id": "619314",
-    "country_id": "44",
-    "country_name": "England",
-    "league_id": "153",
-    "league_name": "Championship",
-    "match_date": "2026-02-24",
-    "match_status": "Not Started",
-    "match_time": "20:45",
-    "match_hometeam_id": "3097",
-    "match_hometeam_name": "Stoke",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Oxford Utd",
-    "match_awayteam_id": "3113",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "34",
-    "match_stadium": "Bet365 Stadium",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/3097_stoke-city.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/3113_oxford-united.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/153_championship.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "965",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
     "match_id": "619315",
     "country_id": "44",
     "country_name": "England",
@@ -170573,6 +173951,46 @@
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/3425_middlesbrough.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/155_leicester-city.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/153_championship.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "965",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "619314",
+    "country_id": "44",
+    "country_name": "England",
+    "league_id": "153",
+    "league_name": "Championship",
+    "match_date": "2026-02-25",
+    "match_status": "Not Started",
+    "match_time": "21:00",
+    "match_hometeam_id": "3097",
+    "match_hometeam_name": "Stoke",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Oxford Utd",
+    "match_awayteam_id": "3113",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "34",
+    "match_stadium": "Bet365 Stadium",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/3097_stoke-city.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/3113_oxford-united.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/153_championship.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
     "league_year": "2025/2026",
@@ -170743,19 +174161,19 @@
     "statistics_1half": []
   },
   {
-    "match_id": "619322",
+    "match_id": "619330",
     "country_id": "44",
     "country_name": "England",
     "league_id": "153",
     "league_name": "Championship",
-    "match_date": "2026-02-28",
+    "match_date": "2026-02-27",
     "match_status": "Not Started",
-    "match_time": "16:00",
-    "match_hometeam_id": "3432",
-    "match_hometeam_name": "Birmingham",
+    "match_time": "21:00",
+    "match_hometeam_id": "3084",
+    "match_hometeam_name": "Bristol City",
     "match_hometeam_score": "",
-    "match_awayteam_name": "Middlesbrough",
-    "match_awayteam_id": "3425",
+    "match_awayteam_name": "Watford",
+    "match_awayteam_id": "3427",
     "match_awayteam_score": "",
     "match_hometeam_halftime_score": "",
     "match_awayteam_halftime_score": "",
@@ -170769,10 +174187,10 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "35",
-    "match_stadium": "",
+    "match_stadium": "Ashton Gate Stadium",
     "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/3432_birmingham-city.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/3425_middlesbrough.jpg",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/3084_bristol-city.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/3427_watford.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/153_championship.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
     "league_year": "2025/2026",
@@ -170790,7 +174208,7 @@
     "league_name": "Championship",
     "match_date": "2026-02-28",
     "match_status": "Not Started",
-    "match_time": "16:00",
+    "match_time": "13:30",
     "match_hometeam_id": "3105",
     "match_hometeam_name": "Portsmouth",
     "match_hometeam_score": "",
@@ -171063,46 +174481,6 @@
     "statistics_1half": []
   },
   {
-    "match_id": "619330",
-    "country_id": "44",
-    "country_name": "England",
-    "league_id": "153",
-    "league_name": "Championship",
-    "match_date": "2026-02-28",
-    "match_status": "Not Started",
-    "match_time": "16:00",
-    "match_hometeam_id": "3084",
-    "match_hometeam_name": "Bristol City",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Watford",
-    "match_awayteam_id": "3427",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "35",
-    "match_stadium": "Ashton Gate Stadium",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/3084_bristol-city.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/3427_watford.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/153_championship.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "965",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
     "match_id": "619331",
     "country_id": "44",
     "country_name": "England",
@@ -171110,7 +174488,7 @@
     "league_name": "Championship",
     "match_date": "2026-02-28",
     "match_status": "Not Started",
-    "match_time": "16:00",
+    "match_time": "13:30",
     "match_hometeam_id": "155",
     "match_hometeam_name": "Leicester",
     "match_hometeam_score": "",
@@ -171150,7 +174528,7 @@
     "league_name": "Championship",
     "match_date": "2026-02-28",
     "match_status": "Not Started",
-    "match_time": "16:00",
+    "match_time": "13:30",
     "match_hometeam_id": "3426",
     "match_hometeam_name": "Derby",
     "match_hometeam_score": "",
@@ -171213,6 +174591,46 @@
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/3098_queens-park-rangers.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/3074_sheffield-united.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/153_championship.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "965",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
+    "match_id": "619322",
+    "country_id": "44",
+    "country_name": "England",
+    "league_id": "153",
+    "league_name": "Championship",
+    "match_date": "2026-03-02",
+    "match_status": "Not Started",
+    "match_time": "21:00",
+    "match_hometeam_id": "3432",
+    "match_hometeam_name": "Birmingham",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Middlesbrough",
+    "match_awayteam_id": "3425",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "35",
+    "match_stadium": "",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/3432_birmingham-city.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/3425_middlesbrough.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/153_championship.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
     "league_year": "2025/2026",

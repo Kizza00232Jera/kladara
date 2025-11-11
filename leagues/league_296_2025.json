@@ -33323,7 +33323,7 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "14",
-    "match_stadium": "?portni Park",
+    "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/6732_domale.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/186_mura.jpg",
@@ -33540,27 +33540,27 @@
     "league_id": "296",
     "league_name": "1. SNL",
     "match_date": "2025-11-07",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "17:30",
     "match_hometeam_id": "186",
     "match_hometeam_name": "Mura",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "3",
     "match_awayteam_name": "Koper",
     "match_awayteam_id": "6730",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "2",
+    "match_hometeam_halftime_score": "2",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "3",
+    "match_awayteam_ft_score": "2",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "15",
-    "match_stadium": "Mestni Štadion Fazanerija",
+    "match_stadium": "Mestni ?tadion Fazanerija",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/186_mura.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6730_koper.jpg",
@@ -33569,9 +33569,192 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1593",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "6",
+        "home_scorer": "D. Vizinger",
+        "home_scorer_id": "3912980749",
+        "home_assist": "F. Sana",
+        "home_assist_id": "3427529119",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "15",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "J. Ilicic",
+        "away_scorer_id": "597964350",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "33",
+        "home_scorer": "D. Vizinger",
+        "home_scorer_id": "3912980749",
+        "home_assist": "N. Kouter",
+        "home_assist_id": "2452887370",
+        "score": "2 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "76",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "2 - 2",
+        "away_scorer": "L. Rimac",
+        "away_scorer_id": "3008235357",
+        "away_assist": "K. Manseri",
+        "away_assist_id": "1513383795",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "90+3",
+        "home_scorer": "D. Vizinger",
+        "home_scorer_id": "3912980749",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 2",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "1"
+      },
+      {
+        "type": "Substitution",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Attacks",
+        "home": "96",
+        "away": "111"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "60",
+        "away": "63"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "10"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "47%",
+        "away": "53%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "44",
+        "away": "54"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "29",
+        "away": "31"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "44%",
+        "away": "56%"
+      }
+    ]
   },
   {
     "match_id": "598066",
@@ -33580,27 +33763,27 @@
     "league_id": "296",
     "league_name": "1. SNL",
     "match_date": "2025-11-07",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "20:15",
     "match_hometeam_id": "217",
     "match_hometeam_name": "O. Ljubljana",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "2",
     "match_awayteam_name": "Primorje",
     "match_awayteam_id": "6726",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "2",
+    "match_awayteam_ft_score": "0",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "15",
-    "match_stadium": "Stadion Stožice",
+    "match_stadium": "Stadion Sto?ice",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/217_olimpija.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6726_primorje.jpg",
@@ -33609,9 +33792,150 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1593",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "26",
+        "home_scorer": "I. Durdov",
+        "home_scorer_id": "3122850384",
+        "home_assist": "D. Pinto",
+        "home_assist_id": "764916304",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "90+2",
+        "home_scorer": "A. Tamm",
+        "home_scorer_id": "1004630481",
+        "home_assist": "A. Doffo",
+        "home_assist_id": "3794319111",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Attacks",
+        "home": "142",
+        "away": "156"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "75",
+        "away": "114"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "6"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "43%",
+        "away": "57%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "75",
+        "away": "70"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "43",
+        "away": "51"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "3"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "48%",
+        "away": "52%"
+      }
+    ]
   },
   {
     "match_id": "598065",
@@ -33620,27 +33944,27 @@
     "league_id": "296",
     "league_name": "1. SNL",
     "match_date": "2025-11-08",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "17:30",
     "match_hometeam_id": "6713",
     "match_hometeam_name": "Radomlje",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "1",
     "match_awayteam_name": "Maribor",
     "match_awayteam_id": "261",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "1",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "1",
+    "match_awayteam_ft_score": "1",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "15",
-    "match_stadium": "Športni Park",
+    "match_stadium": "?portni Park",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/6713_radomlje.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/261_maribor.jpg",
@@ -33649,9 +33973,150 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1593",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "44",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "0 - 1",
+        "away_scorer": "I. Tshipamba",
+        "away_scorer_id": "1345668092",
+        "away_assist": "M. Spanring",
+        "away_assist_id": "1249885670",
+        "info": "",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "90+2",
+        "home_scorer": "J. Martincic",
+        "home_scorer_id": "2872642948",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 1",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "8",
+        "away": "8"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "3"
+      },
+      {
+        "type": "Attacks",
+        "home": "128",
+        "away": "116"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "93",
+        "away": "91"
+      },
+      {
+        "type": "On Target",
+        "home": "6",
+        "away": "7"
+      },
+      {
+        "type": "Off Target",
+        "home": "10",
+        "away": "7"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "49%",
+        "away": "51%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "4"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "72",
+        "away": "63"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "48",
+        "away": "50"
+      },
+      {
+        "type": "On Target",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Off Target",
+        "home": "4",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "48%",
+        "away": "52%"
+      }
+    ]
   },
   {
     "match_id": "598068",
@@ -33660,27 +34125,27 @@
     "league_id": "296",
     "league_name": "1. SNL",
     "match_date": "2025-11-08",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "15:00",
     "match_hometeam_id": "6731",
     "match_hometeam_name": "Aluminij",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "3",
     "match_awayteam_name": "Domzale",
     "match_awayteam_id": "6732",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "1",
+    "match_hometeam_halftime_score": "1",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "3",
+    "match_awayteam_ft_score": "1",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "15",
-    "match_stadium": "Športni Park Aluminij",
+    "match_stadium": "?portni Park Aluminij",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/6731_aluminij.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6732_domale.jpg",
@@ -33689,9 +34154,178 @@
     "league_year": "2025/2026",
     "fk_stage_key": "1593",
     "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "goalscorer": [
+      {
+        "time": "28",
+        "home_scorer": "E. Saitoski",
+        "home_scorer_id": "2813811795",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "1 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "1st Half"
+      },
+      {
+        "time": "59",
+        "home_scorer": "W. Sule",
+        "home_scorer_id": "2214407594",
+        "home_assist": "V. Koderman",
+        "home_assist_id": "1700616621",
+        "score": "2 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "78",
+        "home_scorer": "B. Feta",
+        "home_scorer_id": "1778020318",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 0",
+        "away_scorer": "",
+        "away_scorer_id": "",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "Penalty",
+        "score_info_time": "2nd Half"
+      },
+      {
+        "time": "90+2",
+        "home_scorer": "",
+        "home_scorer_id": "",
+        "home_assist": "",
+        "home_assist_id": "",
+        "score": "3 - 1",
+        "away_scorer": "R. Lampreht",
+        "away_scorer_id": "3961441616",
+        "away_assist": "",
+        "away_assist_id": "",
+        "info": "",
+        "score_info_time": "2nd Half"
+      }
+    ],
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "6",
+        "away": "6"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Attacks",
+        "home": "112",
+        "away": "118"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "80",
+        "away": "65"
+      },
+      {
+        "type": "On Target",
+        "home": "5",
+        "away": "4"
+      },
+      {
+        "type": "Off Target",
+        "home": "5",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "49%",
+        "away": "51%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "2"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "0",
+        "away": "1"
+      },
+      {
+        "type": "Attacks",
+        "home": "56",
+        "away": "65"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "37",
+        "away": "39"
+      },
+      {
+        "type": "On Target",
+        "home": "2",
+        "away": "2"
+      },
+      {
+        "type": "Off Target",
+        "home": "2",
+        "away": "4"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "50%",
+        "away": "50%"
+      }
+    ]
   },
   {
     "match_id": "598067",
@@ -33700,27 +34334,27 @@
     "league_id": "296",
     "league_name": "1. SNL",
     "match_date": "2025-11-09",
-    "match_status": "",
+    "match_status": "Finished",
     "match_time": "17:30",
     "match_hometeam_id": "116",
     "match_hometeam_name": "Celje",
-    "match_hometeam_score": "",
+    "match_hometeam_score": "0",
     "match_awayteam_name": "Bravo",
     "match_awayteam_id": "6742",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
+    "match_awayteam_score": "0",
+    "match_hometeam_halftime_score": "0",
+    "match_awayteam_halftime_score": "0",
     "match_hometeam_extra_score": "",
     "match_awayteam_extra_score": "",
     "match_hometeam_penalty_score": "",
     "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
+    "match_hometeam_ft_score": "0",
+    "match_awayteam_ft_score": "0",
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "15",
-    "match_stadium": "Stadion Z&apos;dežele",
+    "match_stadium": "Stadion Z&apos;de?ele",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/116_celje.jpg",
     "team_away_badge": "https://apiv3.apifootball.com/badges/6742_bravo.jpg",
@@ -33730,8 +34364,120 @@
     "fk_stage_key": "1593",
     "stage_name": "Current",
     "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
+    "statistics": [
+      {
+        "type": "Corners",
+        "home": "4",
+        "away": "3"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "5",
+        "away": "2"
+      },
+      {
+        "type": "Attacks",
+        "home": "174",
+        "away": "86"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "106",
+        "away": "41"
+      },
+      {
+        "type": "On Target",
+        "home": "6",
+        "away": "1"
+      },
+      {
+        "type": "Off Target",
+        "home": "13",
+        "away": "5"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "69%",
+        "away": "31%"
+      }
+    ],
+    "statistics_1half": [
+      {
+        "type": "Corners",
+        "home": "3",
+        "away": "1"
+      },
+      {
+        "type": "Throw In",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Free Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Goal Kick",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Penalty",
+        "home": "0",
+        "away": "0"
+      },
+      {
+        "type": "Substitution",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Attacks",
+        "home": "105",
+        "away": "46"
+      },
+      {
+        "type": "Dangerous Attacks",
+        "home": "54",
+        "away": "19"
+      },
+      {
+        "type": "On Target",
+        "home": "1",
+        "away": "0"
+      },
+      {
+        "type": "Off Target",
+        "home": "8",
+        "away": "2"
+      },
+      {
+        "type": "Ball Possession",
+        "home": "75%",
+        "away": "25%"
+      }
+    ]
   },
   {
     "match_id": "598072",
@@ -33934,19 +34680,19 @@
     "statistics_1half": []
   },
   {
-    "match_id": "598074",
+    "match_id": "598078",
     "country_id": "102",
     "country_name": "Slovenia",
     "league_id": "296",
     "league_name": "1. SNL",
-    "match_date": "2025-11-29",
+    "match_date": "2025-11-28",
     "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "6732",
-    "match_hometeam_name": "Domzale",
+    "match_time": "17:30",
+    "match_hometeam_id": "6731",
+    "match_hometeam_name": "Aluminij",
     "match_hometeam_score": "",
-    "match_awayteam_name": "Bravo",
-    "match_awayteam_id": "6742",
+    "match_awayteam_name": "Primorje",
+    "match_awayteam_id": "6726",
     "match_awayteam_score": "",
     "match_hometeam_halftime_score": "",
     "match_awayteam_halftime_score": "",
@@ -33960,50 +34706,10 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "17",
-    "match_stadium": "",
+    "match_stadium": "Sportni park Aluminij",
     "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/6732_domale.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/6742_bravo.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/296_1-snl.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/102_slovenia.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "1593",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "598075",
-    "country_id": "102",
-    "country_name": "Slovenia",
-    "league_id": "296",
-    "league_name": "1. SNL",
-    "match_date": "2025-11-29",
-    "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "116",
-    "match_hometeam_name": "Celje",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Koper",
-    "match_awayteam_id": "6730",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "17",
-    "match_stadium": "",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/116_celje.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/6730_koper.jpg",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/6731_aluminij.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/6726_primorje.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/296_1-snl.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/102_slovenia.png",
     "league_year": "2025/2026",
@@ -34021,7 +34727,7 @@
     "league_name": "1. SNL",
     "match_date": "2025-11-29",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "17:30",
     "match_hometeam_id": "217",
     "match_hometeam_name": "O. Ljubljana",
     "match_hometeam_score": "",
@@ -34061,7 +34767,7 @@
     "league_name": "1. SNL",
     "match_date": "2025-11-29",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "15:00",
     "match_hometeam_id": "186",
     "match_hometeam_name": "Mura",
     "match_hometeam_score": "",
@@ -34094,19 +34800,19 @@
     "statistics_1half": []
   },
   {
-    "match_id": "598078",
+    "match_id": "598074",
     "country_id": "102",
     "country_name": "Slovenia",
     "league_id": "296",
     "league_name": "1. SNL",
-    "match_date": "2025-11-29",
+    "match_date": "2025-11-30",
     "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "6731",
-    "match_hometeam_name": "Aluminij",
+    "match_time": "15:00",
+    "match_hometeam_id": "6732",
+    "match_hometeam_name": "Domzale",
     "match_hometeam_score": "",
-    "match_awayteam_name": "Primorje",
-    "match_awayteam_id": "6726",
+    "match_awayteam_name": "Bravo",
+    "match_awayteam_id": "6742",
     "match_awayteam_score": "",
     "match_hometeam_halftime_score": "",
     "match_awayteam_halftime_score": "",
@@ -34120,10 +34826,10 @@
     "match_awayteam_system": "",
     "match_live": "0",
     "match_round": "17",
-    "match_stadium": "Sportni park Aluminij",
+    "match_stadium": "",
     "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/6731_aluminij.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/6726_primorje.jpg",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/6732_domale.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/6742_bravo.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/296_1-snl.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/102_slovenia.png",
     "league_year": "2025/2026",
@@ -34134,19 +34840,19 @@
     "statistics_1half": []
   },
   {
-    "match_id": "598039",
+    "match_id": "598075",
     "country_id": "102",
     "country_name": "Slovenia",
     "league_id": "296",
     "league_name": "1. SNL",
-    "match_date": "2025-12-06",
+    "match_date": "2025-11-30",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "17:30",
     "match_hometeam_id": "116",
     "match_hometeam_name": "Celje",
     "match_hometeam_score": "",
-    "match_awayteam_name": "Primorje",
-    "match_awayteam_id": "6726",
+    "match_awayteam_name": "Koper",
+    "match_awayteam_id": "6730",
     "match_awayteam_score": "",
     "match_hometeam_halftime_score": "",
     "match_awayteam_halftime_score": "",
@@ -34159,51 +34865,11 @@
     "match_hometeam_system": "",
     "match_awayteam_system": "",
     "match_live": "0",
-    "match_round": "18",
+    "match_round": "17",
     "match_stadium": "",
     "match_referee": "",
     "team_home_badge": "https://apiv3.apifootball.com/badges/116_celje.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/6726_primorje.jpg",
-    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/296_1-snl.png",
-    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/102_slovenia.png",
-    "league_year": "2025/2026",
-    "fk_stage_key": "1593",
-    "stage_name": "Current",
-    "goalscorer": [],
-    "statistics": [],
-    "statistics_1half": []
-  },
-  {
-    "match_id": "598079",
-    "country_id": "102",
-    "country_name": "Slovenia",
-    "league_id": "296",
-    "league_name": "1. SNL",
-    "match_date": "2025-12-06",
-    "match_status": "Not Started",
-    "match_time": "17:00",
-    "match_hometeam_id": "261",
-    "match_hometeam_name": "Maribor",
-    "match_hometeam_score": "",
-    "match_awayteam_name": "Aluminij",
-    "match_awayteam_id": "6731",
-    "match_awayteam_score": "",
-    "match_hometeam_halftime_score": "",
-    "match_awayteam_halftime_score": "",
-    "match_hometeam_extra_score": "",
-    "match_awayteam_extra_score": "",
-    "match_hometeam_penalty_score": "",
-    "match_awayteam_penalty_score": "",
-    "match_hometeam_ft_score": "",
-    "match_awayteam_ft_score": "",
-    "match_hometeam_system": "",
-    "match_awayteam_system": "",
-    "match_live": "0",
-    "match_round": "18",
-    "match_stadium": "Ljudski vrt",
-    "match_referee": "",
-    "team_home_badge": "https://apiv3.apifootball.com/badges/261_maribor.jpg",
-    "team_away_badge": "https://apiv3.apifootball.com/badges/6731_aluminij.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/6730_koper.jpg",
     "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/296_1-snl.png",
     "country_logo": "https://apiv3.apifootball.com/badges/logo_country/102_slovenia.png",
     "league_year": "2025/2026",
@@ -34219,9 +34885,9 @@
     "country_name": "Slovenia",
     "league_id": "296",
     "league_name": "1. SNL",
-    "match_date": "2025-12-06",
+    "match_date": "2025-12-05",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "17:30",
     "match_hometeam_id": "6730",
     "match_hometeam_name": "Koper",
     "match_hometeam_score": "",
@@ -34254,6 +34920,46 @@
     "statistics_1half": []
   },
   {
+    "match_id": "598079",
+    "country_id": "102",
+    "country_name": "Slovenia",
+    "league_id": "296",
+    "league_name": "1. SNL",
+    "match_date": "2025-12-06",
+    "match_status": "Not Started",
+    "match_time": "15:00",
+    "match_hometeam_id": "261",
+    "match_hometeam_name": "Maribor",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Aluminij",
+    "match_awayteam_id": "6731",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "18",
+    "match_stadium": "Ljudski vrt",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/261_maribor.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/6731_aluminij.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/296_1-snl.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/102_slovenia.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "1593",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
     "match_id": "598082",
     "country_id": "102",
     "country_name": "Slovenia",
@@ -34261,7 +34967,7 @@
     "league_name": "1. SNL",
     "match_date": "2025-12-06",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "17:30",
     "match_hometeam_id": "6713",
     "match_hometeam_name": "Radomlje",
     "match_hometeam_score": "",
@@ -34294,14 +35000,54 @@
     "statistics_1half": []
   },
   {
+    "match_id": "598039",
+    "country_id": "102",
+    "country_name": "Slovenia",
+    "league_id": "296",
+    "league_name": "1. SNL",
+    "match_date": "2025-12-07",
+    "match_status": "Not Started",
+    "match_time": "17:30",
+    "match_hometeam_id": "116",
+    "match_hometeam_name": "Celje",
+    "match_hometeam_score": "",
+    "match_awayteam_name": "Primorje",
+    "match_awayteam_id": "6726",
+    "match_awayteam_score": "",
+    "match_hometeam_halftime_score": "",
+    "match_awayteam_halftime_score": "",
+    "match_hometeam_extra_score": "",
+    "match_awayteam_extra_score": "",
+    "match_hometeam_penalty_score": "",
+    "match_awayteam_penalty_score": "",
+    "match_hometeam_ft_score": "",
+    "match_awayteam_ft_score": "",
+    "match_hometeam_system": "",
+    "match_awayteam_system": "",
+    "match_live": "0",
+    "match_round": "18",
+    "match_stadium": "",
+    "match_referee": "",
+    "team_home_badge": "https://apiv3.apifootball.com/badges/116_celje.jpg",
+    "team_away_badge": "https://apiv3.apifootball.com/badges/6726_primorje.jpg",
+    "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/296_1-snl.png",
+    "country_logo": "https://apiv3.apifootball.com/badges/logo_country/102_slovenia.png",
+    "league_year": "2025/2026",
+    "fk_stage_key": "1593",
+    "stage_name": "Current",
+    "goalscorer": [],
+    "statistics": [],
+    "statistics_1half": []
+  },
+  {
     "match_id": "598083",
     "country_id": "102",
     "country_name": "Slovenia",
     "league_id": "296",
     "league_name": "1. SNL",
-    "match_date": "2025-12-06",
+    "match_date": "2025-12-07",
     "match_status": "Not Started",
-    "match_time": "17:00",
+    "match_time": "15:00",
     "match_hometeam_id": "6742",
     "match_hometeam_name": "Bravo",
     "match_hometeam_score": "",
